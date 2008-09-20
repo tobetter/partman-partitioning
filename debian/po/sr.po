@@ -3,49 +3,45 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of debian-installer_packages_po_sublevel1_da.po to
-# Danish messages for debian-installer.
-# This file is distributed under the same license as debian-installer.
-# Henrik Christian Grove <debian@3001.dk>, 2008.
-# Jesper Dahl Nyerup <debian@jespernyerup.dk>, 2008.
-# Jacob Sparre Andersen <sparre@nbi.dk>, 2008.
-# Claus Hindsgaul <claus.hindsgaul@gmail.com>, 2004-2007.
-# Reviewed 2007 by Niels Rasmussen
+# Serbian/Cyrillic translation of cp6Linux.
+# Copyright (C) 2008 THE cp6Linux'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the cp6Linux package.
+# Veselin Mijušković <veselin.mijuskovic@gmail.com>, 2008.
+# , fuzzy
 #
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
+"Project-Id-Version: cp6Linux 2008\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-07-30 22:50+0000\n"
-"PO-Revision-Date: 2008-09-19 16:35+0200\n"
-"Last-Translator: \n"
-"Language-Team:  <en@li.org>\n"
+"PO-Revision-Date: 2008-09-19 22:27+0100\n"
+"Last-Translator: Veselin Mijušković <panzer@cp6linux.org>\n"
+"Language-Team: Serbian/Cyrillic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);X-Generator: KBabel 1.11.4\n"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "Ændrer partitionens størrelse..."
+msgstr "Мењам величину партиције..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:2001
 msgid "Copying partition..."
-msgstr "Kopierer partition..."
+msgstr "Копирам партицију..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:3001
 msgid "Computing the new state of the partition table..."
-msgstr "Beregner partitionstabellens nye udformning..."
+msgstr "Одређујем ново стање партиционе табеле..."
 
 #. Type: boolean
 #. Description
@@ -56,7 +52,7 @@ msgstr "Beregner partitionstabellens nye udformning..."
 #: ../partman-partitioning.templates:4001
 #: ../partman-partitioning.templates:8001
 msgid "Write previous changes to disk and continue?"
-msgstr "Skriv ændringerne til diskene og fortsæt?"
+msgstr "Да запишем претходне измене на диск и наставим?"
 
 #. Type: boolean
 #. Description
@@ -66,7 +62,8 @@ msgid ""
 "Before you can select a partition to copy, any previous changes have to be "
 "written to disk."
 msgstr ""
-"Ændringerne skrives til diskene, før du kan vælge en partition at kopiere."
+"Пре него што одаберете партицију за копирање, све претходне измене морају "
+"бити записане на диск."
 
 #. Type: boolean
 #. Description
@@ -77,35 +74,36 @@ msgstr ""
 #: ../partman-partitioning.templates:4001
 #: ../partman-partitioning.templates:8001
 msgid "You cannot undo this operation."
-msgstr "Du kan ikke fortryde denne handling."
+msgstr "Не можете поништити ову операцију."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the copy operation may take a long time."
-msgstr "Bemærk at kopieringen kan tage lang tid."
+msgstr "Молим, обратите пажњу да копирање може дуго потрајати."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:5001
 msgid "Source partition:"
-msgstr "Kildepartition:"
+msgstr "Изворна партиција:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:5001
 msgid "Please choose the partition which contains the data you want to copy."
-msgstr "Vælg den partition, der indeholder de data, du ønsker at kopiere."
+msgstr ""
+"Молим, одаберите партицију која садржи податке које желите да копирате."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "Copy operation failure"
-msgstr "Fejl under kopieringen"
+msgstr "Грешка при копирању"
 
 #. Type: error
 #. Description
@@ -116,36 +114,35 @@ msgstr "Fejl under kopieringen"
 #: ../partman-partitioning.templates:6001
 #: ../partman-partitioning.templates:13001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "Der opstod en fejl under skrivning af ændringerne til lagerenhederne."
+msgstr "Дошло је до грешке приликом записивања измена да дискове."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The copy operation has been aborted."
-msgstr "Kopieringen er afbrudt."
+msgstr "Копирање је прекинуто."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The resize operation is impossible"
-msgstr "Størrelsesændring umulig"
+msgstr "Мењање величине партиције није могуће"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr ""
-"Af ukendte årsager er det umuligt at ændre størrelsen på denne partition."
+msgstr "Из непознатог разлога мењање величине партиције није могуће."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "Tjek /var/log/syslog eller kig på den virtuelle konsol 4 for detaljer."
+msgstr "За детаље погледајте /var/log/syslog или виртуелну конзолу 4."
 
 #. Type: boolean
 #. Description
@@ -155,15 +152,16 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"Ændringerne skal skrives til diskene, før du kan vælge en ny "
-"partitionsstørrelse."
+"Пре него што одаберете нову величину партиције, све претходне измене морају "
+"бити записане на диск."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "Please note that the resize operation may take a long time."
-msgstr "Bemærk at ændring af størrelsen kan tage lang tid."
+msgstr ""
+"Молим, обратите пажњу да мењање величине партиције може дуго потрајати."
 
 #. Type: string
 #. Description
@@ -174,7 +172,7 @@ msgstr "Bemærk at ændring af størrelsen kan tage lang tid."
 #: ../partman-partitioning.templates:9001
 #: ../partman-partitioning.templates:14001
 msgid "New partition size:"
-msgstr "Ny partitionsstørrelse:"
+msgstr "Нова величина партиције:"
 
 #. Type: string
 #. Description
@@ -184,8 +182,8 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"Den mindste størrelse for denne partition, er ${MINSIZE} (eller ${PERCENT}), "
-"og den største er ${MAXSIZE}."
+"Минимална величина за ову партицију је ${MINSIZE} (или ${PERCENT}) а "
+"максимална је ${MAXSIZE}."
 
 #. Type: string
 #. Description
@@ -200,9 +198,9 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"Tip: Du kan benytte \"max\" for at vælge den største størrelse, eller du kan "
-"indtaste en procentsats (f.eks. \"20%\") for at bruge denne andel af den "
-"største størrelse."
+"Савет: можете унети \"max\" да означите максималну величину, или можете "
+"унети проценат (нпр. \"20%\") да употребите толики проценат максималне "
+"величине."
 
 #. Type: error
 #. Description
@@ -213,63 +211,63 @@ msgstr ""
 #: ../partman-partitioning.templates:10001
 #: ../partman-partitioning.templates:15001
 msgid "Invalid size"
-msgstr "Ugyldig størrelse"
+msgstr "Неисправна величина"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Too large size"
-msgstr "For stor størrelse"
+msgstr "Сувише велика величина"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:12001
 msgid "Too small size"
-msgstr "For lille størrelse"
+msgstr "Сувише мала величина"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:13001
 msgid "Resize operation failure"
-msgstr "Ændring af størrelser mislykkedes"
+msgstr "Грешка при мењању величине партиције"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:13001
 msgid "The resize operation has been aborted."
-msgstr "Ændringen af størrelserne blev afbrudt."
+msgstr "Мењање величине партиције је прекинуто"
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "Den største størrelse for denne partition er ${MAXSIZE}."
+msgstr "Максимална величина за ову партицију је ${MAXSIZE}."
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:16001
 msgid "Beginning"
-msgstr "Begyndelsen"
+msgstr "Почетак"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:16001
 msgid "End"
-msgstr "Slutningen"
+msgstr "Крај"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:16002
 msgid "Location for the new partition:"
-msgstr "Placering af den nye partition:"
+msgstr "Локација нове партиције:"
 
 #. Type: select
 #. Description
@@ -279,43 +277,43 @@ msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
 msgstr ""
-"Vælg om du ønsker at den nye partition bliver oprettet i begyndelsen eller "
-"slutningen af det tilgængelige område."
+"Молим, одаберите да ли желите да нова партиција буде креирана на почетку или "
+"на крају доступног слободног простора."
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:17001
 msgid "Primary"
-msgstr "Primær"
+msgstr "Примарна"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:17001
 msgid "Logical"
-msgstr "Logisk"
+msgstr "Логичка"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:17002
 msgid "Type for the new partition:"
-msgstr "Den nye partitions type:"
+msgstr "Тип нове партиције:"
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:18001
 msgid "Flags for the new partition:"
-msgstr "Flag til den nye partition:"
+msgstr "Заставице за нову партицију:"
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition name:"
-msgstr "Partitionsnavn:"
+msgstr "Име партиције:"
 
 #. Type: boolean
 #. Description
@@ -326,7 +324,7 @@ msgstr "Partitionsnavn:"
 #: ../partman-partitioning.templates:20001
 #: ../partman-partitioning.templates:21001
 msgid "Continue with partitioning?"
-msgstr "Fortsæt partitioneringen?"
+msgstr "Да наставим са партиционисањем?"
 
 #. Type: boolean
 #. Description
@@ -337,9 +335,9 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"Dette partitioneringsprogram indeholder ikke oplysninger om standardtypen "
-"for partitionstabeller på din arkitektur. Send gerne oplysningerne som e-"
-"post (på engelsk) til debian-boot@lists.debian.org."
+"Овај програм за партиционисање нема информације о подразумеваномтипу "
+"партционих табела на вашој архитектури. Молим пошаљите емејл  поруку на "
+"адресу debian-boot@lists.debian.org са информацијама."
 
 #. Type: boolean
 #. Description
@@ -349,8 +347,8 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"Bemærk at hvis denne type partitionstabel ikke understøttes af libparted, "
-"vil dette partitionsprogram ikke fungere ordentligt."
+"Молим, обратите пажњу да ако тип партиционе табеле није подржанод стране "
+"libparted онда овај програм неће исправно радити."
 
 #. Type: boolean
 #. Description
@@ -361,9 +359,9 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"Dette partitioneringsprogram er baseret på biblioteket libparted, som ikke "
-"understøtter din arkitekturs partitioneringstabeller. Det anbefales kraftigt "
-"at afbryde partitioneringen."
+"Програм за партиционисање је базиран на библиотеци libparted којанема "
+"подршку за партиционе табеле коришћене на вашој архитектури.Строго "
+"препоручујем да изађете из овог програма."
 
 #. Type: boolean
 #. Description
@@ -373,29 +371,29 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
-"Hvis du kan, beder vi dig hjælpe med at tilføje understøttelse for din type "
-"partitioneringstabel til libparted."
+"Ако можете, молим, помозите да се дода подршка за ваш типпартиционе табеле у "
+"libparted."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Partition table type:"
-msgstr "Partitionstabel-type:"
+msgstr "Тип партиционе табеле:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Select the type of partition table to use."
-msgstr "Vælg den type partitionstabel, der skal benyttes."
+msgstr "Одаберите тип партиционе табеле."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Create new empty partition table on this device?"
-msgstr "Vil du oprette en ny tom partitionstabel på denne enhed?"
+msgstr "Да креирам нову, празну партициону табелу на овом уређају?"
 
 #. Type: boolean
 #. Description
@@ -406,25 +404,22 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"Du har ikke valgt en hel enhed til partitionering. Hvis du fortsætter med at "
-"oprette en ny partitionstabel på enheden, vil alle nuværende partitioner "
-"blive fjernet."
+"Одабрали сте да партиционишете читав уређај. Ако наставите сакреирањем нове "
+"партиционе табеле онда ће све постојеће партицијебити уклоњене."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr ""
-"Bemærk at du får mulighed for at fortryde denne handling senere, hvis du "
-"ønsker det."
+msgstr "Обратите пажњу да, ако желите, можете касније поништити ову операцију."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Write a new empty partition table?"
-msgstr "Vil du skrive en ny, tom partitionstabel?"
+msgstr "Да запишем нову, празну партициону табелу?"
 
 #. Type: boolean
 #. Description
@@ -435,9 +430,8 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"Grundet begrænsninger i den nuværende implementation af Sun-"
-"partitionstabeller i libparted, skal den nyoprettede partitionstabel skrives "
-"til disken med det samme."
+"Због ограничења у тренутној имплементацији Sun партиционихтабела у libparted-"
+"у, новокреирана партициона табела ће бити записана на диск одмах."
 
 #. Type: boolean
 #. Description
@@ -447,8 +441,8 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"Du vil IKKE få mulighed for senere at fortryde denne handling, og alle "
-"eksisterende data på disken vil uigenkaldeligt blive fjernet."
+"НЕЋЕТЕ МОЋИ поништити ову операцију накнадно и сви постојећи подаци ће бити "
+"неповратно уклоњени."
 
 #. Type: boolean
 #. Description
@@ -458,15 +452,15 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
-"Bekræft at du virkelig ønsker at oprette en ny partitionstabel og skrive den "
-"til disken."
+"Потврдите да ли стварно желите да креирате нову партициону табелу изапишете "
+"је на диск."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "Er du sikker på, at du vil starte fra en logisk partition?"
+msgstr "Да ли сте сигурни да желите бутабилну логичку партицију?"
 
 #. Type: boolean
 #. Description
@@ -478,10 +472,10 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"Du forsøger at sætte »bootable«-flaget på en logisk partition.  Det er "
-"generelt kun nyttigt på primære partitioner, så det frarådes normalt at "
-"sætte det på logiske partitioner.  Nogle BIOS-udgaver kan ikke starte "
-"maskinen, hvis der ikke er en primær partition med »bootable«-flaget sat."
+"Покушавате да поставите бутабилну заставицу на логичку партицију.Бутабилна "
+"заставица је корисна само на примарним партицијама, па се постављање исте на "
+"логичку партицију не препоручује. Неке верзијеBIOS-а не могу да стартују "
+"систем ако не постоји бутабилна примарнапартиција."
 
 #. Type: boolean
 #. Description
@@ -492,23 +486,23 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"Men hvis du er sikker på at din BIOS ikke har det problem, eller hvis du "
-"bruger et specielt opstartsprogram der er opmærksomt på logiske partitioner "
-"med »bootable«-flaget sat, så giver det mening at sætte det."
+"Но, ако сте сигурни да ваш BIOS нема тај проблем или ако користитенеки други "
+"управљач бутовањем који подржава бутабилне логичке партиције, онда њено "
+"постављање може имати смисла."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "Set the partition flags"
-msgstr "Sæt partitionsflag"
+msgstr "Постави партиционе заставице"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "Name:"
-msgstr "Navn:"
+msgstr "Име:"
 
 #. Type: text
 #. Description
@@ -517,60 +511,60 @@ msgstr "Navn:"
 #. such as GRUB.
 #: ../partman-partitioning.templates:28001
 msgid "Reserve BIOS boot area:"
-msgstr "Reservér BIOS boot-område:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Bootable flag:"
-msgstr "Opstartsflag:"
+msgstr "Бутабилна заставица:"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "on"
-msgstr "til"
+msgstr "укључена"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "off"
-msgstr "fra"
+msgstr "искључена"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:32001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "Ændr partitionens størrelse (den er nu ${SIZE})"
+msgstr "Промени величину партиције (тренутно ${SIZE})"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:33001
 msgid "Copy data from another partition"
-msgstr "Kopiér data fra en anden partition"
+msgstr "Копирај податке са друге партиције"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:34001
 msgid "Delete the partition"
-msgstr "Slet partitionen"
+msgstr "Обриши партицију"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:35001
 msgid "Create a new partition"
-msgstr "Opret en ny partition"
+msgstr "Креирај нову партицију"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:36001
 msgid "Create a new empty partition table on this device"
-msgstr "Opret en ny, tom partitionstabel på denne enhed"
+msgstr "Креирај нову партициону табелу на овом уређају"
