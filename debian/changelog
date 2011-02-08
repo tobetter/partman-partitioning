@@ -1,3 +1,9 @@
+partman-partitioning (80) UNRELEASED; urgency=low
+
+  * Use msdos disk label for armhf as well.
+
+ -- Konstantinos Margaritis <markos@debian.org>  Tue, 08 Feb 2011 20:00:36 +0200
+
 partman-partitioning (79) unstable; urgency=low
 
   [ Updated translations ]
