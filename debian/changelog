@@ -1,30 +1,16 @@
-partman-partitioning (80) UNRELEASED; urgency=low
+partman-partitioning (80) unstable; urgency=low
 
+  [ Konstantinos Margaritis ]
   * Use msdos disk label for armhf as well.
 
- -- Konstantinos Margaritis <markos@debian.org>  Tue, 08 Feb 2011 20:00:36 +0200
-
-partman-partitioning (79) unstable; urgency=low
-
   [ Updated translations ]
-  * Lao (lo.po) by Anousak Souphavanh
-  * Malayalam (ml.po) by Praveen Arimbrathodiyil
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Estonian (et.po) by Mattias Põldaru
+  * Nepali (ne.po)
   * Northern Sami (se.po) by Børre Gaup
-  * Sinhala (si.po) by Danishka Navin
-  * Slovenian (sl.po) by Vanja Cvelbar
-
- -- Otavio Salvador <otavio@debian.org>  Fri, 24 Dec 2010 21:16:32 -0200
-
-partman-partitioning (78) unstable; urgency=low
-
-  [ Updated translations ]
-  * Bengali (bn.po) by Israt Jahan
-  * Danish (da.po) by Anders Jenbo
-  * Indonesian (id.po) by Arief S Fitrianto
-  * Icelandic (is.po) by Sveinn í Felli
   * Telugu (te.po) by Arjuna Rao Chavala
 
- -- Otavio Salvador <otavio@debian.org>  Fri, 12 Nov 2010 16:26:34 -0200
+ -- Hector Oron <zumbi@debian.org>  Tue, 22 Mar 2011 12:36:53 +0000
 
 partman-partitioning (77) unstable; urgency=low
 
