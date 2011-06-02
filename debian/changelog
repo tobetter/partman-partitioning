@@ -1,3 +1,9 @@
+partman-partitioning (82) UNRELEASED; urgency=low
+
+  * Use msdos disk label on mipsel/loongson-2e and mipsel/loongson-2f.
+
+ -- Colin Watson <cjwatson@debian.org>  Thu, 02 Jun 2011 01:27:07 +0100
+
 partman-partitioning (81) unstable; urgency=low
 
   [ Updated translations ]

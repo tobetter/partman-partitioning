@@ -94,6 +94,8 @@ default_disk_label () {
 			echo msdos;;
 		    qemu-mips32)
 			echo msdos;;
+		    loongson-2e | loongson-2f)
+			echo msdos;;
 		    *)
 			echo UNKNOWN;;
 		esac;;
