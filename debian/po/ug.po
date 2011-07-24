@@ -12,6 +12,8 @@
 # in doc/i18n/i18n.txt
 #
 #
+# Translations from iso-codes:
+# Sahran <sahran.ug@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
@@ -583,7 +585,7 @@ msgstr "باشقا رايوندىن سانلىق مەلۇمات كۆچۈر"
 #. :sl2:
 #: ../partman-partitioning.templates:33001
 msgid "Delete the partition"
-msgstr "رايون ئۆچۈرىدۇ"
+msgstr "رايوننى ئۆچۈرىدۇ"
 
 #. Type: text
 #. Description
