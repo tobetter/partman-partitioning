@@ -193,11 +193,11 @@ create_new_label() {
 
 	default_label=$(default_disk_label)
 
-	# Use gpt instead of msdos disklabel for disks larger than 2TB
+	# Use gpt instead of msdos disklabel for disks larger than 2TiB
 	if expr "$types" : ".*gpt.*" >/dev/null; then
 		if [ "$default_label" = msdos ]; then
 			disksize=$(cat size)
-			if $(longint_le $(human2longint 2TB) $disksize); then
+			if ! longint_le $disksize "$(expr 2 \* 1024 \* 1024 \* 1024 \* 1024)"; then
 				default_label=gpt
 			fi
 		fi

@@ -1,3 +1,10 @@
+partman-partitioning (83) UNRELEASED; urgency=low
+
+  * Don't force GPT on disks between 2TB (decimal) and 2TiB (binary)
+    inclusive.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 23 Sep 2011 14:04:05 +0100
+
 partman-partitioning (82) unstable; urgency=low
 
   * Use msdos disk label on mipsel/loongson-2e and mipsel/loongson-2f.
