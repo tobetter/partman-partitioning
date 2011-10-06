@@ -126,7 +126,7 @@ default_disk_label () {
 		    *)
 			echo UNKNOWN;;
 		esac;;
-	    s390)
+	    s390|s390x)
 		echo msdos;;
 	    sh4)
 		echo msdos;;

@@ -1,9 +1,13 @@
 partman-partitioning (83) UNRELEASED; urgency=low
 
+  [ Colin Watson ]
   * Don't force GPT on disks between 2TB (decimal) and 2TiB (binary)
     inclusive.
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 23 Sep 2011 14:04:05 +0100
+  [ Philipp Kern ]
+  * Use msdos disk label on s390x.
+
+ -- Philipp Kern <pkern@debian.org>  Thu, 06 Oct 2011 18:33:23 +0200
 
 partman-partitioning (82) unstable; urgency=low
 
