@@ -1,4 +1,4 @@
-partman-partitioning (83) UNRELEASED; urgency=low
+partman-partitioning (83) unstable; urgency=low
 
   [ Colin Watson ]
   * Don't force GPT on disks between 2TB (decimal) and 2TiB (binary)
@@ -7,7 +7,21 @@ partman-partitioning (83) UNRELEASED; urgency=low
   [ Philipp Kern ]
   * Use msdos disk label on s390x.
 
- -- Philipp Kern <pkern@debian.org>  Thu, 06 Oct 2011 18:33:23 +0200
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * German (de.po) by Holger Wansing
+  * Hebrew (he.po) by Lior Kaplan
+  * Hindi (hi.po) by Kumar Appaiah
+  * Italian (it.po) by Milo Casagrande
+  * Macedonian (mk.po) by Arangel Angov
+  * Polish (pl.po) by Marcin Owsiany
+  * Romanian (ro.po) by Ioan Eugen Stan
+  * Sinhala (si.po) by Danishka Navin
+  * Turkish (tr.po) by Mert Dirik
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
+ -- Philipp Kern <pkern@debian.org>  Thu, 06 Oct 2011 18:42:25 +0200
 
 partman-partitioning (82) unstable; urgency=low
 
