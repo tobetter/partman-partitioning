@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
 "POT-Creation-Date: 2009-09-04 22:47+0000\n"
-"PO-Revision-Date: 2011-11-18 19:11+0530\n"
+"PO-Revision-Date: 2011-11-27 23:24+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -78,8 +78,9 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 #: ../partman-partitioning.templates:8001
+#, fuzzy
 msgid "You cannot undo this operation."
-msgstr ""
+msgstr "ಈ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."
 
 #. Type: boolean
 #. Description
@@ -100,7 +101,7 @@ msgstr "ಮೂಲ ವಿಭಜನೆ:"
 #. :sl2:
 #: ../partman-partitioning.templates:5001
 msgid "Please choose the partition which contains the data you want to copy."
-msgstr ""
+msgstr "ನೀವು ನಕಲು ಮಾಡಬೇಕಾದ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿರುವ ವಿಭಜನೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
 
 #. Type: error
 #. Description
@@ -118,7 +119,7 @@ msgstr "ನಕಲು ಕಾರ್ಯ ವಿಫಲ"
 #: ../partman-partitioning.templates:6001
 #: ../partman-partitioning.templates:13001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr ""
+msgstr "ಬದಲಾವಣೆಗಳನ್ನು ಸಂಗ್ರಹಣಾ ಸಲಕರಣೆಗಳಿಗೆ ಬರೆಯುವಾಗ ಒಂದು ದೋಷವುಂಟಾಗಿದೆ."
 
 #. Type: error
 #. Description
@@ -159,6 +160,7 @@ msgstr ""
 #: ../partman-partitioning.templates:7001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
+"/var/log/syslogನಲ್ಲಿ ಅಥವಾ ಅವಾಸ್ತವಿಕ ಆಜ್ಞಾಫಲಕ ೪ ರಲ್ಲಿ ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ಪರೀಕ್ಷಿಸಿ."
 
 #. Type: boolean
 #. Description
@@ -174,7 +176,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "Please note that the resize operation may take a long time."
-msgstr ""
+msgstr "ದಯಮಾಡಿ ಗಮನಿಸಿ, ಪುನರ್ ಗಾತ್ರ ಕಾರ್ಯಾಚರಣೆಯು ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು."
 
 #. Type: string
 #. Description
@@ -261,6 +263,8 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
+"ನೀವು ದಾಖಲಿಸಿದ ಗಾತ್ರ ವಿಭಜನೆಯ ಕನಿಷ್ಠ ಗಾತ್ರಕ್ಕಿಂತ ಕಿರಿದಾಗಿದೆ. ದಯಮಾಡಿ ಮುಂದುವರೆಯಲು "
+"ದೊಡ್ಡ ಗಾತ್ರವನ್ನು ದಾಖಲಿಸಿ."
 
 #. Type: error
 #. Description
@@ -281,7 +285,7 @@ msgstr "ಗಾತ್ರ ಬದಲಾವಣೆ ಕಾರ್ಯಾಚರಣೆಯ�
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr ""
+msgstr "ಈ ವಿಭಜನೆಯ ಗರಿಷ್ಟ ಗಾತ್ರ ${MAXSIZE}."
 
 #. Type: error
 #. Description
@@ -425,7 +429,7 @@ msgstr "ಬಳಸಲು ಬೇಕಾದ ವಿಭಜನ ಕೋಷ್ಠಕದ �
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Create new empty partition table on this device?"
-msgstr ""
+msgstr "ಹೊಸದೊಂದು ಖಾಲಿ ವಿಭಜನ ಕೋಷ್ಠಕವನ್ನು ಈ ಸಲಕರಣೆಯಲ್ಲಿ ಸೃಷ್ಟಿಸುವುದೇ?"
 
 #. Type: boolean
 #. Description
@@ -512,7 +516,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "Set the partition flags"
-msgstr ""
+msgstr "ವಿಭಜನಾ ಧ್ವಜಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಿ"
 
 #. Type: text
 #. Description
@@ -526,7 +530,7 @@ msgstr "ಹೆಸರು:"
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Bootable flag:"
-msgstr ""
+msgstr "ಬೂಟೇಬಲ್ ಧ್ವಜ:"
 
 #. Type: text
 #. Description
