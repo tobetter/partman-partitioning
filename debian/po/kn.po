@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
 "POT-Creation-Date: 2009-09-04 22:47+0000\n"
-"PO-Revision-Date: 2011-11-27 23:24+0530\n"
+"PO-Revision-Date: 2011-12-17 11:35+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -69,6 +69,8 @@ msgid ""
 "Before you can select a partition to copy, any previous changes have to be "
 "written to disk."
 msgstr ""
+"ನೀವು ಯಾವುದಾದರೊಂದು ವಿಭಜನೆಯನ್ನು ನಕಲು ಮಾಡಲು ಆಯ್ಕೆ ಮಾಡುವ ಮುನ್ನ, ಯಾವುದಾದರೂ ಹಳೆಯ "
+"ಬದಲಾವಣೆಗಳನ್ನು ಡಿಸ್ಕಿಗೆ ಮೊದಲು ಬರೆಯಬೇಕಾಗುತ್ತದೆ."
 
 #. Type: boolean
 #. Description
@@ -78,9 +80,8 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 #: ../partman-partitioning.templates:8001
-#, fuzzy
 msgid "You cannot undo this operation."
-msgstr "ಈ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."
+msgstr "ಈ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ಮತ್ತೆ ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."
 
 #. Type: boolean
 #. Description
@@ -140,7 +141,7 @@ msgstr "ಗಾತ್ರ ಬದಲಾವಣೆ ಕಾರ್ಯಾಚರಣೆ ಅ
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr ""
+msgstr "ಕೆಲವೊಂದು ತಿಳಿಯದ ಕಾರಣಗಳಿಂದಾಗಿ ಈ ವಿಭಜನೆಯನ್ನು ಪುನರ್ಗಾತ್ರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."
 
 #  templates.pot (PACKAGE VERSION)#-#-#-#-
 #  templates.pot (PACKAGE VERSION)#-#-#-#-
@@ -170,6 +171,8 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
+"ನೀವು ಹೊಸದೊಂದು ವಿಭಜನಾ ಗಾತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡುವ ಮುನ್ನ ಹಿಂದಿನ ಎಲ್ಲ ಬದಲಾವಣೆಗಳನ್ನು "
+"ಡಿಸ್ಕಿಗೆ ಬರೆಯಬೇಕಾಗುತ್ತದೆ."
 
 #. Type: boolean
 #. Description
@@ -197,6 +200,8 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
+"ಈ ವಿಭಜನೆಯ ಕನಿಷ್ಠ ಗಾತ್ರ ${MINSIZE} (ಅಥವಾ ${PERCENT}) ಮತ್ತದರ ಗರಿಷ್ಠ ಗಾತ್ರ "
+"${MAXSIZE} ಆಗಿರುತ್ತದೆ."
 
 #. Type: string
 #. Description
@@ -211,13 +216,15 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
+"ಸೂಚನೆ: ಗರಿಷ್ಟ ಗಾತ್ರದ ಬದಲಾಗಿ \"max\" ಪರ್ಯಾಯ ನಾಮವನ್ನು ಬಳಸಬಹುದು, ಅಥವಾ ಗರಿಷ್ಟ ಭಾಗದ "
+"ಎಷ್ಟು ಭಾಗವನ್ನು ಬಳಸಬೇಕೆಂದು ಪ್ರತಿಶತದಲ್ಲಿ ಕೊಡಿ.(ಉದಾ: \"20%\")"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The size entered is invalid"
-msgstr "ದಾಖಲಿಸಿದ ಗಾತ್ರ  ಅಸಿಂಧುವಾಗಿದೆ."
+msgstr "ದಾಖಲಿಸಿದ ಗಾತ್ರ ಅಸಿಂಧುವಾಗಿದೆ."
 
 #. Type: error
 #. Description
@@ -228,8 +235,8 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"ನೀವು  ದಾಖಲಿಸಿದ ಗಾತ್ರ  ಅರ್ಥವಾಗುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು  ಧನಾತ್ಮಕವಾದ ಗಾತ್ರ , ನಂತರ ಐಚ್ಛಿಖವಾಗಿ "
-"ಮಾಪಕವೊಂದನ್ನು ದಾಖಲಿಸಿ (ಉದಾಹರಣೆಗೆ  \"200 GB\"). ಅಳತೆಯ ಪೂರ್ವ ನಿಯೋಜಿತ  ಮಾಪಕವು "
+"ನೀವು ದಾಖಲಿಸಿದ ಗಾತ್ರ ಅರ್ಥವಾಗುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ಧನಾತ್ಮಕವಾದ ಗಾತ್ರ , ನಂತರ ಐಚ್ಛಿಖವಾಗಿ "
+"ಮಾಪಕವೊಂದನ್ನು ದಾಖಲಿಸಿ (ಉದಾಹರಣೆಗೆ \"200 GB\"). ಅಳತೆಯ ಪೂರ್ವ ನಿಯೋಜಿತ ಮಾಪಕವು "
 "ಮೆಗಾಬೈಟ್ ಆಗಿರುತ್ತದೆ."
 
 #. Type: error
@@ -237,7 +244,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "The size entered is too large"
-msgstr "ದಾಖಲಿಸಿದ ಗಾತ್ರ  ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ."
+msgstr "ದಾಖಲಿಸಿದ ಗಾತ್ರ ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ."
 
 #. Type: error
 #. Description
@@ -247,13 +254,15 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
+"ನೀವು ದಾಖಲಿಸಿದ ಗಾತ್ರ ವಿಭಜನೆಯ ಗರಿಷ್ಠ ಗಾತ್ರಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿದೆ. ದಯಮಾಡಿ ಮುಂದುವರೆಯಲು ಸಣ್ಣ "
+"ಗಾತ್ರವನ್ನು ದಾಖಲಿಸಿ."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:12001
 msgid "The size entered is too small"
-msgstr "ದಾಖಲಿಸಿದ ಗಾತ್ರ  ತುಂಬಾ ಚಿಕ್ಕದಾಗಿದೆ"
+msgstr "ದಾಖಲಿಸಿದ ಗಾತ್ರ ತುಂಬಾ ಚಿಕ್ಕದಾಗಿದೆ"
 
 #. Type: error
 #. Description
@@ -381,6 +390,9 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
+"ಈ ವಿಭಜಕಕ್ಕೆ ನಿಮ್ಮ ಯಾಂತ್ರಿಕ ವಿನ್ಯಾಸದ ಪೂರ್ವನಿಯೋಜಿತ ವಿಭಜನಾ ಕೋಷ್ಠಕಗಳ ಬಗ್ಗೆ ಮಾಹಿತಿ "
+"ಇರುವುದಿಲ್ಲ.ದಯಮಾಡಿ ಮಾಹಿತಿಗಾಗಿ ಇ-ಅಂಚೆಯೊಂದನ್ನು debian-boot@lists.debian.org ಗೆ "
+"ಕಳುಹಿಸಿ."
 
 #. Type: boolean
 #. Description
@@ -390,6 +402,8 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
+"ದಯಮಾಡಿ ಗಮನಿಸಿ ವಿಭಜನಾ ಕೋಷ್ಠಕದ ಬಗೆಯನ್ನು ಲಿಬ್ ಪಾರ್ಟೆಡ್ ಸಹಕರಿಸದಿದ್ದರೆ ಈ ವಿಭಜಕವು "
+"ಸರಿಯಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ."
 
 #. Type: boolean
 #. Description
@@ -400,6 +414,9 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
+"ಈ ವಿಭಜಕವು  ಲಿಬ್ ಪಾರ್ಟೆಡ್ ತಂತ್ರಾಂಶವನ್ನು ಆಧರಿಸಿದ್ದು ಅದು ನಿಮ್ಮ ಯಂತ್ರವಿನ್ಯಾಸದಲ್ಲಿ ಬಳಸಲಾದ "
+"ವಿಭಜನಾ ಕೋಷ್ಠಕಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ನೀವೀಗ ವಿಭಜಕವನ್ನು ನಿರ್ಗಮಿಸಲು ಪ್ರಬಲವಾಗಿ ಶಿಫಾರಸು "
+"ಮಾಡಲಾಗಿದೆ."
 
 #. Type: boolean
 #. Description
@@ -409,6 +426,8 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
+"ನಿಮಗೆ ಸಾಧ್ಯವಾದಲ್ಲಿ, ದಯ ಮಾಡಿ ಲಿಬ್ ಪಾರ್ಟೆಡ್'ಗೆ ನಿಮ್ಮ ವಿಭಜನಾ ಕೋಷ್ಠಕ ಬಗೆಗೆ ಸಹಕಾರಿ "
+"ಮಾಹಿತಿಯನ್ನು ಸೇರಿಸಿ."
 
 #. Type: select
 #. Description
@@ -440,13 +459,16 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
+"ನೀವು ಒಂದು ಸಂಪೂರ್ಣ ಉಪಕರಣವನ್ನು ವಿಭಜಿಸಲು ಆಯ್ಕೆ ಮಾಡಿದ್ದೀರಿ. ನೀವು ಹೊಸ ವಿಭಜನಾ "
+"ಕೋಷ್ಠಕವನ್ನು ಈ ಉಪಕರಣದ ಮೇಲೆ ನಿರ್ಮಿಸಲು ಮುಂದುವರೆದರೆ ಈಗಿನ ಎಲ್ಲ ವಿಭಜನೆಗಳನ್ನು ತೆಗೆದು "
+"ಹಾಕಲಾಗುವುದು."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr ""
+msgstr "ಗಮನಿಸಿ ನೀವು ಬಯಸಿದ್ದಲ್ಲಿ ಈ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ನಂತರದಲ್ಲಿ ರದ್ದುಗೊಳಿಸಬಹುದು."
 
 #. Type: boolean
 #. Description
@@ -464,6 +486,8 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
+"ಪ್ರಸ್ತುತ ಲಿಬ್ ಪಾರ್ಟೆಡ್'ನಲ್ಲಿಯ ಸನ್ ವಿಭಜನಾ ಕೋಷ್ಠಕಗಳಲ್ಲಿ ಇತಿ-ಮಿತಿಗಳಿಂದಾಗಿ, ಹೊಸದಾಗಿ "
+"ನಿರ್ಮಿಸಿದ ವಿಭಜನಾ ಕೋಷ್ಠಕವನ್ನು ತಕ್ಷಣ ಡಿಸ್ಕಿಗೆ ಬರೆಯಬೇಕು."
 
 #. Type: boolean
 #. Description
@@ -473,6 +497,8 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
+"ಈ ಕಾರ್ಯಚರಣೆಯನ್ನು ನಂತರದಲ್ಲಿ ತೊಡೆದು ಹಾಕಲು ಸಾಧ್ಯವಿಲ್ಲ ಮತ್ತು ಡಿಸ್ಕಿನಲ್ಲಿ ಈಗಿರುವ ಎಲ್ಲ "
+"ಮಾಹಿತಿಯನ್ನು ಮತ್ತೊಮ್ಮೆ ಪೂರ್ವಾವಸ್ಥೆಗೆ ತರಲಾಗದಂತೆ ತೆಗೆದುಹಾಕಲಾಗುವುದು."
 
 #. Type: boolean
 #. Description
@@ -482,13 +508,15 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
+"ನೀವು ನಿಜವಾಗಿಯು ಹೊಸದೊಂದು ವಿಭಜನಾ ಕೋಷ್ಠಕವನ್ನು ನಿರ್ಮಿಸಿ ಅದನ್ನು ಡಿಸ್ಕಿಗೆ ಬರೆಯಲು "
+"ಬಯಸುವಿರಾ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿ."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr ""
+msgstr "ನಿಮಗೆ ನಿಜವಾಗಿಯು ಬೂಟೇಬಲ್ ತಾರ್ಕಿಕ ವಿಭಜನೆ ಬೇಕೆ?"
 
 #. Type: boolean
 #. Description
@@ -500,6 +528,11 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
+"ನೀವು ತಾರ್ಕಿಕ ವಿಭಜನೆಯೊಂದಕ್ಕೆ ಬೂಟೆಬಲ್ ಧ್ವಜವನ್ನು ಹಾಕಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವಿರಿ. ಸಾಮಾನ್ಯವಾಗಿ "
+"ಈ ಬೂಟೆಬಲ್ ಧ್ವಜವು ಪ್ರಾಥಮಿಕ ವಿಭಜನೆಗಳಲ್ಲಿ ಮಾತ್ರ ಉಪಯೋಗಕ್ಕೆ ಬರುತ್ತದೆ, ಆದ್ದರಿಂದ ತಾರ್ಕಿಕ "
+"ವಿಭಜನೆಗಳಲ್ಲಿ ಅದರ ಬಳಕೆಯನ್ನು ಉತ್ತೇಜಿಸಲಾಗುವುದಿಲ್ಲ. ಬೂಟ್ ಆಗುವಂತಹ ಪ್ರಾಥಮಿಕ "
+"ವಿಭಜನೆಗಳಿಲ್ಲದಿದ್ದರೆ ಕೆಲವು BIOS ಆವೃತ್ತಿಗಳು ಬೂಟ್ ಆಗುವಲ್ಲಿ ವಿಫಲವಾಗುತ್ತವೆ ಎಂದು ತಿಳಿದು "
+"ಬಂದಿದೆ."
 
 #. Type: boolean
 #. Description
@@ -510,6 +543,9 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
+"ನಿಮಗೆ BIOSನಿಂದಾಗಿ ಈ ಸಮಸ್ಯೆಯಿಲ್ಲವೆಂದು ಖಾತರಿ ಇದ್ದರೆ ಅಥವಾ ನೀವೊಂದು ವಿಶೇಷ ಬೂಟ್ "
+"ವ್ಯವಸ್ಥಾಪಕವನ್ನು ಬಳಸುತ್ತಿದ್ದು (ಯಾವುದು ಬೂಟೆಬಲ್ ವಿಭಜನೆಗಳಿಗೆ ಗಮನ ನೀಡುವುವೊ) ಅಂತಹ "
+"ಸಂಧರ್ಭದಲ್ಲಿ ಈ ಧ್ವಜವನ್ನು ಸೆಟ್ ಮಾಡುವುದು ಸೂಕ್ತ."
 
 #. Type: text
 #. Description
@@ -551,7 +587,7 @@ msgstr "ನಿಲ್ಲಿಸು"
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "ವಿಭಜನೆಯ ಗಾತ್ರವನ್ನು ಮತ್ತೆ ಬದಲಾಯಿಸು (ಸಧ್ಯಕ್ಕೆ  ${SIZE})"
+msgstr "ವಿಭಜನೆಯ ಗಾತ್ರವನ್ನು ಮತ್ತೆ ಬದಲಾಯಿಸು (ಸಧ್ಯಕ್ಕೆ ${SIZE})"
 
 #. Type: text
 #. Description
@@ -579,7 +615,7 @@ msgstr "ಹೊಸ ವಿಭಜನೆಯನ್ನು ರಚಿಸಿ"
 #. :sl2:
 #: ../partman-partitioning.templates:35001
 msgid "Create a new empty partition table on this device"
-msgstr "ಈ ಉಪಕರಣದ ಮೇಲೆ ಹೊಸದೊಂದು ಖಾಲಿ  ವಿಭಜನ ಕೋಷ್ಠಕವನ್ನು ಸೃಷ್ಟಿಮಾಡಿ"
+msgstr "ಈ ಉಪಕರಣದ ಮೇಲೆ ಹೊಸದೊಂದು ಖಾಲಿ ವಿಭಜನ ಕೋಷ್ಠಕವನ್ನು ಸೃಷ್ಟಿಮಾಡಿ"
 
 #. Type: text
 #. Description
