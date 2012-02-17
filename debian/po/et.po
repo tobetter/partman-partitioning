@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
 "POT-Creation-Date: 2009-09-04 22:47+0000\n"
-"PO-Revision-Date: 2012-01-25 02:09+0200\n"
+"PO-Revision-Date: 2012-02-17 22:38+0200\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -152,7 +152,7 @@ msgstr "Suuruse muutmine võimatu"
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr "Arusaamatul põhjusel ei ole partitsiooni suuruse muutmine võimalik."
+msgstr "Teadmata põhjustel ei ole partitsiooni suuruse muutmine võimalik."
 
 #. Type: error
 #. Description
@@ -234,7 +234,7 @@ msgid ""
 "unit of measure is the megabyte."
 msgstr ""
 "Sinu sisestatud suurus polnud mõistetav. Sisesta positiivne täisarv, soovi "
-"korral koos ühikuga (n.t \"200 GB\"). Vaikimisi mõõtühik on megabait."
+"korral koos ühikuga (nt \"200 GB\"). Vaikimisi ühik on megabait."
 
 #. Type: error
 #. Description
@@ -386,7 +386,7 @@ msgid ""
 "debian-boot@lists.debian.org with information."
 msgstr ""
 "Partitsioneerija ei tea, millist tüüpi partitsioonitabelid sinu "
-"süsteemiarhitektuurile sobivad. Palun oma saada infoga e-mail aadressile "
+"süsteemiarhitektuurile sobivad. Palun saada selle infoga e-mail aadressile "
 "debian-boot@lists.debian.org."
 
 #. Type: boolean
