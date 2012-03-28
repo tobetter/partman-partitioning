@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2009-09-04 22:47+0000\n"
+"POT-Creation-Date: 2012-03-28 22:48+0000\n"
 "PO-Revision-Date: 2011-12-17 11:35+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
@@ -432,28 +432,28 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:22001
+#: ../partman-partitioning.templates:23001
 msgid "Partition table type:"
 msgstr "ವಿಭಜನ ಕೋಷ್ಠಕದ ಬಗೆ:"
 
 #. Type: select
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:22001
+#: ../partman-partitioning.templates:23001
 msgid "Select the type of partition table to use."
 msgstr "ಬಳಸಲು ಬೇಕಾದ ವಿಭಜನ ಕೋಷ್ಠಕದ ಬಗೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
 
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:23001
+#: ../partman-partitioning.templates:24001
 msgid "Create new empty partition table on this device?"
 msgstr "ಹೊಸದೊಂದು ಖಾಲಿ ವಿಭಜನ ಕೋಷ್ಠಕವನ್ನು ಈ ಸಲಕರಣೆಯಲ್ಲಿ ಸೃಷ್ಟಿಸುವುದೇ?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:23001
+#: ../partman-partitioning.templates:24001
 msgid ""
 "You have selected an entire device to partition. If you proceed with "
 "creating a new partition table on the device, then all current partitions "
@@ -466,21 +466,21 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:23001
+#: ../partman-partitioning.templates:24001
 msgid "Note that you will be able to undo this operation later if you wish."
 msgstr "ಗಮನಿಸಿ ನೀವು ಬಯಸಿದ್ದಲ್ಲಿ ಈ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ನಂತರದಲ್ಲಿ ರದ್ದುಗೊಳಿಸಬಹುದು."
 
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:24001
+#: ../partman-partitioning.templates:25001
 msgid "Write a new empty partition table?"
 msgstr "ಹೊಸದೊಂದು ಖಾಲಿ ವಿಭಜನ ಕೋಷ್ಠಕವನ್ನು ಬರೆಯುವುದೆ?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:24001
+#: ../partman-partitioning.templates:25001
 msgid ""
 "Because of limitations in the current implementation of the Sun partition "
 "tables in libparted, the newly created partition table has to be written to "
@@ -492,7 +492,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:24001
+#: ../partman-partitioning.templates:25001
 msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
@@ -503,7 +503,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:24001
+#: ../partman-partitioning.templates:25001
 msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
@@ -514,14 +514,14 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:25001
+#: ../partman-partitioning.templates:26001
 msgid "Are you sure you want a bootable logical partition?"
 msgstr "ನಿಮಗೆ ನಿಜವಾಗಿಯು ಬೂಟೇಬಲ್ ತಾರ್ಕಿಕ ವಿಭಜನೆ ಬೇಕೆ?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:25001
+#: ../partman-partitioning.templates:26001
 msgid ""
 "You are trying to set the bootable flag on a logical partition. The bootable "
 "flag is generally only useful on primary partitions, so setting it on "
@@ -537,7 +537,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:25001
+#: ../partman-partitioning.templates:26001
 msgid ""
 "However, if you are sure that your BIOS does not have this problem, or if "
 "you are using a custom boot manager that pays attention to bootable logical "
@@ -550,70 +550,70 @@ msgstr ""
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:26001
+#: ../partman-partitioning.templates:27001
 msgid "Set the partition flags"
 msgstr "ವಿಭಜನಾ ಧ್ವಜಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಿ"
 
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:27001
+#: ../partman-partitioning.templates:28001
 msgid "Name:"
 msgstr "ಹೆಸರು:"
 
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:28001
+#: ../partman-partitioning.templates:29001
 msgid "Bootable flag:"
 msgstr "ಬೂಟೇಬಲ್ ಧ್ವಜ:"
 
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:29001
+#: ../partman-partitioning.templates:30001
 msgid "on"
 msgstr "ಶುರು ಮಾಡು"
 
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:30001
+#: ../partman-partitioning.templates:31001
 msgid "off"
 msgstr "ನಿಲ್ಲಿಸು"
 
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:31001
+#: ../partman-partitioning.templates:32001
 msgid "Resize the partition (currently ${SIZE})"
 msgstr "ವಿಭಜನೆಯ ಗಾತ್ರವನ್ನು ಮತ್ತೆ ಬದಲಾಯಿಸು (ಸಧ್ಯಕ್ಕೆ ${SIZE})"
 
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:32001
+#: ../partman-partitioning.templates:33001
 msgid "Copy data from another partition"
 msgstr "ಮತ್ತೊಂದು ವಿಭಜನೆಯಿಂದ ಮಾಹಿತಿಯನ್ನು ನಕಲು ಮಾಡಿ."
 
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:33001
+#: ../partman-partitioning.templates:34001
 msgid "Delete the partition"
 msgstr "ವಿಭಜನೆನ್ನು ನಾಶ ಮಾಡಿ"
 
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:34001
+#: ../partman-partitioning.templates:35001
 msgid "Create a new partition"
 msgstr "ಹೊಸ ವಿಭಜನೆಯನ್ನು ರಚಿಸಿ"
 
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:35001
+#: ../partman-partitioning.templates:36001
 msgid "Create a new empty partition table on this device"
 msgstr "ಈ ಉಪಕರಣದ ಮೇಲೆ ಹೊಸದೊಂದು ಖಾಲಿ ವಿಭಜನ ಕೋಷ್ಠಕವನ್ನು ಸೃಷ್ಟಿಮಾಡಿ"
 
@@ -622,7 +622,7 @@ msgstr "ಈ ಉಪಕರಣದ ಮೇಲೆ ಹೊಸದೊಂದು ಖಾಲ�
 #. :sl5:
 #. Setting to reserve a small part of the disk for use by BIOS-based bootloaders
 #. such as GRUB.
-#: ../partman-partitioning.templates:36001
+#: ../partman-partitioning.templates:37001
 msgid "Reserved BIOS boot area"
 msgstr "ಕಾಯ್ದಿರಿಸಲ್ಪಟ್ಟ ಬಯೋಸ್ ಬೂಟ್ ಸ್ಥಳ"
 
@@ -631,6 +631,6 @@ msgstr "ಕಾಯ್ದಿರಿಸಲ್ಪಟ್ಟ ಬಯೋಸ್ ಬೂಟ�
 #. :sl5:
 #. short variant of 'Reserved BIOS boot area'
 #. Up to 10 character positions
-#: ../partman-partitioning.templates:37001
+#: ../partman-partitioning.templates:38001
 msgid "biosgrub"
 msgstr "biosgrub"
