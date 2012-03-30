@@ -1,4 +1,4 @@
-partman-partitioning (85) UNRELEASED; urgency=low
+partman-partitioning (85) unstable; urgency=low
 
   * Allow overriding the default disk label selection by preseeding
     partman-partitioning/default_label.  This is particularly useful if you
@@ -6,7 +6,10 @@ partman-partitioning (85) UNRELEASED; urgency=low
     (partman-partitioning/default_label=gpt), but may come in handy in other
     situations too.
 
- -- Colin Watson <cjwatson@debian.org>  Wed, 28 Mar 2012 12:43:08 +0100
+  [ Updated translations ]
+  * Finnish (fi.po) by Timo Jyrinki
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 30 Mar 2012 15:03:30 +0100
 
 partman-partitioning (84) unstable; urgency=low
 
