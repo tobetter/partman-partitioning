@@ -1,8 +1,9 @@
-partman-partitioning (88) UNRELEASED; urgency=low
+partman-partitioning (88) unstable; urgency=low
 
+  [ Steve McIntyre ]
   * On x86 machines booted in EFI mode, use gpt disk label by default.
 
- -- Steve McIntyre <93sam@debian.org>  Tue, 21 Aug 2012 20:22:32 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Thu, 20 Sep 2012 14:33:48 +0200
 
 partman-partitioning (87) unstable; urgency=low
 
