@@ -1,3 +1,9 @@
+partman-partitioning (89) UNRELEASED; urgency=low
+
+  * Add myself to Uploaders and remove Anton Zinoviev (now inactive)
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 16 Oct 2012 13:16:52 +0200
+
 partman-partitioning (88) unstable; urgency=low
 
   [ Steve McIntyre ]
