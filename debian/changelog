@@ -1,8 +1,12 @@
-partman-partitioning (89) UNRELEASED; urgency=low
+partman-partitioning (89) unstable; urgency=low
 
   * Add myself to Uploaders and remove Anton Zinoviev (now inactive)
 
- -- Christian Perrier <bubulle@debian.org>  Tue, 16 Oct 2012 13:16:52 +0200
+  [ Updated translations ]
+  * Asturian (ast.po) by ivarela
+  * Galician (gl.po) by Jorge Barreiro
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 16 Oct 2012 13:18:02 +0200
 
 partman-partitioning (88) unstable; urgency=low
 
