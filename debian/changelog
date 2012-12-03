@@ -1,3 +1,10 @@
+partman-partitioning (90) UNRELEASED; urgency=low
+
+  * Merge from Ubuntu:
+    - Support archdetect being anywhere on PATH.
+
+ -- Colin Watson <cjwatson@debian.org>  Mon, 03 Dec 2012 23:55:20 +0000
+
 partman-partitioning (89) unstable; urgency=low
 
   * Add myself to Uploaders and remove Anton Zinoviev (now inactive)
