@@ -618,7 +618,7 @@ msgstr "Эҷод кардани ҷадвали қисмбандии холии �
 #. such as GRUB.
 #: ../partman-partitioning.templates:37001
 msgid "Reserved BIOS boot area"
-msgstr "Ноҳияи роҳандозии истифодашудаи BIOS"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -627,4 +627,4 @@ msgstr "Ноҳияи роҳандозии истифодашудаи BIOS"
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:38001
 msgid "biosgrub"
-msgstr "biosgrub"
+msgstr ""
