@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
 "POT-Creation-Date: 2012-03-28 22:48+0000\n"
-"PO-Revision-Date: 2013-08-15 16:26+0500\n"
+"PO-Revision-Date: 2013-08-18 00:02+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: Tajik\n"
@@ -618,7 +618,7 @@ msgstr "Эҷод кардани ҷадвали қисмбандии холии �
 #. such as GRUB.
 #: ../partman-partitioning.templates:37001
 msgid "Reserved BIOS boot area"
-msgstr ""
+msgstr "Ноҳияи роҳандозии истифодашудаи BIOS"
 
 #. Type: text
 #. Description
@@ -627,4 +627,4 @@ msgstr ""
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:38001
 msgid "biosgrub"
-msgstr ""
+msgstr "biosgrub"
