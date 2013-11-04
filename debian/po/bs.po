@@ -10,13 +10,24 @@
 #
 # Safir Secerovic <sapphire@linux.org.ba>, 2006.
 # Armin Besirovic <armin@linux.org.ba>, 2008.
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
+#   Free Software Foundation, Inc., 2001,2002,2003,2004
+#   Safir Šećerović <sapphire@linux.org.ba>, 2004,2006.
+#   Vedran Ljubovic <vljubovic@smartnet.ba>, 2001
+#   (translations from drakfw).
+#   Translations from KDE:
+#   Nesiren Armin <bianchi@lugbih.org>, 2002
+#   Vedran Ljubovic <vljubovic@smartnet.ba>, 2002
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
 "POT-Creation-Date: 2012-03-28 22:48+0000\n"
-"PO-Revision-Date: 2010-07-27 18:25+0100\n"
-"Last-Translator: Armin Beširović <armin@linux.org.ba>\n"
+"PO-Revision-Date: 2012-03-16 13:07+0100\n"
+"Last-Translator: Armin Besirovic <armin@linux.org.ba>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
@@ -307,7 +318,7 @@ msgstr "Kraj"
 #. :sl1:
 #: ../partman-partitioning.templates:16002
 msgid "Location for the new partition:"
-msgstr "Lokacija nove particije:"
+msgstr "Lokacija novog dijeljenja:"
 
 #. Type: select
 #. Description
