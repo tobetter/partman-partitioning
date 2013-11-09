@@ -1,3 +1,10 @@
+partman-partitioning (95) unstable; urgency=low
+
+  [ Updated translations ]
+  * Ukrainian (uk.po) by Yuri Chornoivan
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 09 Nov 2013 22:57:01 +0100
+
 partman-partitioning (94) unstable; urgency=low
 
   [ Updated translations ]
