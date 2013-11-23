@@ -621,7 +621,7 @@ msgstr "Kreiraj novu praznu particionu tabelu na ovom uređaju"
 #. such as GRUB.
 #: ../partman-partitioning.templates:37001
 msgid "Reserved BIOS boot area"
-msgstr "Rezervisana BIOS boot zonu"
+msgstr "Rezervisana BIOS boot zona"
 
 #. Type: text
 #. Description
