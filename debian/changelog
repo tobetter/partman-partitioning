@@ -1,3 +1,11 @@
+partman-partitioning (96) unstable; urgency=low
+
+  [ Updated translations ]
+  * Bosnian (bs.po) by Amila Valjevčić
+  * Hungarian (hu.po) by Judit Gyimesi
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 13 Dec 2013 06:49:21 +0100
+
 partman-partitioning (95) unstable; urgency=low
 
   [ Updated translations ]
