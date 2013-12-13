@@ -1,3 +1,14 @@
+partman-crypto (67) unstable; urgency=low
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Croatian (hr.po) by Tomislav Krznar
+  * Polish (pl.po) by Michał Kułach
+  * Slovak (sk.po) by Ivan Masár
+  * Uyghur (ug.po) by Abduqadir Abliz
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 13 Dec 2013 19:40:33 +0100
+
 partman-crypto (66) unstable; urgency=low
 
   [ Thiemo Nagel ]
