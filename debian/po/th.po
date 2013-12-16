@@ -4,7 +4,7 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Thai translation of debian-installer.
-# Copyright (C) 2006-2012 Software in the Public Interest, Inc.
+# Copyright (C) 2006-2013 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 # Theppitak Karoonboonyanan <thep@linux.thai.net>, 2006-2011.
 #
@@ -17,14 +17,14 @@
 #   Translations from KDE:
 #   - Thanomsub Noppaburana <donga@midaassets.com>
 #   Thanomsub Noppaburana <donga@midaassets.com> (Translations from KDE)
-#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2012
+#   Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2013
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
 "POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2012-02-24 11:17+0700\n"
+"PO-Revision-Date: 2013-12-16 12:15+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "Language: th\n"
@@ -248,17 +248,12 @@ msgstr "จะลบข้อมูลใน ${DEVICE} จริงๆ หรื
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
-#, fuzzy
-#| msgid ""
-#| "The data on ${DEVICE} will be overwritten with random data. It can no "
-#| "longer be recovered after this step has completed. This is the last "
-#| "opportunity to abort the erase."
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"ข้อมูลใน ${DEVICE} จะถูกเขียนทับด้วยข้อมูลสุ่ม "
+"ข้อมูลใน ${DEVICE} จะถูกเขียนทับด้วยค่าศูนย์ "
 "และจะไม่สามารถเรียกคืนมาได้อีกหลังจากเสร็จขั้นตอนนี้แล้ว นี่เป็นโอกาสสุดท้ายที่จะยกเลิกการลบนี้"
 
 #. Type: text
@@ -279,6 +274,8 @@ msgid ""
 "The installer is now overwriting ${DEVICE} with zeroes to delete its "
 "previous contents. This step may be skipped by cancelling this action."
 msgstr ""
+"ขณะนี้โปรแกรมติดตั้งกำลังจะเขียน ${DEVICE} ด้วยค่าศูนย์เพื่อลบข้อมูลเก่า "
+"ขั้นตอนนี้สามารถข้ามได้ด้วยการยกเลิกการกระทำนี้"
 
 #. Type: error
 #. Description
@@ -294,14 +291,10 @@ msgstr "ลบข้อมูลใน ${DEVICE} ไม่สำเร็จ"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
-#, fuzzy
-#| msgid ""
-#| "An error occurred trying to erase the data on ${DEVICE}. The data has not "
-#| "been erased."
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
-msgstr "เกิดข้อผิดพลาดขณะพยายามลบข้อมูลใน ${DEVICE} ข้อมูลยังไม่ถูกลบ"
+msgstr "เกิดข้อผิดพลาดขณะพยายามเขียนทับข้อมูลใน ${DEVICE} ด้วยค่าศูนย์ ข้อมูลยังไม่ถูกลบ"
 
 #. Type: boolean
 #. Description
@@ -325,6 +318,9 @@ msgid ""
 "cancelling this action, albeit at the expense of a slight reduction of the "
 "quality of the encryption."
 msgstr ""
+"ขณะนี้โปรแกรมติดตั้งกำลังจะเขียน ${DEVICE} ด้วยค่าสุ่ม "
+"เพื่อป้องกันการรั่วไหลของข้อมูลกำกับจากโวลุมที่เข้ารหัสลับไว้ "
+"ขั้นตอนนี้สามารถข้ามได้ด้วยการยกเลิกการกระทำนี้ แต่ก็แลกกับคุณภาพการเข้ารหัสลับที่ลดลงเล็กน้อย"
 
 #. Type: error
 #. Description
@@ -335,6 +331,8 @@ msgid ""
 "Recovery of the device's previous contents is possible and meta-information "
 "of its new contents may be leaked."
 msgstr ""
+"เกิดข้อผิดพลาดขณะพยายามเขียนทับข้อมูลใน ${DEVICE} ด้วยค่าสุ่ม "
+"การกู้คืนข้อมูลเดิมในอุปกรณ์ยังคงเป็นไปได้ และข้อมูลกำกับของข้อมูลใหม่ก็อาจรั่วไหลได้"
 
 #. Type: text
 #. Description
