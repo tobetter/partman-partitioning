@@ -1,3 +1,11 @@
+partman-crypto (68) unstable; urgency=low
+
+  [ Updated translations ]
+  * Bokmål, Norwegian (nb.po) by Hans Fredrik Nordhaug
+  * Thai (th.po) by Theppitak Karoonboonyanan
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 21 Dec 2013 13:49:25 +0100
+
 partman-crypto (67) unstable; urgency=low
 
   [ Updated translations ]
