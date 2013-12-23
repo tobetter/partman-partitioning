@@ -1,3 +1,9 @@
+partman-partitioning (97) UNRELEASED; urgency=low
+
+  * Use GPT partitions on arm64.
+
+ -- dann frazier <dannf@debian.org>  Mon, 23 Dec 2013 13:03:44 -0700
+
 partman-partitioning (96) unstable; urgency=low
 
   [ Updated translations ]

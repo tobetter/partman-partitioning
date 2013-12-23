@@ -20,6 +20,8 @@ default_disk_label () {
 		fi;;
 	    arm|armeb|armel|armhf)
 		echo msdos;;
+	    arm64)
+		echo gpt;;
 	    amd64|kfreebsd-amd64|i386|kfreebsd-i386|hurd-i386)
 		case "$sub" in
 		    mac|efi)
