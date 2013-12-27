@@ -1,3 +1,12 @@
+partman-partitioning (98) UNRELEASED; urgency=medium
+
+  * mips: Drop support for non-supported anymore architectures.
+  * mips: Add support for octeon sub-architecture.
+  * mipsel: Drop support for non-supported anymore architectures.
+  * mipsel: Add support for loongson-3a sub-architecture.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Fri, 27 Dec 2013 11:09:38 +0100
+
 partman-partitioning (97) unstable; urgency=low
 
   * Use GPT partitions on arm64.
