@@ -16,13 +16,14 @@
 # Alastair McKinstry <mckinstry@debian.org>, 2004.
 # Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2009.
 # Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007, 2010.
+# Viktar Siarheichyk <viсs@eq.by>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
 "POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2012-11-07 09:49+0300\n"
-"Last-Translator: Viktar Siarheichyk <vics@eq.by>\n"
+"PO-Revision-Date: 2014-01-04 14:31+0300\n"
+"Last-Translator: Viktar Siarheichyk <viсs@eq.by>\n"
 "Language-Team: Belarusian (Official spelling) <debian-l10n-belarusian@lists."
 "debian.org>\n"
 "Language: be\n"
@@ -249,18 +250,13 @@ msgstr "Сапраўды ачысціць дадзеныя на ${DEVICE}?"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
-#, fuzzy
-#| msgid ""
-#| "The data on ${DEVICE} will be overwritten with random data. It can no "
-#| "longer be recovered after this step has completed. This is the last "
-#| "opportunity to abort the erase."
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"Дадзеныя на ${DEVICE} будуць перазапісаныя выпадковым зместам. Пасля гэтага "
-"кроку іх немагчыма будзе аднавіць. Гэта апошняя магчымасць спыніць зачыстку."
+"Дадзеныя на ${DEVICE} будуць перазапісаныя нулямі. Пасля гэтага кроку іх "
+"немагчыма будзе аднавіць. Гэта апошняя магчымасць адмяніць сціранне."
 
 #. Type: text
 #. Description
@@ -280,6 +276,8 @@ msgid ""
 "The installer is now overwriting ${DEVICE} with zeroes to delete its "
 "previous contents. This step may be skipped by cancelling this action."
 msgstr ""
+"Праграма ўсталявання зараз перапісвае ${DEVICE} нулямі, каб сцерці яго "
+"папярэдні змест. Гэты крок можна прапусціць, скасаваўшы гэтае дзеянне."
 
 #. Type: error
 #. Description
@@ -295,16 +293,12 @@ msgstr "Не атрымалася знішчыць дадзеныя на ${DEVIC
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
-#, fuzzy
-#| msgid ""
-#| "An error occurred trying to erase the data on ${DEVICE}. The data has not "
-#| "been erased."
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
-"Адбылася памылка пры спробе ачысціць дадзеныя на ${DEVICE}. Дадзеныя не былі "
-"знішчаны."
+"Адбылася памылка пры спробе перапісаць дадзеныя на ${DEVICE} нулямі. "
+"Дадзеныя не былі знішчаны."
 
 #. Type: boolean
 #. Description
@@ -328,6 +322,10 @@ msgid ""
 "cancelling this action, albeit at the expense of a slight reduction of the "
 "quality of the encryption."
 msgstr ""
+"Праграма ўсталявання зараз перапісвае ${DEVICE} выпадковымі дадзенымі, каб "
+"мета-інфармацыя з зашыфраванага тома не стала вядомай. Гэты крок можна "
+"прапусціць, адмяніўшы гэтае дзеянне, але гэта крыху пагоршыць якасць "
+"шыфравання."
 
 #. Type: error
 #. Description
@@ -338,6 +336,9 @@ msgid ""
 "Recovery of the device's previous contents is possible and meta-information "
 "of its new contents may be leaked."
 msgstr ""
+"Адбылася памылка падчас спробы перапісаць ${DEVICE} выпадковымі дадзенымі. "
+"Магчыма аднавіць папярэдні змест гэтае прылады і мета-інфармацыя новага "
+"зместу можа стаць даступнай."
 
 #. Type: text
 #. Description
