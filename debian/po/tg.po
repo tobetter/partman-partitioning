@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
 "POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2013-12-03 12:47+0500\n"
+"PO-Revision-Date: 2014-01-05 13:26+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: Tajik\n"
@@ -243,16 +243,14 @@ msgstr "Маълумоти ${DEVICE}-ро дар ҳақиқат тоза мек�
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
-#, fuzzy
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"Иттилоот дар ${DEVICE} бо иттилооти таваккалӣ рӯйҳамнависӣ мешавад. Баъд аз "
-"ба анҷом расидани ин қадам, он дигар барқарор карда намешавадwill be "
-"overwritten with random data. It can no longer be recovered after this step "
-"has completed. This is the last opportunity to abort the erase."
+"Иттилоот дар ${DEVICE} бо сифрҳо рӯйҳамнависӣ карда мешавад. Баъд аз ба "
+"анҷом расидани ин қадам, он дигар барқарор карда намешавад. Барои бекор "
+"кардани ин амал шумо имконияти охирин доред."
 
 #. Type: text
 #. Description
@@ -272,6 +270,9 @@ msgid ""
 "The installer is now overwriting ${DEVICE} with zeroes to delete its "
 "previous contents. This step may be skipped by cancelling this action."
 msgstr ""
+"Насбкунанда ${DEVICE}-ро бо сифрҳо барои несткунии мӯҳтавои қаблӣ "
+"рӯйҳамнависӣ карда истодааст. Ин қадам метавонад бо бекоркунии ин амал қатъ "
+"карда шавад."
 
 #. Type: error
 #. Description
@@ -287,13 +288,12 @@ msgstr "Поккунии маълумот дар ${DEVICE} қатъ шуд"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
-#, fuzzy
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
-"Ҳангоми кӯшиши поксозии иттилоот дар ${DEVICE} хатогӣ ба вуҷуд омадааст. "
-"Иттилоот поксозӣ нашуд."
+"Ҳангоми рӯиҳамнависии ${DEVICE} бо иттилооти сифрӣ хатогӣ ба вуҷуд омад. "
+"Иттилоот тоза карда нашудааст."
 
 #. Type: boolean
 #. Description
@@ -319,6 +319,10 @@ msgid ""
 "cancelling this action, albeit at the expense of a slight reduction of the "
 "quality of the encryption."
 msgstr ""
+"Насбкунанда ${DEVICE}-ро бо иттилооти тасодуфӣ барои пешгирӣ кардани "
+"пайдоиши метаиттилоот аз ҳаҷми рамздор рӯйҳамнависӣ карда истодааст. Ин "
+"қадам метавонад бо бекоркунии ин амал қатъ карда шавад, вале сифати "
+"рамзгузорӣ пасттар мешавад."
 
 #. Type: error
 #. Description
@@ -329,6 +333,9 @@ msgid ""
 "Recovery of the device's previous contents is possible and meta-information "
 "of its new contents may be leaked."
 msgstr ""
+"Ҳангоми рӯиҳамнависии ${DEVICE} бо иттилооти тасодуфӣ хатогӣ ба вуҷуд омад. "
+"Барқарори мӯҳтавои қаблӣ ва пайдоиши метаиттилооти мӯҳтавои нави он мумкин "
+"аст."
 
 #. Type: text
 #. Description
@@ -410,7 +417,7 @@ msgstr "мавҷуд нест"
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr "Ҳамчун ҳаҷми физикӣ барои ҳаҷми рамздор истифода мешавад ${DEV}"
+msgstr "Ҳамчун ҳаҷми ҷисмонӣ барои ҳаҷми рамздор истифода мешавад ${DEV}"
 
 #. Type: error
 #. Description
