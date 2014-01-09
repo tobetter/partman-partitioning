@@ -39,6 +39,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -46,6 +49,9 @@ msgstr ""
 msgid "Resizing partition..."
 msgstr "Partíció átméretezése..."
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -60,6 +66,12 @@ msgstr "Partíció másolása..."
 msgid "Computing the new state of the partition table..."
 msgstr "Partíciós tábla új állapotának meghatározása..."
 
+# Type: boolean
+# Description
+# :sl2:
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -69,8 +81,11 @@ msgstr "Partíciós tábla új állapotának meghatározása..."
 #: ../partman-partitioning.templates:4001
 #: ../partman-partitioning.templates:8001
 msgid "Write previous changes to disk and continue?"
-msgstr "Továbblépsz a változások lemezre írásával?"
+msgstr "Változások lemezre írása és folytatás?"
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -82,6 +97,12 @@ msgstr ""
 "Egy partíció másolásra való kijelölése előtt a korábbi változtatásokat "
 "lemezre kell írni."
 
+# Type: boolean
+# Description
+# :sl2:
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -93,6 +114,9 @@ msgstr ""
 msgid "You cannot undo this operation."
 msgstr "E művelet visszavonhatatlan."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -100,6 +124,9 @@ msgstr "E művelet visszavonhatatlan."
 msgid "Please note that the copy operation may take a long time."
 msgstr "Jó tudni, hogy a másolás akár sokáig is eltarthat."
 
+# Type: select
+# Description
+# :sl2:
 #. Type: select
 #. Description
 #. :sl2:
@@ -107,13 +134,19 @@ msgstr "Jó tudni, hogy a másolás akár sokáig is eltarthat."
 msgid "Source partition:"
 msgstr "Forráspartíció:"
 
+# Type: select
+# Description
+# :sl2:
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:5001
 msgid "Please choose the partition which contains the data you want to copy."
-msgstr "Válaszd ki a másolni kívánt adatokat tartalmazó partíciót."
+msgstr "Válassza ki a másolni kívánt adatokat tartalmazó partíciót."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -121,6 +154,17 @@ msgstr "Válaszd ki a másolni kívánt adatokat tartalmazó partíciót."
 msgid "Copy operation failure"
 msgstr "Sikertelen másolás"
 
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl2:
+# Type: error
+# Description
+# :sl2:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl3:
 #. Type: error
 #. Description
 #. :sl2:
@@ -132,6 +176,9 @@ msgstr "Sikertelen másolás"
 msgid "An error occurred while writing the changes to the storage devices."
 msgstr "Hiba történt a változások tárolóeszközökre írásakor."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -139,13 +186,19 @@ msgstr "Hiba történt a változások tárolóeszközökre írásakor."
 msgid "The copy operation has been aborted."
 msgstr "A másolás megszakadt."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The resize operation is impossible"
-msgstr "Az átméretezés lehetetlen."
+msgstr "Az átméretezés lehetetlen"
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -153,13 +206,120 @@ msgstr "Az átméretezés lehetetlen."
 msgid "Because of an unknown reason it is impossible to resize this partition."
 msgstr "Ismeretlen okból a partíció átméretezése lehetetlen."
 
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl2:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: boolean
+# Description
+# :sl2:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl2:
+# Type: error
+# Description
+# :sl2:
+# Type: error
+# Description
+# :sl2:
+# Type: error
+# Description
+# :sl2:
+# Type: error
+# Description
+# :sl2:
+# Type: error
+# Description
+# :sl2:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl4:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl4:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl4:
+# Type: error
+# Description
+# :sl4:
+# Type: error
+# Description
+# :sl4:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl4:
+# Type: error
+# Description
+# :sl4:
+# Type: error
+# Description
+# :sl4:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl3:
+# #-#-#-#-#  templates.pot (partman-zfs)  #-#-#-#-#
+# Type: error
+# Description
+# :sl4:
+# Type: error
+# Description
+# :sl4:
+# Type: error
+# Description
+# :sl4:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl3:
+# Type: error
+# Description
+# :sl3:
+# Type: error
+# Description
+# :sl3:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl3:
+# Type: error
+# Description
+# :sl3:
+# Type: error
+# Description
+# :sl3:
+# Type: error
+# Description
+# :sl3:
+# Type: error
+# Description
+# :sl3:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl3:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl3:
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "A /var/log/syslog vagy a 4. virtuális konzol adja a részleteket."
+msgstr ""
+"Részletek a /var/log/syslog-ban vagy a 4. virtuális konzolon találhatók."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -168,9 +328,12 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"Egy partíció átméretezésre való kijelölése előtt a korábbi változtatásokat "
-"lemezre kell írni."
+"Mielőtt új partíció méretet választ, a korábbi változtatásokat lemezre kell "
+"írni."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -178,6 +341,12 @@ msgstr ""
 msgid "Please note that the resize operation may take a long time."
 msgstr "Jó tudni, hogy az átméretezés akár sokáig is eltarthat."
 
+# Type: string
+# Description
+# :sl2:
+# Type: string
+# Description
+# :sl2:
 #. Type: string
 #. Description
 #. :sl2:
@@ -189,6 +358,9 @@ msgstr "Jó tudni, hogy az átméretezés akár sokáig is eltarthat."
 msgid "New partition size:"
 msgstr "Új partíció méret:"
 
+# Type: string
+# Description
+# :sl2:
 #. Type: string
 #. Description
 #. :sl2:
@@ -200,6 +372,12 @@ msgstr ""
 "A legkisebb méret e partícióhoz ${MINSIZE} (vagy ${PERCENT}), a legnagyobb "
 "${MAXSIZE}."
 
+# Type: string
+# Description
+# :sl2:
+# Type: string
+# Description
+# :sl2:
 #. Type: string
 #. Description
 #. :sl2:
@@ -216,6 +394,9 @@ msgstr ""
 "Tipp: A \"max\" a legnagyobb méretet adja, egy százalék (például \"20%\") "
 "ennek egy adott százalékát."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -223,6 +404,9 @@ msgstr ""
 msgid "The size entered is invalid"
 msgstr "A megadott méret érvénytelen"
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -232,17 +416,23 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"Nem értem a megadott méretet. Kérlek, adj meg egy pozitív egész számot "
+"A megadott méret nem értelmezhető. Kérem, adjon meg egy pozitív egész számot "
 "esetleg egy mértékegységgel (például: \"12 GB\"). Az alapértelmezett "
 "mértékegység a megabájt."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "The size entered is too large"
-msgstr "A méret túl nagy"
+msgstr "A megadott méret túl nagy"
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -251,9 +441,12 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
-"A megadott méret nagyobb, mint a partíció maximális mérete. Adj meg egy "
+"A megadott méret nagyobb, mint a partíció maximális mérete. Adjon meg egy "
 "kisebb méretet a folytatáshoz."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -261,6 +454,9 @@ msgstr ""
 msgid "The size entered is too small"
 msgstr "A megadott méret túl kicsi"
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -269,9 +465,12 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
-"A megadott méret kisebb, mint a partíció minimum mérete. Adj meg egy nagyobb "
-"méretet a folytatáshoz."
+"A megadott méret kisebb, mint a partíció minimum mérete. Adjon meg egy "
+"nagyobb méretet a folytatáshoz."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -279,6 +478,9 @@ msgstr ""
 msgid "Resize operation failure"
 msgstr "Sikertelen átméretezés"
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -286,6 +488,9 @@ msgstr "Sikertelen átméretezés"
 msgid "The resize operation has been aborted."
 msgstr "Átméretezés megszakítva."
 
+# Type: string
+# Description
+# :sl2:
 #. Type: string
 #. Description
 #. :sl2:
@@ -293,6 +498,9 @@ msgstr "Átméretezés megszakítva."
 msgid "The maximum size for this partition is ${MAXSIZE}."
 msgstr "A legnagyobb méret e partícióhoz ${MAXSIZE}."
 
+# Type: error
+# Description
+# :sl2:
 #. Type: error
 #. Description
 #. :sl2:
@@ -353,6 +561,9 @@ msgstr "Logikai"
 msgid "Type for the new partition:"
 msgstr "Az új partíció típusa:"
 
+# Type: multiselect
+# Description
+# :sl2:
 #. Type: multiselect
 #. Description
 #. :sl2:
@@ -360,6 +571,9 @@ msgstr "Az új partíció típusa:"
 msgid "Flags for the new partition:"
 msgstr "Az új partíció zászlói:"
 
+# Type: string
+# Description
+# :sl2:
 #. Type: string
 #. Description
 #. :sl2:
@@ -367,6 +581,12 @@ msgstr "Az új partíció zászlói:"
 msgid "Partition name:"
 msgstr "Partíció neve:"
 
+# Type: boolean
+# Description
+# :sl2:
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -378,6 +598,9 @@ msgstr "Partíció neve:"
 msgid "Continue with partitioning?"
 msgstr "Következhet a particionálás?"
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -388,8 +611,11 @@ msgid ""
 "debian-boot@lists.debian.org with information."
 msgstr ""
 "E particionáló nem ismeri e géptípus alap partíciós tábla típusát. Ha erről "
-"van adat, írd meg a debian-boot@lists.debian.org címre."
+"van információja, kérem írja meg a debian-boot@lists.debian.org címre."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -398,9 +624,12 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"Figyelem, ha a libparted nem támogatja e partíciós tábla típust, akkor e "
+"Figyelem, ha a libparted nem támogatja e partíciós tábla típust, akkor a "
 "particionáló nem fog helyesen működni."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -410,9 +639,12 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"E particionáló a libparted könyvtárra épül, de az nem támogatja e gépen "
-"használt partíciós táblákat. Nagyon ajánlott kilépni e particionálóból."
+"E particionáló a libparted könyvtárra épül, de az nem támogatja az e gépen "
+"használt partíciós táblákat. Nagyon ajánlott kilépni a particionálóból."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -421,8 +653,11 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
-"Ha tudod, kérjük segítsd e partíciós tábla-típus libparted-beli támogatását."
+"Ha tudja, kérjük segítse e partíciós tábla-típus libparted-beli támogatását."
 
+# Type: select
+# Description
+# :sl2:
 #. Type: select
 #. Description
 #. :sl2:
@@ -430,20 +665,29 @@ msgstr ""
 msgid "Partition table type:"
 msgstr "Partíciós tábla típusa:"
 
+# Type: select
+# Description
+# :sl2:
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Select the type of partition table to use."
-msgstr "Válassz partíciós tábla típust."
+msgstr "Válasszon partíciós tábla típust."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Create new empty partition table on this device?"
-msgstr "Új (üres) partíciós táblát nyitsz ezen az eszközön?"
+msgstr "Új (üres) partíciós táblát hoz létre ezen az eszközön?"
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -453,23 +697,32 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"Az egész eszközt kijelölted particionálásra. Ha új partíciós táblát hozol "
-"létre, a mostaniak törlésre kerülnek."
+"Az egész eszközt kijelölte particionálásra. Ha új partíciós tábla "
+"létrehozásával folytatja, a mostaniak törlésre kerülnek."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr "Később visszavonhatod ezt a műveletet."
+msgstr "Jó tudni, hogy később lehetősége lesz visszavonni ezt a műveletet."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Write a new empty partition table?"
-msgstr "Új (üres) partíciós táblát írsz?"
+msgstr "Új (üres) partíciós táblát ír?"
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -479,10 +732,13 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"A libparted könyvtár Sun-partícióstáblákat kezelő jelenlegi "
+"A libparted könyvtár Sun partíciós táblákat kezelő jelenlegi "
 "implementációjának korlátai miatt az újonnan létrehozott partíciós táblát "
 "azonnal lemezre kell írni."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -491,9 +747,12 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"E műveletet később NEM vonhatod vissza és a lemezen található összes adat "
+"E műveletet később NEM vonhatja vissza, és a lemezen található összes adat "
 "visszavonhatatlanul elvész."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -501,15 +760,21 @@ msgstr ""
 msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
-msgstr "Erősítsd meg az új partíciós tábla létrehozását és lemezre írását."
+msgstr "Erősítse meg az új partíciós tábla létrehozását és lemezre írását."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "Indítható logikai partíciót szeretnél?"
+msgstr "Biztos benne, hogy indítható logikai partíciót szeretne?"
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -520,11 +785,14 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"Indító bitet próbálsz beállítani egy logikai partíción. Az indító bit "
-"általában csak elsődleges partíciókon hasznos, így logikai partíciókon való "
-"beállítása ellenjavallt. Egyes BIOS verziók nem indítanak, ha nincs "
-"indíthatóra jelölt elsődleges partíció."
+"Indító zászlót (bootable flag) próbál beállítani egy logikai partíción. Az "
+"indító zászló általában csak elsődleges partíciókon hasznos, így logikai "
+"partíciókon való beállítása ellenjavallt. Egyes BIOS verziók nem indítanak, "
+"ha nincs indítóra jelölt elsődleges partíció."
 
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -534,16 +802,23 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"Ha a BIOS nem problémás, vagy ha indítható logikai partíciókat kezelő egyéni "
-"boot-kezelőt használsz, e bit beállítása jó lehet."
+"Ha biztos benne, hogy a BIOS-ának ez nem okoz gondot, vagy indítható logikai "
+"partíciókat kezelő egyéni boot-kezelőt használ, e zászló beállításának lehet "
+"értelme."
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "Set the partition flags"
-msgstr "Partíció zászlók megadása"
+msgstr "Partíció zászlók beállítása"
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -551,13 +826,19 @@ msgstr "Partíció zászlók megadása"
 msgid "Name:"
 msgstr "Név:"
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Bootable flag:"
-msgstr "\"Boot\" zászló:"
+msgstr "Indító zászló:"
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -565,6 +846,9 @@ msgstr "\"Boot\" zászló:"
 msgid "on"
 msgstr "be"
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -572,6 +856,9 @@ msgstr "be"
 msgid "off"
 msgstr "ki"
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -579,6 +866,9 @@ msgstr "ki"
 msgid "Resize the partition (currently ${SIZE})"
 msgstr "Partíció átméretezése (most ${SIZE})"
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -586,6 +876,9 @@ msgstr "Partíció átméretezése (most ${SIZE})"
 msgid "Copy data from another partition"
 msgstr "Adatok másolása más partícióról"
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -593,6 +886,9 @@ msgstr "Adatok másolása más partícióról"
 msgid "Delete the partition"
 msgstr "Partíció törlése"
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
@@ -600,12 +896,15 @@ msgstr "Partíció törlése"
 msgid "Create a new partition"
 msgstr "Új partíció létrehozása"
 
+# Type: text
+# Description
+# :sl2:
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:36001
 msgid "Create a new empty partition table on this device"
-msgstr "Új (üres) partíciós tábla létrehozása az eszközön"
+msgstr "Új (üres) partíciós tábla létrehozása ezen az eszközön"
 
 #. Type: text
 #. Description
