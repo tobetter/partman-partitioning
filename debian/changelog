@@ -1,9 +1,9 @@
-partman-crypto (70) UNRELEASED; urgency=medium
+partman-crypto (70) unstable; urgency=medium
 
   [ Updated translations ]
   * Italian (it.po) by Milo Casagrande
 
- -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Mar 2014 18:10:03 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Mar 2014 18:10:10 +0100
 
 partman-crypto (69) unstable; urgency=low
 
