@@ -1,9 +1,9 @@
-partman-partitioning (100) UNRELEASED; urgency=medium
+partman-partitioning (100) unstable; urgency=medium
 
   [ Updated translations ]
   * Hungarian (hu.po) by Judit Gyimesi
 
- -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Mar 2014 18:48:29 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Mar 2014 18:48:35 +0100
 
 partman-partitioning (99) unstable; urgency=low
 
