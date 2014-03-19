@@ -1,3 +1,11 @@
+partman-crypto (71) unstable; urgency=low
+
+  [ Updated translations ]
+  * German (de.po) by Holger Wansing
+  * Korean (ko.po) by Changwoo Ryu
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 19 Mar 2014 14:32:07 +0100
+
 partman-crypto (70) unstable; urgency=medium
 
   [ Updated translations ]
