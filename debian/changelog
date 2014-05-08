@@ -1,3 +1,12 @@
+partman-crypto (72) unstable; urgency=low
+
+  * Add a lintian override for untranslatable-debconf-templates
+
+  [ Updated translations ]
+  * Portuguese (pt.po) by Miguel Figueiredo
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 08 May 2014 18:32:26 +0200
+
 partman-crypto (71) unstable; urgency=low
 
   [ Updated translations ]
