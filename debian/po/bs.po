@@ -26,14 +26,14 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
 "POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2012-03-16 13:07+0100\n"
-"Last-Translator: Armin Besirovic <armin@linux.org.ba>\n"
+"PO-Revision-Date: 2014-04-29 22:18+0100\n"
+"Last-Translator: Amila Valjevčić <valjevcic.amila@gmail.com>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: 3\n"
+"Plural-Forms: 3;\n"
 
 #. Type: text
 #. Description
@@ -252,19 +252,14 @@ msgstr "Zaista obrisati podatke na ${DEVICE}?"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
-#, fuzzy
-#| msgid ""
-#| "The data on ${DEVICE} will be overwritten with random data. It can no "
-#| "longer be recovered after this step has completed. This is the last "
-#| "opportunity to abort the erase."
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"Podaci na ${DEVICE} će biti prepisani nasumičnim podacima. Neće se više moći "
-"povratiti nakon što se ovaj korak završi. Ovo je posljednja prilika za "
-"odustajanje od brisanja."
+"Podaci na ${DEVICE} će biti prepisani nulama. Neće se više moći povratiti "
+"nakon što se ovaj korak završi. Ovo je posljednja prilika za odustajanje od "
+"brisanja."
 
 #. Type: text
 #. Description
@@ -284,6 +279,8 @@ msgid ""
 "The installer is now overwriting ${DEVICE} with zeroes to delete its "
 "previous contents. This step may be skipped by cancelling this action."
 msgstr ""
+"Instaler sada prepisuje ${DEVICE} nulama da bi izbrisao prethodni sadržaj. "
+"Ovaj korak se može preskočiti otkazivanjem ove radnje."
 
 #. Type: error
 #. Description
@@ -299,16 +296,12 @@ msgstr "Brisanje podataka na ${DEVICE} nije uspjelo"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
-#, fuzzy
-#| msgid ""
-#| "An error occurred trying to erase the data on ${DEVICE}. The data has not "
-#| "been erased."
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
-"Došlo je do greške prilikom pokušaja brisanja podataka s ${DEVICE}. Podaci "
-"nisu obrisani."
+"Došlo je do greške prilikom pokušaja brisanja podataka s ${DEVICE} nulama. "
+"Podaci nisu obrisani."
 
 #. Type: boolean
 #. Description
@@ -333,6 +326,10 @@ msgid ""
 "cancelling this action, albeit at the expense of a slight reduction of the "
 "quality of the encryption."
 msgstr ""
+"Instaler sada prepisuje ${DEVICE} slučajnim podacima za sprječavanje curenja "
+"meta-informacija iz šifrirane zapremine. Ovaj korak se može preskočiti "
+"otkazivanjem ove radnje, iako na uštrb neznatnom smanjenju kvaliteta "
+"enkripcije."
 
 #. Type: error
 #. Description
@@ -343,6 +340,9 @@ msgid ""
 "Recovery of the device's previous contents is possible and meta-information "
 "of its new contents may be leaked."
 msgstr ""
+"Došlo je do greške prilikom prepiske ${DEVICE} slučajnim podacima. Oporavak "
+"prethodnog sadržaja na uređaju je moguće i meta-informacije na njegovom "
+"novom sadržaju mogu procuriti."
 
 #. Type: text
 #. Description
