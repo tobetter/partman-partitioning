@@ -15,14 +15,15 @@
 # Євгеній Мещеряков <eugen@debian.org>, 2008.
 # Borys Yanovych <borys@yanovy.ch>, 2010, 2011.
 # Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2010.
-# Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011, 2012.
+# Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011, 2012, 2013.
+# Anton Gladky <gladk@debian.org>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
 "POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2012-10-18 14:46+0300\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2014-05-11 20:21+0100\n"
+"Last-Translator: Anton Gladky <gladk@debian.org>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -247,19 +248,14 @@ msgstr "Справді стерти дані на пристрої ${DEVICE}?"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
-#, fuzzy
-#| msgid ""
-#| "The data on ${DEVICE} will be overwritten with random data. It can no "
-#| "longer be recovered after this step has completed. This is the last "
-#| "opportunity to abort the erase."
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"Інформацію пристрої ${DEVICE} буде перезаписано випадковими даними. "
-"Інформацію не можна буде відновити після закінчення цього кроку. Це остання "
-"можливість перервати стирання."
+"Інформацію на пристрою ${DEVICE} буде перезаписано нулями. Інформацію не "
+"можна буде відновити після закінчення цього кроку. Це остання можливість "
+"перервати стирання."
 
 #. Type: text
 #. Description
@@ -279,6 +275,8 @@ msgid ""
 "The installer is now overwriting ${DEVICE} with zeroes to delete its "
 "previous contents. This step may be skipped by cancelling this action."
 msgstr ""
+"Встановлювач зараз перезаписує ${DEVICE} нулями задля знищення попередньої "
+"інформації. Цей крок може бути пропущений відміною цієї операції."
 
 #. Type: error
 #. Description
@@ -294,16 +292,12 @@ msgstr "Не вдалося стерти дані на пристрої ${DEVICE
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
-#, fuzzy
-#| msgid ""
-#| "An error occurred trying to erase the data on ${DEVICE}. The data has not "
-#| "been erased."
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
-"Виникла помилка під час спроби стерти дані на пристрої ${DEVICE}. Інформація "
-"не була стерта."
+"Виникла помилка під час спроби перезаписати дані на пристрої ${DEVICE}. "
+"Інформація не була стерта."
 
 #. Type: boolean
 #. Description
@@ -328,6 +322,10 @@ msgid ""
 "cancelling this action, albeit at the expense of a slight reduction of the "
 "quality of the encryption."
 msgstr ""
+"Для перешкоди витіку мета-інформації із зашифрованого тому встановлювач "
+"зараз перезаписує ${DEVICE} випадковими даними. Цей крок може бути "
+"пропущений за допомогою відміни цієї дії, але це небагато знизить якість "
+"шифрування."
 
 #. Type: error
 #. Description
@@ -338,6 +336,9 @@ msgid ""
 "Recovery of the device's previous contents is possible and meta-information "
 "of its new contents may be leaked."
 msgstr ""
+"Виникла помилка під час спроби перезаписати дані на пристрої ${DEVICE} "
+"випадковими даними. Можливе відновлення попередніх даних цього пристрою та "
+"мета-інформація його нових даних може бути відтворена. "
 
 #. Type: text
 #. Description
