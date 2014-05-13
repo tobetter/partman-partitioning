@@ -1,3 +1,11 @@
+partman-crypto (73) unstable; urgency=low
+
+  [ Updated translations ]
+  * Greek (el.po) by galaxico
+  * Ukrainian (uk.po) by Anton Gladky
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 13 May 2014 07:26:30 +0200
+
 partman-crypto (72) unstable; urgency=low
 
   * Add a lintian override for untranslatable-debconf-templates
