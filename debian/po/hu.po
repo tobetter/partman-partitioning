@@ -28,8 +28,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2012-03-28 22:48+0000\n"
-"PO-Revision-Date: 2013-11-18 21:15+0100\n"
+"POT-Creation-Date: 2014-07-06 22:00+0000\n"
+"PO-Revision-Date: 2014-01-08 11:31:26 GMT+0100\n"
 "Last-Translator: Judit Gyimesi <judit.gyimesi.x@gmail.com>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
@@ -49,150 +49,20 @@ msgstr ""
 msgid "Resizing partition..."
 msgstr "Partíció átméretezése..."
 
-# Type: text
-# Description
-# :sl2:
-#. Type: text
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:2001
-msgid "Copying partition..."
-msgstr "Partíció másolása..."
-
 #. Type: text
 #. Description
 #. :sl1:
-#: ../partman-partitioning.templates:3001
+#: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
 msgstr "Partíciós tábla új állapotának meghatározása..."
 
-# Type: boolean
-# Description
-# :sl2:
-# Type: boolean
-# Description
-# :sl2:
-#. Type: boolean
-#. Description
-#. :sl2:
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:4001
-#: ../partman-partitioning.templates:8001
-msgid "Write previous changes to disk and continue?"
-msgstr "Változások lemezre írása és folytatás?"
-
-# Type: boolean
-# Description
-# :sl2:
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:4001
-msgid ""
-"Before you can select a partition to copy, any previous changes have to be "
-"written to disk."
-msgstr ""
-"Egy partíció másolásra való kijelölése előtt a korábbi változtatásokat "
-"lemezre kell írni."
-
-# Type: boolean
-# Description
-# :sl2:
-# Type: boolean
-# Description
-# :sl2:
-#. Type: boolean
-#. Description
-#. :sl2:
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:4001
-#: ../partman-partitioning.templates:8001
-msgid "You cannot undo this operation."
-msgstr "E művelet visszavonhatatlan."
-
-# Type: boolean
-# Description
-# :sl2:
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:4001
-msgid "Please note that the copy operation may take a long time."
-msgstr "Jó tudni, hogy a másolás akár sokáig is eltarthat."
-
-# Type: select
-# Description
-# :sl2:
-#. Type: select
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:5001
-msgid "Source partition:"
-msgstr "Forráspartíció:"
-
-# Type: select
-# Description
-# :sl2:
-#. Type: select
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:5001
-msgid "Please choose the partition which contains the data you want to copy."
-msgstr "Válassza ki a másolni kívánt adatokat tartalmazó partíciót."
-
 # Type: error
 # Description
 # :sl2:
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:6001
-msgid "Copy operation failure"
-msgstr "Sikertelen másolás"
-
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl2:
-# Type: error
-# Description
-# :sl2:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl3:
-#. Type: error
-#. Description
-#. :sl2:
-#. Type: error
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:6001
-#: ../partman-partitioning.templates:13001
-msgid "An error occurred while writing the changes to the storage devices."
-msgstr "Hiba történt a változások tárolóeszközökre írásakor."
-
-# Type: error
-# Description
-# :sl2:
-#. Type: error
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:6001
-msgid "The copy operation has been aborted."
-msgstr "A másolás megszakadt."
-
-# Type: error
-# Description
-# :sl2:
-#. Type: error
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:7001
+#: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
 msgstr "Az átméretezés lehetetlen"
 
@@ -202,7 +72,7 @@ msgstr "Az átméretezés lehetetlen"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:7001
+#: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
 msgstr "Ismeretlen okból a partíció átméretezése lehetetlen."
 
@@ -312,7 +182,7 @@ msgstr "Ismeretlen okból a partíció átméretezése lehetetlen."
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:7001
+#: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
 "Részletek a /var/log/syslog-ban vagy a 4. virtuális konzolon találhatók."
@@ -320,10 +190,23 @@ msgstr ""
 # Type: boolean
 # Description
 # :sl2:
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:8001
+#: ../partman-partitioning.templates:4001
+msgid "Write previous changes to disk and continue?"
+msgstr "Változások lemezre írása és folytatás?"
+
+# Type: boolean
+# Description
+# :sl2:
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../partman-partitioning.templates:4001
 msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
@@ -334,10 +217,23 @@ msgstr ""
 # Type: boolean
 # Description
 # :sl2:
+# Type: boolean
+# Description
+# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:8001
+#: ../partman-partitioning.templates:4001
+msgid "You cannot undo this operation."
+msgstr "E művelet visszavonhatatlan."
+
+# Type: boolean
+# Description
+# :sl2:
+#. Type: boolean
+#. Description
+#. :sl2:
+#: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
 msgstr "Jó tudni, hogy az átméretezés akár sokáig is eltarthat."
 
@@ -353,8 +249,8 @@ msgstr "Jó tudni, hogy az átméretezés akár sokáig is eltarthat."
 #. Type: string
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:9001
-#: ../partman-partitioning.templates:14001
+#: ../partman-partitioning.templates:5001
+#: ../partman-partitioning.templates:10001
 msgid "New partition size:"
 msgstr "Új partíció méret:"
 
@@ -364,7 +260,7 @@ msgstr "Új partíció méret:"
 #. Type: string
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:9001
+#: ../partman-partitioning.templates:5001
 msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
@@ -384,8 +280,8 @@ msgstr ""
 #. Type: string
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:9001
-#: ../partman-partitioning.templates:14001
+#: ../partman-partitioning.templates:5001
+#: ../partman-partitioning.templates:10001
 #, no-c-format
 msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
@@ -400,7 +296,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:10001
+#: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
 msgstr "A megadott méret érvénytelen"
 
@@ -410,7 +306,7 @@ msgstr "A megadott méret érvénytelen"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:10001
+#: ../partman-partitioning.templates:6001
 msgid ""
 "The size you entered was not understood. Please enter a positive integer "
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
@@ -426,7 +322,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:11001
+#: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
 msgstr "A megadott méret túl nagy"
 
@@ -436,7 +332,7 @@ msgstr "A megadott méret túl nagy"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:11001
+#: ../partman-partitioning.templates:7001
 msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
@@ -450,7 +346,7 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:12001
+#: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
 msgstr "A megadott méret túl kicsi"
 
@@ -460,7 +356,7 @@ msgstr "A megadott méret túl kicsi"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:12001
+#: ../partman-partitioning.templates:8001
 msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
@@ -474,9 +370,27 @@ msgstr ""
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:13001
+#: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
 msgstr "Sikertelen átméretezés"
+
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl2:
+# Type: error
+# Description
+# :sl2:
+# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
+# Type: error
+# Description
+# :sl3:
+#. Type: error
+#. Description
+#. :sl2:
+#: ../partman-partitioning.templates:9001
+msgid "An error occurred while writing the changes to the storage devices."
+msgstr "Hiba történt a változások tárolóeszközökre írásakor."
 
 # Type: error
 # Description
@@ -484,7 +398,7 @@ msgstr "Sikertelen átméretezés"
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:13001
+#: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
 msgstr "Átméretezés megszakítva."
 
@@ -494,7 +408,7 @@ msgstr "Átméretezés megszakítva."
 #. Type: string
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:14001
+#: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
 msgstr "A legnagyobb méret e partícióhoz ${MAXSIZE}."
 
@@ -504,35 +418,35 @@ msgstr "A legnagyobb méret e partícióhoz ${MAXSIZE}."
 #. Type: error
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:15001
+#: ../partman-partitioning.templates:11001
 msgid "Invalid size"
 msgstr "Érvénytelen méret"
 
 #. Type: select
 #. Choices
 #. :sl1:
-#: ../partman-partitioning.templates:16001
+#: ../partman-partitioning.templates:12001
 msgid "Beginning"
 msgstr "Kezdet"
 
 #. Type: select
 #. Choices
 #. :sl1:
-#: ../partman-partitioning.templates:16001
+#: ../partman-partitioning.templates:12001
 msgid "End"
 msgstr "Vég"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-partitioning.templates:16002
+#: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
 msgstr "Új partíció helye:"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-partitioning.templates:16002
+#: ../partman-partitioning.templates:12002
 msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
@@ -543,21 +457,21 @@ msgstr ""
 #. Type: select
 #. Choices
 #. :sl1:
-#: ../partman-partitioning.templates:17001
+#: ../partman-partitioning.templates:13001
 msgid "Primary"
 msgstr "Elsődleges"
 
 #. Type: select
 #. Choices
 #. :sl1:
-#: ../partman-partitioning.templates:17001
+#: ../partman-partitioning.templates:13001
 msgid "Logical"
 msgstr "Logikai"
 
 #. Type: select
 #. Description
 #. :sl1:
-#: ../partman-partitioning.templates:17002
+#: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
 msgstr "Az új partíció típusa:"
 
@@ -567,7 +481,7 @@ msgstr "Az új partíció típusa:"
 #. Type: multiselect
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:18001
+#: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
 msgstr "Az új partíció zászlói:"
 
@@ -577,7 +491,7 @@ msgstr "Az új partíció zászlói:"
 #. Type: string
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:19001
+#: ../partman-partitioning.templates:15001
 msgid "Partition name:"
 msgstr "Partíció neve:"
 
@@ -593,8 +507,8 @@ msgstr "Partíció neve:"
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:20001
-#: ../partman-partitioning.templates:21001
+#: ../partman-partitioning.templates:16001
+#: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
 msgstr "Következhet a particionálás?"
 
@@ -604,7 +518,7 @@ msgstr "Következhet a particionálás?"
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:20001
+#: ../partman-partitioning.templates:16001
 msgid ""
 "This partitioner doesn't have information about the default type of the "
 "partition tables on your architecture.  Please send an e-mail message to "
@@ -619,7 +533,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:20001
+#: ../partman-partitioning.templates:16001
 msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
@@ -633,7 +547,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:21001
+#: ../partman-partitioning.templates:17001
 msgid ""
 "This partitioner is based on the library libparted which doesn't have "
 "support for the partition tables used on your architecture.  It is strongly "
@@ -648,7 +562,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:21001
+#: ../partman-partitioning.templates:17001
 msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
@@ -661,7 +575,7 @@ msgstr ""
 #. Type: select
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:23001
+#: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
 msgstr "Partíciós tábla típusa:"
 
@@ -671,7 +585,7 @@ msgstr "Partíciós tábla típusa:"
 #. Type: select
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:23001
+#: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
 msgstr "Válasszon partíciós tábla típust."
 
@@ -681,7 +595,7 @@ msgstr "Válasszon partíciós tábla típust."
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:24001
+#: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
 msgstr "Új (üres) partíciós táblát hoz létre ezen az eszközön?"
 
@@ -691,7 +605,7 @@ msgstr "Új (üres) partíciós táblát hoz létre ezen az eszközön?"
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:24001
+#: ../partman-partitioning.templates:20001
 msgid ""
 "You have selected an entire device to partition. If you proceed with "
 "creating a new partition table on the device, then all current partitions "
@@ -706,7 +620,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:24001
+#: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
 msgstr "Jó tudni, hogy később lehetősége lesz visszavonni ezt a műveletet."
 
@@ -716,7 +630,7 @@ msgstr "Jó tudni, hogy később lehetősége lesz visszavonni ezt a műveletet.
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:25001
+#: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
 msgstr "Új (üres) partíciós táblát ír?"
 
@@ -726,7 +640,7 @@ msgstr "Új (üres) partíciós táblát ír?"
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:25001
+#: ../partman-partitioning.templates:21001
 msgid ""
 "Because of limitations in the current implementation of the Sun partition "
 "tables in libparted, the newly created partition table has to be written to "
@@ -742,7 +656,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:25001
+#: ../partman-partitioning.templates:21001
 msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
@@ -756,7 +670,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:25001
+#: ../partman-partitioning.templates:21001
 msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
@@ -768,7 +682,7 @@ msgstr "Erősítse meg az új partíciós tábla létrehozását és lemezre ír
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:26001
+#: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
 msgstr "Biztos benne, hogy indítható logikai partíciót szeretne?"
 
@@ -778,7 +692,7 @@ msgstr "Biztos benne, hogy indítható logikai partíciót szeretne?"
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:26001
+#: ../partman-partitioning.templates:22001
 msgid ""
 "You are trying to set the bootable flag on a logical partition. The bootable "
 "flag is generally only useful on primary partitions, so setting it on "
@@ -796,7 +710,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:26001
+#: ../partman-partitioning.templates:22001
 msgid ""
 "However, if you are sure that your BIOS does not have this problem, or if "
 "you are using a custom boot manager that pays attention to bootable logical "
@@ -812,7 +726,7 @@ msgstr ""
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:27001
+#: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
 msgstr "Partíció zászlók beállítása"
 
@@ -822,7 +736,7 @@ msgstr "Partíció zászlók beállítása"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:28001
+#: ../partman-partitioning.templates:24001
 msgid "Name:"
 msgstr "Név:"
 
@@ -832,7 +746,7 @@ msgstr "Név:"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:29001
+#: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
 msgstr "Indító zászló:"
 
@@ -842,7 +756,7 @@ msgstr "Indító zászló:"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:30001
+#: ../partman-partitioning.templates:26001
 msgid "on"
 msgstr "be"
 
@@ -852,7 +766,7 @@ msgstr "be"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:31001
+#: ../partman-partitioning.templates:27001
 msgid "off"
 msgstr "ki"
 
@@ -862,7 +776,7 @@ msgstr "ki"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:32001
+#: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
 msgstr "Partíció átméretezése (most ${SIZE})"
 
@@ -872,17 +786,7 @@ msgstr "Partíció átméretezése (most ${SIZE})"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:33001
-msgid "Copy data from another partition"
-msgstr "Adatok másolása más partícióról"
-
-# Type: text
-# Description
-# :sl2:
-#. Type: text
-#. Description
-#. :sl2:
-#: ../partman-partitioning.templates:34001
+#: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
 msgstr "Partíció törlése"
 
@@ -892,7 +796,7 @@ msgstr "Partíció törlése"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:35001
+#: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
 msgstr "Új partíció létrehozása"
 
@@ -902,7 +806,7 @@ msgstr "Új partíció létrehozása"
 #. Type: text
 #. Description
 #. :sl2:
-#: ../partman-partitioning.templates:36001
+#: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
 msgstr "Új (üres) partíciós tábla létrehozása ezen az eszközön"
 
@@ -911,7 +815,7 @@ msgstr "Új (üres) partíciós tábla létrehozása ezen az eszközön"
 #. :sl5:
 #. Setting to reserve a small part of the disk for use by BIOS-based bootloaders
 #. such as GRUB.
-#: ../partman-partitioning.templates:37001
+#: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
 msgstr "Fenntartott BIOS boot terület"
 
@@ -920,6 +824,6 @@ msgstr "Fenntartott BIOS boot terület"
 #. :sl5:
 #. short variant of 'Reserved BIOS boot area'
 #. Up to 10 character positions
-#: ../partman-partitioning.templates:38001
+#: ../partman-partitioning.templates:33001
 msgid "biosgrub"
 msgstr "biosgrub"
