@@ -1,3 +1,10 @@
+partman-partitioning (101) UNRELEASED; urgency=low
+
+  * Remove partition copy operation for libparted 3 transition (closes:
+    #738864).
+
+ -- Phillip Susi <psusi@ubuntu.com>  Sun, 06 Jul 2014 01:51:36 +0100
+
 partman-partitioning (100) unstable; urgency=medium
 
   [ Updated translations ]
