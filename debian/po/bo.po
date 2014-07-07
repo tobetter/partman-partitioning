@@ -478,7 +478,7 @@ msgstr "གསོག་སྡེར་གྱི་སྒྲིག་ཆས་ཐ
 #: ../partman-crypto.templates:40001
 #, fuzzy
 msgid "The configuration has been aborted."
-msgstr "འདྲ་བཤུའི་ལས་འགུལ་དེ་མཚམས་བཅད་ཚར་འདུག"
+msgstr "DHCP སྒྲིག་འགོད་ཀྱི་རྒྱུད་རིམ་བཅད་ཚར"
 
 #. Type: error
 #. Description
