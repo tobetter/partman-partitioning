@@ -83,7 +83,7 @@ default_disk_label () {
 			echo msdos;;
 		    bcm947xx)
 			echo msdos;;
-		    loongson-2e | loongson-2f | loongson-3a)
+		    loongson-2e | loongson-2f | loongson-3)
 			echo msdos;;
 		    *)
 			echo UNKNOWN;;
