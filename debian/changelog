@@ -1,8 +1,8 @@
-partman-partitioning (102) UNRELEASED; urgency=medium
+partman-partitioning (102) unstable; urgency=medium
 
   * Group Loongson 3A and 3B in the same loongson-3 subarchitecture.
 
- -- Aurelien Jarno <aurel32@debian.org>  Sat, 12 Jul 2014 17:07:04 +0200
+ -- Aurelien Jarno <aurel32@debian.org>  Sat, 12 Jul 2014 17:08:15 +0200
 
 partman-partitioning (101) unstable; urgency=low
 
