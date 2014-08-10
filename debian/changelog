@@ -1,9 +1,9 @@
-partman-crypto (74) UNRELEASED; urgency=high
+partman-crypto (74) unstable; urgency=high
 
   * Cope with parted 3.2 automatically creating a partition when creating a
     fresh loop label (closes: #757663).
 
- -- Colin Watson <cjwatson@debian.org>  Sun, 10 Aug 2014 12:15:49 +0100
+ -- Colin Watson <cjwatson@debian.org>  Sun, 10 Aug 2014 16:10:58 +0100
 
 partman-crypto (73) unstable; urgency=low
 
