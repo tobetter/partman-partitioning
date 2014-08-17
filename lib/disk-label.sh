@@ -117,6 +117,8 @@ default_disk_label () {
 		esac;;
 	    s390|s390x)
 		echo msdos;;
+	    ppc64el)
+		echo gpt;;
 	    sh4)
 		echo msdos;;
 	    sparc|sparc64)

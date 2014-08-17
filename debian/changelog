@@ -1,3 +1,10 @@
+partman-partitioning (103) UNRELEASED; urgency=medium
+
+  [ Frederic Bonnard ]
+  * Add ppc64el support.  Closes: #752444.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sun, 17 Aug 2014 23:43:28 +0200
+
 partman-partitioning (102) unstable; urgency=medium
 
   * Group Loongson 3A and 3B in the same loongson-3 subarchitecture.
