@@ -846,7 +846,7 @@ msgstr "ཧྥིན་ལན་སྐད"
 #: ../partman-crypto.templates:59002
 #, fuzzy
 msgid "Encryption configuration actions"
-msgstr "Apt སྒྲིག་འགོད་ཀྱི་སྐྱོན"
+msgstr "apt སྒྲིག་འགོད་བྱེད་པ"
 
 #. Type: select
 #. Description
