@@ -1,3 +1,9 @@
+partman-partitioning (104) UNRELEASED; urgency=medium
+
+  * Restore sensible architecture sorting in default_disk_label.
+
+ -- Colin Watson <cjwatson@debian.org>  Sat, 30 Aug 2014 22:43:04 +0100
+
 partman-partitioning (103) unstable; urgency=medium
 
   [ Updated translations ]

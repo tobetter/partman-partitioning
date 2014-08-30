@@ -18,10 +18,6 @@ default_disk_label () {
 		else
 			echo msdos
 		fi;;
-	    arm|armeb|armel|armhf)
-		echo msdos;;
-	    arm64)
-		echo gpt;;
 	    amd64|kfreebsd-amd64|i386|kfreebsd-i386|hurd-i386)
 		case "$sub" in
 		    mac|efi)
@@ -29,6 +25,10 @@ default_disk_label () {
 		    *)
 			echo msdos;;
 		esac;;
+	    arm|armeb|armel|armhf)
+		echo msdos;;
+	    arm64)
+		echo gpt;;
 	    hppa)
 		echo msdos;;
 	    ia64)
@@ -115,10 +115,10 @@ default_disk_label () {
 		    *)
 			echo UNKNOWN;;
 		esac;;
-	    s390|s390x)
-		echo msdos;;
 	    ppc64el)
 		echo gpt;;
+	    s390|s390x)
+		echo msdos;;
 	    sh4)
 		echo msdos;;
 	    sparc|sparc64)
