@@ -2,6 +2,8 @@ partman-partitioning (104) UNRELEASED; urgency=medium
 
   * Restore sensible architecture sorting in default_disk_label.
   * Depend on ntfs-3g-udeb rather than ntfsprogs-udeb.
+  * Cache calls to tune2fs and ntfsresize, to make navigating through the
+    resize UI a little faster.
 
  -- Colin Watson <cjwatson@debian.org>  Sat, 30 Aug 2014 22:43:04 +0100
 
