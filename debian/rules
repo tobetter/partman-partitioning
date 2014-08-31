@@ -4,7 +4,7 @@
 
 ARCH=$(shell dpkg-architecture -qDEB_HOST_ARCH)
 
-# Add ntfs-3g-udeb for arches that have recent versions of windows.
+# Add ntfs-3g-udeb for arches that have recent versions of Windows.
 # Perhaps this should be in partman-basicfilesystems instead ...
 FS_DEPENDS=
 ifeq ($(ARCH), i386)
