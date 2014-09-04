@@ -1,3 +1,12 @@
+partman-partitioning (105) UNRELEASED; urgency=medium
+
+  [ Steven Chamberlain ]
+  * On kfreebsd, drop unsatisified dependency on ntfs-3g-udeb;
+    ntfs will remain unsupported in the installer for now.
+    (Closes: #760499)
+
+ -- Debian Install System Team <debian-boot@lists.debian.org>  Thu, 04 Sep 2014 23:59:50 +0100
+
 partman-partitioning (104) unstable; urgency=medium
 
   [ Colin Watson ]
