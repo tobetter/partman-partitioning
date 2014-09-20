@@ -1,3 +1,13 @@
+partman-crypto (75) unstable; urgency=low
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+  * Estonian (et.po) by Mattias Põldaru
+  * Marathi (mr.po) by sampada
+  * Panjabi (pa.po) by A S Alam
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 20 Sep 2014 14:11:50 +0200
+
 partman-crypto (74) unstable; urgency=high
 
   * Cope with parted 3.2 automatically creating a partition when creating a
