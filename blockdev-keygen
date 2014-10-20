@@ -36,14 +36,10 @@ get_passphrase () {
 	pass_ok=0
 	while [ $pass_ok -eq 0 ]; do
 		templ="partman-crypto/passphrase"
-		db_set $templ ""
-		db_fset $templ seen false
 		db_subst $templ DEVICE "$description"
 		db_input critical $templ
 
 		templ="partman-crypto/passphrase-again"
-		db_set $templ ""
-		db_fset $templ seen false
 		db_input critical $templ
 
 		db_go || return 1
@@ -51,17 +47,25 @@ get_passphrase () {
 		db_get partman-crypto/passphrase || RET=''
 		pass=$RET
 		if [ -z "$pass" ]; then
+			db_set partman-crypto/passphrase ""
+			db_set partman-crypto/passphrase-again ""
 			templ="partman-crypto/passphrase-empty"
 			db_fset $templ seen false
 			db_input critical $templ
+			db_fset partman-crypto/passphrase seen false
+			db_fset partman-crypto/passphrase-again seen false
 			continue
 		fi
 
 		db_get partman-crypto/passphrase-again || RET=''
 		if [ "$pass" != "$RET" ]; then
+			db_set partman-crypto/passphrase ""
+			db_set partman-crypto/passphrase-again ""
 			templ="partman-crypto/passphrase-mismatch"
 			db_fset $templ seen false
 			db_input critical $templ
+			db_fset partman-crypto/passphrase seen false
+			db_fset partman-crypto/passphrase-again seen false
 			continue
 		fi
 
@@ -76,6 +80,10 @@ get_passphrase () {
 
 			if [ "$RET" != true ]; then
 				# user doesn't want to force weak passphrase
+				db_set partman-crypto/passphrase ""
+				db_set partman-crypto/passphrase-again ""
+				db_fset partman-crypto/passphrase seen false
+				db_fset partman-crypto/passphrase-again seen false
 				continue
 			fi
 		fi
