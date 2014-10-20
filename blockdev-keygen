@@ -71,8 +71,6 @@ get_passphrase () {
 
 		if passphrase_is_weak "$pass"; then
 			templ="partman-crypto/weak_passphrase"
-			db_set $templ false
-			db_fset $templ seen false
 			db_subst $templ MINIMUM $minlen
 			db_input critical $templ || true
 			db_go || true
@@ -86,6 +84,9 @@ get_passphrase () {
 				db_fset partman-crypto/passphrase-again seen false
 				continue
 			fi
+
+			db_set $templ false
+			db_fset $templ seen false
 		fi
 
 		pass_ok=1
