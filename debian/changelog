@@ -1,3 +1,10 @@
+partman-crypto (76) unstable; urgency=low
+
+  [ Updated translations ]
+  * Slovenian (sl.po) by Vanja Cvelbar
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 22 Oct 2014 09:26:30 +0200
+
 partman-crypto (75) unstable; urgency=low
 
   [ Updated translations ]
