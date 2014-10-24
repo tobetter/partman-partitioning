@@ -1,4 +1,4 @@
-partman-crypto (77) UNRELEASED; urgency=medium
+partman-crypto (77) unstable; urgency=medium
 
   * Cherry-pick bzr r693 from Ubuntu (partman-crypto/40ubuntu2), thanks
     to Colin Watson:
@@ -16,7 +16,7 @@ partman-crypto (77) UNRELEASED; urgency=medium
     - partman-crypto/passphrase-again
     - partman-crypto/weak_passphrase
 
- -- Cyril Brulebois <kibi@debian.org>  Mon, 20 Oct 2014 09:00:32 +0200
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 24 Oct 2014 12:00:46 +0200
 
 partman-crypto (76) unstable; urgency=low
 
