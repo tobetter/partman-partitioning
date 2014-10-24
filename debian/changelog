@@ -1,3 +1,23 @@
+partman-crypto (77) UNRELEASED; urgency=medium
+
+  * Cherry-pick bzr r693 from Ubuntu (partman-crypto/40ubuntu2), thanks
+    to Colin Watson:
+    - Allow preseeding the first passphrase prompt (LP: #546405).
+      (Preseeding passphrases for multiple different physical volumes is
+      a whole different kettle of fish ...)
+  * Cherry-pick bzr r695 from Ubuntu (partman-crypto/40ubuntu3), thanks
+    to Colin Watson:
+    - Allow preseeding partman-crypto/weak_passphrase too (LP: #546405).
+  * Add a security note in debian/partman-crypto.templates, documenting
+    the preseedability of the three extra items listed below, warning
+    against possible eavesdropping, and suggesting a proper key escrow
+    system (Closes: #656710):
+    - partman-crypto/passphrase
+    - partman-crypto/passphrase-again
+    - partman-crypto/weak_passphrase
+
+ -- Cyril Brulebois <kibi@debian.org>  Mon, 20 Oct 2014 09:00:32 +0200
+
 partman-crypto (76) unstable; urgency=low
 
   [ Updated translations ]
