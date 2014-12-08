@@ -1,3 +1,11 @@
+partman-crypto (78) unstable; urgency=low
+
+  [ Updated translations ]
+  * Esperanto (eo.po) by Felipe Castro
+  * Spanish (es.po) by Javier Fernández-Sanguino Peña
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 08 Dec 2014 06:15:18 +0100
+
 partman-crypto (77) unstable; urgency=medium
 
   * Cherry-pick bzr r693 from Ubuntu (partman-crypto/40ubuntu2), thanks
