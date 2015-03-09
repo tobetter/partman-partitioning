@@ -1,3 +1,10 @@
+partman-partitioning (107) unstable; urgency=low
+
+  [ Updated translations ]
+  * Danish (da.po) by Joe Hansen
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 09 Mar 2015 06:56:31 +0100
+
 partman-partitioning (106) unstable; urgency=low
 
   [ Updated translations ]
