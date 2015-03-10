@@ -1,3 +1,11 @@
+partman-partitioning (108) unstable; urgency=low
+
+  * Drop cruft files from an unclean git copy:
+    - active_partition/copy/choices
+    - active_partition/copy/do_option
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 10 Mar 2015 18:37:07 +0100
+
 partman-partitioning (107) unstable; urgency=low
 
   [ Updated translations ]
