@@ -1,3 +1,10 @@
+partman-crypto (79) unstable; urgency=low
+
+  [ Updated translations ]
+  * Romanian (ro.po) by Bradut Boghita
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 26 Mar 2015 07:51:46 +0100
+
 partman-crypto (78) unstable; urgency=low
 
   [ Updated translations ]
