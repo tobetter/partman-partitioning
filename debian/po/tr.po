@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
 "POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: 2015-06-09 16:17+0200\n"
+"PO-Revision-Date: 2015-06-30 01:49+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -42,9 +42,8 @@ msgstr ""
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
-#, fuzzy
 msgid "Resizing partition..."
-msgstr "Bölüm kopyalanıyor..."
+msgstr "Bölüm yeniden boyutlandırılıyor..."
 
 #. Type: text
 #. Description
@@ -58,7 +57,7 @@ msgstr "Bölümleme tablosunun yeni durumu hesaplanıyor..."
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr ""
+msgstr "Yeniden boyutlandırma mümkün değil"
 
 #. Type: error
 #. Description
@@ -66,6 +65,8 @@ msgstr ""
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
 msgstr ""
+"Bilinmeyen bir nedenden ötürü bu bölümün yeniden boyutlandırması mümkün "
+"değil."
 
 #. Type: error
 #. Description
@@ -73,25 +74,24 @@ msgstr ""
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
+"Ayrıntılı bilgi için /var/log/syslog dosyasına veya 4 numaralı konsola bakın."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
-#, fuzzy
 msgid "Write previous changes to disk and continue?"
-msgstr "Değişiklikler diske kaydedilsin mi?"
+msgstr "Önceki değişiklikler diske kaydedilerek devam edilsin mi?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
-#, fuzzy
 msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"Kopyalanacak bir bölüm seçebilmek için önceki değişiklikler diske "
+"Yeni bir bölüm boyutu seçebilmek için önceki değişiklikler diske "
 "kaydedilmelidir."
 
 #. Type: boolean
@@ -99,15 +99,14 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr ""
+msgstr "Bu işlem geri alınamaz."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
-#, fuzzy
 msgid "Please note that the resize operation may take a long time."
-msgstr "Kopyalama işleminin uzun bir sürebileceğini lütfen unutmayın."
+msgstr "Yeniden boyutlandırma işleminin uzun sürebileceğini lütfen unutmayın."
 
 #. Type: string
 #. Description
@@ -117,9 +116,8 @@ msgstr "Kopyalama işleminin uzun bir sürebileceğini lütfen unutmayın."
 #. :sl2:
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
-#, fuzzy
 msgid "New partition size:"
-msgstr "Kaynak bölüm:"
+msgstr "Yeni bölüm boyutu:"
 
 #. Type: string
 #. Description
@@ -129,6 +127,8 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
+"Bu bölüm için en küçük boyut ${MINSIZE} (veya ${PERCENT}), en büyük boyut "
+"ise ${MAXSIZE}."
 
 #. Type: string
 #. Description
@@ -143,13 +143,16 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
+"İpucu: \"max\" en büyük boyutu belirtmek için kısayol olarak kullanılabilir, "
+"ya da en büyük boyutun o kadar yüzdesini kullanmak için yüzde (örn. \"20%\") "
+"girebilirsiniz."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr ""
+msgstr "Girilen boyut geçerli değil"
 
 #. Type: error
 #. Description
@@ -160,13 +163,16 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
+"Girdiğiniz boyut değeri geçerli bir değer değil. Lütfen pozitif bir tamsayı "
+"girin. İsterseniz girdiğiniz tamsayının ardından ölçü birimini de "
+"belirtebilirsiniz (Örneğin \"200 GB\"). Öntanımlı ölçü birimi megabayttır."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr ""
+msgstr "Çok büyük bir boyut değeri girildi"
 
 #. Type: error
 #. Description
@@ -176,13 +182,15 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
+"Girdiğiniz boyut değeri bölümün alabileceği en büyük boyuttan daha fazla. "
+"Lütfen daha küçük bir değer girin."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr ""
+msgstr "Çok küçük bir boyut değeri girildi"
 
 #. Type: error
 #. Description
@@ -192,45 +200,43 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
+"Girdiğiniz boyut değeri bölümün alabileceği en küçük boyuttan daha küçük. "
+"Lütfen daha büyük bir değer girin."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
-#, fuzzy
 msgid "Resize operation failure"
-msgstr "Kopyalama işlemi hatası"
+msgstr "Yeniden boyutlandırma hatası"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
-#, fuzzy
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "Değişiklikler disklere kaydedilirken beklenmedik bir hata oluştu."
+msgstr "Değişiklikler depolama aygıtlarına kaydedilirken bir hata oluştu."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
-#, fuzzy
 msgid "The resize operation has been aborted."
-msgstr "Kopyalama işlemi sonlandırıldı."
+msgstr "Yeniden boyutlandırma işlemi sonlandırıldı."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr ""
+msgstr "Bu bölüm için en büyük boyut ${MAXSIZE}."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
-#, fuzzy
 msgid "Invalid size"
-msgstr "Geçersiz disk"
+msgstr "Geçersiz boyut"
 
 #. Type: select
 #. Choices
@@ -289,17 +295,15 @@ msgstr "Yeni bölümün türü:"
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
-#, fuzzy
 msgid "Flags for the new partition:"
-msgstr "Yeni bölüm için dosya sistemi:"
+msgstr "Yeni bölüm için kullanılacak bayraklar:"
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
-#, fuzzy
 msgid "Partition name:"
-msgstr "Bölümleme yöntemi:"
+msgstr "Bölüm adı:"
 
 #. Type: boolean
 #. Description
@@ -309,9 +313,8 @@ msgstr "Bölümleme yöntemi:"
 #. :sl2:
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
-#, fuzzy
 msgid "Continue with partitioning?"
-msgstr "Bölümleme yardımcısını kullanarak bölümle"
+msgstr "Bölümlemeye devam edilsin mi?"
 
 #. Type: boolean
 #. Description
@@ -322,6 +325,9 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
+"Bu bölümleme programı, sisteminize ilişkin mimarideki öntanımlı bölümleme "
+"tablosu türü hakkında bilgi sahibi değil.  Lütfen debian-boot@lists.debian."
+"org adresine gerekli bilgilerle birlikte bir e-posta gönderin."
 
 #. Type: boolean
 #. Description
@@ -331,6 +337,8 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
+"Eğer bölümleme tablosu türü libparted tarafından desteklenmiyorsa bu "
+"programın düzgün çalışmayacağını lütfen unutmayınız."
 
 #. Type: boolean
 #. Description
@@ -341,6 +349,9 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
+"Bu bölümleme programında libparted kitaplığını kullanılıyor ve bu kitaplık "
+"sisteminize ilişkin mimaride kullanılan bölümle tablosunu desteklenmiyor.  "
+"Bölümleme programından çıkmanız şiddetle tavsiye edilir."
 
 #. Type: boolean
 #. Description
@@ -350,29 +361,29 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
+"Mümkünse lütfen libparted kitaplığına bölümleme tablonuzun eklenmesi için "
+"yardımcı olun."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
-#, fuzzy
 msgid "Partition table type:"
-msgstr "Bölümleme yöntemi:"
+msgstr "Bölümleme tablosu türü:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
-#, fuzzy
 msgid "Select the type of partition table to use."
-msgstr "Bölümleme tablosunun yeni durumu hesaplanıyor..."
+msgstr "Kullanılacak bölümleme tablosu türünü seçin."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr ""
+msgstr "Bu aygıtta yeni ve boş bir bölümleme tablosu oluşturulsun mu?"
 
 #. Type: boolean
 #. Description
@@ -383,22 +394,22 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
+"Bölümlemek için aygıtın tamamını seçtiniz. Eğer bu aygıt üzerinde yeni bir "
+"bölümleme tablosu oluşturursanız mevcut bölümlerin hepsi silinecektir."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
-#, fuzzy
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr "Parolayı yazarken parolanın görünmeyeceğini unutmayın."
+msgstr "İstemeniz halinde ileride bu işlemi geri alabileceğinizi unutmayın."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
-#, fuzzy
 msgid "Write a new empty partition table?"
-msgstr "Bölümleme tablosunun yeni durumu hesaplanıyor..."
+msgstr "Yeni ve boş bir bölümleme tablosu kaydedilsin mi?"
 
 #. Type: boolean
 #. Description
@@ -409,6 +420,9 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
+"Sun bölümleri için libparted kitaplığında var olan destek bazı kısıtlamalara "
+"sahip. Bu yüzden yeni oluşturulan tablonun diske hemen kaydedilmesi "
+"gerekiyor."
 
 #. Type: boolean
 #. Description
@@ -418,6 +432,8 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
+"Bu işlemi ileride geri almanız mümkün DEĞİL!  Var olan bütün verileriniz "
+"geri dönüşü olmayacak şekilde silinecektir."
 
 #. Type: boolean
 #. Description
@@ -427,13 +443,15 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
+"Yeni bölümleme tablosunun oluşturulması ve diske kaydedilmesini gerçekten "
+"isteyip istemediğinizi onaylayın."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr ""
+msgstr "Önyüklenebilir bir mantıksal bölüm istediğinize emin misiniz?"
 
 #. Type: boolean
 #. Description
@@ -445,6 +463,11 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
+"Mantıksal bir bölümün önyüklenebilir bayrağını ayarlamaya çalışıyorsunuz. "
+"Genel olarak yalnızca birincil bölümler için anlamlı olan bu bayrağın "
+"mantıksal bölümlerde ayarlanmasından kaçınılmalıdır. Bazı BIOS sürümleri "
+"için önyüklenebilir birincil bölüm bulunmaması halinde bilgisayar açılışının "
+"başarısız olduğu bilinmektedir."
 
 #. Type: boolean
 #. Description
@@ -455,73 +478,73 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
+"Bununla birlikte, BIOS'unuzun böyle bir soruna sahip olmadığından eminseniz, "
+"veya önyüklenebilir mantıksal bölümleri dikkate alan özelleştirilmiş bir "
+"önyükleme yöneticisi kullanıyorsanız, bu bayrağın ayarlanması anlamlı "
+"olabilir."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
-#, fuzzy
 msgid "Set the partition flags"
-msgstr "Bir bölüm seç"
+msgstr "Bölüm bayraklarını ayarla"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr ""
+msgstr "Ad:"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr ""
+msgstr "Önyüklenebilir bayrağı:"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
-#, fuzzy
 msgid "on"
-msgstr "Monako"
+msgstr "açık"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr ""
+msgstr "kapalı"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr ""
+msgstr "Bölümü tekrar boyutlandır (şu anki boyut ${SIZE})"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
-#, fuzzy
 msgid "Delete the partition"
-msgstr "Bir bölüm seç"
+msgstr "Bölümü sil"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
-#, fuzzy
 msgid "Create a new partition"
-msgstr "Bir bölüm seç"
+msgstr "Yeni bir bölüm oluştur"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr ""
+msgstr "Bu aygıt üzerinde yeni ve boş bir bölümleme tablosu oluştur"
 
 #. Type: text
 #. Description
@@ -530,7 +553,7 @@ msgstr ""
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr ""
+msgstr "Ayrılmış BIOS bölgesi"
 
 #. Type: text
 #. Description
@@ -539,4 +562,4 @@ msgstr ""
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr ""
+msgstr "biosgrub"
