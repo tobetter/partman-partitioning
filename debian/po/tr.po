@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
 "POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2015-06-30 01:49+0200\n"
+"PO-Revision-Date: 2015-07-07 21:57+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -180,7 +180,7 @@ msgstr "Şifreleme anahtarı:"
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr "Bu bölüm için şifreleme anahtar türü:"
+msgstr "Bu bölüm için şifreleme anahtarı türü:"
 
 #. Type: text
 #. Description
@@ -188,14 +188,14 @@ msgstr "Bu bölüm için şifreleme anahtar türü:"
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr "Şifreleme anahtarı:"
+msgstr "Şifreleme anahtarı sağlama toplamı:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr "Bu bölüm için şifreleme anahtar türü:"
+msgstr "Bu bölüm için şifreleme anahtarı sağlama toplamı türü:"
 
 #. Type: select
 #. Description
@@ -368,7 +368,7 @@ msgstr "Şifrelenmiş cilt yapılandır"
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr "Herhangi bir bölüm bulunamadı"
+msgstr "Şifrelenecek bir bölüm bulunamadı"
 
 #. Type: note
 #. Description
