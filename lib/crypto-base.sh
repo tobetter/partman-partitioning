@@ -574,11 +574,16 @@ crypto_set_defaults () {
 
 	case $type in
 	    dm-crypt)
-		echo aes > $part/cipher
-		echo 256 > $part/keysize
-		echo xts-plain64 > $part/ivalgorithm
-		echo passphrase > $part/keytype
-		echo sha256 > $part/keyhash
+		db_get partman-crypto/cipher || RET=aes
+		echo $RET > $part/cipher
+		db_get partman-crypto/keysize || RET=256
+		echo $RET > $part/keysize
+		db_get partman-crypto/ivalgorithm || RET=xts-plain64
+		echo $RET > $part/ivalgorithm
+		db_get partman-crypto/keytype || RET=passphrase
+		echo $RET > $part/keytype
+		db_get partman-crypto/keyhash || RET=sha256
+		echo $RET > $part/keyhash
 		;;
 	esac
 	return 0

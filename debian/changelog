@@ -1,3 +1,10 @@
+partman-crypto (84) UNRELEASED; urgency=medium
+
+  * Make default crypto parameters preseedable (Closes: #785732). Thanks
+    to Jérôme Vizcaino for the report and the patch!
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 10 Jul 2015 02:15:35 +0200
+
 partman-crypto (83) unstable; urgency=medium
 
   [ Updated translations ]
