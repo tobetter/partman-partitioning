@@ -1,3 +1,10 @@
+partman-partitioning (109) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 12 Jul 2015 09:17:47 +0200
+
 partman-partitioning (108) unstable; urgency=low
 
   * Drop cruft files from an unclean git copy:
