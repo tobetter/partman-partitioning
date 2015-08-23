@@ -1,3 +1,10 @@
+partman-crypto (85) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Lior Kaplan
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 21 Aug 2015 11:57:20 +0200
+
 partman-crypto (84) unstable; urgency=medium
 
   * Make default crypto parameters preseedable (Closes: #785732). Thanks
