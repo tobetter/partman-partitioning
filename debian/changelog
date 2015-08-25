@@ -1,10 +1,10 @@
-partman-crypto (86) UNRELEASED; urgency=medium
+partman-crypto (86) unstable; urgency=high
 
   * Fix non-preseeded Encrypted LVM installs which were failing due to
     faulty logic in preseeding handling. Many thanks to Adrian Kretz for
     the report and the patch! (Closes: #793643)
 
- -- Cyril Brulebois <kibi@debian.org>  Wed, 26 Aug 2015 00:21:59 +0200
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 26 Aug 2015 01:22:43 +0200
 
 partman-crypto (85) unstable; urgency=medium
 
