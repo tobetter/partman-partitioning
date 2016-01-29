@@ -1,3 +1,9 @@
+partman-partitioning (111) UNRELEASED; urgency=medium
+
+  * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:22 +0000
+
 partman-partitioning (110) unstable; urgency=medium
 
   [ Updated translations ]
