@@ -1,3 +1,9 @@
+partman-crypto (87) UNRELEASED; urgency=medium
+
+  * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:21 +0000
+
 partman-crypto (86) unstable; urgency=high
 
   * Fix non-preseeded Encrypted LVM installs which were failing due to
