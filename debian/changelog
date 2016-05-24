@@ -1,10 +1,11 @@
 partman-partitioning (112) unstable; urgency=medium
 
+  [ Aurelien Jarno ]
   [ Aurelien Jarno]
   * Default to msdos partition label on mips, mipsel and mips64el. We
     don't support hardware requiring other partition labels anymore.
 
- -- Aurelien Jarno <aurel32@debian.org>  Sun, 22 May 2016 15:23:07 +0200
+ -- Christian Perrier <bubulle@debian.org>  Mon, 23 May 2016 15:18:46 +0200
 
 partman-partitioning (111) unstable; urgency=medium
 
