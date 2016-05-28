@@ -3,21 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Tibetan translation for Debian Installer.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
-"POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2012-04-14 22:12+0600\n"
-"Last-Translator: Tennom <tankola@ymail.com, tennomyathog@gmail.com>\n"
-"Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
-"Language: bo\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
 #. Type: text
 #. Description
 #. File system name
@@ -60,17 +45,15 @@ msgstr ""
 #. Should be kept below 24 columns
 #. :sl3:
 #: ../partman-crypto.templates:6001
-#, fuzzy
 msgid "Encryption method:"
-msgstr "ཁག་བཟོ་སྟངས："
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
-#, fuzzy
 msgid "Encryption method for this partition:"
-msgstr "ཁག་འདིའི་བཀར་སའི་གནས："
+msgstr ""
 
 #. Type: select
 #. Description
@@ -93,9 +76,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
-#, fuzzy
 msgid "Encryption for this partition:"
-msgstr "ཁག་འདིའི་བཀར་སའི་གནས："
+msgstr ""
 
 #. Type: text
 #. Description
@@ -109,9 +91,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
-#, fuzzy
 msgid "Key size for this partition:"
-msgstr "ཁག་འདིའི་བཀར་སའི་གནས："
+msgstr ""
 
 #. Type: text
 #. Description
@@ -157,9 +138,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
-#, fuzzy
 msgid "Type of encryption key for this partition:"
-msgstr "ཁག་འདིའི་བཀར་སའི་གནས："
+msgstr ""
 
 #. Type: text
 #. Description
@@ -173,9 +153,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
-#, fuzzy
 msgid "Type of encryption key hash for this partition:"
-msgstr "ཁག་འདིའི་བཀར་སའི་གནས："
+msgstr ""
 
 #. Type: select
 #. Description
@@ -202,22 +181,21 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr "མིན"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr "ཡིན"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
-#, fuzzy
 msgid "Erase data on this partition"
-msgstr "ཁག་ཞིག་གསར་བཟོ་བྱེད་པ"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -226,9 +204,8 @@ msgstr "ཁག་ཞིག་གསར་བཟོ་བྱེད་པ"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
-#, fuzzy
 msgid "Really erase the data on ${DEVICE}?"
-msgstr "${DEVICE} ཐོག་གི་འཇུག་སྒོ"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -247,9 +224,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
-#, fuzzy
 msgid "Erasing data on ${DEVICE}"
-msgstr "${DEVICE} ཐོག་གི་འཇུག་སྒོ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -314,25 +290,22 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:30001
-#, fuzzy
 msgid "Setting up encryption..."
-msgstr "སྒྲིག་འཛུགས་བྱེད་བཞིན་པ་་་"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
-#, fuzzy
 msgid "Configure encrypted volumes"
-msgstr "སྐད་རིགས་ཁུལ་སྒྲིག་འགོད་བྱེད་པ"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
-#, fuzzy
 msgid "No partitions to encrypt"
-msgstr "འགོ་འཛུགས་ཀྱི་གསོག་སྡེར་ཁག་གང་ཡང་ཚོར་རྟོགས་མ་ཐུབ་པ"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -388,17 +361,15 @@ msgstr ""
 #. :sl3:
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
-#, fuzzy
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr "གསང་གྲངས་ཀྱིས་སྲུང་ཡོད་པའི་ཚན་ཁག་${DEVICE} ལ་གསང་གྲངས་འཇུག་རོགས"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
-#, fuzzy
 msgid "Encryption package installation failure"
-msgstr "ELILO སྒྲིག་འཇུག་མ་ཐུབ་པ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -423,9 +394,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:38001
-#, fuzzy
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr "གོང་གི་བཟོ་བཅོས་དེ་དག་གསོག་སྡེར་ཐོག་ཏུ་བྲིས་ནས་མུ་མཐུད་དགོས་སམ"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -468,33 +438,29 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
-#, fuzzy
 msgid "An error occurred while configuring encrypted volumes."
-msgstr "གསོག་སྡེར་གྱི་སྒྲིག་ཆས་ཐོག་ཏུ་བཟོ་བཅོས་རྒྱག་སྐབས་ནོར་འཁྲུལ་བྱུང་བ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
-#, fuzzy
 msgid "The configuration has been aborted."
-msgstr "DHCP སྒྲིག་འགོད་ཀྱི་རྒྱུད་རིམ་བཅད་ཚར"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
-#, fuzzy
 msgid "Initialisation of encrypted volume failed"
-msgstr "སྒྲིག་འཇུག་གི་བརྒྱུད་རིམ་ལེགས་འགྲུབ་མ་ཐུབ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
-#, fuzzy
 msgid "An error occurred while setting up encrypted volumes."
-msgstr "གསོག་སྡེར་གྱི་སྒྲིག་ཆས་ཐོག་ཏུ་བཟོ་བཅོས་རྒྱག་སྐབས་ནོར་འཁྲུལ་བྱུང་བ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -504,9 +470,8 @@ msgstr "གསོག་སྡེར་གྱི་སྒྲིག་ཆས་ཐ
 #. of a random key
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
-#, fuzzy
 msgid "Passphrase"
-msgstr "གསང་གྲངས་མ་འགྲིག་པ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -568,106 +533,89 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
-#, fuzzy
 msgid "Encryption passphrase:"
-msgstr "གསང་གྲངས་མ་འགྲིག་པ"
+msgstr ""
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
-#, fuzzy
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr "གསང་གྲངས་ཀྱིས་སྲུང་ཡོད་པའི་ཚན་ཁག་${DEVICE} ལ་གསང་གྲངས་འཇུག་རོགས"
+msgstr ""
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
-#, fuzzy
 msgid ""
 "The overall strength of the encryption depends strongly on this passphrase, "
 "so you should take care to choose a passphrase that is not easy to guess. It "
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
-"'རྩ་བ' འམ་མ་ལག་གི་བདག་སྐྱོང་པའི་ཐོ་ཁོངས་ལ་གསང་གྲངས་ཞིག་ཡོད་དགོས་པ རྡུབ་རྩུབ་ཅན་དང་ཆོག་ཆན་མེད་"
-"པའི་སྤྱོད་མཁན་ལ་རྩ་བའི་དབང་ཆ་ཡོད་ན་མཇུག་འབྲས་ཚབས་ཆེན་བཟོ་ནུས། དེ་འདྲ་ཁྱོད་ཀྱིས་ཚོད་དཔག་བྱེད་བཀའ་"
-"བའི་རྩ་བའི་གསང་གྲངས་ཞིག་བཟོ་རྒྱུ་ལ་དོ་སྣང་བྱེད་དགོས་པ་དང་ཚིག་མཛོད་ནང་དུ་ཡོད་པ་དང་ཁྱོད་དང་འབྲེལ་ཡོད་"
-"ཀྱི་ཚིག་སྤྱོད་མི་ཉན"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
-#, fuzzy
 msgid ""
 "A good passphrase will contain a mixture of letters, numbers and "
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
-"གསང་གྲངས་ལེགས་པོ་ཞིག་ལ་ཡི་གེ་དང་ཨང་ཀི ཚིག་ཤད་སོགས་སྲེལ་ནས་ཡོད་པ་དང་དུས་འཚམས་སུ་བརྗེ་དགོས"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
-#, fuzzy
 msgid "Re-enter passphrase to verify:"
-msgstr "གསང་གྲངས་བསྐྱར་དུ་འཇུག་ནས་དག་ཐེར་བྱེད་པ："
+msgstr ""
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
-#, fuzzy
 msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
-msgstr "རྩ་བའི་གསང་གྲངས་དེ་བསྐྱར་དུ་ཅིག་འཇུག་ནས་ཁྱོད་ཀྱིས་བྲིས་པ་དེ་དག་ཐེར་བྱེད་རོགས"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
-#, fuzzy
 msgid "Passphrase input error"
-msgstr "གསང་གྲངས་མ་འགྲིག་པ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
-#, fuzzy
 msgid "The two passphrases you entered were not the same. Please try again."
-msgstr "ཁྱོད་ཀྱིས་འཇུག་པའི་གསང་གྲངས་གཉིས་མ་གཅིག་མཚུངས་མིན་པས་ཡང་བསྐྱར་འཇུག་རོགས"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
-#, fuzzy
 msgid "Empty passphrase"
-msgstr "གསང་གྲངས་སྟོང་པ་ཡིན་པ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
-#, fuzzy
 msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
 msgstr ""
-"ཁྱོད་ཀྱིས་འཇུག་པའི་གསང་གྲངས་ནི་སྟོང་བ་རེད་འདུག་སྟོང་པ་མིན་པའི་གསང་གྲངས་ཞིག་ངེས་པར་དུ་འཇུག་དགོས"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
-#, fuzzy
 msgid "Use weak passphrase?"
-msgstr "གསང་གྲངས་མ་འགྲིག་པ"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -699,17 +647,15 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
-#, fuzzy
 msgid "Keyfile creation failure"
-msgstr "ཆེ་ཆུང་བསྒྱུར་བཟོའི་ལས་འགུལ་ལེགས་འགྲུབ་མ་ཐུབ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
-#, fuzzy
 msgid "An error occurred while creating the keyfile."
-msgstr "གསོག་སྡེར་གྱི་སྒྲིག་ཆས་ཐོག་ཏུ་བཟོ་བཅོས་རྒྱག་སྐབས་ནོར་འཁྲུལ་བྱུང་བ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -718,9 +664,8 @@ msgstr "གསོག་སྡེར་གྱི་སྒྲིག་ཆས་ཐ
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
-#, fuzzy
 msgid "Encryption configuration failure"
-msgstr "རང་འགུལ་གྱི་དྲ་ལམ་སྒྲིག་འགོད་ལེགས་འགྲུབ་མ་ཐུབ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -736,9 +681,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
-#, fuzzy
 msgid "You should go back and setup a /boot partition."
-msgstr "/home ལ་ཁག་ལོག་ཏུ་བཟོ་བ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -755,19 +699,17 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:55001
-#, fuzzy
 msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
-msgstr "ཡིག་ཆ་མ་ལག་གཞན་ཞིག་ལ་ /boot གསོག་སྡེར་ཁག་ཆུང་ཆུང་ཞིག་སྤྱོད་དགོས། དཔེར་ན་ ext3 ལྟ་བུ"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
-#, fuzzy
 msgid "Are you sure you want to use a random key?"
-msgstr "ཁྱོད་ཀྱིས་ད་ལྟ་མཚམས་བཞག་པར་གཏན་ཁེལ་ཡིན་ནམ"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -791,9 +733,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
-#, fuzzy
 msgid "Failed to download crypto components"
-msgstr "སྒྲིག་འཇུག་ཆས་ཀྱི་ལྷུ་ལག་ཡར་འཇུག་བྱེད་མ་ཐུབ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -836,17 +777,15 @@ msgstr ""
 #. in single-byte languages)
 #. :sl3:
 #: ../partman-crypto.templates:59001
-#, fuzzy
 msgid "Finish"
-msgstr "ཧྥིན་ལན་སྐད"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
-#, fuzzy
 msgid "Encryption configuration actions"
-msgstr "Apt སྒྲིག་འགོད་ཀྱི་སྐྱོན"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -859,17 +798,15 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
 msgid "Devices to encrypt:"
-msgstr "སྤྱོད་དགོས་པའི་NTP ཞབས་ཞུ་ཆས："
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
-#, fuzzy
 msgid "Please select the devices to be encrypted."
-msgstr "འཕྲུལ་ཆས་འདིའི་མཐེབ་གཞོང་གི་མ་དཔེ་ཞིག་འདེམས་རོགས"
+msgstr ""
 
 #. Type: multiselect
 #. Description
@@ -882,9 +819,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
-#, fuzzy
 msgid "No devices selected"
-msgstr "དྲ་བའི་འཇུག་སྒོ་རྙེད་མ་ཐུབ"
+msgstr ""
 
 #. Type: error
 #. Description
