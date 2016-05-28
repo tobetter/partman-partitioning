@@ -3,65 +3,33 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Slovak messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-# Peter Mann <peter.mann@tuke.sk>
-# Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011, 2013, 2014.
-# Translations from iso-codes:
-# (translations from drakfw)
-# Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
-# Copyright (C) 2002 Free Software Foundation, Inc.
-# Free Software Foundation, Inc., 2004
-# Ivan Masár <helix84@centrum.sk>, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
-# Translations taken from sk.wikipedia.org on 2008-06-17
-# Pavol Cvengros <orpheus@hq.alert.sk>, 2001.
-# Peter Mann <Peter.Mann@tuke.sk>, 2004, 2006.
-# bronto, 2007.
-# source:
-# http://www.geodesy.gov.sk
-# http://www.fao.org/ (historic names)
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: 2014-04-16 15:44+0200\n"
-"Last-Translator: Ivan Masár <helix84@centrum.sk>\n"
-"Language-Team: x\n"
-"Language: sk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "Mení sa veľkosť oblasti..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "Prepočítavajú sa nové hodnoty tabuľky oblastí..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "Operácia zmeny veľkosti nie je možná"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr "Zmena veľkosti oblasti nie je možná z neznámych príčin."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -69,15 +37,13 @@ msgstr "Zmena veľkosti oblasti nie je možná z neznámych príčin."
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Podrobnosti nájdete v súbore /var/log/syslog alebo na štvrtej virtuálnej "
-"konzole."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "Zapísať predchádzajúce zmeny na disk a pokračovať?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -87,22 +53,20 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"Ak si chcete zvoliť novú veľkosť oblasti, na disk sa musia zapísať všetky "
-"predchádzajúce zmeny."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "Táto operácia je nevratná."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
-msgstr "Uvedomte si, že operácia zmeny veľkosti môže trvať dlhý čas."
+msgstr ""
 
 #. Type: string
 #. Description
@@ -113,7 +77,7 @@ msgstr "Uvedomte si, že operácia zmeny veľkosti môže trvať dlhý čas."
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "Veľkosť novej oblasti:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -123,8 +87,6 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"Minimálna veľkosť tohto oddielu je ${MINSIZE} (alebo ${PERCENT}) a jeho "
-"maximálna veľkosť je ${MAXSIZE}."
 
 #. Type: string
 #. Description
@@ -139,16 +101,13 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"Rada: „max“ je skrátený zápis pre maximálnu veľkosť. Môžete tiež zadať "
-"percentá (napr. „20%“), čím sa použije zadaný počet percent z maximálnej "
-"veľkosti."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "Zadaná veľkosť nie je platná."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -159,16 +118,13 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"Veľkosť, ktorú ste zadali nebolo možné interpretovať. Prosím, zadajte kladnú "
-"celočíselnú veľkosť za ktorou môže nepovinne nasledovať jednotka (napr. „200 "
-"GB“). Štandardnou jednotkou sú megabajty."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr "Zadaná veľkosť je príliš veľká"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -178,15 +134,13 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
-"Zadaná veľkosť je väčšia ako maximálna veľkosť oblasti. Aby ste mohli "
-"pokračovať, zadajte menšiu veľkosť."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "Zadaná veľkosť je príliš malá"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -196,64 +150,62 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
-"Zadaná veľkosť je menšia ako minimálna veľkosť oblasti. Aby ste mohli "
-"pokračovať, zadajte väčšiu veľkosť."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "Operácia zmeny veľkosti zlyhala"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "Pri zapisovaní zmien na úložné zariadenia došlo k chybe."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "Operácia zmeny veľkosti bola prerušená."
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "Maximálna veľkosť tejto oblasti je ${MAXSIZE}."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "Neplatná veľkosť"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr "Začiatok"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr "Koniec"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "Umiestnenie novej oblasti:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -263,43 +215,41 @@ msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
 msgstr ""
-"Rozhodnite sa, či chcete vytvoriť novú oblasť na začiatku alebo na konci "
-"dostupného priestoru."
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "Primárna"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "Logická"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "Typ novej oblasti:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr "Príznaky novej oblasti:"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr "Názov oblasti:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -310,7 +260,7 @@ msgstr "Názov oblasti:"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "Pokračovať v rozdeľovaní disku?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -321,9 +271,6 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"Nástroj na rozdelenie disku nemá informácie o predvolenom type tabuliek "
-"oblastí na vašej architektúre. Pošlite, prosím, e-mail s takýmito "
-"informáciami na adresu debian-boot@lists.debian.org."
 
 #. Type: boolean
 #. Description
@@ -333,8 +280,6 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"Uvedomte si, že nástroj na rozdelenie disku nebude pracovať správne, ak "
-"libparted nepodporuje daný typ tabuľky."
 
 #. Type: boolean
 #. Description
@@ -345,9 +290,6 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"Tento nástroj na rozdelenie disku je založený na knižnici libparted, ktorá "
-"nemá podporu pre tabuľky oblastí používané na vašej architektúre. Odporúča "
-"sa nepokračovať ďalej v práci s týmto nástrojom."
 
 #. Type: boolean
 #. Description
@@ -357,28 +299,27 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
-"Môžete pomôcť pri pridávaní podpory pre vašu tabuľku oblastí do libparted."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "Typ tabuľky oblastí:"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "Zvoľte typ tabuľky oblastí, ktorý sa má použiť."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr "Vytvoriť na tomto zariadení novú prázdnu tabuľku oblastí?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -389,23 +330,20 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"Na rozdelenie ste si vybrali celé zariadenie. Ak budete pokračovať vo "
-"vytváraní novej tabuľky oblastí na tomto zariadení, všetky doterajšie "
-"oblasti na zariadení budú odstránené."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr "Neskôr môžete túto operáciu zrušiť."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "Vytvoriť novú prázdnu tabuľku oblastí?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -416,8 +354,6 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"Kvôli obmedzeniam v súčasnej implementácii tabuliek oblastí pre Sun v "
-"libparted, bude novovytvorená tabuľka oblastí ihneď zapísaná na disk."
 
 #. Type: boolean
 #. Description
@@ -427,8 +363,6 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"Neskôr už NEBUDE možné zrušiť túto operáciu a všetky jestvujúce údaje na "
-"disku budú nenávratne vymazané."
 
 #. Type: boolean
 #. Description
@@ -438,15 +372,13 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
-"Potvrďte, či naozaj chcete vytvoriť novú tabuľku oblastí a zapísať ju na "
-"disk."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "Ste si istí, že chcete nastaviť možnosť zavádzania z logickej oblasti?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -458,11 +390,6 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"Pokúšate sa nastaviť logickej oblasti príznak, že sa z neho dá zavádzať "
-"systém. Príznak zavádzania má vo všeobecnosti význam iba pre primárne "
-"oblasti, takže sa bežne jeho nastavenie na logické oblasti neodporúča. O "
-"niektorých verziách BIOSu je známe, že neumožnia zavedenie systému, ak "
-"neexistuje primárna oblasť, z ktorej je možné systém zaviesť."
 
 #. Type: boolean
 #. Description
@@ -473,72 +400,69 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"Avšak ak ste so istí, že váš BIOS netrpí týmto problémom alebo používate "
-"vlastného správcu zavádzania systému, ktorý umožňuje zavádzanie z logických "
-"oblastí, nastavenie tohto príznaku môže byť zmysluplné."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr "Nastavenie príznakov oblasti"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr "Názov:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr "Štartovací (boot) príznak:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr "zapnutý"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr "vypnutý"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "Zmeniť veľkosť oblasti (teraz ${SIZE})"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr "Zmazať oblasť"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr "Vytvoriť novú oblasť"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr "Vytvoriť novú prázdnu tabuľku oblastí na tomto zariadení"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -547,7 +471,7 @@ msgstr "Vytvoriť novú prázdnu tabuľku oblastí na tomto zariadení"
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr "Vyhradená štartovacia oblasť BIOSu"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -556,4 +480,4 @@ msgstr "Vyhradená štartovacia oblasť BIOSu"
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr "biosgrub"
+msgstr ""

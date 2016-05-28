@@ -3,76 +3,47 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Persian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-# , 2005.
-#
-# Translations from iso-codes:
-#   Alastair McKinstry - further translations from ICU-3.0
-#   Alastair McKinstry <mckinstry@computer.org>, 2001,2004.
-#   Free Software Foundation, Inc., 2001,2003,2004
-#   Roozbeh Pournader <roozbeh@farsiweb.info>, 2004,2005.
-#   Sharif FarsiWeb, Inc., 2004
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-#   Translations from kde:
-#   - FarsiKDE Team <info@farsikde.org>
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: fa\n"
-"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: 2012-10-20 19:56+0330\n"
-"Last-Translator: Behrad Eslamifar <behrad_es@yahoo.com>\n"
-"Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
-"Language: fa\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "در حال تغییر اندازهٔ پارتیشن..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "در حال محاسبهٔ حالت جدید جدول پارتیشن"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "عملیات تغییر اندازه ناممکن است"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr "به خاطر دلیلی نامعلوم تغییر اندازهٔ پارتیشن ناممکن است."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "/var/log/syslog یا کنسول مجازی ۴ را برای جزئیات ببینید."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "تغییرات قبلی در دیسک نوشته شود و ادامه یابد؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -82,22 +53,20 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"قبل از اینکه بتوانید اندازهٔ جدید پارتیشن را انتخاب کنید، همهٔ تغییرات قبلی "
-"باید در دیسک نوشته شوند."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "این عمل را نمی‌توانید خنثی کنید."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
-msgstr "لطفاً توجه کنید که عملیات تغییر سایز ممکن است زمان زیادی به طول انجامد."
+msgstr ""
 
 #. Type: string
 #. Description
@@ -108,7 +77,7 @@ msgstr "لطفاً توجه کنید که عملیات تغییر سایز مم�
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "اندازهٔ جدید پارتیشن:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -118,8 +87,6 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"حداقل اندازه برای این پارتیشن ${MINSIZE} (یا ${PERCENT}) هست و بیشترین "
-"اندازهٔ آن ${MAXSIZE} می‌باشد."
 
 #. Type: string
 #. Description
@@ -134,16 +101,13 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"تذکر: «max» می‌تواند به عنوان میان‌بر برای مشخص نمودن بیشترین اندازه‌ استفاده "
-"شود، یا درصدی را (مثلاً  «20%») برای استفاده از آن درصد از بیشترین اندازه "
-"وارد کنید."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "اندازهٔ وارد شده نامعتبر است"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -154,16 +118,13 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"اندازه‌ای که وارد کرده‌اید فهمیده نشد. لطفاً اندازهٔ صحیح مثبت‌ای با واحد "
-"اندازه‌گیری‌ای دلخواهی (مانند «200 GB») در ادامه آن وارد کنید. واحد اندازه‌گیری "
-"پیش‌فرض مگابایت است."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr "اندازهٔ وارد شده بسیار بزرگ است"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -173,15 +134,13 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
-"اندازه‌ای که وارد نموده‌ائید بزرگتر از بیشترین اندازهٔ پارتیشن است. لطفاً اندازهٔ "
-"کوچکتری را برای ادامه وارد کنید."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "اندازهٔ وارد شده بسیار کوچک است"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -191,64 +150,62 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
-"اندازه‌ای که وارد نموده‌ائید کوچکتر از کمترین اندازهٔ پارتیشن است. لطفاً اندازهٔ "
-"بزرگتری را برای ادامه وارد کنید."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "شکست عملیات تغییر اندازه"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "خطایی هنگام نوشتن تغییرات در ابزارهای ذخیره‌سازی رخ داد."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "عمل تغییر اندازه صرف‌نظر شده است."
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "بیشترین اندازه برای این پارتیشن ${MAXSIZE} است."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "اندازهٔ نامعتبر"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr "شروع"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr "پایان"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "جایگاه پارتیشن جدید"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -258,43 +215,41 @@ msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
 msgstr ""
-"لطفا مشخص کنید که آیا می‌خواهید پارتیشن جدید در شروع فضای آزاد قرار گیرد یا "
-"در انتهای آن؟"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "ابتدایی (Primary)"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "منطقی"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "نوع پارتیشن جدید:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr "پرچم‌ها برای پارتیشن جدید:"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr "نام پارتیشن:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -305,7 +260,7 @@ msgstr "نام پارتیشن:"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "ادامهٔ پارتیشن‌بندی؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -316,9 +271,6 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"پارتیشن اطلاعاتی در مورد نوع پیش‌فرض جدول‌های پارنیشن در ساختار شما ندارد.  "
-"لطفاً یک پیغام الکترونیکی با اطلاعات به debian-boot@lists.debian.org ارسال "
-"کنید."
 
 #. Type: boolean
 #. Description
@@ -328,8 +280,6 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"لطفاً توجه کنید اگر نوع جدول پارتیشن توسط libpartef پشتیبانی نشود، آنگاه این "
-"ابزار پارتیشن‌بندی به درستی کار نخواهد کرد."
 
 #. Type: boolean
 #. Description
@@ -340,8 +290,6 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"ابزار پارتیشن‌بندی بر اساس کتابخانهٔ libparted است که پشتیبانی از جدول‌های "
-"پارتیشن ساختار شما ندارد.  قویاً توصیه می‌شود که از آن خارج شوید."
 
 #. Type: boolean
 #. Description
@@ -351,29 +299,27 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
-"اگر می‌توانید، لطفاً کمک کنید تا پشتیبانی جدول پارتیشن‌بندی شما به libparted "
-"اضافه شود."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "نوع جدول پارتیشن:"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "جدول پارتیشن برای استفاده را انتخاب کنید."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr "جدول پارتیشن خالی جدید بر روی این ابزار ایجاد شود؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -384,8 +330,6 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"شما کل دیسک را برای پارتیشن‌بندی انتخاب کرده‌اید. اگر به ساخت یک جدول پارتیشن "
-"روی این ابزار ادامه دهید، همهٔ پارتیشن‌های کنونی از بین خواهند رفت."
 
 #. Type: boolean
 #. Description
@@ -393,15 +337,13 @@ msgstr ""
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
 msgstr ""
-"توجه کنید که شما قادر خواهید بود در آینده اگر تمایل داشتید این عمل را "
-"برگردانید."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "یک جدول پارتیشن خالی جدید نوشته شود؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -412,8 +354,6 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"به خاطر محدودیت‌ها در پیاده‌سازی کنونی جدول‌های پارتیشن Sun در libparted، جدول "
-"پارتیشن ساخته شدهٔ جدید باید فوراً به دیسک نوشته شود."
 
 #. Type: boolean
 #. Description
@@ -423,8 +363,6 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"شما قادر نخواهید بود این عملیات را خنثی کنید و همهٔ اطلاعات روی دیسک بدون "
-"تغییر از بین خواهند رفت."
 
 #. Type: boolean
 #. Description
@@ -434,15 +372,13 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
-"مطمئن شوید که آیا واقعاً می‌خواهید جدول پارتیشن جدیدی ایجاد کنید و آنرا بر "
-"دیسک بنویسید."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "آیا مطمئن هستید که یک پارتیشن منطقی قابل‌بالاآمدن می‌خواهید؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -454,10 +390,6 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"شما سعی دارید که پرچم قابل بوت‌شدن را بر روی یک پارتیشن منطقی تنظیم کنید. "
-"پرچم قابل بوت‌شدن به طور کلی فقط رو پارتیشن‌های اصلی قابل استفاده‌اند، بنابراین "
-"تنظیم آن رو پارتیشن‌های منطقی معمولاً توصیه نمی‌شود. برخی از نسخه‌های BIOS به "
-"بوت نشدن در صورتیکه هیچ پارتیشن اصلی قابل بوت‌شدن نباشد شناخته شده‌اند."
 
 #. Type: boolean
 #. Description
@@ -468,72 +400,69 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"گرچه، اگر مطمئن هستید که BIOS شما این مشکل را ندارد، یا اگر از مدیر بوت "
-"معمولی استفاده می‌کنید که به پارتیشن‌های منطقی قابل بوت‌شدن توجه دارد، آنگاه "
-"تنظیم پرچم ممکن است معنی‌دار باشد."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr "پرچم‌های پارتیشن را تنظیم کنید"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr "نام:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr "پرچم قابل بوت‌شدن:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr "فعال"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr "غیرفعال"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "تغییر اندازهٔ پارتیشن (هم‌اکنون${SIZE} )"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr "پارتیشن پاک شود"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr "یک پارتیشن جدید ساخته شود"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr "یک جدول پارتیشن خالی جدید بر روی این ابزار ساخته شود"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -542,7 +471,7 @@ msgstr "یک جدول پارتیشن خالی جدید بر روی این ابز
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr "ناحیه بوت BIOS رزرو شده"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -551,4 +480,4 @@ msgstr "ناحیه بوت BIOS رزرو شده"
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr "biosgrub"
+msgstr ""

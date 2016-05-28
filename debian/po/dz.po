@@ -3,51 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of dz.po to Dzongkha
-# Translation of debian-installer level 1 Dzongkha
-# Debian Installer master translation file template
-# Copyright @ 2006 Free Software Foundation, Inc.
-# Sonam Rinchen <somchen@druknet.bt>, 2006.
-#
-#
-# Translations from iso-codes:
-#   Free Software Foundation, Inc., 2006
-#   Kinley Tshering <gaseokuenden2k3@hotmail.com>, 2006
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: dDz.po\n"
-"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: 2012-02-29 04:41-0500\n"
-"Last-Translator: Jurmey Rabgay <jrabgay@dit.gov.bt>\n"
-"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
-"Language: dz\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "བར་བཅད་ཚད་བསྐྱར་བཟོ..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "བར་བཅད་ཐིག་ཁྲམ་གྱི་གནས་ལུགས་གསརཔ་གློག་རིག་ནང་བཙུགས་དོ..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "ཚད་བསྐྱར་བཟོ་འབད་མི་བཀལ་སྤྱོད་འདི་མི་སྲིད་པ་ཨིན་པས།"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -55,22 +30,20 @@ msgstr "ཚད་བསྐྱར་བཟོ་འབད་མི་བཀལ་
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
 msgstr ""
-"ག་ཅི་སྦེ་ཟེར་བ་ཅིན་རྒྱུ་མཚན་མ་ཤེས་མི་ལུ་བརྟེན་འ་ནི་བར་བཅད་འདི་ཚད་བསྐྱར་བཟོ་འབད་ནི་ལུ་མི་སྲིད་པ་ཨིན་"
-"པས།"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "/var/log/syslog ཞིབ་དཔྱད་འབད་ཡང་ན་རྒྱས་བཤད་ཀྱི་དོན་ལུ་བར་ཅུ་ཡལ་མ་སྒྲོམ་༤་པ་འདི་བལྟ།"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "ཌིཀསི་ནང་ལུ་ཧེ་མའི་བསྒྱུར་བཅོས་ཚུ་འབྲི་འདི་འཕྲོ་མཐུད་འབད?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -80,21 +53,20 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"བར་བཅད་གསརཔ་གི་ཚད་སེལ་འཐུ་མ་འབད་བའི་ཧེ་མ་ ཌིཀསི་ནང་ལུ་ཧེ་མའི་གང་རུང་གི་བསྒྱུར་བཅོས་ཚུ་འབྲི་དགོ།"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "ཁྱོད་ཀྱིས་འ་ནི་བཀལ་སྤྱོད་འདི་འབད་ཚུགས།"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
-msgstr "བཀལ་སྤྱོད་འདི་ཚད་བསྐྱར་བཟོ་འབད་ནི་ལུ་དུས་ཡུན་་རིངམ་འགོར་ནི་འོང་དྲན་འཛིན་འབད་གནང་།"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -105,7 +77,7 @@ msgstr "བཀལ་སྤྱོད་འདི་ཚད་བསྐྱར་བ
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "བར་བཅད་ཀྱི་ཚད་གསརཔ:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -115,8 +87,6 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"བར་བཅད་འདི་གི་ཚད་ ཉུང་མཐའ་ ${MINSIZE} (ཡང་ན་ ${PERCENT}) དང་ མང་མཐའ་ ${MAXSIZE} "
-"ཨིན།"
 
 #. Type: string
 #. Description
@@ -131,15 +101,13 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"Hint: \"max\" འདི་ ཚད་མང་མཐའ་ གསལ་བཀོད་འབད་ནི་ལུ་ མགྱོགས་ཐབས་སྦེ་ལག་ལེན་འཐབ་བཏུབ་ཨིན་ "
-"ཡང་ན་ བརྒྱ་ཆ་ (དཔེར་ན་  \"20%\") དེ་གིས་ བརྒྱ་ཆའི་ཚད་མང་མཐའ་སྦེ་ལག་ལེན་འཐབ་བཏུབ་ཨིན།"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "བཙུགས་ཡོད་མི་ཚད་འདི་ནུས་མེད་ཨིན་མས།"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -150,15 +118,13 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"ཁྱོད་ཀྱིས་བཙུག་མི་ཚད་འདི་ཧ་མ་གོ་བས། ཡོད་ཆ་ཧྲིལ་གྲངས་ཚད་ཀྱི་ཤུལ་ལས་གདམ་ཁ་ཅན་གྱི་འཇལ་ཚད་ཀྱི་ཆ་ཕྲན་"
-"བཙུགས་གན་ང།(e.g. \"200 GB\"). འཇལ་ཚད་ཀྱི་སྔོན་སྒྲིག་ཆ་ཕྲན་འདི་ མེ་ག་བའིཊིསི་ཨིན།"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr "བཙུགས་ཡོད་མི་ཚད་འདི་ གནམ་མེད་ས་མེད་སྦོམ་ཨིན་མས།"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -168,15 +134,13 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
-"ཁྱོད་ཀྱིས་བཙུགས་ཡོད་མི་ཚད་འདི་ བར་ཅད་ཀྱི་ཚད་མང་མཐའ་ལས་སྦོམ་མས། འཕྲོ་མཐུད་དེ་འབད་ནིའི་དོན་ལུ་ ཚད་"
-"ཆུང་སུ་བཙུགས་གན་ང།"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "བཙུགས་ཡོད་མི་ཚད་འདི་གནམ་མེད་ས་མེད་ཆུང་ཀུ་ཨིན་མས།"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -186,64 +150,62 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
-"ཁྱོད་ཀྱིས་བཙུགས་ཡོད་མི་ཚད་འདི་བར་ཅད་ཀྱི་ཚད་ཉུང་མཐའ་ལས་ཆུང་མས། འཕྲོ་མཐུད་དེ་འབད་ནིའི་དོན་ལུ་ ཚད་"
-"སྦོམ་སུ་གཅིག་བཙུགས་གན་ང་།"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "ཚད་བསྐྱར་བཟོ་འབད་ནིའི་བཀལ་སྤྱོད་འཐུས་ཤོར་འབྱུང་།"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "བསག་མཛོད་ཐབས་འཕྲུལ་ཚུ་ལུ་བསྒྱུར་བཅོས་ཚུ་བྲིསཝ་ད་འཛོལ་བ་བྱུང་ཡོདཔ།"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "ཚད་བསྐྱར་བཟོའི་བཀོལ་སྤྱོད་འདི་ བར་བཤོལ་འབད་ནུག་"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "བར་བཅད་འདི་གི་ཚད་ མང་མཐའ་ ${MAXSIZE}ཨིན།"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "ཚད་ནུས་མེད་།"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr "འགོ་བཙུགས་།"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr "མཇུག་"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "བར་བཅད་གསརཔ་ཀྲི་དོན་ལུ་གནས་ཁོངས:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -253,43 +215,41 @@ msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
 msgstr ""
-"ཁྱོད་ཀྱིས་བར་བཅད་གསརཔ་ཚུ་འགོ་ལས་དང་ཡང་ཅིན་མཇུག་གི་བར་སྟོང་ཡོད་མི་ནང་གསར་བསྐྲུན་འབད་ནི་ཨིན་ན་"
-"གདམ་ཁ་རྐྱབ་གནང་།"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "གཞི་རིམ།"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "གིན་ཚིག་ཅན།"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "བར་བཅད་གསརཔ་ཀྱི་དོན་ལུ་ཡིག་དཔར་རྐྱབས:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr "བར་བཅད་གསརཔ་ཀྱི་དོན་ལུ་ཟུར་རྟགས་ཚུ:"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr "བར་བཅད་ཀྱི་མིང་:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -300,7 +260,7 @@ msgstr "བར་བཅད་ཀྱི་མིང་:"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "བར་བཅད་འབད་ནི་དང་གཅིག་ཁར་འཕྲོ་མཐུད?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -311,9 +271,6 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"བར་བཅད་འབད་མི་འདི་ལུ་ཁྱོད་ཀྱི་བཟོ་བཀོད་ལུ་ཡོད་པའི་སྔོན་སྒྲིག་གི་དབྱེ་བ་བར་བཅད་ཐིག་ཁྲམ་ཚུའི་སྐོར་ལས་བརྡ་"
-"དོན་མིན་འདུག་debian-boot@lists.debian.orgལུ་བརྡ་དོན་དང་གཅིག་ཁར་གློག་འཕྲིན་འཕྲིན་དོན་གཏང་"
-"གནང་།"
 
 #. Type: boolean
 #. Description
@@ -323,8 +280,6 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"བར་བཅད་ཐིག་ཁྲམ་གྱི་དབྱེ་བ་ལུ་ལིབ་པཱར་ཊེཌ་གྱིས་རྒྱབ་སྐྱོར་མ་འབད་བ་ཅིན་བར་བཅད་འབད་མི་འདི་གྱིས་ལཱ་ལེགས་"
-"ཤོམ་སྦེ་འབད་མི་བཏུབ་ དྲན་འཛིན་འབད།"
 
 #. Type: boolean
 #. Description
@@ -335,9 +290,6 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"ཁྱོད་ཀྱི་བཟོ་བཀོད་ལུ་ལག་ལེན་འཐབ་མིའི་བར་བཅད་ཐིག་ཁྲམ་ཚུ་ལུ་རྒྱབ་སྐྱོར་མེད་མི་དཔེ་མཛོད་ལིབ་པར་ཊེཌ་ཚུ་ལུ་འ་"
-"ནི་བར་བཅད་འབད་མི་འདི་གཞི་བཞགཔ་ཨིན་ འ་ནི་འདི་སྒྲིང་སྒྲིང་སྦེ་འོས་སྦྱོར་ཡོདཔ་དང་ཁྱོད་ཀྱིས་བར་བཅད་འབད་མི་"
-"འདི་ཕྱིར་ཐོན་འབད།"
 
 #. Type: boolean
 #. Description
@@ -347,29 +299,27 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
-"ཁྱོད་ཀྱི་འབད་ཚུགས་པ་ཅིན་ ཁྱོད་ཀྱི་བར་བཅད་ཐིག་ཁྲམ་ཀྱི་དབྱེ་བ་ལུ་ལིབ་པར་ཊེཌ་འབད་ནིའི་དོན་ལུ་གྲོགས་རམ་རྒྱབ་"
-"སྐྱོར་ཁ་སྐོང་འབད་གནང་།"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "བར་བཅད་ཐིག་ཁརམ་གྱི་དབྱེ་བ:"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "ལག་ལེན་འཐབ་ནིའི་དོན་ལུ་བར་བཅད་ཐིག་ཁྲམ་གྱི་དབྱེ་བ་སེལ་འཐུ་འབད།"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr "ཐབས་འཕྲུལ་འདི་ལུ་བར་བཅད་ཐིག་ཁྲམ་སྟོངམ་གསརཔ་གསར་བསྐྲུན་འབད།"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -380,23 +330,20 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"ཁྱོད་ཀྱིས་བར་བཅད་འབད་ནི་ལུ་ཐབས་འཕྲུལ་ཧྲིལ་བུ་སེལ་འཐུ་འབད་ནུག་ ཁྱོད་ཀྱིས་ཐབས་འཕྲུལ་ནང་ལུ་བར་བཅད་ཐིག་"
-"ཁྲམ་གསརཔ་གཅིག་འཕྲོ་མཐུད་འདི་གསར་བསྐྲུན་འབད་བ་ཅིན་ ད་ལྟོ་ཡོད་པའི་བར་བཅད་འབད་མི་་ཚུ་ཆ་མཉམ་རྩ་"
-"བསྐྲད་གཏང་འོང་།"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr "ཁྱོད་ལུ་རེ་འདོད་ཡོད་པ་ཅིན་ཁྱོད་ཀྱིས་བཀལ་སྤྱོད་འདི་ཤུལ་ལས་འབད་ཚུགས་དྲན་འཛིན་འབད།"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "བར་བཅད་ཐིག་ཁྲམ་སྟོངམ་གསརཔ་གཅིག་བྲིས?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -407,8 +354,6 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ལིབ་པར་ཊེཌ་ནང་ལུ་སཱན་བར་བཅད་འབད་ཐིག་ཁྲམ་ཚུ་ད་ལྟོ་བསྟར་སྤྱོད་ནང་ཚད་ལྡན་ཡོད་ནི་"
-"འདི་གྱིས་ བར་བཅད་འབད་མི་ཐིག་ཁྲམ་གསརཔ་གསར་བསྐྲུན་འབད་མི་ཚུ་དེ་འཕྲལ་ལས་ཌིཀསི་ནང་འབྲི་དགོ།"
 
 #. Type: boolean
 #. Description
@@ -418,8 +363,6 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"ཁྱོད་ཀྱིས་འ་ནི་བཀལ་སྤྱོད་འདི་ཤུལ་ལས་འབད་ཚུགསཔ་དང་ཌིཀསི་ནང་ཡོད་མི་གནད་སྡུད་ཆ་མཉམ་ལོག་མ་བཏུབ་སྦེ་རྩ་"
-"བསྐྲད་བཏང་འོང་།"
 
 #. Type: boolean
 #. Description
@@ -429,14 +372,13 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
-"ཁྱོད་ཀྱིས་འཐད་རི་འབའ་རི་བར་བཅད་ཐིག་ཁྲམ་གསརཔ་གསར་བསྐྲུན་འབད་འདི་ཌིཀསི་ནང་འབྲི་ནི་འདི་ངེས་དཔྱད་འབད།"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "ཐད་རི་འབའ་རི་ བུཊ་འབད་བཏུབ་གཏན་ཚིགས་ཅན་གྱི་བར་བཅད་ཅིག་དགོ་ནི་ཨིན་ན།"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -448,10 +390,6 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"ཁྱོད་ཀྱིས་ གཏན་ཚིགས་ཅན་གྱི་བར་བཅད་ཅིག་གུ་ བུཊི་འབད་བཏུབ་པའི་ཟུར་རྟགས་གཞི་སྒྲིག་འབད་ནི་ལུ་ འབད་རྩོལ་"
-"བསྐྱེདཔ་ཨིན་མས། སྤྱིར་བཏང་ལུ་ བུཊི་འབད་བཏུབ་པའི་ཟུར་རྟགས་འདི་ གཞི་རིམ་བར་བཅད་ལུ་རྐྱངམ་ཅིག་ཁག་ཆེཝ་"
-"ཨིན་ དེ་འབདཝ་ལས་ གཏན་ཚིགས་ཅན་གྱི་བར་བཅད་གུ་གཞི་སྒྲིག་འབད་མི་བཅུགཔ་ཨིན། བུཊི་འབད་བཏུབ་པའི་གཞི་"
-"རིམ་བར་བཅད་འདི་མེད་པ་ཅིན་ བ་ཡོསི་ཐོན་རིམ་ལ་ལོ་ཅིག་ བུཊི་འབད་མི་བཏུབ་ཧ་གོ་ཚུགས།"
 
 #. Type: boolean
 #. Description
@@ -462,72 +400,69 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"ཨིན་རུང་ ཁྱོད་རའི་བ་ཡོསི་ལུ་དཀའ་ངལ་དེ་མེདཔ་ ངེས་བདེན་ཨིན་པ་ཅིན་ ཡང་ན་ བུཊི་འབད་བཏུབ་པའི་གཏན་"
-"ཚིགས་ཅན་གྱི་བར་བཅད་དང་འཁྲིལ་བའི་སྲོལ་སྒྲིག་བུཊི་འཛིན་སྐྱོང་པ་ཅིག་ ལག་ལེན་འཐབ་པ་ཅིན་ ཟུར་རྟགས་གཞི་སྒྲིག་"
-"འབད་མི་དེ་གིས་ དོན་དག་ཡོདཔ་ཅིག་ལུ་འགྱུར་འོང་།"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr "བར་བཅད་ཟུར་རྟགས་ཚུ་གཞི་སྒྲིག་འབད།"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr "མིང་།"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr "བུཊི་འབད་བཏུབ་ཟུར་རྟགས:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr "ཨཱོན།"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr "ཨོཕ།"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "བར་བཅད་འདི་ཚད་བསྐྱར་བཟོ་འབད་(ད་ལྟོའི་ ${SIZE})"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr "བར་བཅད་འདི་བཏོན་གཏང་།"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr "བར་བཅད་གསརཔ་གསར་བསྐྲུན་འབད།"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr "ཐབས་འཕྲུལ་འདི་ལུ་བར་བཅད་ཐིག་ཁྲམ་སྟོངམ་གཅིག་གསརཔ་གསར་བསྐྲུན་འབད།"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -536,7 +471,7 @@ msgstr "ཐབས་འཕྲུལ་འདི་ལུ་བར་བཅད་
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr " ཟུར་གསོག་འབད་ཡོད་པའི་བ་ཡོསི་བུཊི་ས་ཁོངས་:"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -545,4 +480,4 @@ msgstr " ཟུར་གསོག་འབད་ཡོད་པའི་བ་�
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr "བ་ཡོསི་ག་རབ་"
+msgstr ""

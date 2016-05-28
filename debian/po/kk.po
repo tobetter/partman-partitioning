@@ -3,61 +3,33 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Kazakh messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Talgat Daniyarov
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008-2011
-# Dauren Sarsenov <daur88@inbox.ru>, 2008, 2009
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Sairan Kikkarin <sairan@sci.kz>, 2006
-#   KDE Kazakh l10n team, 2006
-#   Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008, 2009, 2010
-#   Dauren Sarsenov <daur88@inbox.ru>, 2009
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: 2013-10-04 12:19+0600\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
-"Language-Team: Kazakh\n"
-"Language: kk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "Бөлім көлемдерін өзгерту..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "Бөлім кестесінің жаңа күйін анықтау..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "Бөлімдердің көлемін өзгерту мүмкін емес."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr "Белгісіз себеп бойынша бөлімдердің көлемін өзгерту мүмкін емес."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -65,14 +37,13 @@ msgstr "Белгісіз себеп бойынша бөлімдердің көл
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Қосымша мәліметті /var/log/syslog файлынан не 4 виртуал консольдан қараңыз."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "Жасалған өзгерістерді жазып, жалғастыруды қалайсыз ба?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -82,21 +53,20 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"Бөлім көлемін таңдамас бұрын, барлық алдыңғы өзгерістер дискке жазылуы керек."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "Бұл операция қайтымсыз."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
-msgstr "Бөлім көлемін өзгерту операциясы ұзақ уақыт алуы мүмкін."
+msgstr ""
 
 #. Type: string
 #. Description
@@ -107,7 +77,7 @@ msgstr "Бөлім көлемін өзгерту операциясы ұзақ �
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "Жаңа бөлім көлемі:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -117,7 +87,6 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"Минимал көлемі - ${MINSIZE} (${PERCENT}), максимал көлемі - ${MAXSIZE}."
 
 #. Type: string
 #. Description
@@ -132,15 +101,13 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"Кеңес: максимал көлемді көрсету үшін \"max\" не пайыз (мысалы, \"20%\") "
-"енгізуіңізге болады. Пайыз максимал көлемнен есептеледі."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "Енгізілген өлшем қате."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -151,16 +118,13 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"Сіз енгізген өлшем түсініксіз. Оң сан мен оған қоса міндетті емес өлшем "
-"бірлігі бар мәнді көрсетіңіз (мыс. \"200 ГБ\"). Негізгі өлшем бірлігі "
-"мегабайт болып табылады."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr "Енгізілген өлшем тым үлкен"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -170,15 +134,13 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
-"Сіз енгізген өлшем бөлімнің мүмкін болатын ең үлкен өлшемінен үлкен болып "
-"тұр. Жалғастыру үшін кішірек өлшемін көрсетіңіз."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "Енгізілген өлшем тым кіші"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -188,64 +150,62 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
-"Сіз енгізген өлшем бөлімнің мүмкін болатын ең аз өлшемінен кем болып тұр. "
-"Жалғастыру үшін үлкенірек өлшемін көрсетіңіз."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "Көлемдерді өзгерту сәтсіз аяқталды"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "Сақтау құрылғысына өзгерістерді жазу кезінде қате кетті"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "Бөлімдердің көлемін өзгерту тоқтатылды."
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "Осы бөлімнің максимал көлемі: ${MAXSIZE}."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "Қате көлем"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr "Басы"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr "Соңы"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "Жаңа бөлімнің орналасуы:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -255,43 +215,41 @@ msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
 msgstr ""
-"Жаңа бөлімді қай жерде жасағыңыз келетінін таңдаңыз: бос кеңістіктің басында "
-"ма, әлде соңыда ма."
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "Негізгі"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "Логикалық"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "Жаңа бөлімнің түрі:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr "Жаңа бөлімнің жалаушалары:"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr "Бөлім аты:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -302,7 +260,7 @@ msgstr "Бөлім аты:"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "Бөлуді жалғастыру керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -313,9 +271,6 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"Бөлу бағдарламасы компьютеріңіздегі бөлімдер кестесінің түрі туралы ешбір "
-"мәлімет жоқ. Сондықтан бұл туралы debian-boot@lists.debian.org адресіне хат "
-"жазып жіберіңіз."
 
 #. Type: boolean
 #. Description
@@ -325,8 +280,6 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"Бөлімдер кестесінің түрі libparted қолдауына ие болмаса, бөлу бағдарламасы "
-"дұрыс жұмыс істемейді."
 
 #. Type: boolean
 #. Description
@@ -337,9 +290,6 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"Бөлу бағдарламасы libparted кітапханасына негізделген, ол сіздің "
-"компьютеріңіз қолданатын бөлім кестелерін қолдамайды. Бағдарламадан шығу "
-"ұсынылады."
 
 #. Type: boolean
 #. Description
@@ -349,29 +299,27 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
-"Егер қолыңыздан келсе, бөлімдер кестесінің қолдауын libparted-ке қосуға "
-"көмектесіңіз."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "Бөлім кестесінің түрі:"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "Бөлімдер кестесінің түрін таңдаңыз."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr "Осы қондырғыда бос бөлімдер кестесін құру керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -382,22 +330,20 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"Сіз бүкіл дискіні бөлу шешімін қабылдадыңыз. Егер әрекетті жалғастырсаңыз, "
-"онда жаңа бөлімдер кестесі жасалғанда ондағы барлық бөлімдер жойылады."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr "Операция орындалған соң оны болдырмау мүмкін болмайды."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "Жаңа бос бөлімдер кестесін құру керек пе?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -408,8 +354,6 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"libparted-тегі Sun бөлімдерінің кестесі қолдауы шектелгендіктен, бөлімдердің "
-"жаңа кестелері дискіге бірден жазылады."
 
 #. Type: boolean
 #. Description
@@ -419,8 +363,6 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"Бұл операция қайтымсыз, сондықтан дискідегі барлық деректер қайтымсыз "
-"жойылады."
 
 #. Type: boolean
 #. Description
@@ -430,15 +372,13 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
-"Бөлімдердің жаңа кестелерін құрып, оларды дискіге жазуды қалайтыңызды "
-"растаңыз."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "Сіз шынымен логикалық бөлімді жүктейтін деп белгілеуді қалайсыз ба?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -450,9 +390,6 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"Сіз логикалық бөлімді \"жүктейтін\" деп белгілеуді сұрадыңыз. Бұл жалауша "
-"көбінесе біріншілік бөлімдерге қолданылады. Кейбір BIOS түрлері бұл жалауша "
-"біріншілік бөлімде тұрмаса, дискіден жүктей алмайды."
 
 #. Type: boolean
 #. Description
@@ -463,72 +400,69 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"Егер сіздің BIOS жүйені осындай жағдайда жүктей алатынын білсеңіз немесе "
-"осыны түсінетін арнайы жүктеуші менеджерін қолдансаңыз, осындай орнатудың "
-"жөні бар."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr "Бөлім жалаушасын орнату"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr "Аты:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr "Жүктейтін жалауша:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr "қосулы"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr "өшірулі"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "Бөлімнің көлемін өзгерту (қазіргі көлемі ${SIZE})"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr "Бөлімді жою"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr "Жаңа бөлім жасау"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr "Осы құрылғыда жаңа бос бөлімдер кестесін құру"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -537,7 +471,7 @@ msgstr "Осы құрылғыда жаңа бос бөлімдер кестес�
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr "BIOS жүктеуішісінің сақтық орны"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -546,4 +480,4 @@ msgstr "BIOS жүктеуішісінің сақтық орны"
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr "biosgrub"
+msgstr ""
