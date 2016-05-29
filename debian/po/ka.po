@@ -3,47 +3,78 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Georgian messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+# Aiet Kolkhi <aietkolkhi@gmail.com>, 2005, 2006, 2007, 2008.
+#
+# This file is maintained by Aiet Kolkhi <aietkolkhi@gmail.com>
+#
+# Includes contributions by Malkhaz Barkalaza <malxaz@gmail.com>,
+# Alexander Didebulidze <didebuli@in.tum.de>, Vladimer Sichinava <vlsichinava@gmail.com>
+# Taya Kharitonashvili <taya13@gmail.com>, Gia Shervashidze - www.gia.ge
+#
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Aiet Kolkhi <aietkolkhi@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer.2006071\n"
+"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
+"POT-Creation-Date: 2014-07-06 22:00+0000\n"
+"PO-Revision-Date: 2011-03-01 12:49+0400\n"
+"Last-Translator: Aiet Kolkhi <aietkolkhi@gmail.com>\n"
+"Language-Team: Georgian\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr ""
+msgstr "მიმდინარეობს დანაყოფის ზომის შეცვლა..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr ""
+msgstr "დაყოფის ცხრილის ახალი მდგომარეობის გამოთვლა..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr ""
+msgstr "დანაყოფთა ზომების შეცვლა შეუძლებელია."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr ""
+msgstr "დანაყოფის ზომის შეცვლა უცნობი მიზეზის გამო ვერ განხორციელდა."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr ""
+msgstr "დაწვრილებით იხილეთ /var/log/syslog ან ვირტუალური კონსოლი 4."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr ""
+msgstr "ჩავწეროთ ცვლილებები დისკზე და გავაგრძელოთ?"
 
 #. Type: boolean
 #. Description
@@ -53,13 +84,15 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
+"სანამ დანყოფის ახალ ზომას აირჩევდეთ, ყველა აქამდე არსებული ცვლილება დისკზე "
+"უნდა ჩაიწეროს."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr ""
+msgstr "ამ ოპერაციის დაბრუნება შეუძლებელია."
 
 #. Type: boolean
 #. Description
@@ -67,6 +100,8 @@ msgstr ""
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
 msgstr ""
+"გაითვალისწინეთ, რომ ზომის შეცვლის ოპერაცია შეიძლება საკმაოდ დიდხანს "
+"გაგრძელდეს."
 
 #. Type: string
 #. Description
@@ -77,7 +112,7 @@ msgstr ""
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr ""
+msgstr "დანაყოფის ახალი ზომა:"
 
 #. Type: string
 #. Description
@@ -87,6 +122,8 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
+"ამ პარტიციის მინიმალური ზომაა ${MINSIZE} (ან ${PERCENT}), ხოლო მაქსიმალური "
+"ზომაა ${MAXSIZE}."
 
 #. Type: string
 #. Description
@@ -101,13 +138,16 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
+"რჩევა: \"max\" შეგიძლიათ გამოიყენოთ მაქსიმალური ზომის განსასაზღვრად, ან "
+"შეიყვანეთ პროცენტული მაჩვენებელი (მაგ. \"20%\") მაქსიმალური ზომის გარკვეული "
+"პროცენტის გამოსაყენებლად."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr ""
+msgstr "მითითებული ზომა არასწორია"
 
 #. Type: error
 #. Description
@@ -118,13 +158,16 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
+"თქვენს მიერ ამორჩეული ზომა გაუგებარია. გთხოვთ შეიყვანოთ მთელი დადებითი "
+"რიცხვი და, სურვილის შემთხვევაში, სიდიდის აღმნიშვნელი საზომი ერთეული (მაგ. "
+"\"200 GB\"). ნაგულისხმევი საზომი ერთეული არის მეგაბაიტი."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr ""
+msgstr "შეყვანილი ზომა ძალიან დიდია"
 
 #. Type: error
 #. Description
@@ -134,13 +177,15 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
+"თქვენს მიერ შეყვანილი ზომა პარტიციის ზომაზე დიდია. გასაგრძელებლად შეიყვანეთ "
+"უფრო პატარა ზომა."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr ""
+msgstr "თქვენს მიერ შეყვანილი ზომა ძალიან პატარაა"
 
 #. Type: error
 #. Description
@@ -150,62 +195,64 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
+"თქვენს მიერ შეყვანილი ზომა პარტიციის მინიმალურ ზომაზე პატარაა. "
+"გასაგრძელებლად შეიყვანეთ უფრო დიდი ზომა."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr ""
+msgstr "ზომის შეცვლისას დაიშვა შეცდომა"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr ""
+msgstr "შეცდომა ცვლილებების  დამხსომებელ მოწყობილობაზე ჩაწერისას."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr ""
+msgstr "დანაყოფების ზომის შეცვლის ოპერაცია შეწყდა."
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr ""
+msgstr "ამ პარტიციის მაქსიმალური ზომაა ${MAXSIZE}."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr ""
+msgstr "დაუშვებელი ზომა"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr ""
+msgstr "დასაწყისი"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr ""
+msgstr "დასასრული"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr ""
+msgstr "ახალი დანაყოფის მდებარეობა:"
 
 #. Type: select
 #. Description
@@ -214,42 +261,42 @@ msgstr ""
 msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
-msgstr ""
+msgstr "სად გაიხსნას ახალი დანაყოფი - თავისუფალი სივრცის თავში თუ ბოლოში?"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr ""
+msgstr "პირველადი"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr ""
+msgstr "ლოგიკური"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr ""
+msgstr "ახალი დანაყოფის ტიპი:"
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr ""
+msgstr "ახალი დანაყოფის ალმები:"
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr ""
+msgstr "დანაყოფის სახელი:"
 
 #. Type: boolean
 #. Description
@@ -260,7 +307,7 @@ msgstr ""
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr ""
+msgstr "განვაგრძოთ დაყოფა?"
 
 #. Type: boolean
 #. Description
@@ -271,6 +318,9 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
+"დისკის დამყოფს (partitioner) თქვენი არქიტექსტურის დაყოფის ცხრილის "
+"სტანდარტული ტიპის შესახებ მონაცემები არ გააჩნია.  გთხოვთ შეატყობინოთ "
+"ელფოსტით მისამართზე debian-boot@lists.debian.org თქვენი სისტემის შესახებ."
 
 #. Type: boolean
 #. Description
@@ -280,6 +330,8 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
+"გაითვალისწინეთ, რომ თუ დაყოფის ცხრილის ტიპის მხარდაჭერა libparted-ს არ "
+"გააჩნია, მაშინ დისკის დამყოფი (partitioner) გამართულად ვერ იმუშავებს."
 
 #. Type: boolean
 #. Description
@@ -290,6 +342,9 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
+"დისკის დამყოფი (partitioner) ეფუძნება ბიბლიოთეკა „libparted”-ს, რომელსაც "
+"თქვენს არქიტექტურაზე გამოყენებულ დაყოფის ცხრილის მხარდაჭერა არ გააჩნია.  "
+"გირჩევთ დაუყოვნებლივ გამოხვიდეთ დისკის დამყოფი პროგრამიდან!"
 
 #. Type: boolean
 #. Description
@@ -299,27 +354,29 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
+"შესაძლებლობის შემთხვევაში, გთხოვთ ხელი შეუწყოთ libparted-ს თქვენი დაყოფის "
+"ცხრილის ტიპის მხარდაჭერის დამატებაში."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr ""
+msgstr "დანაყოფთა ცხრილის ტიპი:"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr ""
+msgstr "აირჩიეთ დანაყოფთა ცხრილის ტიპი."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr ""
+msgstr "გსურთ ამ მოწყობილობაზე ახალი ცარიელი დაყოფის ცხრილის შექმნა?"
 
 #. Type: boolean
 #. Description
@@ -330,6 +387,9 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
+"დაყოფისათვის თქვენ მონიშნეთ მთელი მოწყობილობა. თუ გააგრძელებთ და ამ "
+"მოწყობილობაზე დანაყოფთა ახალ ცხრილს შექმნით, არსებული ყველა დანაყოფი "
+"წაიშლება."
 
 #. Type: boolean
 #. Description
@@ -337,13 +397,15 @@ msgstr ""
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
 msgstr ""
+"გაითვალისწინეთ, რომ სურვილის შემთხვევაში თქვენ მოგვიანებით შეძლებთ ამ "
+"ოპერაციის დაბრუნებას."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr ""
+msgstr "ჩავწერო ახალი ცარიელი დაყოფის ცხრილი?"
 
 #. Type: boolean
 #. Description
@@ -354,6 +416,8 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
+"Sun დანაყოფთა ცხრილების libparted-ში არასრული მხარდაჭერის გამო ახალგახსნილი "
+"ცხრილი დაუყოვნებლივ უნდა შევინახოთ დისკზე."
 
 #. Type: boolean
 #. Description
@@ -363,6 +427,8 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
+"თქვენ ვეღარ შეძლებთ ამ ოპერაციის დაბრუნებას და დისკზე არსებული ინფორმაცია "
+"საბოლოოდ იქნება წაშლილი."
 
 #. Type: boolean
 #. Description
@@ -372,13 +438,15 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
+"დაადასტურეთ, რომ თქვენ ნამდვილად გინდათ ახალი დანაყოფთა ცხრილის შექმნა და "
+"მისი დისკზე ჩაწერა."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr ""
+msgstr "ნამდვილად გსურთ გქონდეთ ჩატვირთვადი ლოგიკური პარტიცი?"
 
 #. Type: boolean
 #. Description
@@ -390,6 +458,10 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
+"თქვენ ცდილობთ ჩატვირთვის თვისება ლოგიკურ პარტიციას მიანიჭოთ. ჩატვირთის "
+"თვისება ძირითადად მხოლოდ ძირითად პარტიციებზე გამოიყენება. შედეგად, მისი "
+"ლოგიკურ პარტიციაზე გამოყენება ძირითადად არ არის რეკომენდირებული. ზოგიერთი "
+"BIOS სისტემა ვერ ჩაიტვირთება, თუ ჩატვირთვად ძირითად პარტიციას ვერ მიაკვლევს."
 
 #. Type: boolean
 #. Description
@@ -400,69 +472,73 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
+"თუმცა, თუ დარწმუნებული ხართ, რომ თქვენს BIOS სისტემას ეს პრობლემა არ "
+"გააჩნია, ან თუ თქვენ ჩატვირთვის საკუთარ მენეჯერს იყენებთ, რომელსაც "
+"ჩატვირთვადი ლოგიკური პარტიციების მხარდაჭერა გააჩნია, მაშინ შესაძლოა აზრი "
+"ქონდეს ამ თვისების მინიჭებას."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr ""
+msgstr "დანაყოფის ალმების დაყენება"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr ""
+msgstr "სახელი:"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr ""
+msgstr "ჩატვირთვის ალამი:"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr ""
+msgstr "ჩართ."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr ""
+msgstr "გამორთ."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr ""
+msgstr "დანაყოფის ზომის შეცვლა (მიმდინარე ზომა ${SIZE})"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr ""
+msgstr "დანაყოფის წაშლა"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr ""
+msgstr "ახალი დანაყოფის შექმნა"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr ""
+msgstr "ამ მოწყობილობაზე დანაყოფთა ახალი (ცარიელი) ცხრილის შექმნა"
 
 #. Type: text
 #. Description
@@ -471,7 +547,7 @@ msgstr ""
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr ""
+msgstr "BIOS ჩატვირთვის სარეზერვო არე:"
 
 #. Type: text
 #. Description
@@ -480,4 +556,4 @@ msgstr ""
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr ""
+msgstr "biosgrub"

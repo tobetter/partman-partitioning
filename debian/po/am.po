@@ -3,47 +3,71 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Amharic translation for debian-installer
+# This file is distributed under the same license as the debian-installer package.
+# tegegne tefera <tefera@mekuria.com>, 2006.
+#
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Data taken from ICU-2.8; contributed by:
+#   - Daniel Yacob <yacob@geez.org>, Ge'ez Frontier Foundation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
+"POT-Creation-Date: 2014-07-06 22:00+0000\n"
+"PO-Revision-Date: 2014-04-04 22:07+0100\n"
+"Last-Translator: Tegegne Tefera <tefera@mekuria.com>\n"
+"Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: n>1;\n"
+
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr ""
+msgstr "የክፋይ መጠንን በመቀየር ላይ..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr ""
+msgstr "የአዲሱን ባዶ የክፋይ ሠንጠረዥ ሁኔታ በማስላት ላይ..."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr ""
+msgstr "የ መጥን-ቀይር ስራ አልተቻለም"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr ""
+msgstr "ባልታወቀ ምክንያት ይህንን ክፋይ መጠን መቀየር አልተቻለም፡፡"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr ""
+msgstr "ለዝርዝሩ /var/log/syslog ወይም virtual console 4ን ይመልከቱ።"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr ""
+msgstr "ለውጡን ዲስኩ ውስጥ ይጻፍና ይቀጥል?"
 
 #. Type: boolean
 #. Description
@@ -52,21 +76,21 @@ msgstr ""
 msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
-msgstr ""
+msgstr "አዲስ የክፋይ መጠን ከመምረጥዎ በፊት ቀድሞ የተደርጉ ለውጦች በሙሉ በዲስኩ ላይ መመዝገብ አለባቸው።"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr ""
+msgstr "ይህንን ክፋይ ማጥፋት አይችሉም።"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
-msgstr ""
+msgstr "እባክዎ የመጠን መቀየር ስራ ብዙ ጊዜ እንደሚፈጅ ይገንዘቡ።"
 
 #. Type: string
 #. Description
@@ -77,7 +101,7 @@ msgstr ""
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr ""
+msgstr "የአዲስ ክፋይ መጠን፦"
 
 #. Type: string
 #. Description
@@ -86,7 +110,7 @@ msgstr ""
 msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
-msgstr ""
+msgstr "ለዚህ ክፋይ ዝቅተኛ መጠን ${MINSIZE} ወይም ${PERCENT}፤ ከፍተኛ መጠን ${MAXSIZE}."
 
 #. Type: string
 #. Description
@@ -101,13 +125,15 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
+"ምሳሌ: \"max\" ከፍተኛውን መጥን የሚወክል አጭር መንገድ ሊሆን፣ ወይም መቶኛን በመጨመር (ምሳሌ \"20%\") "
+"ከከፍተኛው መጠን ምን ያህሉን መጠቀም እንደሚፈልጉ ሊገልጡ ይችላሉ።"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr ""
+msgstr "ያስገቡት መጠን ተገቢ አይደለም።"
 
 #. Type: error
 #. Description
@@ -118,13 +144,15 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
+"የሰጡት መጠን አልገባኝም። እባክዎ የፖሰቲቨ ቁጥር በዩኒት ምልክት ተከትሎ ይጻፉ (ምሳሌ \"200 GB\"). ቀዳሚ "
+"የመለኪያ ዩኒት megabyte ነው።"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr ""
+msgstr "የተሰጠው መጠን በዝቷ"
 
 #. Type: error
 #. Description
@@ -133,14 +161,14 @@ msgstr ""
 msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
-msgstr ""
+msgstr "የተሰጠው ከተፈቀደው ከፍተኛ መጠን የበዛ ነው፡፡ እባክዎ አነስ ያለ አስገቡ "
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr ""
+msgstr "የተሰጠው መጠን አንሷ"
 
 #. Type: error
 #. Description
@@ -149,63 +177,63 @@ msgstr ""
 msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
-msgstr ""
+msgstr "የተሰጠው ከተፈቀደው ዝቅተኛ መጠን ያነሰ ነው፡፡ እባክዎ ተለቅ ያለ አስገቡ "
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr ""
+msgstr "የ መጥን-ቀይር ስራ አልተሳካም"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr ""
+msgstr "ይዘት አካሉ ላይ ለውጡ ሲጻፍ ስህተት ተፈጥሯል፡፡ "
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr ""
+msgstr "የ መጥን-ቀይር ስራ ቆሟል"
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr ""
+msgstr "ለዚህ ክፋይ ከፍተኛው መጠን ${MAXSIZE}."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr ""
+msgstr "የተሳሳተ መጠን"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr ""
+msgstr "መጀመሪያ"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr ""
+msgstr "መጨረሻ"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr ""
+msgstr "የአዲሱ ክፋይ ቦታ፦"
 
 #. Type: select
 #. Description
@@ -214,42 +242,42 @@ msgstr ""
 msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
-msgstr ""
+msgstr "አዲሱ ክፋይ በባዶ ቦታው መጀመሪያ ወይስ መጨረሻ ላይ ይሁን?"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr ""
+msgstr "ዋና ክፋይ"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr ""
+msgstr "ንዑስ ክፋይ"
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr ""
+msgstr "የአዲሱ ክፋይ ዓይነት፦"
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr ""
+msgstr "የአዲሱ ክፋይ ባንዲራ፦"
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr ""
+msgstr "የክፋይ ስም፦"
 
 #. Type: boolean
 #. Description
@@ -260,7 +288,7 @@ msgstr ""
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr ""
+msgstr "ካዝናውን ምክፈል ይቀጥል?"
 
 #. Type: boolean
 #. Description
@@ -271,6 +299,8 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
+"ይህ ከፋይ በአስሊዎ ላይ ስላለው ቀዳሚ የክፍይ ሰንጠረዥ መረጃ የለውም። እባክዎ ይህንን መረጃ በኤ-መልዕክት ለ "
+"debian-boot@lists.debian.org ይላኩ።"
 
 #. Type: boolean
 #. Description
@@ -279,7 +309,7 @@ msgstr ""
 msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
-msgstr ""
+msgstr "የተሰጠው የክፋይ ሰንጠረዥ በlibparted የማይደገፍ ከሆነ ይህ ከፋይ በትክክል ሊሰራ እንደማይችል ይገንዘቡ።"
 
 #. Type: boolean
 #. Description
@@ -290,6 +320,8 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
+"ከፋዩ የተመሰረተው libparted በሚባለው ስልት ላይ ነው። ይህ ስልት ለአስሊዎ ድጋፍ አልተደረገለትም። ስለዚህ ከፋዩን "
+"ዘግተው እንዲወጡ በጥብቅ እናሳስባለን።"
 
 #. Type: boolean
 #. Description
@@ -298,28 +330,28 @@ msgstr ""
 msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
-msgstr ""
+msgstr "ከቻሉ እባክዎን ለክፋይ ሰንጠረዥዎ ድጋፍ እንዲያገኝ ለማድረግ ይርዱ።"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr ""
+msgstr "የክፋይ ሠንጠረዥ ዓይነት፦"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr ""
+msgstr "በጥቅም ላይ የሚውለውን የክፋይ ሰንጠረዥ ይምረጡ፡፡"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr ""
+msgstr "በዚህ አካል ላይ አዲስ ባዶ የክፋይ ሠንጠረዥ ይፈጠር፡፡"
 
 #. Type: boolean
 #. Description
@@ -330,20 +362,22 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
+"መላ አካሉን ለመክፈል መርጠዋል፡፡ አካሉ ላይ አዲስ የክፋይ ሠንጠረዥ በመፍጠሩ ከቀጠሉ አሁን ያሉት ክፋዮች ሁሉ "
+"ይሰረዛሉ፡፡"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr ""
+msgstr "ይህንን ተግባር በኋላ ካልፈለጉት ለመተው እንደሚችሉ ይገንዘቡት፡፡"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr ""
+msgstr "አዲስ ባዶ የክፋይ ሠንጠረዥ ይጻፍ?"
 
 #. Type: boolean
 #. Description
@@ -354,6 +388,8 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
+"libparted ውስጥ ባለው የSun ክፋይ ሰንጠረዥ አሰራር ችግር ምክንያት አዲስ የተፈጠረው የክፋይ ሰንጠረዥ በአስቸኳይ "
+"መጻፍ አለበት።"
 
 #. Type: boolean
 #. Description
@@ -363,6 +399,8 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
+"በኋላ ይህንን ተግባር ሰርዘው ወደኋላ መመለስ አይችሉም፣ እንዲሁም በዚህ ዲስክ ላይ ያለው መረጃ ሁሉ እንዳይመለስ ሆነ "
+"ይጠፋል፡፡"
 
 #. Type: boolean
 #. Description
@@ -371,14 +409,14 @@ msgstr ""
 msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
-msgstr ""
+msgstr "በርግጥ አዲስ የክፋይ ሠንጠረዥ መፍጠርና በዲስኩ ላይ መጻፍ ይፈልጉ እንደሆነ እባክዎ ያረጋግጥ፡፡"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr ""
+msgstr "ተነሺ ሎጂካዊ ክፋይ እንደሚፈልጉ እርግጠኛ ነዎት?"
 
 #. Type: boolean
 #. Description
@@ -390,6 +428,8 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
+"በሎጂካዊ ክፋይ ላይ የተነሺ ሰንደቅን ለማቆም እየሞከሩ ነው። ተነሺ ሰንደቅ ብዙጊዜ በዋና ክፋዮች ላይ ነው የሚጠቅመው። "
+"ስለዚህ በሎጂካዊ ክፋዮች ላይ ማድረግ አይመከርም። አንዳንድ የBIOS ዝርያዎች ቡት የሚደረግ ዋና ክፋዮች ከሌሉ አይሰሩም።"
 
 #. Type: boolean
 #. Description
@@ -400,69 +440,71 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
+"BIOS የዚህ ዓይነት ችግር እንደሌለበት ርግጠኛ ከሆኑ ወይም የሚጠቀሙት ሎጂካዊ ክፋዮችን የሚመለከት የራስዎ ቡት "
+"አስተዳዳሪ ከሆነ ይህንን ሰንደቅ መትከል ትክክል ይሆናል።"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr ""
+msgstr "የክፋይ ባንዲራ ሰይም"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr ""
+msgstr "ስም፦"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr ""
+msgstr "ቡት መነሻ ምልክት፦"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr ""
+msgstr "አብራ"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr ""
+msgstr "አጥፋ"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr ""
+msgstr "የክፋይ መጠን-ቀይር (የአሁን መጠን  ${SIZE})"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr ""
+msgstr "ክፋዩ አጥፋ"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr ""
+msgstr "አዲስ ክፋይ ፍጠር"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr ""
+msgstr "በዚህ አካል ላይ አዲስ ባዶ የክፋይ ሠንጠረዥ ይፈጠር፡፡"
 
 #. Type: text
 #. Description
