@@ -3,6 +3,49 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of ro.po to Romanian
+# Romanian translation
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans
+#
+#    Developers do not need to manually edit POT or PO files.
+#
+# Eddy Petrișor <eddy.petrisor@gmail.com>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
+#
+# Translations from iso-codes:
+# Alastair McKinstry <mckinstry@debian.org>, 2004
+# Andrei Popescu <andreimpopescu@gmail.com>, 2010.
+# Eddy Petrișor <eddy.petrisor@gmail.com>, 2004, 2006, 2007, 2008, 2009.
+# Free Software Foundation, Inc., 2000, 2001
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010.
+# Mişu Moldovan <dumol@go.ro>, 2000, 2001.
+# Tobias Toedter <t.toedter@gmx.net>, 2007.
+# Translations taken from ICU SVN on 2007-09-09
+# Ioan Eugen Stan <stan.ieugen@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ro\n"
+"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
+"POT-Creation-Date: 2013-10-30 22:04+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: utf-8\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
 #. Type: text
 #. Description
 #. File system name
@@ -10,7 +53,7 @@
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr ""
+msgstr "volumul fizic pentru criptare"
 
 #. Type: text
 #. Description
@@ -19,7 +62,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr ""
+msgstr "cripto"
 
 #. Type: text
 #. Description
@@ -29,7 +72,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:3001
 msgid "Device-mapper (dm-crypt)"
-msgstr ""
+msgstr "Dispozitiv de mapare (dm-crypt)"
 
 #. Type: text
 #. Description
@@ -38,7 +81,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:5001
 msgid "not active"
-msgstr ""
+msgstr "inactiv"
 
 #. Type: text
 #. Description
@@ -46,14 +89,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:6001
 msgid "Encryption method:"
-msgstr ""
+msgstr "Metoda de criptare:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
 msgid "Encryption method for this partition:"
-msgstr ""
+msgstr "Metoda de criptare pentru acestă partiție:"
 
 #. Type: select
 #. Description
@@ -63,6 +106,8 @@ msgid ""
 "Changing the encryption method will set other encryption-related fields to "
 "their default values for the new encryption method."
 msgstr ""
+"Odată cu schimbarea metodei de criptare, se vor inițializa și alte câmpuri "
+"referitoare la criptare cu valorile implicite pentru noua metodă de criptare."
 
 #. Type: text
 #. Description
@@ -70,14 +115,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:8001
 msgid "Encryption:"
-msgstr ""
+msgstr "Criptare:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
 msgid "Encryption for this partition:"
-msgstr ""
+msgstr "Criptarea pentru acestă partiție:"
 
 #. Type: text
 #. Description
@@ -85,14 +130,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:10001
 msgid "Key size:"
-msgstr ""
+msgstr "Dimensiunea cheii:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
 msgid "Key size for this partition:"
-msgstr ""
+msgstr "Dimensiunea cheii pentru acestă partiție:"
 
 #. Type: text
 #. Description
@@ -102,7 +147,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:12001
 msgid "IV algorithm:"
-msgstr ""
+msgstr "Algoritmul VI:"
 
 #. Type: select
 #. Description
@@ -112,6 +157,7 @@ msgstr ""
 #: ../partman-crypto.templates:13001
 msgid "Initialization vector generation algorithm for this partition:"
 msgstr ""
+"Algoritmul de generare a vectorului de inițializare pentru acestă partiție:"
 
 #. Type: select
 #. Description
@@ -125,6 +171,10 @@ msgid ""
 "no reason to change this from the recommended default, except for "
 "compatibility with older systems."
 msgstr ""
+"Există diferiți algoritmi pentru obținerea vectorului de inițializare pentru "
+"fiecare sector. Acestă opțiune influențează nivelul de securitate la "
+"criptare. În mod normal, nu există un motiv pentru a schimba această opțiune "
+"față de cea implicită, exceptând compatibilitatea cu sistemele mai vechi."
 
 #. Type: text
 #. Description
@@ -132,14 +182,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:14001
 msgid "Encryption key:"
-msgstr ""
+msgstr "Cheia de criptare:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr ""
+msgstr "Tipul de cheie de criptare pentru acestă partiție:"
 
 #. Type: text
 #. Description
@@ -147,14 +197,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr ""
+msgstr "Cheia de căutare pentru criptare:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr ""
+msgstr "Tipul de cheie de căutare pentru criptare asociat acestei partiții:"
 
 #. Type: select
 #. Description
@@ -166,6 +216,10 @@ msgid ""
 "recommended default and doing so in the wrong way can reduce the encryption "
 "strength."
 msgstr ""
+"Cheia de criptare este obținută din fraza-parolă prin aplicarea asupra ei a "
+"unei funcții hash unidirecțională. În mod normal, nu este necesară "
+"schimbarea acestei opțiuni față de cea implicită, iar schimbarea ei în mod "
+"greșit poate reduce calitatea criptării."
 
 #. Type: text
 #. Description
@@ -174,28 +228,28 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Erase data:"
-msgstr ""
+msgstr "Șterge datele:"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr ""
+msgstr "nu"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr ""
+msgstr "da"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr ""
+msgstr "Șterge datele de pe acestă partiție"
 
 #. Type: boolean
 #. Description
@@ -205,7 +259,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr ""
+msgstr "Într-adevăr se șterg datele de pe ${DEVICE}?"
 
 #. Type: boolean
 #. Description
@@ -216,6 +270,9 @@ msgid ""
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"Datele de pe ${DEVICE} vor fi suprascrise cu zerouri și nu vor mai putea fi "
+"recuperate după terminarea acestui pas. Aceasta este ultima șansă să "
+"abandonați ștergerea."
 
 #. Type: text
 #. Description
@@ -225,7 +282,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
 msgid "Erasing data on ${DEVICE}"
-msgstr ""
+msgstr "Se șterg datele de pe ${DEVICE}"
 
 #. Type: text
 #. Description
@@ -235,6 +292,9 @@ msgid ""
 "The installer is now overwriting ${DEVICE} with zeroes to delete its "
 "previous contents. This step may be skipped by cancelling this action."
 msgstr ""
+"Programul de instalare în acest moment suprascrie ${DEVICE} cu zerouri "
+"pentru a șterge conținutul anterior. Acest pas poate fi sărit prin anularea "
+"acestei acțiuni."
 
 #. Type: error
 #. Description
@@ -244,7 +304,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:25001 ../partman-crypto.templates:29001
 msgid "Erasing data on ${DEVICE} failed"
-msgstr ""
+msgstr "Ștergerea datelor de pe ${DEVICE} a eșuat"
 
 #. Type: error
 #. Description
@@ -254,6 +314,8 @@ msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
+"A apărut o eroare la încercarea de suprascriere a datelor de pe ${DEVICE} cu "
+"zerouri. Datele nu au fost șterse."
 
 #. Type: boolean
 #. Description
@@ -264,6 +326,9 @@ msgid ""
 "be recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"Datele de pe ${DEVICE} vor fi suprascrise cu date aleatoare. Acestea nu mai "
+"pot fi recuperate după terminarea acestui pas. Aceasta este ultima șansă să "
+"abandonați ștergerea."
 
 #. Type: text
 #. Description
@@ -275,6 +340,10 @@ msgid ""
 "cancelling this action, albeit at the expense of a slight reduction of the "
 "quality of the encryption."
 msgstr ""
+"Programul de instalare în acest moment suprascrie ${DEVICE} cu date "
+"aleatorii pentru a preveni scurgeri de meta-informații de pe volumul "
+"criptat. Acest pas poate fi sărit prin anularea acestei acțiuni, dar va "
+"rezulta într-o ușoară reducere a calității criptării."
 
 #. Type: error
 #. Description
@@ -285,41 +354,44 @@ msgid ""
 "Recovery of the device's previous contents is possible and meta-information "
 "of its new contents may be leaked."
 msgstr ""
+"A apărut o eroare în timp ce se încerca suprascrierea ${DEVICE} cu date "
+"aleatorii. Recuperarea conținutului de pe dispozitiv este posibilă și pot "
+"apărea scurgeri de meta-informații despre noul conținut."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:30001
 msgid "Setting up encryption..."
-msgstr ""
+msgstr "Se pregătește criptarea..."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
 msgid "Configure encrypted volumes"
-msgstr ""
+msgstr "Configurează volumele criptate"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr ""
+msgstr "Nu s-au găsit partiții pentru criptat"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions have been selected for encryption."
-msgstr ""
+msgstr "Nici o partiție nu este selectată pentru criptare."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:33001
 msgid "Required programs missing"
-msgstr ""
+msgstr "Lipsesc programe necesare"
 
 #. Type: note
 #. Description
@@ -329,13 +401,16 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
+"Această variantă de program de instalare Debian nu include unul sau mai "
+"multe programe care sunt necesare lui partman-crypto pentru a funcționa "
+"corect."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:34001
 msgid "Required encryption options missing"
-msgstr ""
+msgstr "Lipsesc opțiunile necesare de criptare"
 
 #. Type: error
 #. Description
@@ -345,6 +420,9 @@ msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
 msgstr ""
+"Opțiunile de criptare pentru ${DEVICE} sunt incomplete. Vă rugăm să vă "
+"întoarceți la meniul de partiționare și să selectați toate opțiunile "
+"necesare."
 
 #. Type: text
 #. Description
@@ -354,7 +432,7 @@ msgstr ""
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:35001
 msgid "missing"
-msgstr ""
+msgstr "lipsă"
 
 #. Type: text
 #. Description
@@ -362,14 +440,14 @@ msgstr ""
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr ""
+msgstr "Folosită ca volum fizic pentru volumul criptat ${DEV}"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
 msgid "Encryption package installation failure"
-msgstr ""
+msgstr "Eșec la instalarea pachetului de criptare"
 
 #. Type: error
 #. Description
@@ -379,6 +457,8 @@ msgid ""
 "The kernel module package ${PACKAGE} could not be found or an error occurred "
 "during its installation."
 msgstr ""
+"Pachetul de modul de nucleu ${PACKAGE} nu a putut fi găsit sau a apărut o "
+"eroare în timpul instalării lui."
 
 #. Type: error
 #. Description
@@ -389,13 +469,16 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
+"Probabil că vor fi probleme în timpul pornirii când sistemul încearcă să "
+"pregătească partițiile criptate. Probabil veți putea corecta acest lucru mai "
+"târziu, prin instalarea pachetelor necesare."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:38001
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr ""
+msgstr "Se scriu schimbările pe disc și se configurează volumele criptate?"
 
 #. Type: boolean
 #. Description
@@ -405,6 +488,8 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
+"Înainte ca volumele criptate să poată fi configurate, schema de partiționare "
+"curentă trebuie scrisă pe disc. Aceste schimbări nu pot fi anulate."
 
 #. Type: boolean
 #. Description
@@ -419,6 +504,10 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme for these "
 "disks before continuing."
 msgstr ""
+"După ce volumele criptate vor fi configurate, nu mai sunt permise alte "
+"schimbări pe discurile care conțin volume criptate. Vă rugăm să vă decideți "
+"dacă schema de partiționare este cea finală pentru aceste discuri înainte de "
+"a continua."
 
 #. Type: boolean
 #. Description
@@ -426,41 +515,43 @@ msgstr ""
 #: ../partman-crypto.templates:39001
 msgid "Keep current partition layout and configure encrypted volumes?"
 msgstr ""
+"Se păstrează configurația curentă a partițiilor și se configurează volumele "
+"criptate?"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "Configuration of encrypted volumes failed"
-msgstr ""
+msgstr "Eșec la configurarea volumelor criptate"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "An error occurred while configuring encrypted volumes."
-msgstr ""
+msgstr "A apărut o eroare în timpul configurării volumelor criptate."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "The configuration has been aborted."
-msgstr ""
+msgstr "Procesul de configurare a fost abandonat."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "Initialisation of encrypted volume failed"
-msgstr ""
+msgstr "Inițializarea volumelor criptate a eșuat"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "An error occurred while setting up encrypted volumes."
-msgstr ""
+msgstr "A apărut o eroare în timpul pregătirii volumelor criptate."
 
 #. Type: text
 #. Description
@@ -471,7 +562,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
 msgid "Passphrase"
-msgstr ""
+msgstr "Frază-parolă"
 
 #. Type: text
 #. Description
@@ -482,7 +573,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:43001
 msgid "Keyfile (GnuPG)"
-msgstr ""
+msgstr "Fișier de chei (GnuPG)"
 
 #. Type: text
 #. Description
@@ -493,21 +584,21 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:44001
 msgid "Random key"
-msgstr ""
+msgstr "Cheie aleatoare"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "Unsafe swap space detected"
-msgstr ""
+msgstr "S-a detectat spațiu de swap nesigur"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "An unsafe swap space has been detected."
-msgstr ""
+msgstr "Un spațiu de swap nesigur a fost detectat."
 
 #. Type: error
 #. Description
@@ -518,6 +609,9 @@ msgid ""
 "unencrypted. This would allow someone with access to the disk to recover "
 "parts of the encryption key or passphrase."
 msgstr ""
+"Aceasta este o eroare fatală deoarece date sensibile ar putea fi scrise pe "
+"disc necriptate. Aceasta ar permite cuiva cu acces la disc să recupereze "
+"părți din cheia de criptare sau din fraza-parolă."
 
 #. Type: error
 #. Description
@@ -528,20 +622,23 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
+"Vă rugăm să dezactivați spațiul de swap (prin rularea swapoff) sau să "
+"configurați un spațiu de swap criptat și să rulați din nou programul de "
+"pregătire a volumelor. Acest program se va închide acum."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "Encryption passphrase:"
-msgstr ""
+msgstr "Fraza-parolă pentru criptare:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr ""
+msgstr "Trebuie să alegeți o frază-parolă ca să criptați ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -553,6 +650,10 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
+"Eficiența criptării depinde foarte mult de acestă frază-parolă, deci ar "
+"trebui să aveți grijă să alegeți o frază-parolă care nu poate fi ușor "
+"ghicită. Nu ar trebui să fie un cuvânt care se găsește în dicționar sau o "
+"frază care poate fi asociată ușor cu dumneavoastră."
 
 #. Type: password
 #. Description
@@ -563,13 +664,16 @@ msgid ""
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
+"O frază-parolă bună va conține un amestec de litere, numere și semne de "
+"punctuație. Se recomandă ca frazele-parolă să aibă 20 sau mai multe "
+"caractere."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr ""
+msgstr "Reintroduceți fraza-parolă pentru verificare:"
 
 #. Type: password
 #. Description
@@ -579,13 +683,15 @@ msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
 msgstr ""
+"Vă rugăm să reintroduceți aceiași fraza-parolă pentru a verifica faptul că "
+"ați introdus-o corect."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr ""
+msgstr "Eroare la introducerea frazei-parolă"
 
 #. Type: error
 #. Description
@@ -593,13 +699,15 @@ msgstr ""
 #: ../partman-crypto.templates:48001
 msgid "The two passphrases you entered were not the same. Please try again."
 msgstr ""
+"Cele două fraze-parolă introduse de dumneavoastră nu sunt identice. Vă rugăm "
+"să încercați din nou."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Empty passphrase"
-msgstr ""
+msgstr "Frază-parolă nulă"
 
 #. Type: error
 #. Description
@@ -609,13 +717,15 @@ msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
 msgstr ""
+"Ați introdus o frază-parolă nulă, lucru nepermis. Vă rugăm să alegeți o "
+"frază-parolă nenulă."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
 msgid "Use weak passphrase?"
-msgstr ""
+msgstr "Se folosește o frază-parolă slabă?"
 
 #. Type: boolean
 #. Description
@@ -628,34 +738,37 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
+"Ați introdus o frază-parolă care are mai puțin de ${MINIMUM} caractere, de "
+"aceea este considerată prea slabă. Ar trebui să alegeți o frază-parolă mai "
+"puternică."
 
 #. Type: entropy
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr ""
+msgstr "Cheia de criptare pentru ${DEVICE} se creează acum."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:52001
 msgid "Key data has been created successfully."
-msgstr ""
+msgstr "Datele cheii au fost create."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Keyfile creation failure"
-msgstr ""
+msgstr "Eșec la crearea fișierului-cheie"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "An error occurred while creating the keyfile."
-msgstr ""
+msgstr "A apărut o eroare în timpul creării fișierului-cheie."
 
 #. Type: error
 #. Description
@@ -665,7 +778,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
 msgid "Encryption configuration failure"
-msgstr ""
+msgstr "Eșec la configurarea criptării"
 
 #. Type: error
 #. Description
@@ -676,13 +789,16 @@ msgid ""
 "partition. This feature requires a separate /boot partition on which the "
 "kernel and initrd can be stored."
 msgstr ""
+"Ați optat să stocați sistemul de fișiere rădăcină pe o partiție criptată. "
+"Această facilitate necesită o partiție /boot distinctă pe care să se "
+"stocheze nucleul și imaginea initrd."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr ""
+msgstr "Ar trebui să vă întoarceți și să pregătiți o partiție /boot."
 
 #. Type: error
 #. Description
@@ -694,6 +810,10 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
+"Ați selectat să stocați sistemul de fișiere /boot pe o partiție criptată. "
+"Acest lucru nu este posibil deoarece încărcătorul de sistem nu ar putea "
+"încărca nucleul și imaginea initrd. Continuarea va duce la o instalare de "
+"sistem inutilizabilă."
 
 #. Type: error
 #. Description
@@ -703,13 +823,15 @@ msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
 msgstr ""
+"Ar trebui să vă întoarceți și să alegeți o partiție necriptată pentru "
+"sistemul de fișiere /boot."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
 msgid "Are you sure you want to use a random key?"
-msgstr ""
+msgstr "Sigur doriți să folosiți o cheie aleatoare?"
 
 #. Type: boolean
 #. Description
@@ -719,6 +841,8 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
+"Ați ales o cheie de tip aleator pentru ${DEVICE} dar ați cerut programului "
+"de partiționare să creeze un sistem de fișiere acolo."
 
 #. Type: boolean
 #. Description
@@ -728,13 +852,16 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
+"Folosirea unui chei de tip aleator înseamnă că datele partiției vor fi "
+"distruse la fiecare repornire. Acest tip ar trebui să fie folosit doar "
+"pentru partiții swap."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "Failed to download crypto components"
-msgstr ""
+msgstr "Descărcarea componentelor de criptare a eșuat"
 
 #. Type: error
 #. Description
@@ -742,6 +869,8 @@ msgstr ""
 #: ../partman-crypto.templates:57001
 msgid "An error occurred trying to download additional crypto components."
 msgstr ""
+"A apărut o eroare în timpul tentativei de descărcare a componentelor de "
+"criptare suplimentare."
 
 #. Type: boolean
 #. Description
@@ -749,6 +878,8 @@ msgstr ""
 #: ../partman-crypto.templates:58001
 msgid "Proceed to install crypto components despite insufficient memory?"
 msgstr ""
+"Se continuă instalarea componentelor de criptare deși nu este memorie "
+"suficientă?"
 
 #. Type: boolean
 #. Description
@@ -759,6 +890,9 @@ msgid ""
 "crypto components. If you choose to go ahead and continue anyway, the "
 "installation process could fail."
 msgstr ""
+"Se pare că nu este suficientă memorie disponibilă pentru a instala modulele "
+"de criptare adiționale. Dacă, totuși, alegeți să continuați, este posibil ca "
+"instalarea să eșueze."
 
 #. Type: select
 #. Choices
@@ -768,7 +902,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Create encrypted volumes"
-msgstr ""
+msgstr "Crează volume criptate"
 
 #. Type: select
 #. Choices
@@ -778,53 +912,53 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Finish"
-msgstr ""
+msgstr "Finalizează"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "Encryption configuration actions"
-msgstr ""
+msgstr "Acțiuni la configurarea criptării"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "This menu allows you to configure encrypted volumes."
-msgstr ""
+msgstr "Acest meniu vă permite să configurați volumele criptate."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Devices to encrypt:"
-msgstr ""
+msgstr "Criptează dispozitivele:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr ""
+msgstr "Alegeți dispozitivele ce urmează să fie criptate."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr ""
+msgstr "Puteți selecta unul sau mai multe dispozitive."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices selected"
-msgstr ""
+msgstr "Niciun dispozitiv ales"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices were selected for encryption."
-msgstr ""
+msgstr "Nu s-a ales niciun dispozitiv pentru criptat."

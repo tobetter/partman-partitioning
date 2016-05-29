@@ -3,6 +3,46 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of debian-installer_packages_po_sublevel1_he.po to Hebrew
+# Hebrew messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+#
+#
+#
+# Translations from iso-codes:
+#     Translations taken from ICU SVN on 2007-09-09
+#   Translations from KDE:
+#
+#   Translations taken from KDE:
+#
+#
+# Amit Dovev <debian.translator@gmail.com>, 2007.
+# Meital Bourvine <meitalbourvine@gmail.com>, 2007.
+# Omer Zak <w1@zak.co.il>, 2008, 2010, 2012, 2013.
+# Lior Kaplan <kaplan@debian.org>, 2004-2007, 2008, 2010, 2011, 2015.
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#   Free Software Foundation, Inc., 2002,2004.
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
+#   Meni Livne <livne@kde.org>, 2000.
+#   Free Software Foundation, Inc., 2002,2003.
+#   - Meni Livne <livne@kde.org>, 2000.
+#   Meital Bourvine <meitalbourvine@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer_packages_po_sublevel1_he\n"
+"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
+"POT-Creation-Date: 2013-10-30 22:04+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Hebrew <debian-hebrew-common@lists.alioth.debian.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #. Type: text
 #. Description
 #. File system name
@@ -10,7 +50,7 @@
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr ""
+msgstr "נפח פיזי להצפנה"
 
 #. Type: text
 #. Description
@@ -19,7 +59,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr ""
+msgstr "crypto"
 
 #. Type: text
 #. Description
@@ -29,7 +69,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:3001
 msgid "Device-mapper (dm-crypt)"
-msgstr ""
+msgstr "ממפה התקנים (dm-crypt)"
 
 #. Type: text
 #. Description
@@ -38,7 +78,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:5001
 msgid "not active"
-msgstr ""
+msgstr "לא פעיל"
 
 #. Type: text
 #. Description
@@ -46,14 +86,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:6001
 msgid "Encryption method:"
-msgstr ""
+msgstr "שיטת הצפנה:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
 msgid "Encryption method for this partition:"
-msgstr ""
+msgstr "שיטת ההצפנה עבור המחיצה:"
 
 #. Type: select
 #. Description
@@ -63,6 +103,8 @@ msgid ""
 "Changing the encryption method will set other encryption-related fields to "
 "their default values for the new encryption method."
 msgstr ""
+"שינוי שיטת ההצפנה ישנה את ערכיהם של שדות אחרים הקשורים להצפנה לערכי ברירת "
+"המחדל שלהם, בהתאם לשיטת ההצפנה החדשה."
 
 #. Type: text
 #. Description
@@ -70,14 +112,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:8001
 msgid "Encryption:"
-msgstr ""
+msgstr "הצפנה:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
 msgid "Encryption for this partition:"
-msgstr ""
+msgstr "הצפנה עבור מחיצה זו:"
 
 #. Type: text
 #. Description
@@ -85,14 +127,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:10001
 msgid "Key size:"
-msgstr ""
+msgstr "גודל מפתח:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
 msgid "Key size for this partition:"
-msgstr ""
+msgstr "גודל המפתח עבור מחיצה זו:"
 
 #. Type: text
 #. Description
@@ -102,7 +144,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:12001
 msgid "IV algorithm:"
-msgstr ""
+msgstr "אלגוריתם לווקטור אתחול:"
 
 #. Type: select
 #. Description
@@ -111,7 +153,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:13001
 msgid "Initialization vector generation algorithm for this partition:"
-msgstr ""
+msgstr "אלגוריתם עבור ווקטור אתחול של המחיצה:"
 
 #. Type: select
 #. Description
@@ -125,6 +167,9 @@ msgid ""
 "no reason to change this from the recommended default, except for "
 "compatibility with older systems."
 msgstr ""
+"קיימים אלגוריתמים שונים כדי להפעיל את ווקטור האתחול עבור חלקים שונים. בחירה "
+"זאת משפיעה על אבטחת ההצפנה. באופן נורמלי, אין סיבה לשנות זאת מברירת המחדל "
+"המומלצת, למעט תאימות למערכות ישנות יותר."
 
 #. Type: text
 #. Description
@@ -132,14 +177,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:14001
 msgid "Encryption key:"
-msgstr ""
+msgstr "מפתח הצפנה:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr ""
+msgstr "סוג מפתח ההצפנה עבור מחיצה זו:"
 
 #. Type: text
 #. Description
@@ -147,14 +192,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr ""
+msgstr "ערבול מפתח הצפנה:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr ""
+msgstr "סוג מפתח ערבול (hash) עבור מחיצה זו:"
 
 #. Type: select
 #. Description
@@ -166,6 +211,9 @@ msgid ""
 "recommended default and doing so in the wrong way can reduce the encryption "
 "strength."
 msgstr ""
+"מפתח ההצפנה נוצר על ידי יישום של פונקציית ערבול חד כיוונית על משפט הסיסמה. "
+"במצב נורמלי אין צורך לשנות זאת מברירת המחדל, וביצוע לא נכון יכול להוריד את "
+"חוזק ההצפנה."
 
 #. Type: text
 #. Description
@@ -174,28 +222,28 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Erase data:"
-msgstr ""
+msgstr "למחוק את המידע:"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr ""
+msgstr "לא"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr ""
+msgstr "כן"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr ""
+msgstr "מחיקת המידע על מחיצה זו"
 
 #. Type: boolean
 #. Description
@@ -205,17 +253,20 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr ""
+msgstr "למחוק בוודאות את כל המידע על ${DEVICE}?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
+#, fuzzy
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"המידע על ${DEVICE} יידרס עם מידע אקראי. הוא לא יהיה ניתן לשחזור לאחר סיום "
+"שלב זה. זאת ההזדמנות האחרונה לביטול המחיקה."
 
 #. Type: text
 #. Description
@@ -225,7 +276,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
 msgid "Erasing data on ${DEVICE}"
-msgstr ""
+msgstr "מוחק את כל הדיסק ${DEVICE}"
 
 #. Type: text
 #. Description
@@ -244,7 +295,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:25001 ../partman-crypto.templates:29001
 msgid "Erasing data on ${DEVICE} failed"
-msgstr ""
+msgstr "נכשלה מחיקת המידע על ${DEVICE}"
 
 #. Type: error
 #. Description
@@ -254,6 +305,7 @@ msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
+"שגיאה התרחשה בזמן הניסיון לדרוס מידע על ${DEVICE} עם אפסים. המידע לא נמחק."
 
 #. Type: boolean
 #. Description
@@ -264,6 +316,8 @@ msgid ""
 "be recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"המידע על ${DEVICE} יידרס עם מידע אקראי. הוא לא יהיה ניתן לשחזור לאחר סיום "
+"שלב זה. זאת ההזדמנות האחרונה לביטול המחיקה."
 
 #. Type: text
 #. Description
@@ -291,35 +345,35 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:30001
 msgid "Setting up encryption..."
-msgstr ""
+msgstr "בונה הצפנה..."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
 msgid "Configure encrypted volumes"
-msgstr ""
+msgstr "הגדרת נפחים מוצפנים"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr ""
+msgstr "אין מחיצות להצפנה"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions have been selected for encryption."
-msgstr ""
+msgstr "לא נבחרו מחיצות להצפנה."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:33001
 msgid "Required programs missing"
-msgstr ""
+msgstr "תוכנה נדרשת חסרה"
 
 #. Type: note
 #. Description
@@ -329,13 +383,15 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
+"הבניה הנוכחית של תוכנית ההתקנה של דביאן לא כוללת אחת או יותר תוכניות אשר "
+"דרושות בשבילן ש-partman-crypto יתפקד באופן תקין."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:34001
 msgid "Required encryption options missing"
-msgstr ""
+msgstr "חסרות אפשרות הצפנה נדרשות"
 
 #. Type: error
 #. Description
@@ -345,6 +401,8 @@ msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
 msgstr ""
+"הגדרות ההצפנה עבור ${DEVICE} אינן מלאות. חזור אחורה אל תפריט החלוקה למחיצות "
+"וקבע את כל ההגדרות, שצריך להגדיר."
 
 #. Type: text
 #. Description
@@ -354,7 +412,7 @@ msgstr ""
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:35001
 msgid "missing"
-msgstr ""
+msgstr "חסר"
 
 #. Type: text
 #. Description
@@ -362,14 +420,14 @@ msgstr ""
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr ""
+msgstr "בשימוש כנפח פיזי עבור נפח מוצפן ${DEV}"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
 msgid "Encryption package installation failure"
-msgstr ""
+msgstr "כישלון בהתקנת חבילת הצפנה"
 
 #. Type: error
 #. Description
@@ -379,6 +437,7 @@ msgid ""
 "The kernel module package ${PACKAGE} could not be found or an error occurred "
 "during its installation."
 msgstr ""
+"חבילת מודול הליבה ${PACKAGE} לא נמצאה, או שהתרחשה שגיאה בזמן ההתקנה שלה."
 
 #. Type: error
 #. Description
@@ -389,13 +448,15 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
+"ישנו סיכוי שיהיו בעיות בהגדרת מחיצות מוצפנות לאחר שהמערכת תאותחל. תוכל לתקן "
+"זאת על ידי התקנה של החבילות הנחוצות בהמשך."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:38001
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr ""
+msgstr "לכתוב את השינויים לדיסקים ולהגדיר נפחים מוצפנים?"
 
 #. Type: boolean
 #. Description
@@ -405,6 +466,8 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
+"לפני שניתן יהיה להגדיר נפחים מוצפנים, הסכמה הנוכחית של החלוקה למחיצות צריכה "
+"להיכתב לדיסק. שינויים אלה אינם הפיכים."
 
 #. Type: boolean
 #. Description
@@ -419,48 +482,51 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme for these "
 "disks before continuing."
 msgstr ""
+"אחרי שנפחים מוצפנים הוגדרו, נאסר לעשות שינויים במחיצות שבדיסקים המכילים "
+"נפחים מוצפנים. וודא כי אתה מרוצה עם החלוקה הנוכחית למחיצות בדיסקים האלו לפני "
+"שתמשיך."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:39001
 msgid "Keep current partition layout and configure encrypted volumes?"
-msgstr ""
+msgstr "לשמור את הפריסה הקיימת של המחיצות ולהגדיר נפחים מוצפנים?"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "Configuration of encrypted volumes failed"
-msgstr ""
+msgstr "הגדרת נפחים מוצפנים נכשלה"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "An error occurred while configuring encrypted volumes."
-msgstr ""
+msgstr "שגיאה קרתה בזמן הגדרת נפחים מוצפנים."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "The configuration has been aborted."
-msgstr ""
+msgstr "תהליך ההגדרה בוטל."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "Initialisation of encrypted volume failed"
-msgstr ""
+msgstr "כישלון באתחול נפח מוצפן"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "An error occurred while setting up encrypted volumes."
-msgstr ""
+msgstr "שגיאה קרתה בזמן הגדרת נפחים מוצפנים."
 
 #. Type: text
 #. Description
@@ -471,7 +537,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
 msgid "Passphrase"
-msgstr ""
+msgstr "משפט סיסמה"
 
 #. Type: text
 #. Description
@@ -482,7 +548,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:43001
 msgid "Keyfile (GnuPG)"
-msgstr ""
+msgstr "קובץ מפתח (GnuPG)"
 
 #. Type: text
 #. Description
@@ -493,21 +559,21 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:44001
 msgid "Random key"
-msgstr ""
+msgstr "מפתח אקראי"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "Unsafe swap space detected"
-msgstr ""
+msgstr "זוהה שטח דפדוף לא מאובטח"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "An unsafe swap space has been detected."
-msgstr ""
+msgstr "זוהה שטח דפדוף לא מאובטח."
 
 #. Type: error
 #. Description
@@ -518,6 +584,8 @@ msgid ""
 "unencrypted. This would allow someone with access to the disk to recover "
 "parts of the encryption key or passphrase."
 msgstr ""
+"זו שגיאה קטלנית, מאחר ומידע רגיש עלול להיכתב לדיסק בצורה לא מוצפנת. כלומר "
+"מישהו עם גישה לדיסק יכול לדלות חלקים של מפתח ההצפנה או משפט הסיסמה. "
 
 #. Type: error
 #. Description
@@ -528,20 +596,22 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
+"בטל הפעלת שטח הדפדוף (לדוגמה על ידי הרצה של swapoff) או הגדר שטח דפדוף "
+"מוצפן. לאחר מכן הרץ את התקנת נפחים המוצפנים מחדש. תוכנית זאת תסיים עכשיו."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "Encryption passphrase:"
-msgstr ""
+msgstr "משפט סיסמה של הצפנה:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr ""
+msgstr "צריך לבחור משפט סיסמה כדי להצפין את ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -553,6 +623,9 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
+"החוזק הכללי של ההצפה תלוי במידה רבה במשפט הסיסמה, ולכן הקדש תשומת לב לבחירת "
+"משפט סיסמה שאינו קל לניחוש. זאת לא צריכה להיות מילה או משפט שמופיעים "
+"במילונים או משפט שמתקשר אליך בקלות."
 
 #. Type: password
 #. Description
@@ -563,13 +636,15 @@ msgid ""
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
+"משפט סיסמה מוצלח יכיל תערובת של אותיות, מספרים וסימני ניקוד. מומלץ שיהיו "
+"למשפטי סיסמה 20 או יותר תווים."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr ""
+msgstr "הכנס משפט סיסמה לווידוא:"
 
 #. Type: password
 #. Description
@@ -578,28 +653,28 @@ msgstr ""
 msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
-msgstr ""
+msgstr "הכנס שוב את אותו משפט סיסמה כדי לוודא שהקלדת אותו נכון."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr ""
+msgstr "שגיאת קלט במשפט סיסמה"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "The two passphrases you entered were not the same. Please try again."
-msgstr ""
+msgstr "שני משפטי הסיסמה שהכנסת אינם זהים, נסה שוב."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Empty passphrase"
-msgstr ""
+msgstr "משפט סיסמה ריק"
 
 #. Type: error
 #. Description
@@ -608,14 +683,14 @@ msgstr ""
 msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
-msgstr ""
+msgstr "הכנסת משפט סיסמה ריק, דבר שאין מותר, בחר משפט סימה שאינו ריק."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
 msgid "Use weak passphrase?"
-msgstr ""
+msgstr "השתמש במשפט סיסמה חלש?"
 
 #. Type: boolean
 #. Description
@@ -628,34 +703,36 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
+"הכנסת משפט סיסמה שמורכב מפחות מ-${MINIMUM} תווים, דבר שנחשב לחלש מידי. יש "
+"צורך בבחירה של משפט סיסמה חזק יותר."
 
 #. Type: entropy
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr ""
+msgstr "מפתח הצפנה עבור ${DEVICE} נמצא כרגע ביצירה."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:52001
 msgid "Key data has been created successfully."
-msgstr ""
+msgstr "מידע על המפתח נוצר בהצלחה."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Keyfile creation failure"
-msgstr ""
+msgstr "כישלון ביצירת קובץ המפתח"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "An error occurred while creating the keyfile."
-msgstr ""
+msgstr "שגיאה קרתה בזמן יצירת קובץ המפתח."
 
 #. Type: error
 #. Description
@@ -665,7 +742,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
 msgid "Encryption configuration failure"
-msgstr ""
+msgstr "שגיאה בהגדרת הצפנה"
 
 #. Type: error
 #. Description
@@ -676,13 +753,15 @@ msgid ""
 "partition. This feature requires a separate /boot partition on which the "
 "kernel and initrd can be stored."
 msgstr ""
+"בחרת כי שורש מערכת הקבצים יאוחסן במחיצה מוצפנת. אפשרות זו דורשת מחיצה נפרדת "
+"עבור /boot שעליה הליבה וה-initrd יכולו להישמר."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr ""
+msgstr "כדאי שתחזור אחורה ותגדיר מחיצת /boot."
 
 #. Type: error
 #. Description
@@ -694,6 +773,9 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
+"בחרת כי מערכת הקבצים /boot תאוחסן במחיצה מוצפנת. אפשרות זאת אינה אפשרית, "
+"מאחר ומנהל האתחול לא יוכל לטעון את הליבה ואת ה-initrd. המשך בכיוון זה יבנה "
+"התקנה שאינה ניתנת לשימוש."
 
 #. Type: error
 #. Description
@@ -702,14 +784,14 @@ msgstr ""
 msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
-msgstr ""
+msgstr "עליך לחזור אחורה, ולבחור במחיצה לא מוצפת עבור מערכת הקבצים /boot."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
 msgid "Are you sure you want to use a random key?"
-msgstr ""
+msgstr "האם אתה בטוח שברצונך להשתמש במפתח אקראי?"
 
 #. Type: boolean
 #. Description
@@ -719,6 +801,8 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
+"בחרת בסוג מפתח אקראי עבור התקן ${DEVICE}, אבל בקשת ממנהל המחיצות ליצור עליו "
+"מערכת קבצים."
 
 #. Type: boolean
 #. Description
@@ -728,27 +812,29 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
+"שימוש במחיצה מסוג מפתח אקראי, משמעותו כי המידע על המחיצה ייהרס בכל אתחול של "
+"המערכת. שימוש זה צריך להיות מוגבל לשטחי דפדוף בלבד."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "Failed to download crypto components"
-msgstr ""
+msgstr "כישלון בהורדה של רכיבי הצפנה"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "An error occurred trying to download additional crypto components."
-msgstr ""
+msgstr "שגיאה קרתה בזמן הורדה של רכיבי הצפנה נוספים."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:58001
 msgid "Proceed to install crypto components despite insufficient memory?"
-msgstr ""
+msgstr "להמשיך להתקנת רכיבי הצפנה למרות זיכרון לא מספיק?"
 
 #. Type: boolean
 #. Description
@@ -759,6 +845,8 @@ msgid ""
 "crypto components. If you choose to go ahead and continue anyway, the "
 "installation process could fail."
 msgstr ""
+"נראה שאין מספיק מקום פנוי בזיכרון כדי להתקין רכיבי הצפנה נוספים. אם תבחר "
+"להמשיך בכל זאת, תהליך ההתקנה עלול להיכשל."
 
 #. Type: select
 #. Choices
@@ -768,7 +856,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Create encrypted volumes"
-msgstr ""
+msgstr "יצירת נפחים מוצפנים"
 
 #. Type: select
 #. Choices
@@ -778,53 +866,53 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Finish"
-msgstr ""
+msgstr "סיום"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "Encryption configuration actions"
-msgstr ""
+msgstr "פעולות להגדרת הצפנה"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "This menu allows you to configure encrypted volumes."
-msgstr ""
+msgstr "תפריט זה מאפשר לך להגדיר נפחים מוצפנים."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Devices to encrypt:"
-msgstr ""
+msgstr "התקנים להצפנה:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr ""
+msgstr "בחר התקנים להצפנה."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr ""
+msgstr "ניתן לבחור התקן אחד או יותר."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices selected"
-msgstr ""
+msgstr "לא נבחרו התקנים"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices were selected for encryption."
-msgstr ""
+msgstr "לא נבחרו התקנים להצפנה."

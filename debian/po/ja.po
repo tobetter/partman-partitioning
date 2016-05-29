@@ -3,6 +3,38 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Japanese messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
+#   Free Software Foundation, Inc., 2000, 2001, 2004, 2005, 2006
+#   IIDA Yosiaki <iida@gnu.org>, 2004, 2005, 2006.
+#   Kenshi Muto <kmuto@debian.org>, 2006-2007
+#   Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2001.
+#   Takuro Ashie <ashie@homa.ne.jp>, 2001.
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Translations from KDE: 
+#   - Taiki Komoda <kom@kde.gr.jp>
+#   Yasuaki Taniguchi <yasuakit@gmail.com>, 2010, 2011.
+#   Yukihiro Nakai <nakai@gnome.gr.jp>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
+"POT-Creation-Date: 2013-10-30 22:04+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Debian L10n Japanese <debian-japanese@lists.debian.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: text
 #. Description
 #. File system name
@@ -10,7 +42,7 @@
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr ""
+msgstr "暗号化の物理ボリューム"
 
 #. Type: text
 #. Description
@@ -19,7 +51,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr ""
+msgstr "暗号化"
 
 #. Type: text
 #. Description
@@ -29,7 +61,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:3001
 msgid "Device-mapper (dm-crypt)"
-msgstr ""
+msgstr "デバイスマッパー (dm-crypt)"
 
 #. Type: text
 #. Description
@@ -38,7 +70,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:5001
 msgid "not active"
-msgstr ""
+msgstr "非活性"
 
 #. Type: text
 #. Description
@@ -46,14 +78,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:6001
 msgid "Encryption method:"
-msgstr ""
+msgstr "暗号化の方法:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
 msgid "Encryption method for this partition:"
-msgstr ""
+msgstr "このパーティションの暗号化の方法:"
 
 #. Type: select
 #. Description
@@ -63,6 +95,8 @@ msgid ""
 "Changing the encryption method will set other encryption-related fields to "
 "their default values for the new encryption method."
 msgstr ""
+"暗号化の方法を変更することは、その他の暗号関連のフィールドを、新しい暗号化の"
+"方法のデフォルト値に設定するということになります。"
 
 #. Type: text
 #. Description
@@ -70,14 +104,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:8001
 msgid "Encryption:"
-msgstr ""
+msgstr "暗号:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
 msgid "Encryption for this partition:"
-msgstr ""
+msgstr "このパーティションの暗号化:"
 
 #. Type: text
 #. Description
@@ -85,14 +119,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:10001
 msgid "Key size:"
-msgstr ""
+msgstr "鍵のサイズ:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
 msgid "Key size for this partition:"
-msgstr ""
+msgstr "このパーティションの鍵のサイズ:"
 
 #. Type: text
 #. Description
@@ -102,7 +136,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:12001
 msgid "IV algorithm:"
-msgstr ""
+msgstr "IV アルゴリズム:"
 
 #. Type: select
 #. Description
@@ -111,7 +145,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:13001
 msgid "Initialization vector generation algorithm for this partition:"
-msgstr ""
+msgstr "このパーティションのベクタ生成アルゴリズムの初期化:"
 
 #. Type: select
 #. Description
@@ -125,6 +159,9 @@ msgid ""
 "no reason to change this from the recommended default, except for "
 "compatibility with older systems."
 msgstr ""
+"各セクタ向けに初期化ベクタから派生した異なるアルゴリズムが存在します。この選"
+"択肢は暗号化セキュリティに影響を与えます。より古いシステムとの互換性を除き、"
+"通常、推奨されているデフォルトからこれを変更する必要はありません。"
 
 #. Type: text
 #. Description
@@ -132,14 +169,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:14001
 msgid "Encryption key:"
-msgstr ""
+msgstr "暗号化鍵:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr ""
+msgstr "このパーティションの暗号化鍵の形式:"
 
 #. Type: text
 #. Description
@@ -147,14 +184,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr ""
+msgstr "暗号化鍵ハッシュ:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr ""
+msgstr "このパーティションの暗号化鍵ハッシュの形式:"
 
 #. Type: select
 #. Description
@@ -166,6 +203,9 @@ msgid ""
 "recommended default and doing so in the wrong way can reduce the encryption "
 "strength."
 msgstr ""
+"暗号化鍵はワンウェイハッシュ関数を適用したパスフレーズから派生されます。通"
+"常、推奨されているデフォルトからこれを変更する必要はなく、やり方を間違えると"
+"暗号強度を弱めることになります。"
 
 #. Type: text
 #. Description
@@ -174,28 +214,28 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Erase data:"
-msgstr ""
+msgstr "データの削除:"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr ""
+msgstr "いいえ"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr ""
+msgstr "はい"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr ""
+msgstr "このパーティションのデータの削除"
 
 #. Type: boolean
 #. Description
@@ -205,7 +245,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr ""
+msgstr "本当に ${DEVICE} のデータを削除しますか?"
 
 #. Type: boolean
 #. Description
@@ -216,6 +256,8 @@ msgid ""
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"${DEVICE} のデータはゼロで上書きされます。このステップが完了した後は、二度と"
+"復旧できなくなります。これは削除を中止する最後の機会です。"
 
 #. Type: text
 #. Description
@@ -225,7 +267,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
 msgid "Erasing data on ${DEVICE}"
-msgstr ""
+msgstr "${DEVICE} のデータを削除しています"
 
 #. Type: text
 #. Description
@@ -235,6 +277,8 @@ msgid ""
 "The installer is now overwriting ${DEVICE} with zeroes to delete its "
 "previous contents. This step may be skipped by cancelling this action."
 msgstr ""
+"インストーラは現在 ${DEVICE} をゼロで上書きし、以前の内容を削除しています。こ"
+"の操作をキャンセルするとこの段階を飛ばすことができます。"
 
 #. Type: error
 #. Description
@@ -244,7 +288,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:25001 ../partman-crypto.templates:29001
 msgid "Erasing data on ${DEVICE} failed"
-msgstr ""
+msgstr "${DEVICE} のデータの削除中に失敗しました"
 
 #. Type: error
 #. Description
@@ -254,6 +298,8 @@ msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
+"${DEVICE} のデータのゼロによる上書きを試行中にエラーが発生しました。データは"
+"削除されませんでした。"
 
 #. Type: boolean
 #. Description
@@ -264,6 +310,8 @@ msgid ""
 "be recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"${DEVICE} のデータはランダムなデータで上書きされます。このステップが完了した"
+"後は、二度と復旧できなくなります。これは削除を中止する最後の機会です。"
 
 #. Type: text
 #. Description
@@ -275,6 +323,10 @@ msgid ""
 "cancelling this action, albeit at the expense of a slight reduction of the "
 "quality of the encryption."
 msgstr ""
+"インストーラは現在 ${DEVICE} をランダムなデータで上書きし、暗号化されたボ"
+"リュームからのあらゆる情報の漏洩を予防しています。この操作をキャンセルすると"
+"暗号化の品質をわずかに落とすことになりますが、この段階を飛ばすことができま"
+"す。"
 
 #. Type: error
 #. Description
@@ -285,41 +337,44 @@ msgid ""
 "Recovery of the device's previous contents is possible and meta-information "
 "of its new contents may be leaked."
 msgstr ""
+"${DEVICE} のデータのランダムなデータによる上書きを試行中にエラーが発生しまし"
+"た。このデバイスの以前の内容を復旧することが可能で、新しい内容についてのあら"
+"ゆるメタ情報が漏洩する可能性があります。"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:30001
 msgid "Setting up encryption..."
-msgstr ""
+msgstr "暗号化を設定しています..."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
 msgid "Configure encrypted volumes"
-msgstr ""
+msgstr "暗号化されたボリュームの設定"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr ""
+msgstr "暗号化するパーティションが見つかりません"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions have been selected for encryption."
-msgstr ""
+msgstr "暗号化するパーティションが選択されていません。"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:33001
 msgid "Required programs missing"
-msgstr ""
+msgstr "必要なプログラムが見つかりません"
 
 #. Type: note
 #. Description
@@ -329,13 +384,15 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
+"この debian-installer ビルドでは、partman-crypto が正しく機能するのに必要な "
+"1 つ以上のプログラムが含まれていません。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:34001
 msgid "Required encryption options missing"
-msgstr ""
+msgstr "必要な暗号化オプションが見つかりません"
 
 #. Type: error
 #. Description
@@ -345,6 +402,8 @@ msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
 msgstr ""
+"${DEVICE} の暗号化オプションは不完全です。パーティションメニューに戻ってすべ"
+"ての必須オプションを選択してください。"
 
 #. Type: text
 #. Description
@@ -354,7 +413,7 @@ msgstr ""
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:35001
 msgid "missing"
-msgstr ""
+msgstr "見つかりません"
 
 #. Type: text
 #. Description
@@ -362,14 +421,14 @@ msgstr ""
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr ""
+msgstr "暗号化ボリューム ${DEV} 用の物理ボリュームとして利用"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
 msgid "Encryption package installation failure"
-msgstr ""
+msgstr "暗号化パッケージのインストールに失敗しました"
 
 #. Type: error
 #. Description
@@ -379,6 +438,8 @@ msgid ""
 "The kernel module package ${PACKAGE} could not be found or an error occurred "
 "during its installation."
 msgstr ""
+"カーネルモジュールパッケージ ${PACKAGE} が見つからないか、インストール中にエ"
+"ラーが発生しました。"
 
 #. Type: error
 #. Description
@@ -389,13 +450,16 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
+"システムが再起動された際、暗号化されたパーティションのセットアップに問題が出"
+"ることでしょう。あとで必要なパッケージをインストールすることにより、まだこれ"
+"らを訂正できます。"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:38001
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr ""
+msgstr "ディスクに変更を書き込み、暗号化ボリュームを設定しますか?"
 
 #. Type: boolean
 #. Description
@@ -405,6 +469,8 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
+"暗号化ボリュームを設定する前に、現在のパーティショニング機構をディスクに書き"
+"込む必要があります。これらの変更は元に戻せません。"
 
 #. Type: boolean
 #. Description
@@ -419,6 +485,9 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme for these "
 "disks before continuing."
 msgstr ""
+"暗号化ボリュームが設定されると、暗号化ボリュームを含むディスクのパーティショ"
+"ンへの追加の変更はできません。続ける前に、これらのディスクの現在のパーティ"
+"ショニング機構が満足のいくものかどうか確認してください。"
 
 #. Type: boolean
 #. Description
@@ -426,41 +495,42 @@ msgstr ""
 #: ../partman-crypto.templates:39001
 msgid "Keep current partition layout and configure encrypted volumes?"
 msgstr ""
+"現在のパーティションレイアウトを保持して、暗号化ボリュームを設定しますか?"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "Configuration of encrypted volumes failed"
-msgstr ""
+msgstr "暗号化ボリュームの設定に失敗しました"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "An error occurred while configuring encrypted volumes."
-msgstr ""
+msgstr "暗号化ボリュームの設定中にエラーが発生しました。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "The configuration has been aborted."
-msgstr ""
+msgstr "設定は中止されました。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "Initialisation of encrypted volume failed"
-msgstr ""
+msgstr "暗号化ボリュームの初期化に失敗しました"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "An error occurred while setting up encrypted volumes."
-msgstr ""
+msgstr "暗号化ボリュームのセットアップ中にエラーが発生しました。"
 
 #. Type: text
 #. Description
@@ -471,7 +541,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
 msgid "Passphrase"
-msgstr ""
+msgstr "パスフレーズ"
 
 #. Type: text
 #. Description
@@ -482,7 +552,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:43001
 msgid "Keyfile (GnuPG)"
-msgstr ""
+msgstr "鍵ファイル (GnuPG)"
 
 #. Type: text
 #. Description
@@ -493,21 +563,21 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:44001
 msgid "Random key"
-msgstr ""
+msgstr "乱数鍵"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "Unsafe swap space detected"
-msgstr ""
+msgstr "安全でないスワップ領域が検出されました"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "An unsafe swap space has been detected."
-msgstr ""
+msgstr "安全でないスワップ領域が検出されました"
 
 #. Type: error
 #. Description
@@ -518,6 +588,9 @@ msgid ""
 "unencrypted. This would allow someone with access to the disk to recover "
 "parts of the encryption key or passphrase."
 msgstr ""
+"注意を要するデータが暗号化されずにディスクに書き出される可能性があるため、こ"
+"れは致命的な問題です。つまり、ディスクアクセス権限を持つ誰かに、暗号化鍵やパ"
+"スフレーズの断片を復元することを許してしまうということです。"
 
 #. Type: error
 #. Description
@@ -528,20 +601,23 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
+"スワップ領域を無効にする (たとえば swapoff を実行する) か、暗号化スワップ領域"
+"を設定し、暗号化ボリュームのセットアップを再実行してください。このプログラム"
+"はここで中止します。"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "Encryption passphrase:"
-msgstr ""
+msgstr "暗号化パスフレーズ:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr ""
+msgstr "${DEVICE} を暗号化するのに使うパスフレーズを選ぶ必要があります。"
 
 #. Type: password
 #. Description
@@ -553,6 +629,10 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
+"暗号化の全体の強度はこのパスフレーズに強く依存するので、簡単に推測されないよ"
+"うパスフレーズの選定に注意すべきです。辞書に載っているような単語や、ミドル"
+"ネームのようなあなたに関係することが容易にわかる単語を選ぶべきではありませ"
+"ん。"
 
 #. Type: password
 #. Description
@@ -563,13 +643,15 @@ msgid ""
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
+"良いパスフレーズは、英字文字、数値、それに記号の組み合わせを含むものです。パ"
+"スフレーズは 20 文字以上の長さを持つことが推奨されます。"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr ""
+msgstr "確認のためにもう 1 度パスフレーズを入力:"
 
 #. Type: password
 #. Description
@@ -579,13 +661,14 @@ msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
 msgstr ""
+"正しくタイプしたかの確認のために、同じパスフレーズを再び入力してください。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr ""
+msgstr "パスフレーズ入力エラー"
 
 #. Type: error
 #. Description
@@ -593,13 +676,14 @@ msgstr ""
 #: ../partman-crypto.templates:48001
 msgid "The two passphrases you entered were not the same. Please try again."
 msgstr ""
+"入力した 2 つのパスフレーズが同じではありません。もう 1 度試してください。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Empty passphrase"
-msgstr ""
+msgstr "空のパスフレーズ"
 
 #. Type: error
 #. Description
@@ -609,13 +693,15 @@ msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
 msgstr ""
+"空のパスフレーズが入力されましたが、これは許可されていません。空でないパスフ"
+"レーズを選んでください。"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
 msgid "Use weak passphrase?"
-msgstr ""
+msgstr "脆弱なパスフレーズを使いますか?"
 
 #. Type: boolean
 #. Description
@@ -628,34 +714,36 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
+"${MINIMUM} 文字より少ないパスフレーズで構成されたパスフレーズを入力しました"
+"が、これは非常に脆弱と思われます。より強固なパスフレーズを選ぶべきです。"
 
 #. Type: entropy
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr ""
+msgstr "${DEVICE} の暗号化鍵が作成されました。"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:52001
 msgid "Key data has been created successfully."
-msgstr ""
+msgstr "鍵データは正常に作成されました。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Keyfile creation failure"
-msgstr ""
+msgstr "鍵ファイルの作成に失敗しました"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "An error occurred while creating the keyfile."
-msgstr ""
+msgstr "鍵ファイルの作成中にエラーが発生しました。"
 
 #. Type: error
 #. Description
@@ -665,7 +753,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
 msgid "Encryption configuration failure"
-msgstr ""
+msgstr "暗号化の設定に失敗しました"
 
 #. Type: error
 #. Description
@@ -676,13 +764,16 @@ msgid ""
 "partition. This feature requires a separate /boot partition on which the "
 "kernel and initrd can be stored."
 msgstr ""
+"暗号化パーティションにルートファイルシステムを格納するよう選択しました。この"
+"機能はカーネルと initrd を格納する分割された /boot パーティションを必要としま"
+"す。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr ""
+msgstr "戻って /boot パーティションをセットアップすべきです。"
 
 #. Type: error
 #. Description
@@ -694,6 +785,9 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
+"暗号化パーティションに /boot ファイルシステムを格納するよう選択しました。ブー"
+"トローダがカーネルと initrd をロードできないので、これは不可能です。このまま"
+"続けると、インストールしたものは利用できません。"
 
 #. Type: error
 #. Description
@@ -703,13 +797,15 @@ msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
 msgstr ""
+"戻って暗号化されていないパーティションを /boot ファイルシステムに選ぶべきで"
+"す。"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
 msgid "Are you sure you want to use a random key?"
-msgstr ""
+msgstr "本当に乱数鍵を使いますか?"
 
 #. Type: boolean
 #. Description
@@ -719,6 +815,8 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
+"${DEVICE} に乱数鍵形式を選びましたが、ファイルシステムを作成するのにそれを使"
+"うよう partitioner に要求しています。"
 
 #. Type: boolean
 #. Description
@@ -728,27 +826,29 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
+"乱数鍵形式の利用は、パーティションのデータを再起動のたびに破壊するということ"
+"を意味します。これは、スワップパーティションでのみ使われるべきものです。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "Failed to download crypto components"
-msgstr ""
+msgstr "暗号化コンポーネントのロードに失敗しました"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "An error occurred trying to download additional crypto components."
-msgstr ""
+msgstr "追加の暗号化コンポーネントのダウンロード試行中にエラーが発生しました。"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:58001
 msgid "Proceed to install crypto components despite insufficient memory?"
-msgstr ""
+msgstr "メモリ不足ですが、暗号化コンポーネントのインストールを進めますか?"
 
 #. Type: boolean
 #. Description
@@ -759,6 +859,9 @@ msgid ""
 "crypto components. If you choose to go ahead and continue anyway, the "
 "installation process could fail."
 msgstr ""
+"追加の暗号化コンポーネントをインストールするのに十分な空きメモリがないように"
+"見えます。それでも進めることを選択した場合、インストール処理が失敗するかもし"
+"れません。"
 
 #. Type: select
 #. Choices
@@ -768,7 +871,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Create encrypted volumes"
-msgstr ""
+msgstr "暗号化されたボリュームの作成"
 
 #. Type: select
 #. Choices
@@ -778,53 +881,53 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Finish"
-msgstr ""
+msgstr "完了"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "Encryption configuration actions"
-msgstr ""
+msgstr "暗号化設定アクション"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "This menu allows you to configure encrypted volumes."
-msgstr ""
+msgstr "このメニューでは、暗号化ボリュームを設定できます。"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Devices to encrypt:"
-msgstr ""
+msgstr "暗号化するデバイス:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr ""
+msgstr "暗号化するデバイスを選択してください。"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr ""
+msgstr "1 つ以上のデバイスを選択できます。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices selected"
-msgstr ""
+msgstr "デバイスが選択されていません"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices were selected for encryption."
-msgstr ""
+msgstr "暗号化するデバイスが選択されていません。"
