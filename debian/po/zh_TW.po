@@ -3,43 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Traditional Chinese messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-# Translations from iso-codes:
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Wei-Lun Chao <chaoweilun@gmail.com>, 2008, 2009.
-#   Free Software Foundation, Inc., 2002, 2003
-#   Alastair McKinstry <mckinstry@computer.org>, 2001,2002
-#   Translations from KDE:
-#   - AceLan <acelan@kde.linux.org.tw>, 2001
-#   - Kenduest Lee <kenduest@i18n.linux.org.tw>, 2001
-#   Tetralet <tetralet@gmail.com> 2004, 2007, 2008, 2009, 2010
-#   趙惟倫 <chaoweilun@gmail.com> 2010
-#   LI Daobing <lidaobing@gmail.com>, 2007.
-#   Hominid He(viperii) <hominid@39.net>, 2007.
-#   Mai Hao Hui <mhh@126.com>, 2001.
-#   Abel Cheung <abelcheung@gmail.com>, 2007.
-#   JOE MAN <trmetal@yahoo.com.hk>, 2001.
-#   Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2005.
-#   Yao Wei (魏銘廷) <mwei@lxde.org>, 2012.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
-"POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
-"debian.org>\n"
-"Language: zh_TW\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. File system name
@@ -47,7 +10,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr "要進行加密的 Physical Volume"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -56,7 +19,7 @@ msgstr "要進行加密的 Physical Volume"
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr "加密"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -66,7 +29,7 @@ msgstr "加密"
 #. :sl3:
 #: ../partman-crypto.templates:3001
 msgid "Device-mapper (dm-crypt)"
-msgstr "磁碟對應 (dm-crypt)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -75,7 +38,7 @@ msgstr "磁碟對應 (dm-crypt)"
 #. :sl3:
 #: ../partman-crypto.templates:5001
 msgid "not active"
-msgstr "未啟用"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -83,14 +46,14 @@ msgstr "未啟用"
 #. :sl3:
 #: ../partman-crypto.templates:6001
 msgid "Encryption method:"
-msgstr "加密方式："
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
 msgid "Encryption method for this partition:"
-msgstr "這個分割區的加密方式："
+msgstr ""
 
 #. Type: select
 #. Description
@@ -99,7 +62,7 @@ msgstr "這個分割區的加密方式："
 msgid ""
 "Changing the encryption method will set other encryption-related fields to "
 "their default values for the new encryption method."
-msgstr "改變加密方式會連帶的把其它和加密相關的欄位重置為新的加密方式的預設值。"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -107,14 +70,14 @@ msgstr "改變加密方式會連帶的把其它和加密相關的欄位重置為
 #. :sl3:
 #: ../partman-crypto.templates:8001
 msgid "Encryption:"
-msgstr "加密："
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
 msgid "Encryption for this partition:"
-msgstr "這個分割區的加密："
+msgstr ""
 
 #. Type: text
 #. Description
@@ -122,14 +85,14 @@ msgstr "這個分割區的加密："
 #. :sl3:
 #: ../partman-crypto.templates:10001
 msgid "Key size:"
-msgstr "密鑰大小："
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
 msgid "Key size for this partition:"
-msgstr "此分割區的密鑰大小："
+msgstr ""
 
 #. Type: text
 #. Description
@@ -139,7 +102,7 @@ msgstr "此分割區的密鑰大小："
 #. :sl3:
 #: ../partman-crypto.templates:12001
 msgid "IV algorithm:"
-msgstr "IV 計算法則："
+msgstr ""
 
 #. Type: select
 #. Description
@@ -148,7 +111,7 @@ msgstr "IV 計算法則："
 #. :sl3:
 #: ../partman-crypto.templates:13001
 msgid "Initialization vector generation algorithm for this partition:"
-msgstr "這個分割區的初始向量產生法則："
+msgstr ""
 
 #. Type: select
 #. Description
@@ -162,9 +125,6 @@ msgid ""
 "no reason to change this from the recommended default, except for "
 "compatibility with older systems."
 msgstr ""
-"不同的計算法則會影響到每個磁區裡的初始向量是如何產生。這裡的選擇將會影響加密"
-"的安全強度。一般而言，除了為了要和舊有系統相容之外，並沒有必要去修改那建議採"
-"用的預設值。"
 
 #. Type: text
 #. Description
@@ -172,14 +132,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:14001
 msgid "Encryption key:"
-msgstr "加密密鑰："
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr "此分割區的加密密鑰類型："
+msgstr ""
 
 #. Type: text
 #. Description
@@ -187,14 +147,14 @@ msgstr "此分割區的加密密鑰類型："
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr "雜湊加密密鑰："
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr "此分割區的雜湊加密密鑰類型："
+msgstr ""
 
 #. Type: select
 #. Description
@@ -206,8 +166,6 @@ msgid ""
 "recommended default and doing so in the wrong way can reduce the encryption "
 "strength."
 msgstr ""
-"加密密鑰是由密語再加上單向雜湊函數所產生的。一般而言，並沒有必要去修改那建議"
-"採用的預設值，且如果方法錯誤將會降低加密的強度。"
 
 #. Type: text
 #. Description
@@ -216,28 +174,28 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Erase data:"
-msgstr "消除資料："
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr "否"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr "是"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr "消除這個分割區上的資料："
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -247,20 +205,17 @@ msgstr "消除這個分割區上的資料："
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr "是否真要消除 ${DEVICE} 上的資料？"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
-#, fuzzy
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"在 ${DEVICE} 裡的資料將會被一些雜亂的資料所覆蓋。在此步驟完成後，這些資料將無"
-"法回復。這是中止消除程序的最後機會。"
 
 #. Type: text
 #. Description
@@ -270,7 +225,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
 msgid "Erasing data on ${DEVICE}"
-msgstr "消除 ${DEVICE} 上的資料"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -289,17 +244,16 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:25001 ../partman-crypto.templates:29001
 msgid "Erasing data on ${DEVICE} failed"
-msgstr "在消除 ${DEVICE} 上的資料時失敗了"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
-#, fuzzy
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
-msgstr "在消除 ${DEVICE} 上的資料時發生錯誤。資料尚未被消除。"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -310,8 +264,6 @@ msgid ""
 "be recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"在 ${DEVICE} 裡的資料將會被一些雜亂的資料所覆蓋。在此步驟完成後，這些資料將無"
-"法回復。這是中止消除程序的最後機會。"
 
 #. Type: text
 #. Description
@@ -339,35 +291,35 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:30001
 msgid "Setting up encryption..."
-msgstr "正在設定加密……"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
 msgid "Configure encrypted volumes"
-msgstr "設定已加密的 Volume"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr "沒有磁碟分割區可供加密"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions have been selected for encryption."
-msgstr "未指定任何要進行加密的磁碟分割區。"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:33001
 msgid "Required programs missing"
-msgstr "找不到必需的程式"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -377,15 +329,13 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
-"這個版本的 debian-installer 目前缺少了一個或多個 partman-crypt 在正常運作時所"
-"需的程式。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:34001
 msgid "Required encryption options missing"
-msgstr "找不到必要的加密選項"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -394,7 +344,7 @@ msgstr "找不到必要的加密選項"
 msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
-msgstr "${DEVICE} 的加密選項不完全。請返回磁碟分割功能表並選取所有的必要選項"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -404,7 +354,7 @@ msgstr "${DEVICE} 的加密選項不完全。請返回磁碟分割功能表並�
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:35001
 msgid "missing"
-msgstr "找不到"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -412,14 +362,14 @@ msgstr "找不到"
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr "被加密 Volume ${DEV} 做為 Physical Volume 使用"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
 msgid "Encryption package installation failure"
-msgstr "加密套件的安裝失敗了"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -428,7 +378,7 @@ msgstr "加密套件的安裝失敗了"
 msgid ""
 "The kernel module package ${PACKAGE} could not be found or an error occurred "
 "during its installation."
-msgstr "找不到 Kernel 模組套件 ${PACKAGE}，或是它在安裝時發生了錯誤。"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -439,15 +389,13 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
-"在系統重新開機後，當試著設定加密分割區時可能會出現問題。在稍後再安裝必需的套"
-"件或許可以修正這些問題。"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:38001
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr "是否要將這些變更寫入磁碟中並設定加密的 Volume？"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -457,8 +405,6 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
-"必須先將目前的磁碟分割結果寫入磁碟中，然後才能對加密的 Volume 進行設定。這些"
-"變更將無法還原。"
 
 #. Type: boolean
 #. Description
@@ -473,51 +419,48 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme for these "
 "disks before continuing."
 msgstr ""
-"一旦加密的 Volume 設定完成，就不能再對磁碟中包含了加密的 Volume 的分割區進行"
-"任何其它的變更了。因此，在繼續之前請確認您是否已決定採用目前這些磁碟所採取的"
-"分割方式。"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:39001
 msgid "Keep current partition layout and configure encrypted volumes?"
-msgstr "是否保留目前的磁碟配置並設定加密的 Volume？"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "Configuration of encrypted volumes failed"
-msgstr "加密的 Volume 的設定失敗了"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "An error occurred while configuring encrypted volumes."
-msgstr "在設定加密的 Volume 時發生錯誤。"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "The configuration has been aborted."
-msgstr "設定作業已被中止。"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "Initialisation of encrypted volume failed"
-msgstr "加密的 Volume 的初始化失敗了"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "An error occurred while setting up encrypted volumes."
-msgstr "在建立加密的 Volume 時發生錯誤。"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -528,7 +471,7 @@ msgstr "在建立加密的 Volume 時發生錯誤。"
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
 msgid "Passphrase"
-msgstr "密語"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -539,7 +482,7 @@ msgstr "密語"
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:43001
 msgid "Keyfile (GnuPG)"
-msgstr "密鑰檔 (GnuPG)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -550,21 +493,21 @@ msgstr "密鑰檔 (GnuPG)"
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:44001
 msgid "Random key"
-msgstr "隨機密鑰"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "Unsafe swap space detected"
-msgstr "找到了不安全的置換空間"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "An unsafe swap space has been detected."
-msgstr "已找到了一個不安全的置換空間。"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -575,8 +518,6 @@ msgid ""
 "unencrypted. This would allow someone with access to the disk to recover "
 "parts of the encryption key or passphrase."
 msgstr ""
-"因為一些私密的資料可能未經加密就轉存到磁碟上，所以這被視為是一個致命的錯誤。"
-"這將可能讓一些可以存取到該磁碟的人有辨法回復部份的加密密鑰或密語。"
 
 #. Type: error
 #. Description
@@ -587,22 +528,20 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
-"請關閉置換空間（像是執行 swapoff）或是設定加密的 Swap 空間，然後再次執行加密"
-"的 Volumes 設定。程式將立即中止。"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "Encryption passphrase:"
-msgstr "加密密語："
+msgstr ""
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr "您必須選擇一個密語來將 ${DEVICE} 加密。"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -614,8 +553,6 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
-"這個密語攸關整體加密的強度，因此您應該小心地選擇一個不容易被猜到的密語。它不"
-"應該是個能在字典中找到的單字或片語，或是個容易和您聯想在一起的字詞"
 
 #. Type: password
 #. Description
@@ -626,15 +563,13 @@ msgid ""
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
-"一個恰當的密語應當由字母、數字和標點符號混雜而成，長度則建議在 20 個字元以"
-"上。"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr "請再次輸入密語以進行確認："
+msgstr ""
 
 #. Type: password
 #. Description
@@ -643,28 +578,28 @@ msgstr "請再次輸入密語以進行確認："
 msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
-msgstr "請再次輸入相同的密語以確認您是否正確鍵入。"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr "密語輸入錯誤"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "The two passphrases you entered were not the same. Please try again."
-msgstr "您所輸入的兩個密語並不相同。請重新輸入。"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Empty passphrase"
-msgstr "空的密語"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -673,14 +608,14 @@ msgstr "空的密語"
 msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
-msgstr "您所輸入的是空的密語，而這是不允許的。請選擇一個不是空的密語。"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
 msgid "Use weak passphrase?"
-msgstr "是否使用強度薄弱的密語？"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -693,36 +628,34 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
-"您所輸入的密語少於 ${MINIMUM} 字元，這被認為是過於薄弱。您應該選擇另一個較為"
-"強悍的密語。"
 
 #. Type: entropy
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr "${DEVICE} 的加密密鑰已經產生了"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:52001
 msgid "Key data has been created successfully."
-msgstr "密鑰資料已被成功建立。"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Keyfile creation failure"
-msgstr "密鑰檔的建立失敗了"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "An error occurred while creating the keyfile."
-msgstr "在建立密鑰檔時發生錯誤。"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -732,7 +665,7 @@ msgstr "在建立密鑰檔時發生錯誤。"
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
 msgid "Encryption configuration failure"
-msgstr "加密設定失敗了"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -743,15 +676,13 @@ msgid ""
 "partition. This feature requires a separate /boot partition on which the "
 "kernel and initrd can be stored."
 msgstr ""
-"您已選擇了將 root 檔案系統儲存在加密的分割區上。這個功能將需要一個能儲存 "
-"Kernel 和 initrd 的個別 /boot 分割區。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr "請返回並設定一個 /boot 分割區。"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -763,9 +694,6 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
-"您已設定了將 /boot 檔案系統儲存在加密的分割區上。因為這將導致開機程式無法載"
-"入 kernel 和 initrd，所以這個作法並不可行。如果您繼續的話將會導致安裝完成的系"
-"統無法使用。"
 
 #. Type: error
 #. Description
@@ -774,14 +702,14 @@ msgstr ""
 msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
-msgstr "請返回並替 /boot 檔案系統選擇一個非加密的分割區。"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
 msgid "Are you sure you want to use a random key?"
-msgstr "您是否確定要使用隨機產生的密鑰？"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -791,8 +719,6 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
-"您設定 ${DEVICE} 的類型為使用隨機產生的密鑰，但同時又要求分割程式在其上建立檔"
-"案系統。"
 
 #. Type: boolean
 #. Description
@@ -802,29 +728,27 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
-"類型為使用隨機產生的密鑰表示這個分割區裡的資料會在每次開機時被清除掉。這應該"
-"是只用於 Swap 分割區。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "Failed to download crypto components"
-msgstr "無法下載加密元件"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "An error occurred trying to download additional crypto components."
-msgstr "在嘗試下載額外的加密元件時發生錯誤。"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:58001
 msgid "Proceed to install crypto components despite insufficient memory?"
-msgstr "是否在記憶體可能不足的情況下進行加密元件的安裝？"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -835,8 +759,6 @@ msgid ""
 "crypto components. If you choose to go ahead and continue anyway, the "
 "installation process could fail."
 msgstr ""
-"似乎沒有足夠的記憶體可用來安裝額外的加密元件。如果您決定無論如何都要繼續進"
-"行，安裝程序將可能會失敗。"
 
 #. Type: select
 #. Choices
@@ -846,7 +768,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Create encrypted volumes"
-msgstr "建立加密 Volume"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -856,53 +778,53 @@ msgstr "建立加密 Volume"
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Finish"
-msgstr "完成"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "Encryption configuration actions"
-msgstr "加密設定動作"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "This menu allows you to configure encrypted volumes."
-msgstr "這個選單可讓您設定加密 Volume。"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Devices to encrypt:"
-msgstr "要加密的裝置："
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr "請選擇要進行加密的裝置。"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr "您可以選取一個或多個裝置。"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices selected"
-msgstr "未選取任何的裝置"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices were selected for encryption."
-msgstr "未指定任何要進行加密的磁碟分割區。"
+msgstr ""

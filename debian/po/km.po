@@ -3,26 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of km.po to Khmer
-# Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2007, 2008, 2010.
-#   eng vannak <evannak@khmeros.info>, 2006.
-#   auk piseth <piseth_dv@khmeros.info>, 2006.
-#   Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2010, 2012.
-# Translations from iso-codes:
-msgid ""
-msgstr ""
-"Project-Id-Version: km\n"
-"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
-"POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Khmer <support@khmeros.info>\n"
-"Language: km\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
 #. Type: text
 #. Description
 #. File system name
@@ -30,7 +10,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr "ភាគ​ពិត​សម្រាប់​អ៊ិនគ្រីប"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -39,7 +19,7 @@ msgstr "ភាគ​ពិត​សម្រាប់​អ៊ិនគ្រី
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr "crypto"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -49,7 +29,7 @@ msgstr "crypto"
 #. :sl3:
 #: ../partman-crypto.templates:3001
 msgid "Device-mapper (dm-crypt)"
-msgstr "ឧបករណ៍​ផ្គូផ្គង​ឧបករណ៍ (dm-crypt)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -58,7 +38,7 @@ msgstr "ឧបករណ៍​ផ្គូផ្គង​ឧបករណ៍ (dm-c
 #. :sl3:
 #: ../partman-crypto.templates:5001
 msgid "not active"
-msgstr "មិន​សកម្ម"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -66,14 +46,14 @@ msgstr "មិន​សកម្ម"
 #. :sl3:
 #: ../partman-crypto.templates:6001
 msgid "Encryption method:"
-msgstr "វិធីសាស្ត្រ​​អ៊ិនគ្រីប ៖"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
 msgid "Encryption method for this partition:"
-msgstr "វិធីសាស្ត្រ​​អ៊ិនគ្រីប​​សម្រាប់​ភាគ​ថាស​នេះ ៖"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -83,8 +63,6 @@ msgid ""
 "Changing the encryption method will set other encryption-related fields to "
 "their default values for the new encryption method."
 msgstr ""
-"កា​រផ្លាស់ប្ដូរ​វិធីសាស្ត្រ​អ៊ិនគ្រីប​នឹង​កំណត់​វាល​ដែល​ទាក់ទងនឹង​ការ​អ៊ិនគ្រីប​​ទៅ​នឹ​ងតម្លៃ​លំនាំដើម​របស់​ពួកគេ​សម្រាប់​"
-"វិធីសាស្ត្រ​អ៊ិនគ្រីប​ថ្មី ។"
 
 #. Type: text
 #. Description
@@ -92,14 +70,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:8001
 msgid "Encryption:"
-msgstr "ការអ៊ិនគ្រីប ៖"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
 msgid "Encryption for this partition:"
-msgstr "ការ​អ៊ិនគ្រីប​សម្រាប់​ភាគថាស​នេះ ៖"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -107,14 +85,14 @@ msgstr "ការ​អ៊ិនគ្រីប​សម្រាប់​ភា
 #. :sl3:
 #: ../partman-crypto.templates:10001
 msgid "Key size:"
-msgstr "ទំហំ​កូនសោ ៖"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
 msgid "Key size for this partition:"
-msgstr "ទំហំកូនសោ​សម្រាប់​ភាគ​ថាស​នេះ​ ៖"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -124,7 +102,7 @@ msgstr "ទំហំកូនសោ​សម្រាប់​ភាគ​ថា
 #. :sl3:
 #: ../partman-crypto.templates:12001
 msgid "IV algorithm:"
-msgstr "ក្បួន​ដោះស្រាយ IV ៖"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -133,7 +111,7 @@ msgstr "ក្បួន​ដោះស្រាយ IV ៖"
 #. :sl3:
 #: ../partman-crypto.templates:13001
 msgid "Initialization vector generation algorithm for this partition:"
-msgstr "ការ​ចាប់ផ្ដើម​ក្បួន​​ដោះស្រាយ​​វ៉ិចទ័រ​សម្រាប់​ភាគ​នេះ ៖"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -147,9 +125,6 @@ msgid ""
 "no reason to change this from the recommended default, except for "
 "compatibility with older systems."
 msgstr ""
-"ក្បួន​ដោះស្រាយ​ខុសគ្នា​ដែល​មាន​ដើម្បី​ទាញ​យក​ពី​វ៉ិចទ័រ​ចាប់ផ្ដើម​សម្រាប់​ផ្នែក​នីមួយៗ ។ ជម្រើស​នេះ​មាន​ឥទ្ធិពល​លើ​"
-"សុវត្ថិភាព​អ៊ិនគ្រីប ។ តាមធម្មតា គ្មាន​ហេតុផល​ដើម្បី​ផ្លាស់ប្ដូរ​វា​ពី​លំនាំដើម​ដែល​បាន​ផ្ដល់​អនុសាសន៍ លើកលែង​តែ​"
-"សម្រាប់​ភាពឆប​គ្នា​នឹង​ប្រព័ន្ធ​ចាស់ៗ ។"
 
 #. Type: text
 #. Description
@@ -157,14 +132,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:14001
 msgid "Encryption key:"
-msgstr "កូនសោ​អ៊ិនគ្រីប ៖"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr "ប្រភេទ​កូនសោ​អ៊ិនគ្រីប សម្រាប់​ភាគថាស​នេះ ៖"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -172,14 +147,14 @@ msgstr "ប្រភេទ​កូនសោ​អ៊ិនគ្រីប ស�
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr "សញ្ញា (#) កូនសោ​អ៊ិនគ្រីប ៖"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr "ប្រភេទ​សញ្ញា (#) កូនសោ​អ៊ិនគ្រីប​សម្រាប់​ភាគថាស​នេះ ៖"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -191,9 +166,6 @@ msgid ""
 "recommended default and doing so in the wrong way can reduce the encryption "
 "strength."
 msgstr ""
-"កូនសោ​អ៊ិនគ្រីប​ត្រូវ​បាន​ទាញ​យកពី​ឃ្លា​សម្ងាត់​ដោយ​អនុវត្ត​អនុគមន៍​សញ្ញា (#) មួយ​ផ្លូវ​ចំពោះ​​វា ។ តាម​ធម្មតា "
-"គ្មាន​ហេតុផល​ដើម្បី​ផ្លាស់ប្ដូរ​វា​ពី​លំនាំដើម​ដែល​បាន​ផ្ដល់​អនុសាសន៍ និង​ធ្វើ​ដូច្នេះ​ក្នុង​ផ្លូវ​ខុស​​អាច​កាត់បន្ថយ​"
-"កម្លាំង​អ៊ិនគ្រីប ។"
 
 #. Type: text
 #. Description
@@ -202,28 +174,28 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Erase data:"
-msgstr "លុប​ទិន្នន័យ ៖"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr "ទេ"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr "បាទ/ចាស"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr "លុប​ទិន្នន័យ​នៅ​លើ​ភាគ​ថាស​នេះ"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -233,21 +205,17 @@ msgstr "លុប​ទិន្នន័យ​នៅ​លើ​ភាគ​ថ
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr "ពិត​ជា​លុប​ទិន្នន័យ​នៅ​លើ ${DEVICE} មែន​ទេ ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
-#, fuzzy
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"ទិន្នន័យ​នៅលើ​The data on ${DEVICE} will be overwritten with random data. It can "
-"no longer be recovered after this step has completed. This is the last "
-"opportunity to abort the erase."
 
 #. Type: text
 #. Description
@@ -257,7 +225,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
 msgid "Erasing data on ${DEVICE}"
-msgstr "ការ​លុប​ទិន្នន័យ​នៅ​លើ ${DEVICE}"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -276,17 +244,16 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:25001 ../partman-crypto.templates:29001
 msgid "Erasing data on ${DEVICE} failed"
-msgstr "ការ​លុប​ទិន្នន័យ​នៅ​លើ ${DEVICE} បាន​បរាជ័យ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
-#, fuzzy
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
-msgstr "កំហុស​មួយ​បាន​កើត​ឡើង​ខណៈពេល​ព្យាយាម​លុប​ទិន្នន័យ​នៅ​លើ ${DEVICE} ។ ទិន្នន័យ​មិន​ត្រូវ​បាន​លុប​ទេ ។"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -297,9 +264,6 @@ msgid ""
 "be recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"ទិន្នន័យ​នៅលើ​The data on ${DEVICE} will be overwritten with random data. It can "
-"no longer be recovered after this step has completed. This is the last "
-"opportunity to abort the erase."
 
 #. Type: text
 #. Description
@@ -327,35 +291,35 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:30001
 msgid "Setting up encryption..."
-msgstr "កំពុង​រៀប​ចំ​ការ​អ៊ិនគ្រីប..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
 msgid "Configure encrypted volumes"
-msgstr "កំណត់​រចនាសម្ព័ន្ធ​ភាគ​ដែល​បាន​អ៊ិនគ្រីប"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr "មិន​មាន​ភាគថាស​ដើម្បី​អ៊ិនគ្រីប​ឡើយ"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions have been selected for encryption."
-msgstr "មិន​បាន​ជ្រើស​ភាគថាស​សម្រាប់​អ៊ិនគ្រីប​ឡើយ ។"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:33001
 msgid "Required programs missing"
-msgstr "បាត់​កម្មវិធី​ដែល​ទាមទារ"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -365,15 +329,13 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
-"ការ​បង្កើត​កម្មវិធី​ដំឡើង​ដេបៀន​នេះ មិន​បាន​រួមបញ្ចូល​កម្មវិធី​មួយ ឬ ច្រើន​ដែល​ទាមទារ​ដើម្បី​ឲ្យ partman-"
-"crypto ដំណើរការ​ត្រឹមត្រូវ​ឡើយ ។"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:34001
 msgid "Required encryption options missing"
-msgstr "បាត់​ជម្រើស​អ៊ិនគ្រីប​ដែល​ទាមទារ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -383,8 +345,6 @@ msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
 msgstr ""
-"ជម្រើស​អ៊ិនគ្រីប​សម្រាប់ ${DEVICE} មិន​មាន​លក្ខណៈ​ពេញលេញ​ឡើយ ។​ សូម​ត្រឡប់​ទៅ​ម៉ឺនុយ​ភាគថាស​វិញ ហើយ​ជ្រើស​"
-"ជម្រើស​ទាំងអស់​ដែល​ទាមទារ ។"
 
 #. Type: text
 #. Description
@@ -394,7 +354,7 @@ msgstr ""
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:35001
 msgid "missing"
-msgstr "បាត់"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -402,14 +362,14 @@ msgstr "បាត់"
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr "កំពុង​ប្រើ​ជា​ភាគ​ពិត​សម្រាប់​ភាគ​ ${DEV} ដែល​បាន​អ៊ិនគ្រីប"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
 msgid "Encryption package installation failure"
-msgstr "បរាជ័យ​ក្នុង​ការ​ដំឡើង​កញ្ចប់​អ៊ិនគ្រីប"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -418,7 +378,7 @@ msgstr "បរាជ័យ​ក្នុង​ការ​ដំឡើង​ក
 msgid ""
 "The kernel module package ${PACKAGE} could not be found or an error occurred "
 "during its installation."
-msgstr "រក​មិន​ឃើញ​កញ្ចប់​ម៉ូឌុល​ខឺណែល​ ${PACKAGE} ឬ មាន​កំហុស​មួយ​បាន​កើត​ឡើង​​កំឡុង​ពេល​ការ​​ដំឡើង​របស់​វា ។"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -429,15 +389,13 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
-"វា​ទំនង​ជា​នឹង​មាន​បញ្ហា​ក្នុង​ការ​រៀបចំ​ភាគថាស​ដែល​បាន​អ៊ិនគ្រីប នៅ​ពេល​ប្រព័ន្ធ​ត្រូវ​បាន​ចាប់ផ្ដើម​ឡើង​វិញ ។ "
-"អ្នក​ប្រហែល​ជា​អាច​កែ​បញ្ហា​នេះ ដោយ​ដំឡើង​កញ្ចប់​ដែល​ត្រូវ​ការ​នៅ​ពេល​ក្រោយ ។"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:38001
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr "សរសេរ​ការ​ផ្លាស់ប្ដូរ​ទៅ​ថាស ហើយ​កំណត់​រចនា​សម្ព័ន្ធ​ភាគ​ដែល​បាន​អ៊ិនគ្រីប ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -447,8 +405,6 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
-"មុននឹង​អាច​កំណត់​រចនាសម្ព័ន្ធ​ភាគ​ដែល​អ៊ិនគ្រីប​រួច​បាន អ្នក​ត្រូវ​តែ​សរសេរ​គ្រោងការណ៍​ចែក​ថាស​ជា​ភាគ​បច្ចុប្បន្ន​ទៅ​"
-"ថាស ។ អ្នក​មិន​អាច​ត្រឡប់​ក្រោយ​វិញ​​បាន​ឡើយ ។"
 
 #. Type: boolean
 #. Description
@@ -463,51 +419,48 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme for these "
 "disks before continuing."
 msgstr ""
-"បន្ទាប់​ពីភាគ​ដែល​បានអ៊ិនគ្រីប​ត្រូវ​បាន​កំណត់​រចនាសម្ព័ន្ធ​រួច​មក គ្មាន​ការ​ផ្លាស់ប្ដូរ​បន្ថែម​ទៅ​ភាគថាស​នៅ​លើ​ថាស​​"
-"ដែល​មាន​ភាគ​ដែល​បាន​អ៊ិនគ្រីប​ត្រូវ​បាន​អនុញ្ញាត ។ សូម​សម្រេចចិត្ត​ ប្រសិន​បើ​អ្នក​ពេញចិត្ត​ជា​មួយ​នឹង​គ្រោងការណ៍​"
-"ភាគ​ថាស​បច្ចុប្បន្ន​ សម្រាប់​ថាស​ទាំង​នេះ​មុន​ពេល​បន្ត ។"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:39001
 msgid "Keep current partition layout and configure encrypted volumes?"
-msgstr "រក្សា​ប្លង់​ភាគថាស​បច្ចុប្បន្ន ហើយ​កំណត់​រចនា​សម្ព័ន្ធ​​ភាគ​ដែល​បាន​អ៊ិនគ្រីប ?"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "Configuration of encrypted volumes failed"
-msgstr "ការ​កំណត់​រចនាសម្ព័ន្ធ​របស់​ភាគ​ដែល​បាន​អ៊ិនគ្រីប​បាន​បរាជ័យ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "An error occurred while configuring encrypted volumes."
-msgstr "កំហុស​មួយ​បាន​​កើតឡើង ខណៈ​ពេល​កំណត់​រចនាសម្ព័ន្ធ​ភាគ​ដែល​បាន​អ៊ិនគ្រីប ។"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "The configuration has been aborted."
-msgstr "ការ​កំណត់​រចនាសម្ព័ន្ធ​ត្រូវ​បាន​បោះបង់ ។"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "Initialisation of encrypted volume failed"
-msgstr "ការ​ដំឡើង​ភាគ​ដែល​បាន​អ៊ិនគ្រីប​បាន​បរាជ័យ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "An error occurred while setting up encrypted volumes."
-msgstr "កំហុស​មួយ​បាន​កើត​ឡើង ខណៈពេល​រៀប​ចំភាគ​ដែល​បាន​អ៊ិនគ្រីប ។"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -518,7 +471,7 @@ msgstr "កំហុស​មួយ​បាន​កើត​ឡើង ខណ�
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
 msgid "Passphrase"
-msgstr "ឃ្លា​សម្ងាត់"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -529,7 +482,7 @@ msgstr "ឃ្លា​សម្ងាត់"
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:43001
 msgid "Keyfile (GnuPG)"
-msgstr "ឯកសារ​កូនសោ (GnuPG)"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -540,21 +493,21 @@ msgstr "ឯកសារ​កូនសោ (GnuPG)"
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:44001
 msgid "Random key"
-msgstr "កូនសោ​ចៃដន្យ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "Unsafe swap space detected"
-msgstr "បាន​រកឃើញ​ទំហំ​ស្វប​ដែល​មិន​មាន​សុវត្ថិភាព"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "An unsafe swap space has been detected."
-msgstr "បាន​រកឃើញ​ទំហំ​ស្វប​មួយ​ដែល​មិន​មាន​សុវត្ថិភាព​ឡើយ ។"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -564,7 +517,7 @@ msgid ""
 "This is a fatal error since sensitive data could be written out to disk "
 "unencrypted. This would allow someone with access to the disk to recover "
 "parts of the encryption key or passphrase."
-msgstr "​"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -575,22 +528,20 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
-"សូម​បិទ​ទំហំ​ស្វប (ឧ. ដោយ​រត់ swapoff) ឬ កំណត់​រចនាសម្ព័ន្ធ​ទំហំ​ស្វប​ដែល​បាន​អ៊ិនគ្រីប​មួយ ហើយ​បន្ទាប់​មក​រត់​ការ​"
-"រៀបចំ​ភាគ​ដែល​បាន​អ៊ិនគ្រីប​ម្ដង​ទៀត ។ ឥឡូវ​នេះ កម្មវិធី​នេះ​នឹង​បញ្ឈប់​ហើយ ។"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "Encryption passphrase:"
-msgstr "ឃ្លាសម្ងាត់​អ៊ិនគ្រីប ៖"
+msgstr ""
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr "អ្នក​ត្រូវ​តែ​ជ្រើស​ឃ្លា​សម្ងាត់​មួយ ដើម្បី​អ៊ិនគ្រីប ${DEVICE} ។"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -602,9 +553,6 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
-"ភាព​រឹងមាំ​របស់​ការ​អ៊ិនគ្រីប​គឺ​អាស្រ័យ​ទាំងស្រុង​លើ​ឃ្លាសម្ងាត់​នេះ ដូច្នេះ​អ្នក​ត្រូវ​តែ​ជ្រើស​ឃ្លាសម្ងាត់​ដោយ​"
-"ប្រុងប្រយ័ត្ន​បំផុត គឺ​ជ្រើស​ពាក្យសម្ងាត់​ណា​ដែល​មិន​ងាយ​នឹង​ទស្សន៍ទាយ​បាន ។ អ្នក​មិន​គួរ​ជ្រើស​ពាក្យណា​ដែល​មាន​នៅ​"
-"ក្នុង​វចនានុក្រម ឬ ឃ្លា​ដែល​ជាប់​ទាក់ទង​នឹង​ខ្លួន​អ្នក​ឡើយ (ឧ. ឈ្មោះ​មិត្តភក្ដិ ឬ ថ្ងៃ​កំណើត...) ។"
 
 #. Type: password
 #. Description
@@ -615,15 +563,13 @@ msgid ""
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
-"ឃ្លាសម្ងាត់​ដែល​ល្អ​បំផុត​គឺ​ជា​ឃ្លាសម្ងាត់​ដែល​មាន​ទាំង​អក្សរ ទាំង​លេខ និង សញ្ញា​វណ្ណយុត្តិ ។ ឃ្លាសម្ងាត់​គួរ​តែ​"
-"មាន​ប្រវែង​ចាប់​ពី ២០ តួអក្សរ​ឡើង​ទៅ ។"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr "សូម​បញ្ចូល​ឃ្លាសម្ងាត់​ម្ដង​ទៀត ដើម្បី​ផ្ទៀងផ្ទាត់ ៖"
+msgstr ""
 
 #. Type: password
 #. Description
@@ -632,28 +578,28 @@ msgstr "សូម​បញ្ចូល​ឃ្លាសម្ងាត់​ម
 msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
-msgstr "សូម​បញ្ចូល​ឃ្លាសម្ងាត់ដដែល​ម្ដង​ទៀត ដើម្បី​ផ្ទៀងផ្ទាត់​ថា​អ្នក​វាយ​វា​បាន​ត្រឹមត្រូវ ។"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr "កំហុស​បញ្ចូល​ឃ្លា​សម្ងាត់​"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "The two passphrases you entered were not the same. Please try again."
-msgstr "ឃ្លាសម្ងាត់​ទាំងពីរ​ដែល​អ្នក​បាន​បញ្ចូល មិនដូច​គ្នា​ឡើយ​ ។​ សូម​ព្យាយាម​ម្ដង​ទៀត ។"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Empty passphrase"
-msgstr "ឃ្លាសម្ងាត់​ទទេ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -663,15 +609,13 @@ msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
 msgstr ""
-"អ្នក​បាន​បញ្ចូល​ឃ្លាសម្ងាត់​ទទេ​មួយ ដែល​មិន​ត្រូវ​បាន​អនុញ្ញាត​ឡើយ ។ សូម​ជ្រើស​ឃ្លាសម្ងាត់​មួយ​ទៀត ដែល​មិន​មែន​"
-"ទទេ ។"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
 msgid "Use weak passphrase?"
-msgstr "ប្រើ​ឃ្លាសម្ងាត់​ខ្សោយ ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -684,36 +628,34 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
-"អ្នក​បាន​បញ្ចូល​ឃ្លា​សម្ងាត់​ដែល​មាន​ប្រវែង​តិច​ជាង ${MINIMUM} តួអក្សរ ដែល​មើល​ទៅ​ទំនង​ជា​មិន​សូវ​រឹងមាំ ។ "
-"អ្នក​គួរ​តែ​ជ្រើស​ឃ្លា​សម្ងាត់​ដែល​ខ្លាំង​ជាង​នេះ ។​"
 
 #. Type: entropy
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr "កូនសោ​អ៊ិនគ្រីប​សម្រាប់ ${DEVICE} កំពុង​ត្រូវ​បាន​បង្កើត ។"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:52001
 msgid "Key data has been created successfully."
-msgstr "ទិន្នន័យ​សំខាន់​ត្រូវ​បានបង្កើត​ដោយ​ជោគជ័យ ។"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Keyfile creation failure"
-msgstr "បរាជ័យ​ក្នុង​ការ​បង្កើត​ឯកសារ​កូនសោ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "An error occurred while creating the keyfile."
-msgstr "កំហុស​មួយ​បាន​កើត​ឡើង ខណៈ​ពេល​បង្កើត​ឯកសារ​កូនសោ ។"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -723,7 +665,7 @@ msgstr "កំហុស​មួយ​បាន​កើត​ឡើង ខណ�
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
 msgid "Encryption configuration failure"
-msgstr "បរាជ័យ​ក្នុង​ការ​កំណត់​រចនា​សម្ព័ន្ធ​​ការ​អ៊ិនគ្រីប"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -734,15 +676,13 @@ msgid ""
 "partition. This feature requires a separate /boot partition on which the "
 "kernel and initrd can be stored."
 msgstr ""
-"អ្នក​បាន​ជ្រើស​ប្រព័ន្ធ​ឯកសារ​របស់ root ដែល​ត្រូវ​ទុក​នៅលើ​ភាគថាស​ដែល​បាន​អ៊ិនគ្រីប ។ លក្ខណៈ​ពិសេស​នេះ​ត្រូវ​"
-"ការ​ភាគថាស separate /boot ដែល​ខឺណែល និង initrd អាច​ត្រូវ​បាន​ទុក ។"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr "អ្នកគួរ​ត្រឡប់​ថយ​ក្រោយ ហើយ​រៀបចំ​ភាគថាស /boot មួយ ។"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -754,9 +694,6 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
-"អ្នក​បាន​ជ្រើស​ប្រព័ន្ធ​ឯកសារ /boot ដែល​ត្រូវ​ទុក​នៅ​លើ​ភាគថាស​ដែល​បាន​អ៊ិនគ្រីប ។ វា​មិន​អាច​ធ្វើ​បាន​"
-"ទេពីព្រោះ​កម្មវិធី​ចាប់ផ្ដើម​ប្រព័ន្ធ​នឹង​មិន​អាច​ផ្ទុក​ខឺណែល​ និង initrd ។ ឥឡូវ ការ​បន្ត​នឹង​មាន​លទ្ធផល​ក្នុង​ការ​"
-"ដំឡើង​ដែល​មិន​អាច​ត្រូវ​បាន​ប្រើ ។"
 
 #. Type: error
 #. Description
@@ -765,14 +702,14 @@ msgstr ""
 msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
-msgstr "អ្នក​គួរ​ត្រឡប់​ក្រោយ ហើយ​ជ្រើស​ភាគ​ថាស​ដែល​មិន​បាន​អ៊ិនគ្រីប​មួយ​សម្រាប់​ប្រព័ន្ធ​ឯកសារ /boot ។"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
 msgid "Are you sure you want to use a random key?"
-msgstr "តើ​អ្នក​ពិត​ជាចង់​ប្រើ​កូនសោ​ចៃដន្យ​ឬ ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -782,8 +719,6 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
-"អ្នក​បាន​ជ្រើស​កូនសោ​ប្រភេទ​ចៃដន្យ​សម្រាប់ ${DEVICE} ប៉ុន្តែ​អ្នក​បាន​ស្នើសុំ​ឲ្យ​កម្មវិធី​ចែក​ថាស​ជា​ភាគ "
-"បង្កើត​ប្រព័ន្ធ​ឯកសារ​មួយ​នៅ​លើ​វា ។"
 
 #. Type: boolean
 #. Description
@@ -793,29 +728,27 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
-"ការ​ប្រើ​កូនសោ​ប្រភេទ​ចៃដន្យ មាន​ន័យ​ថា​ទិន្នន័យ​របស់​ភាគថាស​នឹង​ត្រូវ​បាន​បំផ្លាញ​ចោល​រាល់​ពេល​ចាប់ផ្ដើម​កុំព្យូទ័រ​"
-"ឡើង​វិញ​ម្ដងៗ ។ អ្នក​គួរ​ប្រើ​វា​សម្រាប់​តែ​ភាគថាស​ស្វប​ប៉ុណ្ណោះ ។"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "Failed to download crypto components"
-msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ទាញយក​សមាសភាគ​គ្រីបតូ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "An error occurred trying to download additional crypto components."
-msgstr "កំហុស​មួយ​បាន​កើតឡើង​ខណៈពេល​ព្យាយាម​ទាញយក​សមាសភាគ​គ្រីបតូ​បន្ថែម ។"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:58001
 msgid "Proceed to install crypto components despite insufficient memory?"
-msgstr "បន្ត​ដំឡើង​សមាសភាគ​គ្រីបតូ ទោះ​បី​ជា​សតិមិន​គ្រប់គ្រាន់​ក៏ដោយ ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -826,8 +759,6 @@ msgid ""
 "crypto components. If you choose to go ahead and continue anyway, the "
 "installation process could fail."
 msgstr ""
-"ហាក់បី​ដូចជា​គ្មាន​សតិ​គ្រប់គ្រាន់​ដែល​អាច​ប្រើ​បាន​ដើម្បី​ដំឡើង​សមាសភាគ​គ្រីបតូ​បន្ថែម ។ ប្រសិន​បើ​អ្នក​ជ្រើស​ទៅ​"
-"មុខ និង​បន្ត ដំណើរការ​ដំឡើង​អាច​បរាជ័យ ។"
 
 #. Type: select
 #. Choices
@@ -837,7 +768,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Create encrypted volumes"
-msgstr "បង្កើត​ភាគថាស​ដែលបានអ៊ីនគ្រីប"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -847,53 +778,53 @@ msgstr "បង្កើត​ភាគថាស​ដែលបានអ៊ីន
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Finish"
-msgstr "បញ្ចប់"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "Encryption configuration actions"
-msgstr "សកម្មភាព​កំណត់​រចនាសម្ព័ន្ធអ៊ីនគ្រិប"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "This menu allows you to configure encrypted volumes."
-msgstr "ម៉ឺនុយ​នេះ​ អនុញ្ញាត​ឲ្យ​អ្នក​កំណត់​រចនាសម្ព័ន្ធ​ភាគថាស​ដែលបាន​អ៊ីនគ្រិប ។"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Devices to encrypt:"
-msgstr "ឧបករណ៍​ត្រូវ​អ៊ីនគ្រិប ៖"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr "សូម​ជ្រើស​ឧបករណ៍​ដែល​តម្រូវ​ឲ្យ​អ៊ីនគ្រិប ។"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr "អ្នកអាច​ជ្រើស​ឧបករណ៍​មួយ ឬ ច្រើន ។​"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices selected"
-msgstr "គ្មាន​ឧបករណ៍​បាន​ជ្រើស​ទេ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices were selected for encryption."
-msgstr "គ្មាន​ឧបករណ៍​ត្រូវបាន​ជ្រើ​សសម្រាប់​អ៊ីនគ្រិប​ទេ ។"
+msgstr ""
