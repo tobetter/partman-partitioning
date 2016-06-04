@@ -3,55 +3,33 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files
-#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
-"Language: Tajik\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=1;\n"
-
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "Тағйирдиҳии андозаи қисми диск..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "Ҳисобкунии вазъияти нав барои ҷадвали қисмбандӣ..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "Амали тағйири андоза имконпазир нест"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr "Ба сабаби номаълум андозаи ин қисми диск тағйир дода намешавад."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -59,15 +37,13 @@ msgstr "Ба сабаби номаълум андозаи ин қисми дис
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Файли /var/log/syslog -ро санҷед ё барои тафсилот консоли виртуалии 4-ро "
-"кушоед."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "Тағйироти қаблиро ба диск сабт мекунед ва идома медиҳед?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -77,15 +53,13 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"Пеш аз оне, ки шумо тавонед андозаи қисми диски наверо интихоб кунед, шумо "
-"бояд ягон тағйироти мавҷудбударо ба диск сабт намоед."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "Ин амал ботил сохта намешавад"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -93,7 +67,6 @@ msgstr "Ин амал ботил сохта намешавад"
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
 msgstr ""
-"Лутфан, қайд кунед, ки амали тағйири андоза метавонад вақти зиёдро гирад."
 
 #. Type: string
 #. Description
@@ -104,7 +77,7 @@ msgstr ""
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "Андозаи қисми диски нав:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -114,8 +87,6 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"Андозаи хурдтарин барои ин қисми диск: ${MINSIZE} (ё ${PERCENT}) ва андозаи "
-"зиёдтарин: ${MAXSIZE}."
 
 #. Type: string
 #. Description
@@ -130,16 +101,13 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"Маслиҳат: Шумо метавонед қимати \"max\" -ро ҳамчун миёнбуре барои муайян "
-"кардани андозаи зиёдтарин истифода баред ё фоизеро (масалан \"20%\") барои "
-"истифодаи фоизи андозаи зиёдтарин ворид кунед."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "Андозаи воридшуда беэътибор аст"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -150,16 +118,13 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"Андозаи воридшудаи шумо муайян нашудааст. Лутфан, барои андоза рақами бутуни "
-"мусбатеро ворид кунед, ки воҳиди ченаки интихобиро дар бар мегирад (масалан "
-"\"200 ГБ\"). Воҳиди ченаки пешфарз \"мегабайт\" мебошад."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr "Андозаи воридшуда хеле калон аст"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -169,15 +134,13 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
-"Андозаи воридшудаи шумо зиёда аз андозаи зиёдтарини қисми диск мебошад. "
-"Лутфан, барои идома андозаи хурдтареро ворид кунед."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "Андозаи воридшуда хеле хурд аст"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -187,64 +150,62 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
-"Андозаи воридшудаи шумо камтар аз андозаи камтарини қисми диск мебошад. "
-"Лутфан, барои идома андозаи зиёдеро ворид кунед."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "Амали тағйири андоза қатъ карда шуд."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "Ҳангоми сабти тағйирот ба дастгоҳҳои захирагоҳӣ хато ба вуҷуд омад."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "Амали тағйири андоза қатъ карда шудааст."
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "Андозаи калонтарин барои ин қисми диск: ${MAXSIZE}."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "Андозаи нодуруст"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr "Аввал"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr "Анҷом"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "Ҷойгиршавии қиси диски нав:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -254,43 +215,41 @@ msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
 msgstr ""
-"Лутфан, интихоб кунед, ки қисми диски нав бояд дар аввал ё дар охири фазои "
-"дастрас эҷод карда шавад."
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "Асосӣ"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "Мантиқӣ"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "Навъи қисми диски нав:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr "Байрақчаҳо барои қисми диски нав:"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr "Номи қисми диск:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -301,7 +260,7 @@ msgstr "Номи қисми диск:"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "Қисмбандиро идома медиҳед?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -312,9 +271,6 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"Ин василаи қисмбандӣ оид ба намуди пешфарзи ҷадвалҳои қисмбандии сохтори "
-"шумо маълумот надорад.  Лутфан, паёми электрониро бо маълумот ба debian-"
-"boot@lists.debian.org фиристонед."
 
 #. Type: boolean
 #. Description
@@ -324,8 +280,6 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"Лутфан, ба қайд гиред, ки агар намуди ҷадвали қисмбандӣ бо libparted "
-"дастгирӣ нашавад, он гоҳ ин василаи қисмбандӣ ба таври дуруст кор намекунад."
 
 #. Type: boolean
 #. Description
@@ -336,9 +290,6 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"Ин василаи қисмбандӣ китобхонаи libparted-ро истифода мебарад, ки ҷадвалҳои "
-"қисмбандии истифодашударо дар архитектураи шумо дастгирӣ намекунад.  Тавсияи "
-"ҷиддӣ медиҳем, ки шумо ин василаи қисмбандиро истифода набаред."
 
 #. Type: boolean
 #. Description
@@ -348,29 +299,27 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
-"Агар тавонед, лутфан, дастгириро барои намуди ҷадвали қисмбандии худ ба "
-"libparted илова кунед."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "Навъи ҷадвали қисмбандӣ:"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "Интихоб кардани навъи ҷадвали қисмбандӣ барои истифода:"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr "Ҷадвали қисмбандии холии навро дар ин дастгоҳ эҷод мекунед?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -381,23 +330,20 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"Шумо тамоми дасгоҳро барои қисми диск интихоб кардед. Агар шумо ҷадвали "
-"қисмбандии наверо дар ин дастгоҳ эҷод кунед, он тавр ҳамаи қисмҳои диски "
-"ҷорӣ тоза карда мешаванд."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr "Қайд кунед, ки шумо метавонед ин амалро баъдтар ботил созед."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "Ҷадвали қисмбандии холии наверо сабт мекунед?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -408,9 +354,6 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"Аз сабаби маҳдудиятҳо дар мавҷудияти ҷории ҷадвалҳои қисмбандии Sun дар "
-"libparted, ҷадвали қисмбандии дар айни ҳол эҷодшуда бояд фавран ба диск "
-"навишта шавад."
 
 #. Type: boolean
 #. Description
@@ -420,8 +363,6 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"Шумо НАМЕТАВОНЕД ин амалро баъдтар ботил созед, ва тамоми иттилооти дар диск "
-"мавҷудбуда бебозгашт тоза карда мешавад."
 
 #. Type: boolean
 #. Description
@@ -431,8 +372,6 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
-"Тасдиқ кунед, ки шумо воқеан мехоҳед ҷадвали нави қисмбандиҳоро эҷод кунед "
-"ва онро ба диск нависед."
 
 #. Type: boolean
 #. Description
@@ -440,7 +379,6 @@ msgstr ""
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
 msgstr ""
-"Шумо мутмаин ҳастед, ки мехоҳед қисмбандии мантиқии боршавандаро эҷод кунед?"
 
 #. Type: boolean
 #. Description
@@ -452,11 +390,6 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"Шумо кӯшиш мекунед, ки ба қисми диски мантиқӣ байрақчаи роҳандозиро таъин "
-"кунед. Умуман, байрақчаи роҳандозӣ танҳо дар қисмщои диски асосӣ истифода "
-"мешавад, барои ҳамин танзим кардани он ба қисмщои диски мантиқӣ одатан "
-"тавсия дода намешавад. Баъзе версияҳои BIOS дар ҳолати мавҷуд набудани қисми "
-"диски асосии роҳандозишаванда бо нокомиҳо дучор мешаванд."
 
 #. Type: boolean
 #. Description
@@ -467,73 +400,69 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"Аммо, агар шумо мутмаин бошед, ки BIOS-и шумо ин мушкилиро надорад, ё ки "
-"агар шумо мудири роҳандозии танзимшавандаро истифода баред, ки бо қисмщои "
-"диски мантиқии роҳандозишаванда кор мекунад, он гоҳ шумо метавонед ин "
-"байрақчаро таъин кунед."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr "Таъин кардани байрақчаҳои қисми диск"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr "Ном:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr "Байрақчаи боршаванда:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr "фаъол"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr "хомӯш"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "Тағйир додани андозаи қисми диск (андозаи ҷорӣ: ${SIZE})"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr "Нест кардани қисми диск"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr "Эҷод кардани қисми диски нав"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr "Эҷод кардани ҷадвали қисмбандии холии нав дар ин дастгоҳ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -542,7 +471,7 @@ msgstr "Эҷод кардани ҷадвали қисмбандии холии �
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr "Ноҳияи роҳандозии истифодашудаи BIOS"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -551,4 +480,4 @@ msgstr "Ноҳияи роҳандозии истифодашудаи BIOS"
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr "biosgrub"
+msgstr ""

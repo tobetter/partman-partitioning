@@ -3,65 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of el.po to
-# Greek messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-# Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-#   Panayotis Pakos <aeikineton@yahoo.com>
-# George Papamichelakis <george@step.gr>, 2004.
-# Emmanuel Galatoulas <galas@tee.gr>, 2004.
-# Konstantinos Margaritis <markos@debian.org>, 2004, 2006.
-# Greek Translation Team <debian-l10n-greek@lists.debian.org>, 2004, 2005.
-# quad-nrg.net <galaxico@quad-nrg.net>, 2005, 2006, 2007.
-# quad-nrg.net <yodesy@quad-nrg.net>, 2006, 2008.
-# QUAD-nrg.net <yodesy@quad-nrg.net>, 2006.
-# galaxico@quad-nrg.net <galaxico@quad-nrg.net>, 2009, 2011.
-# Emmanuel Galatoulas <galaxico@quad-nrg.net>, 2009, 2010, 2013, 2014.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Free Software Foundation, Inc., 2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   QUAD-nrg.net <yodesy@quad-nrg.net>, 2006, 2010.
-#   Simos Xenitellis <simos@hellug.gr>, 2001.
-#   Konstantinos Margaritis <markos@debian.org>, 2004.
-#   Athanasios Lefteris <alefteris@gmail.com>, 2008, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: el\n"
-"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: el <debian-l10n-greek@lists.debian.org>\n"
-"Language: el\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "Αλλαγή μεγέθους της κατάτμησης..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "Υπολογισμός του νέου πίνακα διαμέρισης..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "Η διαδικασία μεταβολής μεγέθους είναι αδύνατη."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -69,8 +30,6 @@ msgstr "Η διαδικασία μεταβολής μεγέθους είναι �
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
 msgstr ""
-"Λόγω κάποιας άγνωστης αιτίας είναι αδύνατη η μεταβολή του μεγέθους αυτής της "
-"κατάτμησης."
 
 #. Type: error
 #. Description
@@ -78,15 +37,13 @@ msgstr ""
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Ελέγξτε το αρχείο /var/log/syslog ή δείτε την εικονική κονσόλα 4 για "
-"λεπτομέρειες."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "Αποθήκευση των προηγουμένων αλλαγών στον δίσκο και συνέχιση;"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -96,15 +53,13 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"Πριν επιλέξετε ένα καινούριο μέγεθος κατάτμησης, οποιεσδήποτε αλλαγές θα "
-"πρέπει να αποθηκευτούν στον δίσκο."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "Δεν μπορείτε να ακυρώσετε αυτήν την εργασία."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -112,7 +67,6 @@ msgstr "Δεν μπορείτε να ακυρώσετε αυτήν την εργ
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
 msgstr ""
-"Σημειώστε ότι η αλλαγή του μεγέθους μπορεί να διαρκέσει για αρκετό χρόνο."
 
 #. Type: string
 #. Description
@@ -123,7 +77,7 @@ msgstr ""
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "Νέο μέγεθος κατάτμησης:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -133,8 +87,6 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"Το ελάχιστο μέγεθος που γι' αυτήν την κατάτμηση είναι ${MINSIZE} (ή "
-"${PERCENT}) και το μέγιστο ${MAXSIZE}."
 
 #. Type: string
 #. Description
@@ -149,16 +101,13 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"Υπόδειξη: μπορείτε να χρησιμοποιήσετε το \"max\" σαν συντόμευση για τον "
-"προσδιορισμό του μέγιστου μεγέθους ή να εισάγετε ένα ποσοστό (πχ. \"20%\") "
-"για να χρησιμοποιήσετε αυτό το ποσοστό του μέγιστου μεγέθους."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "Το μέγεθος που εισάγατε δεν είναι έγκυρο"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -169,16 +118,13 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"Το μέγεθος που εισάγατε δεν ήταν κατανοητό. Παρακαλώ εισάγετε έναν θετικό "
-"ακέραιο αριθμό ακολουθούμενο από μια προαιρετική μονάδα μέτρησης (πχ. \"200 "
-"GB\"). Η προκαθορισμένη μονάδα μέτρησης είναι το megabyte."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr "Το μέγεθος που εισάγατε είναι υπερβολικά μεγάλο"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -188,15 +134,13 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
-"Το μέγεθος που εισάγατε είναι μεγαλύτερο από το μέγιστο μέγεθος της "
-"κατάτμησης. Παρακαλώ εισάγετε ένα μικρότερο μέγεθος για να συνεχίσετε."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "Το μέγεθος που εισάγατε είναι πολύ μικρό"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -206,15 +150,13 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
-"Το μέγεθος που εισάγατε είναι μικρότερο από το ελάχιστο μέγεθος της "
-"κατανομής. Παρακαλώ εισάγετε ένα μεγαλύτερο μέγεθος για να συνεχίσετε."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "Απέτυχε η μεταβολή μεγέθους"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -222,50 +164,48 @@ msgstr "Απέτυχε η μεταβολή μεγέθους"
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
 msgstr ""
-"Κάποιο σφάλμα συνέβη κατά την αποθήκευση των αλλαγών στις συσκευές "
-"αποθήκευσης."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "Η διαδικασία μεταβολής μεγέθους τερματίστηκε."
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "Το μέγιστο μέγεθος για την κατάτμηση αυτή είναι ${MAXSIZE}."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "Μη έγκυρο μέγεθος"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr "Αρχή"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr "Τέλος"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "Θέση της νέας κατάτμησης:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -275,43 +215,41 @@ msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
 msgstr ""
-"Παρακαλώ επιλέξτε αν θέλετε να δημιουργηθεί η νέα κατάτμηση στην αρχή ή στο "
-"τέλος του διαθέσιμου χώρου."
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "Πρωτεύουσα"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "Λογική"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "Τύπος της νέας κατάτμησης:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr "Επιλογές της νέας κατάτμησης:"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr "Όνομα κατάτμησης:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -322,7 +260,7 @@ msgstr "Όνομα κατάτμησης:"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "Συνέχιση του προγράμματος διαμέρισης;"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -333,10 +271,6 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"Το πρόγραμμα διαμέρισης δεν έχει πληροφορίες για τον προκαθορισμένο τύπο του "
-"πίνακα διαμέρισης για την αρχιτεκτονική του υπολογιστή σας.  Παρακαλώ, "
-"στείλτε email στη διεύθυνση debian-boot@lists.debian.org με περισσότερες "
-"πληροφορίες."
 
 #. Type: boolean
 #. Description
@@ -346,8 +280,6 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"Σημειώστε ότι αν ο τύπος του πίνακα διαμέρισης δεν υποστηρίζεται από τη "
-"βιβλιοθήκη libparted, το πρόγραμμα διαμέρισης δε θα λειτουργήσει σωστά."
 
 #. Type: boolean
 #. Description
@@ -358,9 +290,6 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"Το πρόγραμμα διαμέρισης είναι βασισμένο στη βιβλιοθήκη libparted, η οποία "
-"δεν παρέχει υποστήριξη για τους πίνακες διαμέρισης της αρχιτεκτονικής του "
-"υπολογιστή σας. Συνίσταται να τερματίσετε αυτό το πρόγραμμα διαμέρισης."
 
 #. Type: boolean
 #. Description
@@ -370,29 +299,27 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
-"Αν έχετε τη δυνατότητα, παρακαλούμε βοηθήστε στην προσθήκη υποστήριξης για "
-"τον δικό σας τύπο του πίνακα διαμέρισης στην βιβιλιοθήκη libparted."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "Τύπος πίνακα διαμέρισης:"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "Επιλέξτε τον τύπο του πίνακα διαμέρισης που θέλετε να χρησιμοποιήσετε."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr "Θέλετε να δημιουργηθεί ένας νέος πίνακας διαμέρισης στην συσκευή αυτή;"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -403,9 +330,6 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"Έχετε επιλέξει να διαμερίσετε μια ολόκληρη συσκευή. Αν προχωρήσετε με τη "
-"δημιουργία του πίνακα διαμέρισης αυτής της συσκευής, όλες οι υπάρχουσες "
-"κατατμήσεις θα διαγραφούν."
 
 #. Type: boolean
 #. Description
@@ -413,15 +337,13 @@ msgstr ""
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
 msgstr ""
-"Σημειώστε ότι είναι δυνατή η ακύρωση αυτής της διαδικασίας αργότερα αν το "
-"επιθυμείτε."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "Θέλετε να γράψετε έναν νέο κενό πίνακα διαμέρισης;"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -432,9 +354,6 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"Λόγω περιορισμών της τρέχουσας υλοποίησης του πίνακα διαμέρισης Sun στο "
-"libparted, ο νεοδημιουργηθείς πίνακας διαμέρισης θα πρέπει να αποθηκευθεί "
-"άμεσα στο δίσκο."
 
 #. Type: boolean
 #. Description
@@ -444,8 +363,6 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"ΔΕΝ θα είναι δυνατή η ακύρωση αυτής της εργασίας αργότερα και όλα τα "
-"υπάρχοντα δεδομένα στο δίσκο θα διαγραφούν ανεπιστρεπτί."
 
 #. Type: boolean
 #. Description
@@ -455,15 +372,13 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
-"Επιβεβαιώστε ότι όντως θέλετε να δημιουργήσετε ένα νέο πίνακα διαμέρισης και "
-"να τον αποθηκεύσετε στο δίσκο."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "Είστε σίγουρος/η ότι θέλετε μια εκκινήσιμη λογική κατάτμηση;"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -475,11 +390,6 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"Προσπαθείτε να σημάνετε ως εκκινήσιμη μια λογική κατάτμηση. Η σήμανση ως "
-"εκκινήσιμης είναι γενικά χρήσιμη μόνο για μια πρωτεύουσα κατάτμηση, συνεπώς "
-"ο ορισμός ως τέτοιας μιας λογικής κατάτμησης συνήθως δεν ενθαρρύνεται. "
-"Μερικές εκδόσεις του BIOS είναι γνωστό ότι αποτυγχάνουν να εκκινηθούν αν δεν "
-"υπάρχει μια εκκινήσιμη πρωτεύουσα κατάτμηση."
 
 #. Type: boolean
 #. Description
@@ -490,45 +400,41 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"Παρόλα αυτά, αν είστε σίγουρος ότι το BIOS του συστήματός σας δεν έχει αυτό "
-"το πρόβλημα ή αν χρησιμοποιείτε έναν προσαρμοσμένο φορτωτή εκκίνησης που "
-"λαμβάνει υπόψιν του εκκινήσιμες λογικές κατατμήσεις, τότε ο ορισμός αυτής "
-"της σήμανσης πιθανόν να έχει νόημα."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr "Προσδιορίστε τις σημάνσεις της κατάτμησης"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr "Όνομα:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr "Εκκινήσιμη:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr "ναι"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr "όχι"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -536,28 +442,27 @@ msgstr "όχι"
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
 msgstr ""
-"Επαναπροσδιορισμός μεγέθους της κατάτμησης (αυτή τη στιγμή μεγέθους  ${SIZE})"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr "Διαγραφή κατάτμησης"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr "Δημιουργία νέας κατάτμησης"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr "Δημιουργία νέου κενού πίνακα διαμέρισης σε αυτή τη συσκευή"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -566,7 +471,7 @@ msgstr "Δημιουργία νέου κενού πίνακα διαμέριση
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr "Δεσμευμένη περιοχή εκκίνησης του BIOS"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -575,4 +480,4 @@ msgstr "Δεσμευμένη περιοχή εκκίνησης του BIOS"
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr "biosgrub"
+msgstr ""

@@ -3,80 +3,47 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of ru.po to Russian
-# Russian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-# Translations from iso-codes:
-# Russian L10N Team <debian-l10n-russian@lists.debian.org>, 2004.
-# Yuri Kozlov <yuray@komyakino.ru>, 2004, 2005.
-# Dmitry Beloglazov <dm-guest@alioth.debian.org>, 2005.
-# Sergey Alyoshin <alyoshin.s@gmail.com>, 2011.
-# Yuri Kozlov <yuray@komyakino.ru>, 2005, 2006, 2007, 2008.
-# Yuri Kozlov <yuray@komyakino.ru>, 2009, 2010, 2011.
-# Alastair McKinstry <mckinstry@debian.org>, 2004.
-# Mikhail Zabaluev <mhz@altlinux.org>, 2006.
-# Nikolai Prokoschenko <nikolai@prokoschenko.de>, 2004.
-# Pavel Maryanov <acid@jack.kiev.ua>, 2009,2010.
-# Yuri Kozlov <yuray@komyakino.ru>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
-msgid ""
-msgstr ""
-"Project-Id-Version: ru\n"
-"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
-"Language: ru\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "Изменение размера раздела..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "Определение нового состояния таблицы разделов..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "Изменение размера разделов невозможно."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr "По неизвестной причине невозможно изменить размер раздела."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "Подробности смотрите в файле /var/log/syslog или на консоли 4."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "Записать ранее сделанные изменения на диск и продолжить?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -86,15 +53,13 @@ msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
 msgstr ""
-"Перед выбором нового размера раздела ранее сделанные изменения будут "
-"записаны на диск."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "Это действие необратимо."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -102,7 +67,6 @@ msgstr "Это действие необратимо."
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
 msgstr ""
-"Заметим, что операция изменения размера раздела может занять много времени."
 
 #. Type: string
 #. Description
@@ -113,7 +77,7 @@ msgstr ""
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "Новый размер раздела:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -123,8 +87,6 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"Минимально возможный размер -- ${MINSIZE} (или ${PERCENT}), а максимально "
-"возможный размер -- ${MAXSIZE}."
 
 #. Type: string
 #. Description
@@ -139,16 +101,13 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"На заметку: чтобы задать максимальный размер можно ввести \"max\", а также "
-"можно задавать процентное значение (например, \"20%\"), которое считается от "
-"максимального размера."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "Введён неправильный размер"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -159,16 +118,13 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"Размер, который вы ввели, не понятен. Введите размер в виде положительного "
-"целого числа, после которого можно указать единицу измерения (например, "
-"\"200 ГБ\"). Единицей измерения по умолчанию является мегабайт."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr "Введён слишком большой размер"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -178,15 +134,13 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
-"Размер, который вы ввели, больше чем максимальный размер раздела. Чтобы "
-"продолжить, введите меньший размер."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "Введён слишком маленький размер"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -196,64 +150,62 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
-"Размер, который вы ввели, меньше чем минимальный размер раздела. Чтобы "
-"продолжить, введите больший размер."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "Изменение размера разделов не удалось"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "Ошибка при записи изменений на устройства хранения."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "Изменение размера разделов было прервано."
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "Максимальный размер для этого раздела равен ${MAXSIZE}."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "Неверный размер"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr "Начало"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr "Конец"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "Местоположение нового раздела:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -263,43 +215,41 @@ msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
 msgstr ""
-"Выберите, где вы хотите создать новый раздел: в начале или в конце "
-"свободного пространства."
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "Первичный"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "Логический"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "Тип нового раздела:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr "Флаги нового раздела:"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr "Название раздела:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -310,7 +260,7 @@ msgstr "Название раздела:"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "Продолжить разметку?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -321,9 +271,6 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"Программа разметки не содержит информации о типе таблиц разделов на вашем "
-"типе компьютера. Пошлите эту информацию по электронной почте на адрес debian-"
-"boot@lists.debian.org (на английском языке)"
 
 #. Type: boolean
 #. Description
@@ -333,8 +280,6 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"Обратите внимание, что если этот тип таблицы разделов не поддерживается "
-"libparted, то программа разметки не будет работать правильно."
 
 #. Type: boolean
 #. Description
@@ -345,9 +290,6 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"Программа разметки основана на библиотеке libparted, которая не поддерживает "
-"таблицы разделов, используемые на вашем типе компьютера. Настоятельно "
-"рекомендуется выйти из этой программы."
 
 #. Type: boolean
 #. Description
@@ -357,29 +299,27 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
-"Если можете, помогите добавить поддержку вашего типа таблицы разделов в "
-"libparted."
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "Тип таблицы разделов:"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "Выберите нужный типа таблицы разделов."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr "Создать новую пустую таблицу разделов на этом устройстве?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -390,22 +330,20 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"Вы выбрали разметку всего диска. Если вы сейчас продолжите, то будет создана "
-"новая таблица разделов и все существующие разделы будут уничтожены."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr "Примечание: при желании вы сможете отменить эти изменения."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "Создать новую пустую таблицу разделов?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -416,8 +354,6 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"Из-за недостатков реализации поддержки таблиц разделов Sun в libparted, "
-"новые таблицы разделов сразу записываются на диск."
 
 #. Type: boolean
 #. Description
@@ -427,8 +363,6 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"Отменить эту операцию НЕВОЗМОЖНО, все данные на диске будут безвозвратно "
-"потеряны."
 
 #. Type: boolean
 #. Description
@@ -438,15 +372,13 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
-"Подтвердите, что вы действительно хотите создать новую таблицу разделов и "
-"записать её на диск."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "Вы уверены, что хотите сделать загрузочным логический раздел?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -458,10 +390,6 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"Вы пытаетесь установить загрузочный флаг на логический раздел. Обычно, "
-"загрузочный флаг полезен только на первичных разделах, поэтому его установка "
-"на логические разделы не поощряется. Известно, что некоторые версии BIOS не "
-"выполняют загрузку с диска, если флаг установлен не на первичном разделе."
 
 #. Type: boolean
 #. Description
@@ -472,73 +400,69 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"Однако, если вы уверены, что ваш BIOS сможет выполнить загрузку, или если вы "
-"пользуетесь специальным менеджером загрузки, который понимает, когда "
-"загрузочный флаг стоит на логическом разделе, то такая установка может иметь "
-"смысл."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr "Задать флаги раздела"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr "Имя:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr "Метка 'загрузочный':"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr "вкл"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr "выкл"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "Изменить размер раздела (текущий размер ${SIZE})"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr "Удалить раздел"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr "Создать новый раздел"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr "Создать новую пустую таблицу разделов на этом устройстве"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -547,7 +471,7 @@ msgstr "Создать новую пустую таблицу разделов �
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr "Резервная загрузочная область BIOS"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -556,4 +480,4 @@ msgstr "Резервная загрузочная область BIOS"
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr "biosgrub"
+msgstr ""

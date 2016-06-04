@@ -3,85 +3,47 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Bangla translation of Debian-Installer.
-# Copyright (C) 2005, 2006, Debian Foundation.
-# This file is distributed under the same license as the Debian-Installer package.
-# Anubadok, the en2bn auto-translator by Golam Mortuza Hossain <golam@imsc.res.in>, 2005.
-# Baishampayan Ghose <b.ghose@gnu.org.in>, 2005-2006.
-# Quazi Ashfaq-ur Rahman <quazi.ashfaq@gmail.com>, 2005.
-# Khandakar Mujahidul Islam <suzan@bengalinux.org>, 2005, 2006.
-# Progga <progga@BengaLinux.Org>, 2005, 2006.
-# Jamil Ahmed <jamil@bengalinux.org>, 2006-2007.
-# Mahay Alam Khan (মাহে আলম খান) <makl10n@yahoo.com>, 2007.
-# Tisa Nafisa <tisa_nafisa@yahoo.com>, 2007.
-# Md. Rezwan Shahid <rezwan@ankur.org.bd>, 2009.
-# Ayesha Akhtar <ayesha@ankur.org.bd>, 2010.
-# Israt Jahan <israt@ankur.org.bd>, 2010.
-# Zenat Rahnuma <zenat@ankur.org.bd>, 2011.
-#
-# Translations from iso-codes:
-#   Debian Foundation, 2005.
-#   Progga <progga@BengaLinux.Org>, 2005.
-#   Jamil Ahmed <jamil@bengalinux.org>, 2006.
-#   Md. Rezwan Shahid <rezwan@ankur.org.bd>, 2009.
-#   Israt Jahan <israt@ankur.org.bd>, 2010.
-#   Ayesha Akhtar <ayesha@ankur.org.bd>, 2012.
-#   Robin Mehdee (রবিন মেহদী) <robin@ankur.org.bd>, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: bn\n"
-"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Bengali \n"
-"Language: bn\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "পার্টিশনের আকার পুনঃনির্ধারণ করা হচ্ছে..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "পার্টিশন টেবিলের নতুন অবস্থা হিসাব করা হচ্ছে..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "আকার পুনঃনির্ধারণ করা অসম্ভব"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr "কোনো এক অজানা কারণে এই পার্টিশনটির আকার পুনঃনির্ধারণ করা অসম্ভব।"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "বিস্তারিত জানার জন্য /var/log/syslog পড়ুন অথবা চতুর্থ ভার্চুয়াল কনসোল দেখুন।"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "ইতিপূর্বে যা কিছু পরিবর্তন করা হয়েছে, তা ডিস্ক-এ লিখে এগিয়ে যাব কি?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -90,14 +52,14 @@ msgstr "ইতিপূর্বে যা কিছু পরিবর্তন
 msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
-msgstr "পার্টিশনের আকার পুনঃনির্ধারণের পূর্বে পরিবর্তনগুলো ডিস্কে লিখতে হবে।"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "আপনি এই অপারেশনটি বাতিল করান।"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -105,7 +67,6 @@ msgstr "আপনি এই অপারেশনটি বাতিল কর�
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
 msgstr ""
-"অনুগ্রহপূর্বক মনে রাখবেন যে, আকার পুনঃনির্ধারণের কাজটি হয়ত দীর্ঘ সময় ধরে চলতে পারে।"
 
 #. Type: string
 #. Description
@@ -116,7 +77,7 @@ msgstr ""
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "পার্টিশনের নতুন আকার:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -126,10 +87,7 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"এই পার্টিশনের সর্বনিম্ন আকার ${MINSIZE} অথবা ${PERCENT} এবং সর্বোচ্চ আকার "
-"${MAXSIZE}।"
 
-# damn! FixMe. couldn't thing better than this. - mak
 #. Type: string
 #. Description
 #. :sl2:
@@ -143,15 +101,13 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"ইঙ্গিত: \"max\" সর্বোচ্চ আকারের শর্টকাট হিসাবে ব্যবহার করা যাবে, অথবা সর্বোচ্চ "
-"আকারের শতকরা (যেমন, \"২০%\") হিসাবও ব্যবহার করা যেতে পারে।"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "আপনার দেওয়া  আকারের পরিমান অবৈধ।"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -162,16 +118,13 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"আপনার প্রবেশিত আকার বুঝতে পারা যায়নি। অনুগ্রহ করে পরিমাপের (যেমন,\"২০০ গিগাবাইট"
-"\" ) ঐচ্ছিক ইউনিট অনুসরণকারী ধ্বনাত্বক ইনটিজারের আকার প্রবেশ করান। পরিমাপের ডিফল্ট "
-"ইউনিট হলো মেগাবাইট।"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr "প্রবেশিত আকার অনেক বড়"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -181,15 +134,13 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
-"আপনার প্রবেশিত আকার পার্টিশনের সর্বোচ্চ আকার থেকে অপেক্ষাকৃত বড়। চালিয়ে যাওয়ার জন্য "
-"অনুগ্রহ করে অপেক্ষাকৃত ছোট আকার প্রবেশ করান। "
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "প্রবেশিত আকার অনেক ছোট"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -199,64 +150,62 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
-"আপনার প্রবেশিত আকার পার্টিশনের সর্বোচ্চ আকার থেকে অপেক্ষাকৃত ছোট। চালিয়ে যাওয়ার "
-"জন্য অনুগ্রহ করে অপেক্ষাকৃত বড় আকার প্রবেশ করান। "
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "আকার পুনঃনির্ধারণের অপারেশন ব্যর্থ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "স্টোরেজ ডিভাইসে পরিবর্তন লেখার সময় একটি ত্রুটি হয়েছে।"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "আকার পুনঃনির্ধারণের অপারেশন বাতিল করা হল।"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "এই পার্টিশনের জন্য সর্বোচ্চ আকার ${MAXSIZE}।"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "অবৈধ আকার"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr "শুরু"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr "শেষ"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "নতুন পার্টিশনের অবস্থান:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -266,43 +215,41 @@ msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
 msgstr ""
-"অনুগ্রহপূর্বক নিশ্চিত করুন যে, আপনি ফাঁকা স্থানের প্রথম দিকে নাকি শেষের দিকে নতুন "
-"পার্টিশনটি তৈরি করতে আগ্রহী।"
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "প্রাইমারি"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "লজিকাল"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "নতুন পার্টিশনের ধরন:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr "নতুন পার্টিশনের ফ্ল্যাগ:"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr "পার্টিশন নাম:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -313,7 +260,7 @@ msgstr "পার্টিশন নাম:"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "পার্টিশন প্রক্রিয়া চালিয়ে যাব কি?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -324,9 +271,6 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"এই পার্টিশনকারী প্রোগ্রামটি আপনার ব্যবহৃত কম্পিউটার স্থাপত্যের পার্টিশন টেবিলের ডিফল্ট "
-"ধরন সম্পর্কে জানে না। অনুগ্রহপূর্বক এ সম্পর্কিত তথ্য জানিয়ে এই ঠিকানায় একটি ই-মেইল "
-"পাঠান - debian-boot@lists.debian.org । "
 
 #. Type: boolean
 #. Description
@@ -336,8 +280,6 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"অনুগ্রহপূর্বক লক্ষ্য করুন যে, পার্টিশন টেবিলের ধরন যদি libparted কর্তৃক অসমর্থিত হয়, "
-"তবে এই পার্টিশনকারী প্রোগ্রামটি ভালভাবে কাজ করবে না।"
 
 #. Type: boolean
 #. Description
@@ -348,9 +290,6 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"এই পার্টিশনকারী প্রোগ্রামটি libparted-এর ওপর নির্ভর করে। কিন্তু libparted আপনার "
-"ব্যবহৃত কম্পিউটার স্থাপত্যের পার্টিশন টেবিল সমর্থন করে না। তাই আপনাকে এই প্রোগ্রামটি "
-"থেকে প্রস্থান করার জন্য দৃঢ়ভাবে পরামর্শ দেওয়া হচ্ছে।"
 
 #. Type: boolean
 #. Description
@@ -360,29 +299,27 @@ msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
 msgstr ""
-"যদি আপনার পক্ষে সম্ভবপর হয়, অনুগ্রহপূর্বক libparted-তে আপনার পার্টিশন টেবিলের জন্য "
-"সমর্থন যোগ করতে সাহায্য করুন।"
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "পার্টিশন টেবিলের ধরন:"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "পার্টিশন টেবিলের ধরন নির্বাচন করুন।"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr "এই ডিভাইসটিতে কি নতুন একটি ফাঁকা পার্টিশন টেবিল তৈরি করব?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -393,23 +330,20 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"আপনি পার্টিশন করার জন্য একটি পুরো ডিভাইস নির্বাচন করেছেন। এখন যদি আপনি এই "
-"ডিভাইসে নতুন পার্টিশন টেবিল তৈরি করেন, তবে ডিভাইসটিতে বিদ্যমান সকল পার্টিশন মুছে "
-"যাবে।"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr "লক্ষ্য করুন যে, আপনি ইচ্ছা করলে পরে এটি বাতিল করতে পারবেন।"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "নতুন ফাঁকা পার্টিশন টেবিল লিখব কি?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -420,8 +354,6 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"সান পার্টিশন টেবিলের ব্যাপারে বর্তমান libpartd'র কিছু সীমাবদ্ধতা থাকায়, নতুন "
-"তৈরিকৃত পার্টিশন টেবিলকে তাত্‍ক্ষণিকভাবে ডিস্কে লিখতে হয়।"
 
 #. Type: boolean
 #. Description
@@ -431,8 +363,6 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"আপনি এই পরিবর্তনকে পরে আর বাতিল করতে পারবেন না এবং ডিস্কের সকল তথ্যকে চিরতরে "
-"অপসারণ করা হবে।"
 
 #. Type: boolean
 #. Description
@@ -442,15 +372,13 @@ msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
 msgstr ""
-"আপনি প্রকৃতই একটি নতুন পার্টিশন টেবিল তৈরি করে তাকে ডিস্কে লিখতে চান কিনা তা "
-"নিশ্চিত করুন।"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "আপনি কি নিশ্চিত যে আপনি একটি বুটেবল লজিক্যাল পার্টিশন চাচ্ছেন?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -462,10 +390,6 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"আপনি একটি লজিক্যাল পার্টিশনে বুটেবল ফ্ল্যাগ সেট করার চেষ্টা করছেন। বুটেবল ফ্ল্যাগ "
-"সাধারণত প্রাইমারী পার্টিশনে ব্যবহৃত হয়, তাই লজিক্যাল পার্টিশনে এটির ব্যবহার "
-"নিরুৎসাহিত করা হচ্ছে। কিছু কিছু বায়োস (BIOS) বুটেবল প্রাইমারী পার্টিশন না থাকলে কাজ "
-"করেনা।"
 
 #. Type: boolean
 #. Description
@@ -476,72 +400,69 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"যাইহোক, আপনি যদি নিশ্চিত হোন যে, আপনার BIOS এ সমস্যা নেই, অথবা আপনি একটি "
-"স্বনির্বাচিত বুট ব্যবস্থাপক ব্যবহার করছেন, যা বুটেবল লজিক্যাল পার্টিশনের প্রতি খেয়াল "
-"রাখবে। তাহলে, এই ফ্ল্যাগ সেট করা সমিচীন হবে।"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr "পার্টিশন ফ্ল্যাগ নির্ধারণ করুন"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr "নাম:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr "বুট-নির্দেশক ফ্ল্যাগ:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr "চালু"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr "বন্ধ"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "পার্টিশনটির আকার পরিবর্তন করো (বর্তমান আকার ${SIZE})"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr "পার্টিশন মুছে ফেলো"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr "একটি নতুন পার্টিশন তৈরি করুন"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr "এই ডিভাইসটিতে একটি নতুন ফাঁকা পার্টিশন টেবিল তৈরি করো"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -550,7 +471,7 @@ msgstr "এই ডিভাইসটিতে একটি নতুন ফা�
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr "সংরক্ষিত BIOS বুট এলাকা"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -559,4 +480,4 @@ msgstr "সংরক্ষিত BIOS বুট এলাকা"
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr "biosgrub"
+msgstr ""

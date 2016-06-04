@@ -3,73 +3,47 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of te.po to Telugu
-# Telugu translation for debian-installer
-# This file is distributed under the same license as the debian-installer package.
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-#
-# Translations from iso-codes:
-# వీవెన్ (Veeven) <launchpad.net>, 2007.
-# Y Giridhar Appaji Nag <giridhar@appaji.net>, 2008.
-# Arjuna Rao Chavala <arjunaraoc@gmail.com>,2010.
-# Y Giridhar Appaji Nag <appaji@debian.org>, 2008, 2009.
-# Krishna Babu K <kkrothap@redhat.com>, 2009.
-# Arjuna Rao Chavala <arjunaraoc@googlemail.com>, 2011, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: te\n"
-"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: d-i <kde-i18n-doc@kde.org>\n"
-"Language: te\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "విభజన పరిమాణాన్ని తిరిగి లెక్కగడుతున్నా..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "విభజన పట్టిక కొత్త స్థితి లెక్కకడుతూ..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "పరిమాణం తిరిగి లెక్కించటం  చేయలేము"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr "గుర్తు తెలియని కారణం వలన , పరిమాణం తిరిగి లెక్కించటం  చేయలేము"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "వివరాలకు /var/log/syslog లేక virtual console 4 చూడండి. "
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "క్రితం మార్పులు డిస్కుకి రాసి కొనసాగు?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -78,21 +52,21 @@ msgstr "క్రితం మార్పులు డిస్కుకి ర
 msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
-msgstr "కొత్త  విభజన  పరిమాణం  ఎంపికకు ముందు, ఏవైనా క్రితం మార్పులు డిస్క్ లో రాయవలసినదే. "
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "మీరు ఈ చర్యని రద్దు పరచలేరు."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
-msgstr "పరిమాణం తిరిగి లెక్కించటానికి చాలా సమయం పట్టవచ్చు అని గమనించండి."
+msgstr ""
 
 #. Type: string
 #. Description
@@ -103,7 +77,7 @@ msgstr "పరిమాణం తిరిగి లెక్కించటా�
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "కొత్త విభజన (Partition) పరిమాణము:"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -113,8 +87,6 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"ఈ విభజన కి కనీస పరిమాణం ${MINSIZE} (లేక  ${PERCENT} శాతం) మరియు  దీని  గరిష్ట పరిమాణం  "
-"${MAXSIZE}."
 
 #. Type: string
 #. Description
@@ -129,15 +101,13 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"సలహా: \"max\" దగ్గరదారిగా  గరిష్ట పరిమాణాన్ని  తెలియచేయటానికి లేక శాతం  ప్రవేశపెట్టటం ద్వారా (ఉదా: \"20%"
-"\") గరిష్ట పరిమాణంలో శాతాన్ని వాడమని  సూచించవచ్చు."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "మీరు ప్రవేశపెట్టిన పరిమాణం  సరిగాలేదు. "
+msgstr ""
 
 #. Type: error
 #. Description
@@ -148,15 +118,13 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"మీరు ప్రవేశపెట్టిన పరిమాణం  అర్థంకాలేదు. ధనాత్మక పూర్ణ సంఖ్య తరువాత  కొలవటానికి వాడే  యూనిట్లు దయచేసి "
-"ప్రవేశపెట్టండి.  కొలవటానికి వాడే  యూనిట్లు  ఇవ్వకపోతే  మెగాబైటు గాతీసుకొనబడుతుంది."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr "మీరు ప్రవేశపెట్టిన పరిమాణం  అతి  పెద్దది "
+msgstr ""
 
 #. Type: error
 #. Description
@@ -166,15 +134,13 @@ msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
 msgstr ""
-"మీరు ప్రవేశపెట్టిన పరిమాణం  విభజన గరిష్ట పరిమాణంకన్నా  పెద్దది . కొనసాగించటానికి తక్కువైన పరిమాణం ప్రవేశ "
-"పెట్టండి."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "మీరు ప్రవేశపెట్టిన పరిమాణం  అతి  చిన్నది"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -184,64 +150,62 @@ msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
 msgstr ""
-"మీరు ప్రవేశపెట్టిన పరిమాణం  విభజన కనిష్ట పరిమాణంకన్నా  చిన్నది . కొనసాగించటానికి ఎక్కువైన పరిమాణం ప్రవేశ "
-"పెట్టండి."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "రీసైజ్ కార్యక్రమం విఫలమయింది"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "క్రితం మార్పులు  నిల్వ డివైస్ లలో రాస్తున్నప్పుడు  తప్పు  జరిగింది. "
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "పరిమాణం తిరిగి లెక్కించటం  మధ్యంతరంగా నిలిపివేయబడినది."
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "ఈ విభజన కి గరిష్ట పరిమాణం  ${MAXSIZE}."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "తప్పుడు పరిమాణం"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr "మొదలు"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr "చివర"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "కొత్త విభజన కి లొకేషన్:"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -250,42 +214,42 @@ msgstr "కొత్త విభజన కి లొకేషన్:"
 msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
-msgstr "సృష్టించబడే కొత్త విభజన అందుబాటులో వున్న  నిల్వ ముందునా, లేక చివరనాఎంచుకో."
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "ప్రాథమిక"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "లాజికల్"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "కొత్త విభజన   టైప్:"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr "కొత్త విభజన కి ఫ్లాగ్ లు"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr "విభజన (Partition) పేరు:"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -296,7 +260,7 @@ msgstr "విభజన (Partition) పేరు:"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "విభజించడం కొనసాగించు?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -307,8 +271,6 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"ఈ పార్టిషనర్ కి   మీ  ఆర్కిటెక్చర్ లో   ఎంపిక లేనపుడు వాడబడే విభజన పట్టికల వివరాలు  తెలియదు. దయచేసి "
-"వివరాలతో   debian-boot@lists.debian.org  కి ఇ-మెయిల్ పంపించండి."
 
 #. Type: boolean
 #. Description
@@ -317,7 +279,7 @@ msgstr ""
 msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
-msgstr "libparted కి విభజన పట్టిక రకము తెలియకపోతే, ఈ పార్టిషనర్  సరిగా పనిచేయబోదు."
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -328,8 +290,6 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"ఈ పార్టిషనర్ వాడే libparted లైబ్రరీ కి మీ  ఆర్కిటెక్చర్ లోవాడిన విభజన పట్టిక రకములు తెలియదు,   ఈ "
-"పార్టిషనర్ ని నిష్క్రమించమని  గట్టిగా సిఫారస్  చేయడమైనది."
 
 #. Type: boolean
 #. Description
@@ -338,28 +298,28 @@ msgstr ""
 msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
-msgstr "libparted కి మీ  విభజన పట్టిక రకము తో పనిచేయుటకు , మీరు చేయగలిగితే, సహాయం చేయండి."
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "విభజన పట్టిక రకం:"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "ఉపయోగించడానికి విభజన పట్టిక రకం ఎంచుకోండి."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr "ఈ సాధనం మీద కొత్త ఖాళీ విభజన పట్టిక సృష్టించు?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -370,22 +330,20 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"మీరు పూర్తి డిస్క్ ని విభజన చేయటానికిఎంపికచేశారు. కొత్త విభజన పట్టిక సృష్టించటానికి కొనసాగితే, ప్రస్తుత "
-"విభజనలు తొలగించబడతాయి."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr "తరువాత కావాలన్నా మీరు ఈ చర్యని రద్దు పరచలేరని గమనించండి."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "కొత్త ఖాళీ విభజన పట్టిక రాయి?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -396,8 +354,6 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"Sun విభజన   పట్టికలు  libparted లో ప్రస్తుత  రూపంలో వున్న పరిమితుల వలన , కొత్త గా సృష్టించిన "
-"విభజన పట్టిక  డిస్క్ లో వెంటనే  రాయవలసినదే."
 
 #. Type: boolean
 #. Description
@@ -407,8 +363,6 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"తరువాత, మీరు ఈ చర్యని రద్దు పరచలేరని గమనించండి మరియు ప్రస్తుతమున్న పూర్తి డాటా తిరిగి తెచ్చుకావటానికి "
-"వీలు లేకుండా తొలగించబడుతుంది."
 
 #. Type: boolean
 #. Description
@@ -417,14 +371,14 @@ msgstr ""
 msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
-msgstr "నిజంగా కొత్త విభజన పట్టిక సృష్టించి, డిస్క్ లో రాయాలా అని ఖచ్చితంగా తెలియచేయండి."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "బూట్ చేయగల  లాజికల్ విభజన  నిజంగా కావాలా?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -436,9 +390,6 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"లాజికల్ విభజన పై   బూట్ చేయగల  ఫ్లాగ్  పెట్టటానికి ప్రయత్నిస్తున్నారు. ప్రధాన విభజన ల పైనే  సాధారణంగా బూట్ "
-"చేయగల  ఫ్లాగ్  ఉపయోగంగా వుంటుంది. అందువలన లాజికల్ విభజన పై   బూట్ చేయగల  ఫ్లాగ్  పెట్టడాన్ని "
-"సాధారణంగా వ్యతిరేకిస్తారు. కొన్ని ‌BIOS రూపాలు, బూట్ చేయగల ప్రధాన విభజన లేకపోతే విఫలం అవుతాయి."
 
 #. Type: boolean
 #. Description
@@ -449,71 +400,69 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"అయితే,  మీ BIOS కి  ఈ సమస్య లేదని నిజంగా నమ్మితే, లేక   బూట్ చేయగల  లాజికల్ విభజన   పై దృష్టి "
-"నిలుపగల  కస్టమ్ బూట్ మేనేజర్  వాడుతుంటే,  ఈ ఫ్లాగ్ పెట్టటంలో అర్థం వుంటుంది."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr "విభజన ఫ్లాగ్ లను సెట్ చెయ్యండి"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr "పేరు:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr "బూట్ చేయగల ఫ్లాగ్:"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr "on"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr "off "
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "విభజన పరిమాణాన్ని  తిరిగి లెక్కించు (ప్రస్తుతము  ${SIZE})"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr "విభజనని తొలగించు"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr "కొత్త విభజనను సృష్టించు"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr "ఈ సాధనం పై కొత్త ఖాళీ విభజన పట్టికను సృష్టించు"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -522,7 +471,7 @@ msgstr "ఈ సాధనం పై కొత్త ఖాళీ విభజన 
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr "కేటాయించబడిన BIOS బూట్ ప్రదేశము"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -531,4 +480,4 @@ msgstr "కేటాయించబడిన BIOS బూట్ ప్రదే�
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr "biosgrub"
+msgstr ""

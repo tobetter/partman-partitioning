@@ -3,67 +3,47 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of km.po to Khmer
-# Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2007, 2008, 2010.
-#   eng vannak <evannak@khmeros.info>, 2006.
-#   auk piseth <piseth_dv@khmeros.info>, 2006.
-#   Khoem Sokhem <khoemsokhem@khmeros.info>, 2006, 2010, 2012.
-# Translations from iso-codes:
-msgid ""
-msgstr ""
-"Project-Id-Version: km\n"
-"Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
-"POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Khmer <support@khmeros.info>\n"
-"Language: km\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:1001
 msgid "Resizing partition..."
-msgstr "កំពុង​ប្ដូរ​ទំហំភាគថាស..."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:2001
 msgid "Computing the new state of the partition table..."
-msgstr "កំពុង​គណនា​សភាព​ថ្មី​​របស់​តារាងភាគថាស..."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "The resize operation is impossible"
-msgstr "មិន​អាច​ប្ដូរ​ទំហំ​បាន​ឡើយ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Because of an unknown reason it is impossible to resize this partition."
-msgstr "មិន​ដឹង​ជា​បណ្ដាល​មក​ពី​អ្វី​ទេ ប៉ុន្តែ​អ្នក​មិន​អាច​ប្ដូរ​ទំហំ​ភាគ​ថាស​នេះ​បាន​ឡើយ ។"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:3001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "សម្រាប់​ព័ត៌មាន​លម្អិត សូម​ពិនិត្យ​មើល /var/log/syslog ឬ មើលកុងសូល​និម្មិត​ទី ៤ ។"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Write previous changes to disk and continue?"
-msgstr "សរសេរ​ការ​ផ្លាស់ប្ដូរ​ពី​មុន​ទៅ​ថាស ហើយ​បន្ត ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -72,21 +52,21 @@ msgstr "សរសេរ​ការ​ផ្លាស់ប្ដូរ​ពី
 msgid ""
 "Before you can select a new partition size, any previous changes have to be "
 "written to disk."
-msgstr "មុន​នឹង​អាច​ជ្រើស​ទំហំ​ភាគថាស​ថ្មី អ្នក​ត្រូវ​តែ​រក្សាទុក​ការ​ផ្លាស់ប្ដូរ​ពី​មុន​ទៅ​ថាស​សិន ។"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "អ្នក​មិន​អាច​មិន​ធ្វើ​ប្រតិបត្តិការ​នេះ​វិញ​បាន​ឡើយ ។"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "Please note that the resize operation may take a long time."
-msgstr "សូម​ចំណាំ​ថា ដំណើរការ​ប្ដូរ​ទំហំ​អាច​នឹង​ចំណាយ​ពេល​យូរ​បន្តិច ។"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -97,7 +77,7 @@ msgstr "សូម​ចំណាំ​ថា ដំណើរការ​ប្�
 #: ../partman-partitioning.templates:5001
 #: ../partman-partitioning.templates:10001
 msgid "New partition size:"
-msgstr "ទំហំ​ភាគ​ថាស​ថ្មី ៖"
+msgstr ""
 
 #. Type: string
 #. Description
@@ -107,7 +87,6 @@ msgid ""
 "The minimum size for this partition is ${MINSIZE} (or ${PERCENT}) and its "
 "maximum size is ${MAXSIZE}."
 msgstr ""
-"ទំហំ​អប្បបរមា​សម្រាប់​ភាគ​ថាស​នេះ​គឺ ${MINSIZE} (ឬ ${PERCENT}) និង​ទំហំ​អតិបរមា​គឺ ${MAXSIZE} ។"
 
 #. Type: string
 #. Description
@@ -122,15 +101,13 @@ msgid ""
 "Hint: \"max\" can be used as a shortcut to specify the maximum size, or "
 "enter a percentage (e.g. \"20%\") to use that percentage of the maximum size."
 msgstr ""
-"ជំនួយ ៖ \"អតិ.\" អាច​ត្រូវ​បាន​ប្រើ​ជា​ផ្លូវកាត់​ដើម្បីបញ្ជាក់​ទំហំ​អតិបរមា ឬ​បញ្ចូលភាគរយ (ឧ. \"20%\") "
-"ដើម្បី​ប្រើ​ភាគរយ​នៃ​ទំហំ​អតិបរមា​នោះ ។"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "ទំហំ​ដែល​បាន​បញ្ចូលមិន​ត្រឹមត្រូវ​ទេ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -141,15 +118,13 @@ msgid ""
 "size followed by an optional unit of measure (e.g. \"200 GB\"). The default "
 "unit of measure is the megabyte."
 msgstr ""
-"ទំហំ​ដែល​អ្នក​បាន​បញ្ចូល​មិន​ត្រូវបានយល់​​ទេ ។ សូម​បញ្ចូល​​ទំហំ​វិជ្ជមាន ដែល​អនុវត្ត​តាម​ឯកត្តា​រង្វាស់​​ជា​ជម្រើស "
-"(ឧ. (\"២០០ ជីកាបៃ\") ។ ឯកត្តា​រង្វាស់លំនាំដើម​គឺ​មេកាបៃ ។"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:7001
 msgid "The size entered is too large"
-msgstr "ទំហំ​ដែលបាន​បញ្ចូល​ធំពេក"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -158,14 +133,14 @@ msgstr "ទំហំ​ដែលបាន​បញ្ចូល​ធំពេក
 msgid ""
 "The size you entered is larger than the maximum size of the partition. "
 "Please enter a smaller size to continue."
-msgstr "ទំហំ​ដែល​អ្នក​បាន​បញ្ចូល​ធំជាង​ទំហំអតិបរមា​របស់​ភាគថាស ។ សូម​បញ្ចូល​ទំហំតូច​ជាង​នេះ ដើម្បី​បន្ត ។"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:8001
 msgid "The size entered is too small"
-msgstr "ទំហំ​ដែលបានបញ្ចូល​តូច​ពេក"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -174,63 +149,63 @@ msgstr "ទំហំ​ដែលបានបញ្ចូល​តូច​ពេ
 msgid ""
 "The size you entered is smaller than the minimum size of the partition. "
 "Please enter a larger size to continue."
-msgstr "ទំហំ​ដែល​អ្នក​បានបញ្ចូល​តូច​ជាង​ទំហំ​អប្បរមា​របស់​ភាគ​ថាស ។ សូម​បញ្ចូល​ទំហំ​ធំជាង​ ដើម្បី​បន្ត ។"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "បរាជ័យ​ក្នុង​ការ​ប្ដូរ​ទំហំ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "An error occurred while writing the changes to the storage devices."
-msgstr "កំហុស​មួយ​បាន​កើតឡើង ខណៈពេល​សរសេរ​ការ​ផ្លាស់ប្ដូរ​ទៅ​ឧបករណ៍​ផ្ទុក​ ។"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "The resize operation has been aborted."
-msgstr "ប្រតិបត្តិការ​ប្ដូរ​ទំហំ​ត្រូវ​បាន​បោះបង់ ។"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:10001
 msgid "The maximum size for this partition is ${MAXSIZE}."
-msgstr "ទំហំ​អតិបរមា​សម្រាប់​ភាគ​ថាស​នេះគឺ ${MAXSIZE} ។"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:11001
 msgid "Invalid size"
-msgstr "ទំហំ​មិន​ត្រឹមត្រូវ"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "Beginning"
-msgstr "ដើម"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:12001
 msgid "End"
-msgstr "ចុង"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:12002
 msgid "Location for the new partition:"
-msgstr "ទីតាំង​សម្រាប់​ភាគថាស​ថ្មី ៖"
+msgstr ""
 
 #. Type: select
 #. Description
@@ -239,42 +214,42 @@ msgstr "ទីតាំង​សម្រាប់​ភាគថាស​ថ្
 msgid ""
 "Please choose whether you want the new partition to be created at the "
 "beginning or at the end of the available space."
-msgstr "សូម​ជ្រើស​ថាតើ​អ្នក​ចង់​បង្កើត​ភាគថាស​ថ្មី​នៅ​ខាង​ដើម ឬ ខាង​ចុង​ទំហំ​ថាស​ដែល​អាច​ប្រើ​បាន ។"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Primary"
-msgstr "ចម្បង"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. :sl1:
 #: ../partman-partitioning.templates:13001
 msgid "Logical"
-msgstr "ឡូជីខល"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl1:
 #: ../partman-partitioning.templates:13002
 msgid "Type for the new partition:"
-msgstr "ប្រភេទ​សម្រាប់​ភាគថាស​ថ្មី ៖"
+msgstr ""
 
 #. Type: multiselect
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:14001
 msgid "Flags for the new partition:"
-msgstr "ទង់​សម្រាប់​ភាគថាសថ្មី ៖"
+msgstr ""
 
 #. Type: string
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:15001
 msgid "Partition name:"
-msgstr "ឈ្មោះភាគថាស ៖"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -285,7 +260,7 @@ msgstr "ឈ្មោះភាគថាស ៖"
 #: ../partman-partitioning.templates:16001
 #: ../partman-partitioning.templates:17001
 msgid "Continue with partitioning?"
-msgstr "បន្ត​ជាមួយ​ការ​ចែក​ថាស​ជា​ភាគ ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -296,8 +271,6 @@ msgid ""
 "partition tables on your architecture.  Please send an e-mail message to "
 "debian-boot@lists.debian.org with information."
 msgstr ""
-"កម្មវិធី​ចែក​ថាស​ជា​ភាគ​នេះ​មិនមាន​ព័ត៌មាន​អំពី​ប្រភេទតារាង​ភាគថាស​លំនាំដើម លើ​ស្ថាបត្យកម្ម​របស់​អ្នក​ឡើយ ។ "
-"សូម​ផ្ញើ​អ៊ីមែលទៅ debian-boot@lists.debian.org ព្រម​ជាមួយ​នឹង​ព័ត៌មាន ។"
 
 #. Type: boolean
 #. Description
@@ -307,8 +280,6 @@ msgid ""
 "Please note that if the type of the partition table is unsupported by "
 "libparted, then this partitioner will not work properly."
 msgstr ""
-"សូម​ចំណាំថា បើ​ប្រភេទ​តារាង​ភាគថាស មិន​ត្រូវ​បាន​គាំទ្រ​ដោយ libparted នោះ​កម្មវិធី​ចែក​ថាស​ជា​ភាគ​នេះ "
-"នឹង​មិន​ដំណើរការ​បាន​ត្រឹមត្រូវ​ឡើយ ។"
 
 #. Type: boolean
 #. Description
@@ -319,8 +290,6 @@ msgid ""
 "support for the partition tables used on your architecture.  It is strongly "
 "recommended that you exit this partitioner."
 msgstr ""
-"កម្មវិធី​ចែក​ថាស​ជា​ភាគ​នេះ ត្រូវ​បាន​ផ្អែក​លើបណ្ដាល័យ​ libparted ដែល​មិន​មានការ​គាំទ្រ​សម្រាប់​តារាងភាគ​"
-"ថាស ដែល​ប្រើ​លើ​ស្ថាបត្យកម្ម​របស់​អ្នក​ឡើយ ។ យក​ល្អ​អ្នក​គួរ​តែ​ចេញ​ពី​កម្មវិធី​ចែក​ថាស​ជា​ភាគ​នេះ ។"
 
 #. Type: boolean
 #. Description
@@ -329,28 +298,28 @@ msgstr ""
 msgid ""
 "If you can, please help to add support for your partition table type to "
 "libparted."
-msgstr "បើ​អ្នក​អាច សូម​ជួយ​បន្ថែម​ការ​គាំទ្រ​សម្រាប់​ប្រភេទ​តារាង​ភាគ​ថាស​របស់​អ្នក​ទៅ libparted ។"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Partition table type:"
-msgstr "ប្រភេទ​តារាង​ភាគ​ថាស ៖"
+msgstr ""
 
 #. Type: select
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "ជ្រើស​ប្រភេទ​តារាង​ភាគថាសដែល​ត្រូវ​ប្រើ ។"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Create new empty partition table on this device?"
-msgstr "បង្កើត​តារាង​ភាគ​ថាស​ទទេ​ថ្មី​លើ​ឧបករណ៍នេះ ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -361,22 +330,20 @@ msgid ""
 "creating a new partition table on the device, then all current partitions "
 "will be removed."
 msgstr ""
-"អ្នក​បាន​ជ្រើស​ឧបករណ៍​ទាំងមូល​ដើម្បី​ចែក​ជា​ភាគ ។​ បើ​អ្នក​បន្ត​ដោយ​បង្កើត​តារាង​​ភាគថាស​ថ្មី​មួយ​លើ​ឧបករណ៍​នេះ "
-"នោះ​​ភាគ​ថាស​បច្ចុប្បន្នទាំងអស់ នឹង​ត្រូវ​បាន​យក​ចេញ ។"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:20001
 msgid "Note that you will be able to undo this operation later if you wish."
-msgstr "សូម​ចំណាំ​ថា អ្នក​នឹង​អាច​មិន​ធ្វើ​ប្រតិបត្តិការ​នេះ​វិញ​នៅ​ពេល​ក្រោយ​បាន បើ​អ្នក​ចង់ ។"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:21001
 msgid "Write a new empty partition table?"
-msgstr "សរសេរ​តារាង​​ភាគថាស​ទទេ​ថ្មី​មួយ ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -387,8 +354,6 @@ msgid ""
 "tables in libparted, the newly created partition table has to be written to "
 "the disk immediately."
 msgstr ""
-"ដោយសារ​តែ​ការកំណត់​នៅ​ក្នុងការ​ប្រតិបត្តិ​បច្ចុប្បន្ន​របស់​តារាង​ភាគថាស​ក្រុមហ៊ុន​សាន់ នៅ​ក្នុង libparted "
-"តារាងភាគថាស​ដែល​បាន​បង្កើត​ថ្មីៗ នឹង​ត្រូវ​បាន​សរសេរ​ទៅថាស​ភ្លាមៗ ។"
 
 #. Type: boolean
 #. Description
@@ -398,8 +363,6 @@ msgid ""
 "You will NOT be able to undo this operation later and all existing data on "
 "the disk will be irreversibly removed."
 msgstr ""
-"អ្នក​នឹង \"មិន​អាច\" មិន​ធ្វើ​ប្រតិបត្តិការ​នេះនៅ​ពេល​ក្រោយ​វិញបាន​ឡើយ ហើយ​ទិន្នន័យ​ដែល​មាន​ស្រាប់​ទាំងអស់​លើ​"
-"ថាស នឹង​ត្រូវ​បាន​យក​ចេញ​ជា​រៀង​រហូត ។"
 
 #. Type: boolean
 #. Description
@@ -408,14 +371,14 @@ msgstr ""
 msgid ""
 "Confirm whether you actually want to create a new partition table and write "
 "it to disk."
-msgstr "អះអាង​ថា​តើ​អ្នក​ពិតជា​ចង់​បង្កើត​តារាងភាគ​ថាស​ថ្មី​មួយ ហើយ​សរសេរ​វា​ទៅ​ថាស ។​"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:22001
 msgid "Are you sure you want a bootable logical partition?"
-msgstr "តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ឲ្យ​អាច​ចាប់ផ្ដើម​ពី​ភាគ​ឡូជីខល​មែនទេ ?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -427,10 +390,6 @@ msgid ""
 "logical partitions is normally discouraged. Some BIOS versions are known to "
 "fail to boot if there is no bootable primary partition."
 msgstr ""
-"អ្នក​កំពុង​ព្យាយាម​កំណត់​ទង់​ដែល​អាច​ចាប់ផ្ដើម​បាន​នៅ​លើ​ភាគថាស​ឡូជីខល ។  ទង់​ដែលអាច​ចាប់ផ្ដើម​បាន​ជា​ទូទៅ​មាន​"
-"ប្រយោជន៍​តែ​នៅ​លើ​ភាគថាស​ចម្បង​ប៉ុណ្ណោះ ដូច្នេះ​ការ​កំណត់​វា​នៅ​លើ​ភាគថាស​ឡូជីខល​ជា​ធម្មតា​មិន​ត្រូវ​បាន​"
-"លើកទឹកចិត្តទេ ។ ​កំណែ​របស់ BIOS មួយ​ចំនួន​ដឹង​ថា​បរាជ័យ​ក្នុង​ការ​ចាប់ផ្ដើម ប្រសិន​បើ​គ្មាន​ភាគថាស​ចម្បង​ដែល​"
-"អាច​ចាប់ផ្ដើម​បាន ។"
 
 #. Type: boolean
 #. Description
@@ -441,72 +400,69 @@ msgid ""
 "you are using a custom boot manager that pays attention to bootable logical "
 "partitions, then setting this flag may make sense."
 msgstr ""
-"ទោះ​ជា​យ៉ាង​ណា​ក៏​ដោយ ប្រិសន​បើ​​អ្នក​ប្រាកដ​ថា​ BIOS របស់​អ្នក​មិន​មាន​បញ្ហា​នេះ ឬ​ប្រសិន​បើ​អ្នក​កំពុង​ប្រើ​កម្មវិធី​"
-"គ្រប់គ្រង​ការ​ចាប់ផ្ដើម​ផ្ទាល់ខ្លួន ដែលយកចិត្តទុកដាក់​​លើ​ភាគថាស​ឡូជីខល​ដែល​អាច​ចាប់ផ្ដើម​បាន បន្ទាប់​មក​កំណត់​"
-"ទង់នេះ​អាច​គ្រប់គ្រាន់ ។"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:23001
 msgid "Set the partition flags"
-msgstr "កំណត់​ទង់​ភាគថាស"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:24001
 msgid "Name:"
-msgstr "ឈ្មោះ ៖"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:25001
 msgid "Bootable flag:"
-msgstr "ទង់​ចាប់ផ្ដើម ៖"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:26001
 msgid "on"
-msgstr "បើក"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:27001
 msgid "off"
-msgstr "បិទ"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:28001
 msgid "Resize the partition (currently ${SIZE})"
-msgstr "ប្ដូរ​ទំហំ​ភាគថាស (បច្ចុប្បន្ន​​គឺ ${SIZE})"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:29001
 msgid "Delete the partition"
-msgstr "លុប​ភាគថាស"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:30001
 msgid "Create a new partition"
-msgstr "បង្កើត​ភាគថាស​ថ្មី"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-partitioning.templates:31001
 msgid "Create a new empty partition table on this device"
-msgstr "បង្កើត​តារាង​ភាគថាសទំនេរ​ថ្មី​មួយ​លើ​​ឧបករណ៍​នេះ"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -515,7 +471,7 @@ msgstr "បង្កើត​តារាង​ភាគថាសទំនេរ
 #. such as GRUB.
 #: ../partman-partitioning.templates:32001
 msgid "Reserved BIOS boot area"
-msgstr "ផ្ទៃ​ចាប់ផ្ដើម BIOS ដែលបាន​បម្រុង​ទុក"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -524,4 +480,4 @@ msgstr "ផ្ទៃ​ចាប់ផ្ដើម BIOS ដែលបាន​ប
 #. Up to 10 character positions
 #: ../partman-partitioning.templates:33001
 msgid "biosgrub"
-msgstr "biosgrub"
+msgstr ""
