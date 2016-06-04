@@ -3,6 +3,35 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Portuguese messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# Console-setup strings translations:
+# (identified by "./console-setup.templates")
+# Copyright (C) 2003-2014 Miguel Figueiredo <elmig@debianpt.org>
+# This file is distributed under the same license as debian-installer.
+#
+#
+# Translations from iso-codes:
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Miguel Figueiredo <elmig@debianpt.org>, 2005, 2006, 2008, 2009, 2010
+#   Free Software Foundation, Inc., 2001,2004
+#   Filipe Maia <fmaia@gmx.net>, 2001.
+#   Alastair McKinstry <mckinstry@computer.org>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
+"POT-Creation-Date: 2013-10-30 22:04+0000\n"
+"PO-Revision-Date: 2014-05-06 20:25+0100\n"
+"Last-Translator:  Miguel Figueiredo <elmig@debianpt.org>\n"
+"Language-Team:  Portuguese <traduz@debianpt.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: text
 #. Description
 #. File system name
@@ -10,7 +39,7 @@
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr ""
+msgstr "Volume físico para encriptação"
 
 #. Type: text
 #. Description
@@ -19,7 +48,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr ""
+msgstr "encriptação"
 
 #. Type: text
 #. Description
@@ -29,7 +58,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:3001
 msgid "Device-mapper (dm-crypt)"
-msgstr ""
+msgstr "Device-mapper (dm-crypt)"
 
 #. Type: text
 #. Description
@@ -38,7 +67,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:5001
 msgid "not active"
-msgstr ""
+msgstr "não activa"
 
 #. Type: text
 #. Description
@@ -46,14 +75,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:6001
 msgid "Encryption method:"
-msgstr ""
+msgstr "Método de encriptação:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
 msgid "Encryption method for this partition:"
-msgstr ""
+msgstr "Método de encriptação para esta partição:"
 
 #. Type: select
 #. Description
@@ -63,6 +92,8 @@ msgid ""
 "Changing the encryption method will set other encryption-related fields to "
 "their default values for the new encryption method."
 msgstr ""
+"Mudar o método de encriptação irá definir outros campos relacionados com "
+"encriptação para os valores pré-definidos do novo método de encriptação."
 
 #. Type: text
 #. Description
@@ -70,14 +101,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:8001
 msgid "Encryption:"
-msgstr ""
+msgstr "Encriptação:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
 msgid "Encryption for this partition:"
-msgstr ""
+msgstr "Encriptação para esta partição:"
 
 #. Type: text
 #. Description
@@ -85,14 +116,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:10001
 msgid "Key size:"
-msgstr ""
+msgstr "Tamanho da chave:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
 msgid "Key size for this partition:"
-msgstr ""
+msgstr "Tamanho da chave para esta partição:"
 
 #. Type: text
 #. Description
@@ -102,7 +133,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:12001
 msgid "IV algorithm:"
-msgstr ""
+msgstr "Algoritmo de IV:"
 
 #. Type: select
 #. Description
@@ -111,7 +142,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:13001
 msgid "Initialization vector generation algorithm for this partition:"
-msgstr ""
+msgstr "Inicialização do algoritmo de geração de vector para esta partição:"
 
 #. Type: select
 #. Description
@@ -125,6 +156,10 @@ msgid ""
 "no reason to change this from the recommended default, except for "
 "compatibility with older systems."
 msgstr ""
+"Existem diferentes algoritmos para derivar o vector de inicialização para "
+"cada sector. Esta escolha influencia a segurança da encriptação. "
+"Normalmente, não existe qualquer razão para alterar a escolha por omissão "
+"recomendada, excepto para compatibilidade com sistemas mais antigos."
 
 #. Type: text
 #. Description
@@ -132,14 +167,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:14001
 msgid "Encryption key:"
-msgstr ""
+msgstr "Chave de encriptação:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr ""
+msgstr "Tipo de chave de encriptação para esta partição:"
 
 #. Type: text
 #. Description
@@ -147,14 +182,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr ""
+msgstr "Hash da chave de encriptação:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr ""
+msgstr "Tipo de hash da chave de encriptação para esta partição:"
 
 #. Type: select
 #. Description
@@ -166,6 +201,10 @@ msgid ""
 "recommended default and doing so in the wrong way can reduce the encryption "
 "strength."
 msgstr ""
+"A chave de encriptação é derivada da frase-chave aplicando uma função hash "
+"de um só sentido. Normalmente não existe razão para alterar o valor por "
+"omissão recomendado e fazê-lo da maneira errada pode diminuir o poder de "
+"encriptação."
 
 #. Type: text
 #. Description
@@ -174,28 +213,28 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Erase data:"
-msgstr ""
+msgstr "Apagar dados:"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr ""
+msgstr "não"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr ""
+msgstr "sim"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr ""
+msgstr "Apagar dados nesta partição"
 
 #. Type: boolean
 #. Description
@@ -205,7 +244,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr ""
+msgstr "Apagar mesmo os dados em ${DEVICE}?"
 
 #. Type: boolean
 #. Description
@@ -216,6 +255,9 @@ msgid ""
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"Os dados em ${DEVICE} serão sobrescritos com zeros. Após esta etapa não "
+"poderão mais ser recuperados. Esta é a última oportunidade para abortar a "
+"eliminação."
 
 #. Type: text
 #. Description
@@ -225,7 +267,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
 msgid "Erasing data on ${DEVICE}"
-msgstr ""
+msgstr "Apagar os dados em ${DEVICE}"
 
 #. Type: text
 #. Description
@@ -235,6 +277,8 @@ msgid ""
 "The installer is now overwriting ${DEVICE} with zeroes to delete its "
 "previous contents. This step may be skipped by cancelling this action."
 msgstr ""
+"O instalador está agora a sobreescrever ${DEVICE} com zeros para apagar o "
+"conteúdo anterior. Este passo pode ser ultrapassado ao cancelar esta acção."
 
 #. Type: error
 #. Description
@@ -244,7 +288,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:25001 ../partman-crypto.templates:29001
 msgid "Erasing data on ${DEVICE} failed"
-msgstr ""
+msgstr "Falhou apagar os dados em ${DEVICE}"
 
 #. Type: error
 #. Description
@@ -254,6 +298,8 @@ msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
+"Ocorreu um erro ao tentar sobrescrever os dados em ${DEVICE} com zeros. Os "
+"dados não foram apagados."
 
 #. Type: boolean
 #. Description
@@ -264,6 +310,9 @@ msgid ""
 "be recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"Os dados em ${DEVICE} serão sobrescritos com dados aleatórios. Após esta "
+"etapa ser completada não poderão mais ser recuperados. Esta é a última "
+"oportunidade para abortar a eliminação."
 
 #. Type: text
 #. Description
@@ -275,6 +324,10 @@ msgid ""
 "cancelling this action, albeit at the expense of a slight reduction of the "
 "quality of the encryption."
 msgstr ""
+"O instalador está agora a sobreescrever ${DEVICE} com dados aleatórios para "
+"prevenir fugas de meta-informação do volume encriptado. Esta etapa pode ser "
+"ultrapassada ao cancelar esta acção, com o custo de uma ligeira redução da "
+"qualidade da encriptação."
 
 #. Type: error
 #. Description
@@ -285,41 +338,44 @@ msgid ""
 "Recovery of the device's previous contents is possible and meta-information "
 "of its new contents may be leaked."
 msgstr ""
+"Ocorreu um erro ao tentar sobreescrever ${DEVICE} com dados aleatórios. É "
+"possível a recuperação do conteúdo prévio do dispositivo e a meta-informação "
+"do seu novo conteúdo pode ter fugas."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:30001
 msgid "Setting up encryption..."
-msgstr ""
+msgstr "A configurar a encriptação..."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
 msgid "Configure encrypted volumes"
-msgstr ""
+msgstr "Configurar volumes encriptados"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr ""
+msgstr "Nenhuma partição para encriptar"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions have been selected for encryption."
-msgstr ""
+msgstr "Não foi escolhida nenhuma partição para encriptação."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:33001
 msgid "Required programs missing"
-msgstr ""
+msgstr "Faltam programas necessários"
 
 #. Type: note
 #. Description
@@ -329,13 +385,15 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
+"Esta compilação do debian-installer não incluí um ou mais programas que são "
+"necessários para o partman-crypto funcionar correctamente."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:34001
 msgid "Required encryption options missing"
-msgstr ""
+msgstr "Faltam opções necessárias para a encriptação"
 
 #. Type: error
 #. Description
@@ -345,6 +403,8 @@ msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
 msgstr ""
+"Estão incompletas as opções de encriptação para o dispositivo ${DEVICE}. Por "
+"favor volte ao menu de particionamento e escolha as opções necessárias."
 
 #. Type: text
 #. Description
@@ -354,7 +414,7 @@ msgstr ""
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:35001
 msgid "missing"
-msgstr ""
+msgstr "em falta"
 
 #. Type: text
 #. Description
@@ -362,14 +422,14 @@ msgstr ""
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr ""
+msgstr "Em utilização como volume físico para o volume encriptado ${DEV}"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
 msgid "Encryption package installation failure"
-msgstr ""
+msgstr "Falha da  instalação de pacote de encriptação"
 
 #. Type: error
 #. Description
@@ -379,6 +439,8 @@ msgid ""
 "The kernel module package ${PACKAGE} could not be found or an error occurred "
 "during its installation."
 msgstr ""
+"O pacote do módulo do kernel ${PACKAGE} não pode ser encontrado ou ocorreu "
+"um erro durante a sua instalação."
 
 #. Type: error
 #. Description
@@ -389,13 +451,16 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
+"Quando o sistema é reiniciado é provável que ocorram problemas ao configurar "
+"partições encriptadas. Você pode corrigir isto instalando posteriormente o"
+"(s) pacote(s) necessário(s)."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:38001
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr ""
+msgstr "Escrever as alterações no disco e configurar os volumes encriptados?"
 
 #. Type: boolean
 #. Description
@@ -405,6 +470,9 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
+"Antes dos volumes encriptados poderem ser configurados, o actual esquema de "
+"particionamento tem de ser escrito para o disco. Essas alterações não podem "
+"ser desfeitas."
 
 #. Type: boolean
 #. Description
@@ -419,48 +487,52 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme for these "
 "disks before continuing."
 msgstr ""
+"Após terem sido configurados os volumes encriptados, não será permitida "
+"nenhuma alteração adicional nas partições dos discos que contêm os volumes "
+"encriptados. Por favor decida se está satisfeito com o esquema actual de "
+"particionamento para estes discos antes de continuar."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:39001
 msgid "Keep current partition layout and configure encrypted volumes?"
-msgstr ""
+msgstr "Manter o esquema de partições actual e configurar volumes encriptados?"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "Configuration of encrypted volumes failed"
-msgstr ""
+msgstr "Falha da configuração de volumes encriptados"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "An error occurred while configuring encrypted volumes."
-msgstr ""
+msgstr "Ocorreu um erro ao configurar os volumes encriptados."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "The configuration has been aborted."
-msgstr ""
+msgstr "A configuração foi abortada."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "Initialisation of encrypted volume failed"
-msgstr ""
+msgstr "Falhou a inicialização de um volume encriptado"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "An error occurred while setting up encrypted volumes."
-msgstr ""
+msgstr "Ocorreu um erro ao configurar os volumes encriptados."
 
 #. Type: text
 #. Description
@@ -471,7 +543,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
 msgid "Passphrase"
-msgstr ""
+msgstr "Frase-passe"
 
 #. Type: text
 #. Description
@@ -482,7 +554,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:43001
 msgid "Keyfile (GnuPG)"
-msgstr ""
+msgstr "Ficheiro de chave (GnuPG)"
 
 #. Type: text
 #. Description
@@ -493,21 +565,21 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:44001
 msgid "Random key"
-msgstr ""
+msgstr "Chave aleatória"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "Unsafe swap space detected"
-msgstr ""
+msgstr "Detectado espaço swap não seguro"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "An unsafe swap space has been detected."
-msgstr ""
+msgstr "Foi detectado um espaço swap não seguro."
 
 #. Type: error
 #. Description
@@ -518,6 +590,9 @@ msgid ""
 "unencrypted. This would allow someone with access to the disk to recover "
 "parts of the encryption key or passphrase."
 msgstr ""
+"Este é um erro fatal já que dados sensíveis podem ser escritos para um disco "
+"não encriptado. Isto pode permitir a alguém com acesso ao disco recuperar "
+"partes da chave de encriptação ou da frase-passe."
 
 #. Type: error
 #. Description
@@ -528,20 +603,23 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
+"Por favor desabilite o espaço swap (e.g. executar swapoff) ou configure um "
+"espaço swap encriptado e depois corra novamente a configuração de volumes "
+"encriptados. Este programa irá agora abortar."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "Encryption passphrase:"
-msgstr ""
+msgstr "frase-passe de encriptação:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr ""
+msgstr "Você necessita escolher uma frase-chave para encriptar ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -553,6 +631,10 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
+"O poder total da encriptação depende fortemente desta frase-passe, por isso "
+"deve tomar o cuidado de escolher uma frase-passe que não seja fácil de "
+"adivinhar. Não deve ser uma palavra ou frase que possa ser encontrada em "
+"dicionários, ou uma frase que possa facilmente ser associada consigo."
 
 #. Type: password
 #. Description
@@ -563,13 +645,16 @@ msgid ""
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
+"Uma boa frase-chave irá conter uma mistura de letras, números e de "
+"pontuação. É recomendado que as frases chave tenham um comprimento de 20 ou "
+"mais caracteres."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr ""
+msgstr "Re-introduza a frase-chave para verificar:"
 
 #. Type: password
 #. Description
@@ -579,13 +664,15 @@ msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
 msgstr ""
+"Por favor introduza a mesma frase-chave para verificar que você a escreveu "
+"correctamente."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr ""
+msgstr "Erro de entrada da frase-chave"
 
 #. Type: error
 #. Description
@@ -593,13 +680,15 @@ msgstr ""
 #: ../partman-crypto.templates:48001
 msgid "The two passphrases you entered were not the same. Please try again."
 msgstr ""
+"As duas frases-chave que você introduziu não são as mesmas. Por favor tente "
+"novamente."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Empty passphrase"
-msgstr ""
+msgstr "Frase-chave vazia"
 
 #. Type: error
 #. Description
@@ -609,13 +698,15 @@ msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
 msgstr ""
+"Você introduziu uma frase-passe vazia, o que não é permitido. Por favor "
+"escolha uma frase-passe que não seja vazia."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
 msgid "Use weak passphrase?"
-msgstr ""
+msgstr "Utilizar uma frase-passe fraca?"
 
 #. Type: boolean
 #. Description
@@ -628,34 +719,37 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
+"Você introduziu uma frase-passe que consiste em menos de ${MINIMUM} "
+"caracteres, o que é considerado demasiado débil. Você deve escolher uma "
+"frase-passe mais forte."
 
 #. Type: entropy
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr ""
+msgstr "A chave de encriptação para ${DEVICE} está agora a ser criada."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:52001
 msgid "Key data has been created successfully."
-msgstr ""
+msgstr "Os dados chave foram criados com sucesso."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Keyfile creation failure"
-msgstr ""
+msgstr "Falha na criação do ficheiro da chave"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "An error occurred while creating the keyfile."
-msgstr ""
+msgstr "Ocorreu um erro ao criar o ficheiro da chave."
 
 #. Type: error
 #. Description
@@ -665,7 +759,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
 msgid "Encryption configuration failure"
-msgstr ""
+msgstr "Falha da configuração de encriptação"
 
 #. Type: error
 #. Description
@@ -676,13 +770,16 @@ msgid ""
 "partition. This feature requires a separate /boot partition on which the "
 "kernel and initrd can be stored."
 msgstr ""
+"Você escolheu o sistema de ficheiros raiz para ser guardado numa partição "
+"encriptada. Esta funcionalidade necessita duma partição /boot separada na "
+"qual possam ser guardados o kernel e o initrd."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr ""
+msgstr "Deve voltar atrás e configurar uma partição /boot."
 
 #. Type: error
 #. Description
@@ -694,6 +791,10 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
+"Você escolheu o sistema de ficheiros /boot para ser guardado numa partição "
+"encriptada. Isto não é possível porque o gestor de arranque seria incapaz de "
+"carregar o kernel e o initrd. Continuar agora resultaria numa instalação que "
+"não pode ser utilizada."
 
 #. Type: error
 #. Description
@@ -703,13 +804,15 @@ msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
 msgstr ""
+"Deve voltar atrás e escolher uma partição não-encriptada para o sistema de "
+"ficheiros /boot."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
 msgid "Are you sure you want to use a random key?"
-msgstr ""
+msgstr "Tem a certeza que quer utilizar uma chave aleatória?"
 
 #. Type: boolean
 #. Description
@@ -719,6 +822,8 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
+"Você escolheu um tipo de chave aleatória para ${DEVICE} mas pediu ao "
+"particionador para criar lá um sistema de ficheiros."
 
 #. Type: boolean
 #. Description
@@ -728,13 +833,15 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
+"Utilizar um tipo de chave aleatória significa que os dados da partição vão "
+"ser destruídos a cada reboot. Isto só deve ser utilizado para partições swap."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "Failed to download crypto components"
-msgstr ""
+msgstr "O download dos componentes de criptografia falhou"
 
 #. Type: error
 #. Description
@@ -742,6 +849,8 @@ msgstr ""
 #: ../partman-crypto.templates:57001
 msgid "An error occurred trying to download additional crypto components."
 msgstr ""
+"Ocorreu um erro ao tentar fazer o download dos componentes adicionais de "
+"criptografia."
 
 #. Type: boolean
 #. Description
@@ -749,6 +858,8 @@ msgstr ""
 #: ../partman-crypto.templates:58001
 msgid "Proceed to install crypto components despite insufficient memory?"
 msgstr ""
+"Proceder com a instalação dos componentes de criptografia apesar da memória "
+"insuficiente?"
 
 #. Type: boolean
 #. Description
@@ -759,6 +870,9 @@ msgid ""
 "crypto components. If you choose to go ahead and continue anyway, the "
 "installation process could fail."
 msgstr ""
+"Parece não existir memória suficiente disponível para instalar os "
+"componentes adicionais de criptografia. Se escolher continuar e continuar de "
+"qualquer forma, o processo de instalação pode falhar."
 
 #. Type: select
 #. Choices
@@ -768,7 +882,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Create encrypted volumes"
-msgstr ""
+msgstr "Criar volumes encriptados"
 
 #. Type: select
 #. Choices
@@ -778,53 +892,53 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Finish"
-msgstr ""
+msgstr "Terminar"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "Encryption configuration actions"
-msgstr ""
+msgstr "Acções da configuração da encriptação"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "This menu allows you to configure encrypted volumes."
-msgstr ""
+msgstr "Este menu permite-lhe configurar volumes encriptados."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Devices to encrypt:"
-msgstr ""
+msgstr "Dispositivos a encriptar:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr ""
+msgstr "Por favor escolha os dispositivos a serem encriptados."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr ""
+msgstr "Você pode escolher um ou mais dispositivos."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices selected"
-msgstr ""
+msgstr "Nenhum dispositivo seleccionado"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices were selected for encryption."
-msgstr ""
+msgstr "Não foram escolhidos quaisquer dispositivos para encriptação."

@@ -3,6 +3,36 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of debian-installer_packages_po_sublevel1_mk.po to Macedonian
+# translation of mk.po to
+# Macedonian strings from the debian-installer.
+#
+# Georgi Stanojevski, <glisha@gmail.com>, 2004, 2005, 2006.
+# Georgi Stanojevski <georgis@unet.com.mk>, 2005, 2006.
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2002
+#   Arangel Angov <ufo@linux.net.mk>, 2008.
+#   Free Software Foundation, Inc., 2002,2004
+#   Georgi Stanojevski <glisha@gmail.com>, 2004, 2006.
+# Translations from KDE:
+#   Danko Ilik <danko@mindless.com>
+# Arangel Angov <arangel@linux.net.mk>, 2008, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
+"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
+"POT-Creation-Date: 2013-10-30 22:04+0000\n"
+"PO-Revision-Date: 2012-09-23 01:33+0200\n"
+"Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
+"Language-Team: Macedonian <>\n"
+"Language: mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n!=1);\n"
+
 #. Type: text
 #. Description
 #. File system name
@@ -10,7 +40,7 @@
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr ""
+msgstr "физички простори за енкрипција"
 
 #. Type: text
 #. Description
@@ -19,7 +49,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr ""
+msgstr "крипто"
 
 #. Type: text
 #. Description
@@ -29,7 +59,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:3001
 msgid "Device-mapper (dm-crypt)"
-msgstr ""
+msgstr "Device-mapper (dm-crypt)"
 
 #. Type: text
 #. Description
@@ -38,7 +68,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:5001
 msgid "not active"
-msgstr ""
+msgstr "не е активно"
 
 #. Type: text
 #. Description
@@ -46,14 +76,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:6001
 msgid "Encryption method:"
-msgstr ""
+msgstr "Метод за енкрипција:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
 msgid "Encryption method for this partition:"
-msgstr ""
+msgstr "Метод за енкрипција за оваа партиција:"
 
 #. Type: select
 #. Description
@@ -63,6 +93,8 @@ msgid ""
 "Changing the encryption method will set other encryption-related fields to "
 "their default values for the new encryption method."
 msgstr ""
+"Промената на методот на екнрипција ќе ги постави другите полиња поврзани со "
+"енкрипцијата на нивните основни вредности за новиот метод."
 
 #. Type: text
 #. Description
@@ -70,14 +102,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:8001
 msgid "Encryption:"
-msgstr ""
+msgstr "Енкрипција:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
 msgid "Encryption for this partition:"
-msgstr ""
+msgstr "Енкрипција за оваа партиција:"
 
 #. Type: text
 #. Description
@@ -85,14 +117,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:10001
 msgid "Key size:"
-msgstr ""
+msgstr "Големина на клуч:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
 msgid "Key size for this partition:"
-msgstr ""
+msgstr "Големина на клуч за оваа партиција:"
 
 #. Type: text
 #. Description
@@ -102,7 +134,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:12001
 msgid "IV algorithm:"
-msgstr ""
+msgstr "IV алгоритам:"
 
 #. Type: select
 #. Description
@@ -112,6 +144,7 @@ msgstr ""
 #: ../partman-crypto.templates:13001
 msgid "Initialization vector generation algorithm for this partition:"
 msgstr ""
+"Алгоритам за генерирање на случајноста при енкрипција на оваа партиција:"
 
 #. Type: select
 #. Description
@@ -125,6 +158,9 @@ msgid ""
 "no reason to change this from the recommended default, except for "
 "compatibility with older systems."
 msgstr ""
+"Постојат различни алгоритми со кои се генерира случајноста за секој сектор. "
+"Овој избор влијае на сигурноста при енкрипција. Вообичаено нема потреба да "
+"се смени препорачаната вредност, освен за компатибилност со постари системи."
 
 #. Type: text
 #. Description
@@ -132,14 +168,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:14001
 msgid "Encryption key:"
-msgstr ""
+msgstr "Клуч за енкрипција:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr ""
+msgstr "Тип на енкрипција за оваа партиција:"
 
 #. Type: text
 #. Description
@@ -147,14 +183,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr ""
+msgstr "Хаш за клуч за енкрипција:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr ""
+msgstr "Тип на енкрипциски клуч за оваа партиција:"
 
 #. Type: select
 #. Description
@@ -166,6 +202,10 @@ msgid ""
 "recommended default and doing so in the wrong way can reduce the encryption "
 "strength."
 msgstr ""
+"Енкрипцискиот клуч е дериват од лозинката со применувања на еднонасочна хаш "
+"функција врз нејзе. Вообичаено нема потреба да се смени ова од предложената "
+"вредност, дури погрешен избор може да ја намали силината на самата "
+"енкрипција."
 
 #. Type: text
 #. Description
@@ -174,28 +214,28 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Erase data:"
-msgstr ""
+msgstr "Бришење на податоци:"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr ""
+msgstr "не"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr ""
+msgstr "да"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr ""
+msgstr "Избриши ги податоците на оваа партиција"
 
 #. Type: boolean
 #. Description
@@ -205,17 +245,25 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr ""
+msgstr "Навистина да ги избришам податоците од ${DEVICE}?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
+#, fuzzy
+#| msgid ""
+#| "The data on ${DEVICE} will be overwritten with random data. It can no "
+#| "longer be recovered after this step has completed. This is the last "
+#| "opportunity to abort the erase."
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"Податоците на ${DEVICE} ќе бидат препишани со случајни податоци. Тие не ќе "
+"можат да се вратат по завршувањето на овој чекор. Ова е последната шанса да "
+"се прекине бришењето."
 
 #. Type: text
 #. Description
@@ -225,7 +273,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
 msgid "Erasing data on ${DEVICE}"
-msgstr ""
+msgstr "Бришење на податоците од ${DEVICE}"
 
 #. Type: text
 #. Description
@@ -244,16 +292,22 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:25001 ../partman-crypto.templates:29001
 msgid "Erasing data on ${DEVICE} failed"
-msgstr ""
+msgstr "Бришење на податоците на ${DEVICE} не успеа"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
+#, fuzzy
+#| msgid ""
+#| "An error occurred trying to erase the data on ${DEVICE}. The data has not "
+#| "been erased."
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
+"Се случи грешка при обидот да се избришат податоците на ${DEVICE}. "
+"Податоците не беа избришани."
 
 #. Type: boolean
 #. Description
@@ -264,6 +318,9 @@ msgid ""
 "be recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"Податоците на ${DEVICE} ќе бидат препишани со случајни податоци. Тие не ќе "
+"можат да се вратат по завршувањето на овој чекор. Ова е последната шанса да "
+"се прекине бришењето."
 
 #. Type: text
 #. Description
@@ -291,35 +348,35 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:30001
 msgid "Setting up encryption..."
-msgstr ""
+msgstr "Поставување на енкрипција..."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
 msgid "Configure encrypted volumes"
-msgstr ""
+msgstr "Конфигурирај енкриптирани простори"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr ""
+msgstr "Нема партиции за енкрипција"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions have been selected for encryption."
-msgstr ""
+msgstr "Не беа избрани партиции за енкрипција."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:33001
 msgid "Required programs missing"
-msgstr ""
+msgstr "Недостасуваат потребни програми"
 
 #. Type: note
 #. Description
@@ -329,13 +386,15 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
+"Овој тип на Debian-инсталерот не вклучува еден или повеќе програми кои се "
+"потребни за partman-crypto да функционира правилно."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:34001
 msgid "Required encryption options missing"
-msgstr ""
+msgstr "Недостасуваат потребните опции за енкрипција"
 
 #. Type: error
 #. Description
@@ -345,6 +404,8 @@ msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
 msgstr ""
+"Опциите за енкрипција на ${DEVICE} се непотполни. Те молам врати се во "
+"менито за партиционирање и избери ги сите потребни опции."
 
 #. Type: text
 #. Description
@@ -354,7 +415,7 @@ msgstr ""
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:35001
 msgid "missing"
-msgstr ""
+msgstr "недостига"
 
 #. Type: text
 #. Description
@@ -362,14 +423,14 @@ msgstr ""
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr ""
+msgstr "Се користи како физички простор за енкриптираниот простор ${DEV}"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
 msgid "Encryption package installation failure"
-msgstr ""
+msgstr "Неуспех при инсталација на пакетот за енкрипција"
 
 #. Type: error
 #. Description
@@ -379,6 +440,8 @@ msgid ""
 "The kernel module package ${PACKAGE} could not be found or an error occurred "
 "during its installation."
 msgstr ""
+"Кернел модулот за пакетот ${PACKAGE} неможе да биде најде или се случи "
+"грешка при инсталација."
 
 #. Type: error
 #. Description
@@ -389,13 +452,16 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
+"Најверојатно ќе има проблеми при подигнувањето кога системот ќе проба да ги "
+"постави енкриптираните партиции. Сеуште може да го поправиш ова со "
+"инсталирање на потребниот пакет(и) подоцна."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:38001
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr ""
+msgstr "Да ги запишам измените на диск и конфигурурам енкриптираните простори?"
 
 #. Type: boolean
 #. Description
@@ -405,6 +471,9 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
+"Пред да може да се конфигурираат енкриптираните простори, моменталната "
+"партициона шема мора да биде запишана на диск. Овие промени не може да се "
+"отповикаат."
 
 #. Type: boolean
 #. Description
@@ -419,6 +488,10 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme for these "
 "disks before continuing."
 msgstr ""
+"Откако ќе се конфигурираат енкриптираните простори, не се дозволени "
+"дополнителни промени на партициите во дисковите со енкриптирани простори. Те "
+"молам одлучи дали си задоволен со моменталната поставеност на партициите на "
+"овие дискови пред да продолжиш."
 
 #. Type: boolean
 #. Description
@@ -426,41 +499,43 @@ msgstr ""
 #: ../partman-crypto.templates:39001
 msgid "Keep current partition layout and configure encrypted volumes?"
 msgstr ""
+"Да ја зачувам моменталната поставеност на партициите и конфигурирам "
+"енриптирани простори?"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "Configuration of encrypted volumes failed"
-msgstr ""
+msgstr "Не успеа конфигурацијата на енкриптираните простори"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "An error occurred while configuring encrypted volumes."
-msgstr ""
+msgstr "Се случи грешки при конфигурација на енркиптираните простори."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "The configuration has been aborted."
-msgstr ""
+msgstr "Конфигурацијата е откажана."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "Initialisation of encrypted volume failed"
-msgstr ""
+msgstr "Иницијализација на енкриптиран простор не успеа"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "An error occurred while setting up encrypted volumes."
-msgstr ""
+msgstr "Се случи грешки при поставувањето на енкриптираните простори."
 
 #. Type: text
 #. Description
@@ -471,7 +546,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
 msgid "Passphrase"
-msgstr ""
+msgstr "Фраза-лозинка"
 
 #. Type: text
 #. Description
@@ -482,7 +557,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:43001
 msgid "Keyfile (GnuPG)"
-msgstr ""
+msgstr "Датотека со клуч (GNUPG)"
 
 #. Type: text
 #. Description
@@ -493,21 +568,21 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:44001
 msgid "Random key"
-msgstr ""
+msgstr "Случаен клуч"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "Unsafe swap space detected"
-msgstr ""
+msgstr "Детектиран несигурен swap простор"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "An unsafe swap space has been detected."
-msgstr ""
+msgstr "Беше детектиран несигурен swap простор."
 
 #. Type: error
 #. Description
@@ -518,6 +593,9 @@ msgid ""
 "unencrypted. This would allow someone with access to the disk to recover "
 "parts of the encryption key or passphrase."
 msgstr ""
+"Ова е фатална грешка бидејќи доверливи податоци би можеле да бидат запишани "
+"на дискот без енкрипција. Ова би му овомозжило на некој кој има пристап до "
+"дискот да  пронајде делови од клучот за енкрипција или од фразата-лозинка."
 
 #. Type: error
 #. Description
@@ -528,20 +606,23 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
+"Те молам оневозможи го swap просторот (пр. со swapoff) или конфигурирај "
+"енкриптиран swap простор и потоа повторно изврши го поставувањето на "
+"енркиптирани простори. Оваа програма сега ќе прекине."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "Encryption passphrase:"
-msgstr ""
+msgstr "Фраза-лозинка за енкрипција:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr ""
+msgstr "Потребно е да одбереш фраза-лозинка за да го енкриптираш ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -553,6 +634,10 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
+"Вкупната заштитеност на енркипцијата тесно зависи од оваа фраза-лозинка."
+"Препорачливо е да избереш лозинка која не е лесно да се погоди. Не треба да "
+"биде збор или реченица од речник или фраза кој може лесно да се поврзе со "
+"тебе, како твоето презиме."
 
 #. Type: password
 #. Description
@@ -563,13 +648,16 @@ msgid ""
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
+"Добра фраза-лозинка ќе содржи мешавина од букви, бројки и интрепукциски "
+"знаци. Препорачливо е фразите-лозинки  да имаат должина од 20 или повеќе "
+"знаци."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr ""
+msgstr "Повторно внеси ја фразата-лозинка за да потврдиш:"
 
 #. Type: password
 #. Description
@@ -579,27 +667,29 @@ msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
 msgstr ""
+"Те молам повторно внеси ја истата фраза-лозинка за да се потврди дека "
+"правилно си ја внел."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr ""
+msgstr "Грешка при внес на фразата-лозинка"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "The two passphrases you entered were not the same. Please try again."
-msgstr ""
+msgstr "Двете фрази-лозинки што ги внесе не се исти. Те молам пробај повторно."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Empty passphrase"
-msgstr ""
+msgstr "Празна фраза-лозинка"
 
 #. Type: error
 #. Description
@@ -609,13 +699,15 @@ msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
 msgstr ""
+"Внесе празна фраза-лозинка, што не е дозволено. Те молам избери друга "
+"непразна фраза-лозинка."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
 msgid "Use weak passphrase?"
-msgstr ""
+msgstr "Користи слаба лозинка?"
 
 #. Type: boolean
 #. Description
@@ -628,34 +720,36 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
+"Внесе фраза-лозинка која има помалку од ${MINIMUM} знаци што се смета за "
+"слаба лозинка. Би требало да одбереш посилна фраза-лозинка."
 
 #. Type: entropy
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr ""
+msgstr "Се создава клучот за енкрипција за ${DEVICE}."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:52001
 msgid "Key data has been created successfully."
-msgstr ""
+msgstr "Податоците за клучот се успешно креирани."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Keyfile creation failure"
-msgstr ""
+msgstr "Неуспех при создавањето на датотека со клуч"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "An error occurred while creating the keyfile."
-msgstr ""
+msgstr "Се случи грешка при создавање на датотеката со клучот."
 
 #. Type: error
 #. Description
@@ -665,7 +759,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
 msgid "Encryption configuration failure"
-msgstr ""
+msgstr "Неуспех при конфигурацијата на енкрипцијата"
 
 #. Type: error
 #. Description
@@ -676,13 +770,16 @@ msgid ""
 "partition. This feature requires a separate /boot partition on which the "
 "kernel and initrd can be stored."
 msgstr ""
+"Избра рут датотечниот систем да биде сместен на енкриптирана партиција. Оваа "
+"можност има потреба од посебна /boot партиција на која ќе бидат сместени "
+"кернелот и initrd."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr ""
+msgstr "Би требало да се вратиш назад и поставиш /boot партиција."
 
 #. Type: error
 #. Description
@@ -694,6 +791,9 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
+"Избра рут датотечниот систем да биде сместен на енкриптирана партиција. Ова "
+"не е можно бидејќи подигнувачот не ќе може да ги вчита кернелот и initrd. "
+"Ако продолжиш сега може да се случи системот да неможе да се користи."
 
 #. Type: error
 #. Description
@@ -703,13 +803,15 @@ msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
 msgstr ""
+"Те молам врати се назад и избери не енкриптирана партиција за рут "
+"датотечниот систем."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
 msgid "Are you sure you want to use a random key?"
-msgstr ""
+msgstr "Дали си сигурен дека сакаш да користиш случаен клуч?"
 
 #. Type: boolean
 #. Description
@@ -719,6 +821,8 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
+"Избра клуч со случаен тип за ${DEVICE}  но побара партиционерот да создаде "
+"датотечен систем на него."
 
 #. Type: boolean
 #. Description
@@ -728,20 +832,23 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
+"Користејќи на случаен тип за клучот значи дека сите податоци на партицијата "
+"ќе бидат уништувани при секое ресетирање. Ова би требало да се користи за "
+"swap партиции."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "Failed to download crypto components"
-msgstr ""
+msgstr "Не успеав да преземам crypto компоненти"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "An error occurred trying to download additional crypto components."
-msgstr ""
+msgstr "Се случи грешкa при преземањето на дополнителни crypto компоненти."
 
 #. Type: boolean
 #. Description
@@ -749,6 +856,8 @@ msgstr ""
 #: ../partman-crypto.templates:58001
 msgid "Proceed to install crypto components despite insufficient memory?"
 msgstr ""
+"Да продолжам со инсталирање на крипто компонентите покрај недостатокот на "
+"меморија?"
 
 #. Type: boolean
 #. Description
@@ -759,6 +868,9 @@ msgid ""
 "crypto components. If you choose to go ahead and continue anyway, the "
 "installation process could fail."
 msgstr ""
+"Изгледа дека нема доволно меморија достапно за да се инсталираат "
+"дополнителни крупто компоненти. Ако избереш да продолжиш инсталацијата може "
+"да не успее."
 
 #. Type: select
 #. Choices
@@ -768,7 +880,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Create encrypted volumes"
-msgstr ""
+msgstr "Конфигурирај енкриптирани простори"
 
 #. Type: select
 #. Choices
@@ -778,14 +890,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Finish"
-msgstr ""
+msgstr "Заврши"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "Encryption configuration actions"
-msgstr ""
+msgstr "Неуспех при конфигурацијата на енкрипцијата"
 
 #. Type: select
 #. Description
@@ -793,38 +905,40 @@ msgstr ""
 #: ../partman-crypto.templates:59002
 msgid "This menu allows you to configure encrypted volumes."
 msgstr ""
+"Да ја зачувам моменталната поставеност на партициите и конфигурирам "
+"енриптирани простори?"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Devices to encrypt:"
-msgstr ""
+msgstr "Сервиси кои што ќе се користат:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr ""
+msgstr "Те молам одбери ги уредите за новата просторна група."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr ""
+msgstr "Може да обереше еден или повеќе уреди."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices selected"
-msgstr ""
+msgstr "Нема одбрано физички простори"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices were selected for encryption."
-msgstr ""
+msgstr "Не беа избрани партиции за енкрипција."

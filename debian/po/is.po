@@ -3,6 +3,37 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of debian-installer_packages_po_sublevel1_is.po to Icelandic
+# Icelandic messages for debian-installer.
+# This file is distributed under the same license as debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+#
+# Copyright (C) 2010 Free Software Foundation
+#
+# zorglubb <debian-user-icelandic@lists.debian.org>, 2008.
+# Sveinn í Felli <sveinki@nett.is>, 2010.
+# Alastair McKinstry, <mckinstry@computer.org>, 2002.
+# Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2012.
+# Alastair McKinstry <mckinstry@computer.org>, 2002.
+# Translations from iso-codes:
+# Copyright (C) 2002,2003, 2010, 2011, 2012 Free Software Foundation, Inc.
+# Translations from KDE:
+# Þórarinn Rúnar Einarsson <thori@mindspring.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer_packages_po_sublevel1_is\n"
+"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
+"POT-Creation-Date: 2013-10-30 22:04+0000\n"
+"PO-Revision-Date: 2012-04-06 10:43+0000\n"
+"Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+">\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+
 #. Type: text
 #. Description
 #. File system name
@@ -10,7 +41,7 @@
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr ""
+msgstr "dulkóðun rauneintaks"
 
 #. Type: text
 #. Description
@@ -19,7 +50,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr ""
+msgstr "crypto"
 
 #. Type: text
 #. Description
@@ -29,7 +60,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:3001
 msgid "Device-mapper (dm-crypt)"
-msgstr ""
+msgstr "Device-mapper (dm-crypt)"
 
 #. Type: text
 #. Description
@@ -38,7 +69,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:5001
 msgid "not active"
-msgstr ""
+msgstr "ekki virkt"
 
 #. Type: text
 #. Description
@@ -46,14 +77,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:6001
 msgid "Encryption method:"
-msgstr ""
+msgstr "Dulritunaraðferð:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
 msgid "Encryption method for this partition:"
-msgstr ""
+msgstr "Dulritunaraðferð fyrir þessa disksneið:"
 
 #. Type: select
 #. Description
@@ -63,6 +94,8 @@ msgid ""
 "Changing the encryption method will set other encryption-related fields to "
 "their default values for the new encryption method."
 msgstr ""
+"Ef þú breytir dulritunaraðferðinni þá munu aðrir reitir tengdir dulritun "
+"taka sjálfgefin gildi nýju dulritunaraðferðarinnar."
 
 #. Type: text
 #. Description
@@ -70,14 +103,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:8001
 msgid "Encryption:"
-msgstr ""
+msgstr "Dulritun:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
 msgid "Encryption for this partition:"
-msgstr ""
+msgstr "Dulritun fyrir þessa disksneið:"
 
 #. Type: text
 #. Description
@@ -85,14 +118,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:10001
 msgid "Key size:"
-msgstr ""
+msgstr "Lykilstærð:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
 msgid "Key size for this partition:"
-msgstr ""
+msgstr "Lykilstærð fyrir þessa disksneið:"
 
 #. Type: text
 #. Description
@@ -102,7 +135,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:12001
 msgid "IV algorithm:"
-msgstr ""
+msgstr "IV reiknirit:"
 
 #. Type: select
 #. Description
@@ -111,7 +144,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:13001
 msgid "Initialization vector generation algorithm for this partition:"
-msgstr ""
+msgstr "Reiknirit fyrir gerð frumstillingarvigurs á þessari disksneið:"
 
 #. Type: select
 #. Description
@@ -125,6 +158,10 @@ msgid ""
 "no reason to change this from the recommended default, except for "
 "compatibility with older systems."
 msgstr ""
+"Mismunandi reiknirit (algoritmar) eru til til að leiða út frumstillingu "
+"vigurs fyrir hvern geira. Þessi ákvörðun hefur áhrif á öryggi dulritunar. "
+"Venjulega er engin ástæða til að breyta þessu, nema ef þetta skildi ekki "
+"passa við eldri kerfi."
 
 #. Type: text
 #. Description
@@ -132,14 +169,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:14001
 msgid "Encryption key:"
-msgstr ""
+msgstr "Dulritunarlykill:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr ""
+msgstr "Tegund dulritunarlykils fyrir þessa sneið:"
 
 #. Type: text
 #. Description
@@ -147,14 +184,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr ""
+msgstr "Tæti (hash) dulritunarlykis:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr ""
+msgstr "Tegund dulritunarlykilstætis fyrir þessa disksneið:"
 
 #. Type: select
 #. Description
@@ -166,6 +203,10 @@ msgid ""
 "recommended default and doing so in the wrong way can reduce the encryption "
 "strength."
 msgstr ""
+"Dulritunarlykillinn er reiknaður út frá lykilorðinu með því að bæta við það "
+"einstefnu-tæti (one-way hash). Venjulega er engin ástæða til að breyta "
+"þessu, enda geta breytingar frá þessari aðferð veikt dulritunina, ef maður "
+"veit ekki hvað maður er að gera."
 
 #. Type: text
 #. Description
@@ -174,28 +215,28 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Erase data:"
-msgstr ""
+msgstr "Eyða gögnum:"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr ""
+msgstr "nei"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr ""
+msgstr "já"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr ""
+msgstr "Eyða gögnum á þessari sneið"
 
 #. Type: boolean
 #. Description
@@ -205,17 +246,25 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr ""
+msgstr "Viltu örugglega eyða gögnunum af ${DEVICE}?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
+#, fuzzy
+#| msgid ""
+#| "The data on ${DEVICE} will be overwritten with random data. It can no "
+#| "longer be recovered after this step has completed. This is the last "
+#| "opportunity to abort the erase."
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"Gögnunum á ${DEVICE} verður eytt, og slembigögn skrifuð í stað þeirra. Eftir "
+"að þetta skref verður ekki aftur snúið. Þetta er þitt síðasta tækifæri til "
+"að hætta við eyðinguna."
 
 #. Type: text
 #. Description
@@ -225,7 +274,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
 msgid "Erasing data on ${DEVICE}"
-msgstr ""
+msgstr "Eyði gögnum á ${DEVICE}"
 
 #. Type: text
 #. Description
@@ -244,16 +293,22 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:25001 ../partman-crypto.templates:29001
 msgid "Erasing data on ${DEVICE} failed"
-msgstr ""
+msgstr "Eyðing gagna á ${DEVICE} mistókst"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
+#, fuzzy
+#| msgid ""
+#| "An error occurred trying to erase the data on ${DEVICE}. The data has not "
+#| "been erased."
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
+"Villa kom upp við það að eyða gögnunum á ${DEVICE}. Ekki náðist að eyða "
+"gögnunum."
 
 #. Type: boolean
 #. Description
@@ -264,6 +319,9 @@ msgid ""
 "be recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"Gögnunum á ${DEVICE} verður eytt, og slembigögn skrifuð í stað þeirra. Eftir "
+"að þetta skref verður ekki aftur snúið. Þetta er þitt síðasta tækifæri til "
+"að hætta við eyðinguna."
 
 #. Type: text
 #. Description
@@ -291,35 +349,35 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:30001
 msgid "Setting up encryption..."
-msgstr ""
+msgstr "Set upp dulritun..."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
 msgid "Configure encrypted volumes"
-msgstr ""
+msgstr "Stilli dulrituð drif"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr ""
+msgstr "Engar disksneiðar til að dulrita"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions have been selected for encryption."
-msgstr ""
+msgstr "Engar disksneiðar valdar fyrir dulritun."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:33001
 msgid "Required programs missing"
-msgstr ""
+msgstr "Nauðsynleg forrit vantar"
 
 #. Type: note
 #. Description
@@ -329,13 +387,15 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
+"Þessi útgáfa af debian-installer inniheldur ekki eitt eða fleiri forrit sem "
+"þarf til að partman-crypto virki rétt."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:34001
 msgid "Required encryption options missing"
-msgstr ""
+msgstr "Nauðsynlega dulritunareiginleika vantar"
 
 #. Type: error
 #. Description
@@ -345,6 +405,8 @@ msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
 msgstr ""
+"Dulritunareiginleikar fyrir ${DEVICE} eru ófullnægjandi. Farðu aftur í "
+"disksneiðavalmyndina og veldu alla nauðsynlega valkosti."
 
 #. Type: text
 #. Description
@@ -354,7 +416,7 @@ msgstr ""
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:35001
 msgid "missing"
-msgstr ""
+msgstr "vantar"
 
 #. Type: text
 #. Description
@@ -362,14 +424,14 @@ msgstr ""
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr ""
+msgstr "Í notkun sem rauneintak fyrir dulritaða drifið ${DEV}"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
 msgid "Encryption package installation failure"
-msgstr ""
+msgstr "Mistókst að setja upp dulritunarpakka"
 
 #. Type: error
 #. Description
@@ -379,6 +441,8 @@ msgid ""
 "The kernel module package ${PACKAGE} could not be found or an error occurred "
 "during its installation."
 msgstr ""
+"Pakkinn ${PACKAGE} sem inniheldur kjarnaeiningu fannst ekki, eða villa hefur "
+"komið upp á meðan á uppsetningu hans stóð."
 
 #. Type: error
 #. Description
@@ -389,13 +453,16 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
+"Líklegt er að upp muni koma vandamál við það að setja upp dulritaðar "
+"disksneiðar þegar kveikt verður aftur á kerfinu. Mögulegt er að leiðrétta "
+"þetta með því að setja upp nauðsynlega pakka síðar."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:38001
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr ""
+msgstr "Viltu skrifa breytingarnar á diskinn og breyta dulrituðu drifunum?"
 
 #. Type: boolean
 #. Description
@@ -405,6 +472,8 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
+"Áður en hægt er að breyta dulrituðum drifum verður að skrifa núverandi "
+"disksneiðingarskema niður á disk. Ekki er hægt að taka aftur þær breytingar."
 
 #. Type: boolean
 #. Description
@@ -419,48 +488,51 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme for these "
 "disks before continuing."
 msgstr ""
+"Eftir að búið er að breyta dulrituðu drifunum má ekki koma með neinar frekar "
+"breytingar á þeim disksneiðum sem innihalda dulrituð drif. Veldu hvort þú "
+"sért sáttur við núverandi skema fyrir þessa diska áður en þú heldur áfram."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:39001
 msgid "Keep current partition layout and configure encrypted volumes?"
-msgstr ""
+msgstr "Halda núverandi disksneiðum og breyta dulrituðu drifunum?"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "Configuration of encrypted volumes failed"
-msgstr ""
+msgstr "Ekki tókst að framkvæma breytingar á dulrituðum drifum"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "An error occurred while configuring encrypted volumes."
-msgstr ""
+msgstr "Villa kom upp þegar dulrituðum drifum var breytt."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "The configuration has been aborted."
-msgstr ""
+msgstr "Hætt hefur verið við uppsetninguna."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "Initialisation of encrypted volume failed"
-msgstr ""
+msgstr "Ekki tókst að frumstilla dulritaða drifið"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "An error occurred while setting up encrypted volumes."
-msgstr ""
+msgstr "Villa kom upp við að setja upp dulrituð drif."
 
 #. Type: text
 #. Description
@@ -471,7 +543,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
 msgid "Passphrase"
-msgstr ""
+msgstr "Lykilorð"
 
 #. Type: text
 #. Description
@@ -482,7 +554,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:43001
 msgid "Keyfile (GnuPG)"
-msgstr ""
+msgstr "Lykilskrá (GnuPG)"
 
 #. Type: text
 #. Description
@@ -493,21 +565,21 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:44001
 msgid "Random key"
-msgstr ""
+msgstr "Slembinn lykill (random key)"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "Unsafe swap space detected"
-msgstr ""
+msgstr "Óöruggt diskminnissvæði (swap space) fannst"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "An unsafe swap space has been detected."
-msgstr ""
+msgstr "Fundist hefur óöruggt diskminnissvæði (swap space)."
 
 #. Type: error
 #. Description
@@ -518,6 +590,9 @@ msgid ""
 "unencrypted. This would allow someone with access to the disk to recover "
 "parts of the encryption key or passphrase."
 msgstr ""
+"Þetta er feigðarskekkja þar sem mögulegt er að viðkvæm gögn gætu skrifast "
+"ódulrituð út á diskinn. Það gæti gert einhverjum með aðgang að disknum "
+"kleift að ná einhverjum hluta lykilorðsins eða dulritunarlykilsins."
 
 #. Type: error
 #. Description
@@ -528,20 +603,23 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
+"Slökktu á diskminnissvæðinu (t.d. með því að keyra swapoff) eða búðu til "
+"dulritað diskminni og keyrðu síðan uppsetningu fyrir dulrituð drif. Þetta "
+"forrit mun nú hætta."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "Encryption passphrase:"
-msgstr ""
+msgstr "Lykilorð fyrir dulritun:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr ""
+msgstr "Þú þarf að velja lykilorð til að dulrita ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -553,6 +631,10 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
+"Styrkur dulritunar veltur algjörlega á því hve sterkt lykilorðið er, svo þú "
+"ættir að passa þig á því að búa til sterkt lykilorð sem erfitt er að giska "
+"á. Það ætti hvorki að vera orð eða setning sem fyrirfinnst í orðabókum, né "
+"frasi sem hægt væri að tengja auðveldlega við þig."
 
 #. Type: password
 #. Description
@@ -563,13 +645,15 @@ msgid ""
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
+"Gott lykilorð ætti að innihalda blöndu af stöfum, tölum og punktum. Lykilorð "
+"ættu helst að hafa 20 eða fleiri stafi."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr ""
+msgstr "Sláðu inn lykilorðið aftur til staðfestingar:"
 
 #. Type: password
 #. Description
@@ -579,27 +663,29 @@ msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
 msgstr ""
+"Sláðu inn sama lykilorðið aftur til að staðfesta að það hafi verið skrifað "
+"rétt."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr ""
+msgstr "Villa við innslátt lykilorðs"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "The two passphrases you entered were not the same. Please try again."
-msgstr ""
+msgstr "Lykilorðin voru ekki eins. Reyndu aftur."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Empty passphrase"
-msgstr ""
+msgstr "Tómt lykilorð"
 
 #. Type: error
 #. Description
@@ -609,13 +695,15 @@ msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
 msgstr ""
+"Þú skrifaðir inn tómt lykilorð sem er ekki heimilt. Veldu lykilorð sem er "
+"ekki tómt."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
 msgid "Use weak passphrase?"
-msgstr ""
+msgstr "Nota veikt lykilorð?"
 
 #. Type: boolean
 #. Description
@@ -628,34 +716,36 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
+"Þú slóst inn lykilorð sem samanstendur af færri en ${MINIMUM} stöfum, en það "
+"er álitið of veikt. Þú ættir að velja sterkara lykilorð."
 
 #. Type: entropy
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr ""
+msgstr "Nú er verið að búa til dulritunarlykillinn fyrir ${DEVICE}."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:52001
 msgid "Key data has been created successfully."
-msgstr ""
+msgstr "Það tókst að búa til lykilgögn."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Keyfile creation failure"
-msgstr ""
+msgstr "Ekki tókst að gera lykilskrá"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "An error occurred while creating the keyfile."
-msgstr ""
+msgstr "Villa kom upp við að gera lykilskrá."
 
 #. Type: error
 #. Description
@@ -665,7 +755,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
 msgid "Encryption configuration failure"
-msgstr ""
+msgstr "Ekki tókst að stilla dulritun"
 
 #. Type: error
 #. Description
@@ -676,13 +766,16 @@ msgid ""
 "partition. This feature requires a separate /boot partition on which the "
 "kernel and initrd can be stored."
 msgstr ""
+"Þú hefur valið að setja grunnskráakerfið (/) á dulritaða disksneið. Þetta "
+"sérkenni krefst sérstakrar /boot disksneiðar þar sem stýrikerfiskjarninn og "
+"initrd verða geymd."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr ""
+msgstr "Þú ættir að fara til baka og setja upp /boot disksneið."
 
 #. Type: error
 #. Description
@@ -694,6 +787,10 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
+"Þú hefur valið að setja /boot skráakerfið á dulritaða disksneið. Þetta er "
+"ekki mögulegt vegna þess að ræsistjórinn gæti ekki hlaðið inn "
+"stýrikerfiskjarnanum og initrd. Ef þú héldir áfram núna þá myndi það útbúa "
+"kerfi sem ekki væri nothæft."
 
 #. Type: error
 #. Description
@@ -703,13 +800,15 @@ msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
 msgstr ""
+"Þú ættir að fara til baka og velja ódulritaða disksneið fyrir /boot "
+"skráakerfið."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
 msgid "Are you sure you want to use a random key?"
-msgstr ""
+msgstr "Ertu viss um að þú viljir nota slembilykil?"
 
 #. Type: boolean
 #. Description
@@ -719,6 +818,8 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
+"Þú hefur valið slembna gerð lykils fyrir ${DEVICE} en beðið "
+"disksneiðingarforritið um að búa til skráakerfi á því."
 
 #. Type: boolean
 #. Description
@@ -728,27 +829,30 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
+"Ef þú notar slembilykil þá þýðir það að disksneiðagögnin munu eyðileggjast "
+"við hverja endurræsingu. Þetta ætti bara að vera notað fyrir swap "
+"diskminnisdisksneiðar."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "Failed to download crypto components"
-msgstr ""
+msgstr "Ekki tókst að hlaða niður crypto-einingum"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "An error occurred trying to download additional crypto components."
-msgstr ""
+msgstr "Villa kom upp við að hlaða niður viðbótar crypto-einingum."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:58001
 msgid "Proceed to install crypto components despite insufficient memory?"
-msgstr ""
+msgstr "Halda áfram að setja upp crypto-einingar þrátt fyrir of lítið minni?"
 
 #. Type: boolean
 #. Description
@@ -759,6 +863,9 @@ msgid ""
 "crypto components. If you choose to go ahead and continue anyway, the "
 "installation process could fail."
 msgstr ""
+"Það virðist ekki væra nægilega mikið minni til að hægt sé að setja upp "
+"viðbótar crypto-einingar. Ef þú ákveður að halda áfram þrátt fyrir þá þá "
+"gæti uppsetningin farið úrskeiðis."
 
 #. Type: select
 #. Choices
@@ -768,7 +875,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Create encrypted volumes"
-msgstr ""
+msgstr "Búa til dulrituð drif"
 
 #. Type: select
 #. Choices
@@ -778,53 +885,53 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Finish"
-msgstr ""
+msgstr "Enda"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "Encryption configuration actions"
-msgstr ""
+msgstr "Stillingaraðgerðir dulritunar"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "This menu allows you to configure encrypted volumes."
-msgstr ""
+msgstr "Þessi valmynd leyfir þér að stilla dulritun á drifum."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Devices to encrypt:"
-msgstr ""
+msgstr "Þau tæki sem þú vilt dulrita:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr ""
+msgstr "Veldu þau tæki sem þú vilt dulrita."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr ""
+msgstr "Þú getur valið eitt eða fleiri tæki."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices selected"
-msgstr ""
+msgstr "Engin tæki voru valin"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices were selected for encryption."
-msgstr ""
+msgstr "Engin tæki voru valin fyrir dulritun."

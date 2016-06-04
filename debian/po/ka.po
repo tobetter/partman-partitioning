@@ -3,6 +3,37 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Georgian messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+# Aiet Kolkhi <aietkolkhi@gmail.com>, 2005, 2006, 2007, 2008.
+#
+# This file is maintained by Aiet Kolkhi <aietkolkhi@gmail.com>
+#
+# Includes contributions by Malkhaz Barkalaza <malxaz@gmail.com>,
+# Alexander Didebulidze <didebuli@in.tum.de>, Vladimer Sichinava <vlsichinava@gmail.com>
+# Taya Kharitonashvili <taya13@gmail.com>, Gia Shervashidze - www.gia.ge
+#
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Aiet Kolkhi <aietkolkhi@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer.2006071\n"
+"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
+"POT-Creation-Date: 2013-10-30 22:04+0000\n"
+"PO-Revision-Date: 2011-03-01 12:49+0400\n"
+"Last-Translator: Aiet Kolkhi <aietkolkhi@gmail.com>\n"
+"Language-Team: Georgian\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
 #. Type: text
 #. Description
 #. File system name
@@ -10,7 +41,7 @@
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr ""
+msgstr "ფიზიკური დისკწამყვანი დაშიფვრისათვის"
 
 #. Type: text
 #. Description
@@ -19,7 +50,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr ""
+msgstr "crypto"
 
 #. Type: text
 #. Description
@@ -29,7 +60,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:3001
 msgid "Device-mapper (dm-crypt)"
-msgstr ""
+msgstr "Device-mapper (dm-crypt)"
 
 #. Type: text
 #. Description
@@ -38,7 +69,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:5001
 msgid "not active"
-msgstr ""
+msgstr "not active"
 
 #. Type: text
 #. Description
@@ -46,14 +77,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:6001
 msgid "Encryption method:"
-msgstr ""
+msgstr "დაშიფვრის მეთოდი:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
 msgid "Encryption method for this partition:"
-msgstr ""
+msgstr "დაშიფვრის მეთოდი ამ დანაყოფისათვის:"
 
 #. Type: select
 #. Description
@@ -63,6 +94,8 @@ msgid ""
 "Changing the encryption method will set other encryption-related fields to "
 "their default values for the new encryption method."
 msgstr ""
+"შიფრირების მეთოდის შეცვლა სხვა შიფრირებასთან დაკავშირებულ ველებს შიფრირების "
+"ახალი მეთოდისთვის ნაგულისხმევ მნიშვნელობებზე დააყენებს."
 
 #. Type: text
 #. Description
@@ -70,14 +103,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:8001
 msgid "Encryption:"
-msgstr ""
+msgstr "დაშიფვრა:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
 msgid "Encryption for this partition:"
-msgstr ""
+msgstr "ამ დანაყოფის დაშიფვრა:"
 
 #. Type: text
 #. Description
@@ -85,14 +118,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:10001
 msgid "Key size:"
-msgstr ""
+msgstr "გასაღების ზომა:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
 msgid "Key size for this partition:"
-msgstr ""
+msgstr "ამ დანაყოფის გასაღების ზომა:"
 
 #. Type: text
 #. Description
@@ -102,7 +135,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:12001
 msgid "IV algorithm:"
-msgstr ""
+msgstr "IV-ალგორითმი:"
 
 #. Type: select
 #. Description
@@ -111,7 +144,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:13001
 msgid "Initialization vector generation algorithm for this partition:"
-msgstr ""
+msgstr "ამ დანაყოფის ინიციალიზაციის ვექტორის გენერირების ალგორითმი:"
 
 #. Type: select
 #. Description
@@ -125,6 +158,10 @@ msgid ""
 "no reason to change this from the recommended default, except for "
 "compatibility with older systems."
 msgstr ""
+"ყოველი სექტორის ინიციალიზაციის ვექტორის შესაქმნელად სხვადასხვა ალგორითმია "
+"არსებობს. არჩევანი დაშიფვრის უსაფრთხოებას განსაზღვრავს. წესით, "
+"შემოთავაზებულის შეცვლა საჭირო არ არის, თუ ძველ სისტემებთან თავსებადობა არ "
+"გსურთ."
 
 #. Type: text
 #. Description
@@ -132,14 +169,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:14001
 msgid "Encryption key:"
-msgstr ""
+msgstr "დაშიფვრის გასაღები:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr ""
+msgstr "ამ დანაყოფის დაშიფვრის გასაღები:"
 
 #. Type: text
 #. Description
@@ -147,14 +184,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr ""
+msgstr "დაშიფვრის გასაღების ჰეში:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr ""
+msgstr "ამ დანაყოფის დაშიფვრის ჰეშის ზომა:"
 
 #. Type: select
 #. Description
@@ -166,6 +203,9 @@ msgid ""
 "recommended default and doing so in the wrong way can reduce the encryption "
 "strength."
 msgstr ""
+"დაშიფვრის გასაღები მომდინარეობს პაროლისგან, რომელსაც ერთმხრივი hash-ფუნქცია "
+"აქვს მისადაგებული. ჩვეულებრივ, შემოთავაზებული სტანდარტის შეცვლა საჭირო არ "
+"არის და ამით დაშიფვრის სიმძლავრე შესაძლოა შესუსტდეს."
 
 #. Type: text
 #. Description
@@ -174,28 +214,28 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Erase data:"
-msgstr ""
+msgstr "მონაცემთა წაშლა:"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr ""
+msgstr "არა"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr ""
+msgstr "დიახ"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr ""
+msgstr "ამ დანაყოფზე მონაცემების წაშლა"
 
 #. Type: boolean
 #. Description
@@ -205,17 +245,25 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr ""
+msgstr "მართლა გსურთ მონაცემთა წაშლა ${DEVICE}-ზე?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
+#, fuzzy
+#| msgid ""
+#| "The data on ${DEVICE} will be overwritten with random data. It can no "
+#| "longer be recovered after this step has completed. This is the last "
+#| "opportunity to abort the erase."
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"მონაცემები ${DEVICE} მოწყობილობაზე წაიშლება და მათ ტვაზე გადაეწერება საცდელი "
+"მონაცემები. ამ ნაბიჯის შემდეგ მონაცემთა აღდგენა შეუძლებელი იქნება. წაშლის "
+"შეჩერებისათვის ეს ბოლო შანსი გახლავთ."
 
 #. Type: text
 #. Description
@@ -225,7 +273,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
 msgid "Erasing data on ${DEVICE}"
-msgstr ""
+msgstr "მონაცემთა წაშლა ${DEVICE}-ზე"
 
 #. Type: text
 #. Description
@@ -244,16 +292,20 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:25001 ../partman-crypto.templates:29001
 msgid "Erasing data on ${DEVICE} failed"
-msgstr ""
+msgstr "მონაცემთა წაშლა ${DEVICE} მოწყობილობაზე ვერ განხორციელდა"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
+#, fuzzy
+#| msgid ""
+#| "An error occurred trying to erase the data on ${DEVICE}. The data has not "
+#| "been erased."
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
-msgstr ""
+msgstr "შეცდომა ${DEVICE} მოწყობილობაზე მონაცემთა წაშლისას."
 
 #. Type: boolean
 #. Description
@@ -264,6 +316,9 @@ msgid ""
 "be recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"მონაცემები ${DEVICE} მოწყობილობაზე წაიშლება და მათ ტვაზე გადაეწერება საცდელი "
+"მონაცემები. ამ ნაბიჯის შემდეგ მონაცემთა აღდგენა შეუძლებელი იქნება. წაშლის "
+"შეჩერებისათვის ეს ბოლო შანსი გახლავთ."
 
 #. Type: text
 #. Description
@@ -291,35 +346,35 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:30001
 msgid "Setting up encryption..."
-msgstr ""
+msgstr "დაშიფვრის დაყენება..."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
 msgid "Configure encrypted volumes"
-msgstr ""
+msgstr "დაშიფრული დისკწამყვანების კონფიგურაცია"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr ""
+msgstr "დაშიფვრისთვის დანაყოფები ვერ მოიძებნა"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions have been selected for encryption."
-msgstr ""
+msgstr "შიფრიებისათვის არცერთი დანაყოფი არ იქნა ამორჩეული."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:33001
 msgid "Required programs missing"
-msgstr ""
+msgstr "საჭირო პროგრამა ვერ მოიძებნა"
 
 #. Type: note
 #. Description
@@ -329,13 +384,15 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
+"debian-installer-ს ეს კომპილაცია არ შეიცავს ერთ ან მეტ საჭირო პროგრამას, "
+"რომელიც partman-crypto ფუნქციონირებისათვის არის საჭირო."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:34001
 msgid "Required encryption options missing"
-msgstr ""
+msgstr "დაშიფვრისათვის საჭირო პარამეტრები არ მითითებულა"
 
 #. Type: error
 #. Description
@@ -345,6 +402,8 @@ msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
 msgstr ""
+"${DEVICE} მოწყობილობაზე შიფრიების პარამეტრები არასრულია. გთხოვთ დაბრუნდეთ "
+"დანაყოფების მენიუში და მიუთითოთ საჭირო პარამეტრები."
 
 #. Type: text
 #. Description
@@ -354,7 +413,7 @@ msgstr ""
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:35001
 msgid "missing"
-msgstr ""
+msgstr "აკლია:"
 
 #. Type: text
 #. Description
@@ -362,14 +421,14 @@ msgstr ""
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr ""
+msgstr "გამოიყენება შიფრიებული დისკწამყვანის ${DEV}-ის ფიიზკურ დისწამყვანად"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
 msgid "Encryption package installation failure"
-msgstr ""
+msgstr "დაშიფვრის პაკეტის დაყენება ვერ მოხერხდა"
 
 #. Type: error
 #. Description
@@ -379,6 +438,8 @@ msgid ""
 "The kernel module package ${PACKAGE} could not be found or an error occurred "
 "during its installation."
 msgstr ""
+"კერნელის მოდულის პაკეტი ${PACKAGE} ვერ მოიძებნა, ან მისი ინსტალაციის "
+"მცდელობა შეცდომით დასრულდა."
 
 #. Type: error
 #. Description
@@ -389,6 +450,9 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
+"როგორც ჩანს, სისტემის გადატვირთვისას დაშიფრული დანაყოფის დაყენებისას "
+"პრობლემა წარმოიშვა. ამის გამოსწორება შესაძლოა მოგვიანებით შემდეგში, თუ "
+"შეძლოთ საჭირო პაკეტებს დააყენებთ."
 
 #. Type: boolean
 #. Description
@@ -396,6 +460,7 @@ msgstr ""
 #: ../partman-crypto.templates:38001
 msgid "Write the changes to disk and configure encrypted volumes?"
 msgstr ""
+"გსურთ ცვლილებების შენახვა დისკზე და დაშიფრული დისკწამყვანების კონფიგურაცია?"
 
 #. Type: boolean
 #. Description
@@ -405,6 +470,8 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
+"დაშიფრული დისკწამყვანების კონფიგურაციამდე,  მიმდინარე პრტიციათა სქემა დისკზე "
+"უნდა ჩაიწეროს. შემდგომში ამ ცვლილებების გაუქმება შეუძლებელი იქნება."
 
 #. Type: boolean
 #. Description
@@ -419,6 +486,9 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme for these "
 "disks before continuing."
 msgstr ""
+"დაშიფრული დანაყოფების კონფიგურაციის შემდეგ, დაშიფრულ დანაყოფებიან დისკზე "
+"დამატებითი ცვლიელებები შეუძლებელი იქნება. გაგრძლეებამდე დარწმუნდით, რომ "
+"დანაყოფითა მიმდინარე განლაგება მისაღებია."
 
 #. Type: boolean
 #. Description
@@ -426,41 +496,43 @@ msgstr ""
 #: ../partman-crypto.templates:39001
 msgid "Keep current partition layout and configure encrypted volumes?"
 msgstr ""
+"გსურთ დანაყოფების მიმდინარე წყობის შენახვა და დაშიფრული დისკწამყვანების "
+"კონფიგურაცია?"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "Configuration of encrypted volumes failed"
-msgstr ""
+msgstr "დაშიფრული დისკწამყვანების კონფიგურაცია ვერ განხორციელდა"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "An error occurred while configuring encrypted volumes."
-msgstr ""
+msgstr "შეცდომა დაშიფრული დისკწამყვანების კონფიგურაციისას."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "The configuration has been aborted."
-msgstr ""
+msgstr "კონფიგურაცია შეწყვეტილია."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "Initialisation of encrypted volume failed"
-msgstr ""
+msgstr "დაშიფრული დისკწამყვანის ინიციალიზაცია ვერ განხორციელდა"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "An error occurred while setting up encrypted volumes."
-msgstr ""
+msgstr "შეცდომა დაშიფრული დისკწამყვანების დაყენებისას."
 
 #. Type: text
 #. Description
@@ -471,7 +543,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
 msgid "Passphrase"
-msgstr ""
+msgstr "პაროლი"
 
 #. Type: text
 #. Description
@@ -482,7 +554,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:43001
 msgid "Keyfile (GnuPG)"
-msgstr ""
+msgstr "გასაღ. ფაილი (GnuPG)"
 
 #. Type: text
 #. Description
@@ -493,21 +565,21 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:44001
 msgid "Random key"
-msgstr ""
+msgstr "შემთხვევ. გასაღები"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "Unsafe swap space detected"
-msgstr ""
+msgstr "აღმოჩენილია დაუცველი swap-სივრცე"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "An unsafe swap space has been detected."
-msgstr ""
+msgstr "აღმოჩენილია დაუცველი swap-სივრცე."
 
 #. Type: error
 #. Description
@@ -518,6 +590,9 @@ msgid ""
 "unencrypted. This would allow someone with access to the disk to recover "
 "parts of the encryption key or passphrase."
 msgstr ""
+"ეს უმნიშვნელოვანესი შეცდომაა, ვინაიდან შესაძლებელია მნიშვნელოვანი "
+"მონაცემების დისკზე დაშიფვრის გარეშე ჩაწერა. ეს საშუალებას მიცემს დისკიდან "
+"აღადგინოს დაშიფვრის გასაღების ან პაროლის ნაწილები."
 
 #. Type: error
 #. Description
@@ -528,20 +603,23 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
+"გთხოვთ გამორთოთ swap-სივრცე (მაგ. swapoff ბრანებით) ან მოახდინოთ დაშიფრული "
+"swap სივრცის კონფიგურაცია და შემდეგ შეეცადოთ დაშიფრული დისკწამყვანების "
+"დაყენებას. პროგრამა ამჟამად დასრულდა."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "Encryption passphrase:"
-msgstr ""
+msgstr "დაშიფვრის პაროლი:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr ""
+msgstr "${DEVICE}-ის დაშიფვრისათვის პაროლი უნდა ამოირჩიოთ."
 
 #. Type: password
 #. Description
@@ -553,6 +631,9 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
+"დაშიფვრის საერთი სიძლიერე ამ პაროლზეა დამოკიდებული, ასე რომ ადვილად "
+"გამოსაცნობი პაროლი არ ამოირჩიოთ. ის არ უნდა იყოს გავრცელებული სიტყვა, და არ "
+"უნდა ასოცირდებოდეს თქვენს პიროვნებასთან."
 
 #. Type: password
 #. Description
@@ -563,13 +644,16 @@ msgid ""
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
+"პაროლი სჯობს შეიცავდეს დიდი და პატარა (ლათინური) ასოების, ციფრებისა და "
+"სასვენი ნიშნების უწესრიგო მიმდევრობას, პაროლების შემოთავაზებული სიგრძე 20 ან "
+"მეტი სიმბოლო."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr ""
+msgstr "პაროლის ხელახლა შეყვანა:"
 
 #. Type: password
 #. Description
@@ -579,27 +663,28 @@ msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
 msgstr ""
+"გთხოვთ ხელმეორედ შეიყვანოთ პაროლი, რათა დარწმუნდეთ, რომ სწორად შეიყვანეთ."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr ""
+msgstr "შეცდომა პაროლის შეყვანისას"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "The two passphrases you entered were not the same. Please try again."
-msgstr ""
+msgstr "ორივე პაროლი ერთნაირი უნდა იყოს. გაიმეორეთ პროცედურა."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Empty passphrase"
-msgstr ""
+msgstr "ცარიელი პაროლი"
 
 #. Type: error
 #. Description
@@ -608,14 +693,14 @@ msgstr ""
 msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
-msgstr ""
+msgstr "ცარიელი პაროლი დაუშვებელია. შეიყვანეთ რაიმე პაროლი."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
 msgid "Use weak passphrase?"
-msgstr ""
+msgstr "გსურთ სუსტი პაროლის გამოყენება?"
 
 #. Type: boolean
 #. Description
@@ -628,34 +713,36 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
+"თქვენ შეიყვანეთ პაროლი, რომელიც ${MINIMUM} სიმბოლოზე ნაკლებისაგან შედგება, "
+"რაც პაროლის სისუსტეზე მეტყველებს. სასურველია ამოირჩიოთ უფრო რთული პაროლი."
 
 #. Type: entropy
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr ""
+msgstr "მიმდინარეობს ${DEVICE} მოწყობილობის დაშიფვრის გასაღების შექმნა."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:52001
 msgid "Key data has been created successfully."
-msgstr ""
+msgstr "Key-მონაცემები წარმატებით შეიქმნა."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Keyfile creation failure"
-msgstr ""
+msgstr "გასაღების ფაილი ვერ შეიქმნა"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "An error occurred while creating the keyfile."
-msgstr ""
+msgstr "შეცდომა გასაღების ფაილის შექმნისას."
 
 #. Type: error
 #. Description
@@ -665,7 +752,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
 msgid "Encryption configuration failure"
-msgstr ""
+msgstr "შეცდომა დაშიფვრის კონფიგურაციისას"
 
 #. Type: error
 #. Description
@@ -676,13 +763,16 @@ msgid ""
 "partition. This feature requires a separate /boot partition on which the "
 "kernel and initrd can be stored."
 msgstr ""
+"თქვენ მიუთითეთ, რომ ძირეული (root) ფაილური სისტემა შიფრიებულ დანაყოფზე "
+"მოთავსდეს. ეს ფუნქცია საჭიროებს ცალკეულ /boot დანაყოფის, სადაც კერნელი და "
+"initrd ფაილი მოთავსდება."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr ""
+msgstr "დაბრუნდით და დააყენეთ /boot დანაყოფი."
 
 #. Type: error
 #. Description
@@ -694,6 +784,9 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
+"თქვენ მიუთითეთ, რომ /boot ფაილური სისტემა შიფრიებულ დანაყოფზე მოთავსდეს. ეს "
+"შეუძლებელია, ვინაიდან სისტემის ჩამტვირთველი კერნელისა და initrd-ს ჩატვირთვას "
+"ვერ მოახერხებს. თუ გააგრძელებთ, გამოუსადეგარ ინსტალაციას მიიღებთ."
 
 #. Type: error
 #. Description
@@ -703,13 +796,15 @@ msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
 msgstr ""
+"გთხოვთ დაბრუნდეთ და მიუთითო არადაშიფრული დანაყოფი /boot ფაილური "
+"სისტემისათვის."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
 msgid "Are you sure you want to use a random key?"
-msgstr ""
+msgstr "ნამდვილად გნებავთ შემთხვევითი გასაღების გამოყენება?"
 
 #. Type: boolean
 #. Description
@@ -719,6 +814,8 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
+"თქვენ ამოირჩიეთ შემთხვევითი გასაღების ტიპი ${DEVICE} მოწყობილობისათვის, "
+"თუმცა დამყოფს მასზე ფაილური სისტემის შექმნა დაავალეთ."
 
 #. Type: boolean
 #. Description
@@ -728,20 +825,23 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
+"შემთხვევითი გასაღების ტიპი ნიშნავს, რომ სისტემის ყოველი გადატვირთვისას "
+"დანაყოფზე მოთავსებული მონაცემები სრულიად განადგურდეს. ეს მხოლოდ swap "
+"დანაყოფებისათვის არის განკუთვნილი."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "Failed to download crypto components"
-msgstr ""
+msgstr "crypto კომპონენტის ჩამოტვირთვა ვერ მოხერხდა"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "An error occurred trying to download additional crypto components."
-msgstr ""
+msgstr "შეცდინა დამატებითი crypto კომპონენტების ჩამოტვირთვისას."
 
 #. Type: boolean
 #. Description
@@ -749,6 +849,7 @@ msgstr ""
 #: ../partman-crypto.templates:58001
 msgid "Proceed to install crypto components despite insufficient memory?"
 msgstr ""
+"გსურთ crypto ომპონენტების ინსტალაცია არასაკმარისი მეხსიერების მიუხედავად?"
 
 #. Type: boolean
 #. Description
@@ -759,6 +860,9 @@ msgid ""
 "crypto components. If you choose to go ahead and continue anyway, the "
 "installation process could fail."
 msgstr ""
+"როგორც ჩანს დამატებითი crypto კომპონენტების დასაყენებლად საკმარისი "
+"მეხსიერება არ არის. თუ მაინც შეეცდებით დაყენებას, შესაძლოა ინსტალაცია ვერ "
+"განხორციელდეს."
 
 #. Type: select
 #. Choices
@@ -768,8 +872,11 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Create encrypted volumes"
-msgstr ""
+msgstr "დაშიფრული ტომების (volumes) შექმნა"
 
+#  templates.pot (PACKAGE VERSION)#-#-#-#-
+#  templates.pot (PACKAGE VERSION)#-#-#-#-
+#  templates.pot (PACKAGE VERSION)#-#-#-#-
 #. Type: select
 #. Choices
 #. Note to translators : Please keep your translations of the choices
@@ -778,53 +885,53 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Finish"
-msgstr ""
+msgstr "დასრულება"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "Encryption configuration actions"
-msgstr ""
+msgstr "შიფრირების კონფიგურაციის ქმედებები"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "This menu allows you to configure encrypted volumes."
-msgstr ""
+msgstr "მენიუ დაშიფრული ტომების კონფიგურაციის საშუალებას იძლევა."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Devices to encrypt:"
-msgstr ""
+msgstr "დასაშიფრი მოწყობილობები:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr ""
+msgstr "აირჩიეთ დასაშიფრი მოწყობილობა."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr ""
+msgstr "თქვენ შეგიძლიათ ერთი ან მეტო მოწყობილობის ამორჩევა."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices selected"
-msgstr ""
+msgstr "მოწყობილობა არ არის მონიშნული"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices were selected for encryption."
-msgstr ""
+msgstr "შიფრიებისათვის არცერთი მოწყობილობა არ იქნა ამორჩეული."

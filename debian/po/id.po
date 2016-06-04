@@ -3,6 +3,45 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of id.po to Bahasa Indonesia
+# Indonesian messages for debian-installer.
+#
+#
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+# Translators:
+#
+# Debian Indonesian L10N Team <debian-l10n-id@gurame.fisika.ui.ac.id>, 2004.
+# * Parlin Imanuel Toh (parlin_i@yahoo.com), 2004-2005.
+# * I Gede Wijaya S (gwijayas@yahoo.com), 2004.
+# * Arief S F (arief@gurame.fisika.ui.ac.id), 2004-2007.
+# * Setyo Nugroho (setyo@gmx.net), 2004.
+# Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2008-2011.
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2002.
+#   Andhika Padmawan <andhika.padmawan@gmail.com>, 2010,2011.
+#   Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2004-2006.
+#   Erwid M Jadied <jadied@gmail.com>, 2008.
+#   Free Software Foundation, Inc., 2002,2004
+#   Translations from KDE:
+#   Ahmad Sofyan <fade@2bl.ac>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer (level1)\n"
+"Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
+"POT-Creation-Date: 2013-10-30 22:04+0000\n"
+"PO-Revision-Date: 2012-10-18 21:29+0700\n"
+"Last-Translator: T. Surya Fajri <kilelme@gmail.com>\n"
+"Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
+"debian.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
 #. Type: text
 #. Description
 #. File system name
@@ -10,7 +49,7 @@
 #. :sl3:
 #: ../partman-crypto.templates:1001
 msgid "physical volume for encryption"
-msgstr ""
+msgstr "volum fisik untuk enkripsi"
 
 #. Type: text
 #. Description
@@ -19,7 +58,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:2001
 msgid "crypto"
-msgstr ""
+msgstr "crypto"
 
 #. Type: text
 #. Description
@@ -29,7 +68,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:3001
 msgid "Device-mapper (dm-crypt)"
-msgstr ""
+msgstr "Pemeta-piranti (dm-crypt)"
 
 #. Type: text
 #. Description
@@ -38,7 +77,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:5001
 msgid "not active"
-msgstr ""
+msgstr "tak aktif"
 
 #. Type: text
 #. Description
@@ -46,14 +85,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:6001
 msgid "Encryption method:"
-msgstr ""
+msgstr "Metode enkripsi:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:7001
 msgid "Encryption method for this partition:"
-msgstr ""
+msgstr "Metode enkripsi untuk partisi ini:"
 
 #. Type: select
 #. Description
@@ -63,6 +102,8 @@ msgid ""
 "Changing the encryption method will set other encryption-related fields to "
 "their default values for the new encryption method."
 msgstr ""
+"Mengubah metode enkripsi menjadi metode yang baru akan membuat hal-hal yang "
+"berhubungan dengan enkripsi kembali ke nilai semula."
 
 #. Type: text
 #. Description
@@ -70,14 +111,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:8001
 msgid "Encryption:"
-msgstr ""
+msgstr "Enkripsi:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:9001
 msgid "Encryption for this partition:"
-msgstr ""
+msgstr "Enkripsi untuk partisi ini:"
 
 #. Type: text
 #. Description
@@ -85,14 +126,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:10001
 msgid "Key size:"
-msgstr ""
+msgstr "Ukuran kunci:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:11001
 msgid "Key size for this partition:"
-msgstr ""
+msgstr "Ukuran kunci untuk partisi ini:"
 
 #. Type: text
 #. Description
@@ -102,7 +143,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:12001
 msgid "IV algorithm:"
-msgstr ""
+msgstr "Algoritma IV:"
 
 #. Type: select
 #. Description
@@ -111,7 +152,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:13001
 msgid "Initialization vector generation algorithm for this partition:"
-msgstr ""
+msgstr "Memulai algoritma pembuatan vektor untuk partisi ini:"
 
 #. Type: select
 #. Description
@@ -125,6 +166,10 @@ msgid ""
 "no reason to change this from the recommended default, except for "
 "compatibility with older systems."
 msgstr ""
+"Tersedia beragam algoritma untuk menghasilkan vektor inisialisasi untuk "
+"setiap sektor. Setiap pilihan mempengaruhi keamanan ekripsi. Normalnya, "
+"tidak ada alasan untuk mengubah standar yang disarankan, kecuali untuk "
+"kompatibilitas dengan sistem lama."
 
 #. Type: text
 #. Description
@@ -132,14 +177,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:14001
 msgid "Encryption key:"
-msgstr ""
+msgstr "Kunci enkripsi:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:15001
 msgid "Type of encryption key for this partition:"
-msgstr ""
+msgstr "Jenis kunci enkripsi untuk partisi ini:"
 
 #. Type: text
 #. Description
@@ -147,14 +192,14 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:16001
 msgid "Encryption key hash:"
-msgstr ""
+msgstr "Kode kunci enkripsi:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:17001
 msgid "Type of encryption key hash for this partition:"
-msgstr ""
+msgstr "Jenis kode kunci enkripsi untuk partisi ini:"
 
 #. Type: select
 #. Description
@@ -166,6 +211,9 @@ msgid ""
 "recommended default and doing so in the wrong way can reduce the encryption "
 "strength."
 msgstr ""
+"Kunci enkripsi dihasilkan dari suatu frase melalui fungsi pengacakan satu "
+"arah. Normalnya, tidak ada alasan untuk mengubahnya dari standar yang "
+"disarankan. Perubahan yang salah dapat mengurangi kekokohan hasil enkripsi."
 
 #. Type: text
 #. Description
@@ -174,28 +222,28 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:18001
 msgid "Erase data:"
-msgstr ""
+msgstr "Hapus data:"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:19001
 msgid "no"
-msgstr ""
+msgstr "tidak"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:20001
 msgid "yes"
-msgstr ""
+msgstr "ya"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr ""
+msgstr "Hapus data pada partisi ini "
 
 #. Type: boolean
 #. Description
@@ -205,17 +253,25 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:22001 ../partman-crypto.templates:26001
 msgid "Really erase the data on ${DEVICE}?"
-msgstr ""
+msgstr "Anda serius ingin menghapus seluruh data di ${DEVICE}?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
+#, fuzzy
+#| msgid ""
+#| "The data on ${DEVICE} will be overwritten with random data. It can no "
+#| "longer be recovered after this step has completed. This is the last "
+#| "opportunity to abort the erase."
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"Data di ${DEVICE} akan ditimpa dengan data acak dan tidak dapat dikembalikan "
+"lagi setelah proses ini selesai. Ini adalah kesempatan terakhir untuk "
+"membatalkan proses."
 
 #. Type: text
 #. Description
@@ -225,7 +281,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:23001 ../partman-crypto.templates:27001
 msgid "Erasing data on ${DEVICE}"
-msgstr ""
+msgstr "Sedang menghapus data di  ${DEVICE}"
 
 #. Type: text
 #. Description
@@ -244,16 +300,22 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:25001 ../partman-crypto.templates:29001
 msgid "Erasing data on ${DEVICE} failed"
-msgstr ""
+msgstr "Penghapusan data di ${DEVICE} telah gagal. "
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
+#, fuzzy
+#| msgid ""
+#| "An error occurred trying to erase the data on ${DEVICE}. The data has not "
+#| "been erased."
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
+"Suatu kesalahan terjadi saat proses penghapusan data di ${DEVICE}. Data "
+"belum terhapus."
 
 #. Type: boolean
 #. Description
@@ -264,6 +326,9 @@ msgid ""
 "be recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
+"Data di ${DEVICE} akan ditimpa dengan data acak dan tidak dapat dikembalikan "
+"lagi setelah proses ini selesai. Ini adalah kesempatan terakhir untuk "
+"membatalkan proses."
 
 #. Type: text
 #. Description
@@ -291,35 +356,35 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:30001
 msgid "Setting up encryption..."
-msgstr ""
+msgstr "Sedang mengatur enkripsi..."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:31001
 msgid "Configure encrypted volumes"
-msgstr ""
+msgstr "Mengonfigurasi volum terenkripsi"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions to encrypt"
-msgstr ""
+msgstr "Tak ada partisi yang akan dienkripsi"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:32001
 msgid "No partitions have been selected for encryption."
-msgstr ""
+msgstr "Tak ada partisi yang dipilih untuk dienkripsi."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:33001
 msgid "Required programs missing"
-msgstr ""
+msgstr "Program yang diperlukan tak ada"
 
 #. Type: note
 #. Description
@@ -329,13 +394,15 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
+"Versi debian-installer ini tidak berisi program yang dibutuhkan agar "
+"'partman-crypto' dapat berjalan dengan benar."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:34001
 msgid "Required encryption options missing"
-msgstr ""
+msgstr "Pilihan enkripsi yang diperlukan tak ada"
 
 #. Type: error
 #. Description
@@ -345,6 +412,8 @@ msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
 msgstr ""
+"Pilihan enkripsi untuk ${DEVICE} tidak lengkap. Silakan kembali ke menu "
+"partisi dan pilih semua pilihan yang diperlukan."
 
 #. Type: text
 #. Description
@@ -354,7 +423,7 @@ msgstr ""
 #. language, please contact the maintainer and we can do it differently.
 #: ../partman-crypto.templates:35001
 msgid "missing"
-msgstr ""
+msgstr "hilang"
 
 #. Type: text
 #. Description
@@ -362,14 +431,14 @@ msgstr ""
 #. What is "in use" is a partition
 #: ../partman-crypto.templates:36001
 msgid "In use as physical volume for encrypted volume ${DEV}"
-msgstr ""
+msgstr "Sedang digunakan sebagai volum fisik untuk volum terenkripsi: ${DEV} "
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:37001
 msgid "Encryption package installation failure"
-msgstr ""
+msgstr "Instalasi paket enkripsi gagal"
 
 #. Type: error
 #. Description
@@ -379,6 +448,8 @@ msgid ""
 "The kernel module package ${PACKAGE} could not be found or an error occurred "
 "during its installation."
 msgstr ""
+"Paket modul kernel ${PACKAGE} tak ditemukan atau ada kesalahan saat "
+"pemasangan."
 
 #. Type: error
 #. Description
@@ -389,13 +460,16 @@ msgid ""
 "when the system is rebooted. You may be able to correct this by installing "
 "the required package(s) later on."
 msgstr ""
+"Kemungkinan akan ada masalah penataan partisi yang terenkripsi saat proses "
+"boot. Anda dapat tetap memperbaikinya dengan memasang paket yang dibutuhkan "
+"nanti."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:38001
 msgid "Write the changes to disk and configure encrypted volumes?"
-msgstr ""
+msgstr "Tulis perubahan ke hard disk dan pengaturan volum terenkripsi?"
 
 #. Type: boolean
 #. Description
@@ -405,6 +479,8 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
+"Sebelum volum terenkripsi dapat diatur, pola partisi saat ini harus "
+"dituliskan ke hard disk. Perubahan ini tidak dapat dikembalikan."
 
 #. Type: boolean
 #. Description
@@ -419,48 +495,51 @@ msgid ""
 "decide if you are satisfied with the current partitioning scheme for these "
 "disks before continuing."
 msgstr ""
+"Setelah volum terenkripsi diatur, tidak boleh ada perubahan tambahan pada "
+"partisi yang berisi volum terenkripsi. Sebelum melanjutkan ke langkah "
+"berikutnya, pastikan Anda puas dengan pola partisi saat ini."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:39001
 msgid "Keep current partition layout and configure encrypted volumes?"
-msgstr ""
+msgstr "Jaga pola partisi yang ada dan pengaturan volum terenkripsi?"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "Configuration of encrypted volumes failed"
-msgstr ""
+msgstr "Pengaturan volum terenkripsi telah gagal "
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "An error occurred while configuring encrypted volumes."
-msgstr ""
+msgstr "Terjadi kesalahan saat mengonfigurasi volum terenkripsi."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:40001
 msgid "The configuration has been aborted."
-msgstr ""
+msgstr "Pengaturan telah dibatalkan."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "Initialisation of encrypted volume failed"
-msgstr ""
+msgstr "Langkah pemasangan volum terenkripsi telah gagal. "
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:41001
 msgid "An error occurred while setting up encrypted volumes."
-msgstr ""
+msgstr "Terjadi kesalahan saat menata volum terenkripsi."
 
 #. Type: text
 #. Description
@@ -471,7 +550,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:42001
 msgid "Passphrase"
-msgstr ""
+msgstr "Kunci frase"
 
 #. Type: text
 #. Description
@@ -482,7 +561,7 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:43001
 msgid "Keyfile (GnuPG)"
-msgstr ""
+msgstr "Berkas kunci (GnuPG)"
 
 #. Type: text
 #. Description
@@ -493,21 +572,21 @@ msgstr ""
 #. This text is one of these choices, so keep it short
 #: ../partman-crypto.templates:44001
 msgid "Random key"
-msgstr ""
+msgstr "Kunci acak"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "Unsafe swap space detected"
-msgstr ""
+msgstr "Ruang swap tak aman ditemukan"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:45001
 msgid "An unsafe swap space has been detected."
-msgstr ""
+msgstr "Sebuah ruang swap tak aman telah ditemukan."
 
 #. Type: error
 #. Description
@@ -518,6 +597,9 @@ msgid ""
 "unencrypted. This would allow someone with access to the disk to recover "
 "parts of the encryption key or passphrase."
 msgstr ""
+"Ini merupakan kesalahan fatal karena data sensitif dapat ditulis ke disk "
+"tanpa enkripsi. Ini akan membolehkan seseorang dengan akses ke disk untuk "
+"mengambil bagian dari kunci enkripsi atau kunci frase."
 
 #. Type: error
 #. Description
@@ -528,20 +610,23 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
+"Silakan matikan ruang swap (mis. menjalankan swapoff) atau mengonfigurasi "
+"sebuah ruang swap terenkripsi dan jalankan penataan volum terenkripsi lagi. "
+"Program ini akan berhenti sekarang."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "Encryption passphrase:"
-msgstr ""
+msgstr "Kunci frase enkripsi:"
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr ""
+msgstr "Anda perlu memilih kunci frase untuk mengenkripsi ${DEVICE}."
 
 #. Type: password
 #. Description
@@ -553,6 +638,10 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
+"Kekuatan enkripsi secara keseluruhan bergantung pada kekuatan kunci frase "
+"ini, jadi Anda perlu memilih kunci frase yang tak mudah ditebak. Ia tidak "
+"boleh merupakan kata-kata yang ditemukan pada kamus, atau frase yang mudah "
+"diasosiasikan dengan Anda."
 
 #. Type: password
 #. Description
@@ -563,13 +652,15 @@ msgid ""
 "punctuation. Passphrases are recommended to have a length of 20 or more "
 "characters."
 msgstr ""
+"Kunci frase yang baik berisi campuran huruf, angka dan tanda baca. "
+"Disarankan membuat kunci frase sepanjang 20 karakter atau lebih."
 
 #. Type: password
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr ""
+msgstr "Masukkan lagi kunci frase untuk verifikasi:"
 
 #. Type: password
 #. Description
@@ -579,27 +670,29 @@ msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
 msgstr ""
+"Silakan masukkan kunci frase yang sama sekali lagi untuk memastikan Anda "
+"mengetiknya dengan benar."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr ""
+msgstr "Salah memasukan kunci frase"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "The two passphrases you entered were not the same. Please try again."
-msgstr ""
+msgstr "Kedua kunci frase yang Anda masukkan tidak sama. Silakan coba lagi."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:49001
 msgid "Empty passphrase"
-msgstr ""
+msgstr "kunci frase kosong"
 
 #. Type: error
 #. Description
@@ -609,13 +702,15 @@ msgid ""
 "You entered an empty passphrase, which is not allowed. Please choose a non-"
 "empty passphrase."
 msgstr ""
+"Anda tidak diperbolehkan menggunakan kunci frase kosong. Silakan pilih kunci "
+"frase yang tidak kosong."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:50001
 msgid "Use weak passphrase?"
-msgstr ""
+msgstr "Gunakan kunci frase yang lemah?"
 
 #. Type: boolean
 #. Description
@@ -628,34 +723,36 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
+"Anda memberikan kunci frase yang jumlah karakternya kurang dari ${MINIMUM}, "
+"yang dianggap terlalu lemah. Anda harus memilih kunci frase yang lebih kuat."
 
 #. Type: entropy
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr ""
+msgstr "Kunci enkripsi untuk ${DEVICE} sedang dibuat sekarang."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:52001
 msgid "Key data has been created successfully."
-msgstr ""
+msgstr "Data kunci telah berhasil dibuat."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "Keyfile creation failure"
-msgstr ""
+msgstr "Pembuatan berkas-kunci gagal"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:53001
 msgid "An error occurred while creating the keyfile."
-msgstr ""
+msgstr "Terjadi kesalahan saat membuat berkas-kunci."
 
 #. Type: error
 #. Description
@@ -665,7 +762,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:54001 ../partman-crypto.templates:55001
 msgid "Encryption configuration failure"
-msgstr ""
+msgstr "Pengaturan enkripsi gagal"
 
 #. Type: error
 #. Description
@@ -676,13 +773,16 @@ msgid ""
 "partition. This feature requires a separate /boot partition on which the "
 "kernel and initrd can be stored."
 msgstr ""
+"Anda telah memilih sistem berkas root untuk disimpan pada partisi "
+"terenkripsi. Fitur ini membutuhkan partisi /boot yang terpisah, tempat "
+"kernel dan initrd diletakkan."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr ""
+msgstr "Anda harus kembali dan membuat sebuah partisi /boot."
 
 #. Type: error
 #. Description
@@ -694,6 +794,9 @@ msgid ""
 "load the kernel and initrd. Continuing now would result in an installation "
 "that cannot be used."
 msgstr ""
+"Anda telah memilih sistem berkas /boot disimpan pada partisi terenkripsi. "
+"Hal ini tidak bisa dilakukan karena bootloader tidak dapat memuat kernel dan "
+"initrd. Melanjutkan proses hanya akan menghasilkan kegagalan."
 
 #. Type: error
 #. Description
@@ -703,13 +806,14 @@ msgid ""
 "You should go back and choose a non-encrypted partition for the /boot file "
 "system."
 msgstr ""
+"Silakan kembali dan pilih partisi tak terenkripsi untuk sistem berkas /boot."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:56001
 msgid "Are you sure you want to use a random key?"
-msgstr ""
+msgstr "Anda yakin ingin menggunakan kunci acak?"
 
 #. Type: boolean
 #. Description
@@ -719,6 +823,8 @@ msgid ""
 "You have chosen a random key type for ${DEVICE} but requested the "
 "partitioner to create a file system on it."
 msgstr ""
+"Anda telah memilih jenis kunci acak untuk ${DEVICE} tetap meminta pemartisi "
+"untuk membuat sebuah sistem berkas di situ."
 
 #. Type: boolean
 #. Description
@@ -728,20 +834,22 @@ msgid ""
 "Using a random key type means that the partition data is going to be "
 "destroyed upon each reboot. This should only be used for swap partitions."
 msgstr ""
+"Menggunakan jenis kunci acak berarti bahwa data partisi akan dihancurkan "
+"tiap reboot. Ini hanya dapat dilakukan untuk partisi swap."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "Failed to download crypto components"
-msgstr ""
+msgstr "Gagal mengunduh komponen kriptografi. "
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:57001
 msgid "An error occurred trying to download additional crypto components."
-msgstr ""
+msgstr "Terjadi kesalahan saat mengunduh komponen kriptografi tambahan."
 
 #. Type: boolean
 #. Description
@@ -749,6 +857,7 @@ msgstr ""
 #: ../partman-crypto.templates:58001
 msgid "Proceed to install crypto components despite insufficient memory?"
 msgstr ""
+"Lanjutkan proses pemasangan komponen kriptografi walaupun kekurangan memory?"
 
 #. Type: boolean
 #. Description
@@ -759,6 +868,9 @@ msgid ""
 "crypto components. If you choose to go ahead and continue anyway, the "
 "installation process could fail."
 msgstr ""
+"Tampaknya ada kekurangan memory untuk memasang komponen kriptografi "
+"tambahan. Jika Anda memutuskan untuk terus, proses pemasangan bisa saja "
+"gagal."
 
 #. Type: select
 #. Choices
@@ -768,7 +880,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Create encrypted volumes"
-msgstr ""
+msgstr "Membuat Volum terenkripsi"
 
 #. Type: select
 #. Choices
@@ -778,53 +890,53 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:59001
 msgid "Finish"
-msgstr ""
+msgstr "Selesai"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "Encryption configuration actions"
-msgstr ""
+msgstr "Tindakan untuk pengaturan enkripsi"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:59002
 msgid "This menu allows you to configure encrypted volumes."
-msgstr ""
+msgstr "Menu ini memungkinkan Anda mengonfigurasi volum terenkripsi."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Devices to encrypt:"
-msgstr ""
+msgstr "Perangkat yang dienkripsi:"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr ""
+msgstr "Silakan pilih perangkat yang akan dienkripsi"
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr ""
+msgstr "Anda dapat memilih satu piranti atau lebih."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices selected"
-msgstr ""
+msgstr "Tidak ada perangkat yang dipilih"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:61001
 msgid "No devices were selected for encryption."
-msgstr ""
+msgstr "Tak ada perangkat yang dipilih untuk dienkripsi."
