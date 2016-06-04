@@ -25,10 +25,10 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
 "POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2012-10-19 22:10+0100\n"
-"Last-Translator: Karolina Kalic <karolina@resenje.org>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
-"Language: \n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -248,18 +248,13 @@ msgstr "Стварно обрисати податке са ${DEVICE}?"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
-#, fuzzy
-#| msgid ""
-#| "The data on ${DEVICE} will be overwritten with random data. It can no "
-#| "longer be recovered after this step has completed. This is the last "
-#| "opportunity to abort the erase."
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"Подаци на уређају ${DEVICE} ће бити преписани насумичним подацима. Неће се "
-"моћи повратити након овог корака. Ово је последња шанса да прекинете брисање."
+"Подаци на уређају ${DEVICE} ће бити преписани са нулама. Неће се моћи "
+"повратити након овог корака. Ово је последња шанса да прекинете брисање."
 
 #. Type: text
 #. Description
@@ -279,6 +274,8 @@ msgid ""
 "The installer is now overwriting ${DEVICE} with zeroes to delete its "
 "previous contents. This step may be skipped by cancelling this action."
 msgstr ""
+"Инсталер је сада преписао ${DEVICE} са нулама за брисање претходног "
+"садржаја. Овај степеник може бити прескочен прекидањем ове радње."
 
 #. Type: error
 #. Description
@@ -294,15 +291,12 @@ msgstr "Неуспело брисање података са ${DEVICE}"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:25001
-#, fuzzy
-#| msgid ""
-#| "An error occurred trying to erase the data on ${DEVICE}. The data has not "
-#| "been erased."
 msgid ""
 "An error occurred while trying to overwrite the data on ${DEVICE} with "
 "zeroes. The data has not been erased."
 msgstr ""
-"Дошло је до грешке при брисању података са ${DEVICE}. Подаци нису обрисани."
+"Дошло је до грешке при брисању података са ${DEVICE} са нулама. Подаци нису "
+"обрисани."
 
 #. Type: boolean
 #. Description
@@ -326,6 +320,9 @@ msgid ""
 "cancelling this action, albeit at the expense of a slight reduction of the "
 "quality of the encryption."
 msgstr ""
+"Инсталер је сада преписао ${DEVICE} са случајним подацима да би се спречило "
+"цурење информација са заштићеног диска. Овај степеник може бити прескочен "
+"прекидањем ове акције, мада на рачун благог смањења квалитета за шифровање."
 
 #. Type: error
 #. Description
@@ -336,6 +333,9 @@ msgid ""
 "Recovery of the device's previous contents is possible and meta-information "
 "of its new contents may be leaked."
 msgstr ""
+"Дошло је до грешке приликом покушаја преписивања ${DEVICE} са случајним "
+"подацима. Повратак претходних садржаја на уређају је могућ и мета-"
+"информације о новим садржајима могу процурети."
 
 #. Type: text
 #. Description
