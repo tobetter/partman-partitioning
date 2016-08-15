@@ -1,3 +1,10 @@
+partman-partitioning (113) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 15 Aug 2016 10:42:14 +0200
+
 partman-partitioning (112) unstable; urgency=medium
 
   [ Aurelien Jarno ]
