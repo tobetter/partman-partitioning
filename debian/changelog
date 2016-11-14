@@ -2,7 +2,7 @@ partman-partitioning (114) UNRELEASED; urgency=medium
 
   [ Viktor Mihajlovski ]
   * In case a disk is identified as type=dasd, make sure to preserve
-    this in the disk label.
+    this in the disk label. (Closes: #815916)
     Requires partman-base 190.
 
  -- Philipp Kern <pkern@debian.org>  Mon, 24 Oct 2016 00:12:40 +0200
