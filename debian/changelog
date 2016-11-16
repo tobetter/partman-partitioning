@@ -1,11 +1,11 @@
-partman-partitioning (114) UNRELEASED; urgency=medium
+partman-partitioning (114) unstable; urgency=medium
 
   [ Viktor Mihajlovski ]
   * In case a disk is identified as type=dasd, make sure to preserve
     this in the disk label. (Closes: #815916)
     Requires partman-base 190.
 
- -- Philipp Kern <pkern@debian.org>  Mon, 24 Oct 2016 00:12:40 +0200
+ -- Christian Perrier <bubulle@debian.org>  Wed, 16 Nov 2016 06:47:57 +0100
 
 partman-partitioning (113) unstable; urgency=medium
 
