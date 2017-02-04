@@ -24,7 +24,7 @@ get_real_device () {
 		    /dev/[hsv]d[a-z]|/dev/xvd[a-z])
 			bdev=$bdev$num
 			;;
-		    /dev/cciss/c[0-9]d[0-9]|/dev/cciss/c[0-9]d[0-9][0-9]|/dev/ida/c[0-9]d[0-9]|/dev/ida/c[0-9]d[0-9][0-9]|/dev/mmcblk[0-9])
+		    /dev/cciss/c[0-9]d[0-9]|/dev/cciss/c[0-9]d[0-9][0-9]|/dev/ida/c[0-9]d[0-9]|/dev/ida/c[0-9]d[0-9][0-9]|/dev/mmcblk[0-9]|/dev/nvme*n*)
 			bdev=${bdev}p$num
 			;;
 		    *)
