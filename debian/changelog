@@ -1,10 +1,10 @@
-partman-partitioning (115) UNRELEASED; urgency=medium
+partman-partitioning (115) unstable; urgency=medium
 
   * Fix resizing an NVMe device, by making sure the “pN” (where N is the
     partition number) is included in the path of the device to be
     resized (Closes: #820818).
 
- -- Cyril Brulebois <kibi@debian.org>  Sat, 04 Feb 2017 05:06:51 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Thu, 09 Mar 2017 19:43:52 +0100
 
 partman-partitioning (114) unstable; urgency=medium
 
