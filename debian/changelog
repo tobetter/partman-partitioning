@@ -1,8 +1,12 @@
 partman-partitioning (116) UNRELEASED; urgency=medium
 
+  [ Cyril Brulebois ]
   * Make get_real_device() both simpler and more generic by mimicking
     the linux kernel's disk_name function, thanks to Ben Hutchings
     (See: #820818).
+
+  [ Updated translations ]
+  * Simplified Chinese (zh_CN.po) by Yangfl
 
  -- Cyril Brulebois <kibi@debian.org>  Sat, 24 Jun 2017 20:00:10 +0200
 
