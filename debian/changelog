@@ -2079,7 +2079,3 @@ partman-parted-partitioning (1) unstable; urgency=low
   * First version.
 
  -- Anton Zinoviev <zinoviev@debian.org>  Wed, 27 Aug 2003 07:03:28 +0200
-
-Local Variables:
-coding: utf-8
-End:
