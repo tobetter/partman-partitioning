@@ -1,3 +1,11 @@
+partman-crypto (91) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Lior Kaplan
+  * Albanian (sq.po) by Redon Skikuli
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 18 Sep 2017 18:40:48 +0200
+
 partman-crypto (90) unstable; urgency=medium
 
   [ Updated translations ]
