@@ -1,9 +1,9 @@
-partman-partitioning (117) UNRELEASED; urgency=medium
+partman-partitioning (117) unstable; urgency=medium
 
   [ John Paul Adrian Glaubitz ]
   * Use disk labels for powerpc on ppc64 as well.
 
- -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Fri, 22 Sep 2017 11:41:57 +0200
+ -- Christian Perrier <bubulle@debian.org>  Sun, 24 Sep 2017 07:52:29 +0200
 
 partman-partitioning (116) unstable; urgency=medium
 
