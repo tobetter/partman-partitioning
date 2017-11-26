@@ -1,3 +1,12 @@
+partman-partitioning (118) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Greek (el.po) by Sotirios Vrachas
+  * Norwegian Nynorsk (nn.po) by Allan Nordhøy
+  * Swedish (sv.po) by Anders Jonsson
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 26 Nov 2017 19:22:10 +0100
+
 partman-partitioning (117) unstable; urgency=medium
 
   [ John Paul Adrian Glaubitz ]
