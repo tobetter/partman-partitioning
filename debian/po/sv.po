@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
 "POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2017-11-19 22:25+0000\n"
+"PO-Revision-Date: 2017-11-29 09:45+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: sv\n"
@@ -204,8 +204,8 @@ msgid ""
 msgstr ""
 "Krypteringsnyckeln erhålls från lösenfrasen genom att köra en "
 "envägshashfunktion på den. Normalt sett finns det ingen anledning att ändra "
-"detta från det rekommenderade valet, förutom om det gäller kompatibilitet "
-"med äldre system."
+"detta från det rekommenderade valet och att göra detta på fel sätt kan "
+"försämra krypteringens styrka."
 
 #. Type: text
 #. Description
@@ -251,14 +251,13 @@ msgstr "Verkligen radera data på ${DEVICE}?"
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:22001
-#, fuzzy
 msgid ""
 "The data on ${DEVICE} will be overwritten with zeroes. It can no longer be "
 "recovered after this step has completed. This is the last opportunity to "
 "abort the erase."
 msgstr ""
-"Data på ${DEVICE} kommer att skrivas över med slumpmässig data. Det kan inte "
-"längre återskapas efter att detta steg har färdigställts. Detta är den sista "
+"Data på ${DEVICE} kommer att skrivas över med nollor. Det kan inte längre "
+"återskapas efter att detta steg har färdigställts. Detta är den sista "
 "chansen att avbryta raderingen."
 
 #. Type: text
@@ -279,6 +278,9 @@ msgid ""
 "The installer is now overwriting ${DEVICE} with zeroes to delete its "
 "previous contents. This step may be skipped by cancelling this action."
 msgstr ""
+"Installationsprogrammet skriver nu över ${DEVICE} med nollor för att ta bort "
+"dess tidigare innehåll. Detta steg kan hoppas över genom att avbryta denna "
+"åtgärd."
 
 #. Type: error
 #. Description
@@ -324,6 +326,10 @@ msgid ""
 "cancelling this action, albeit at the expense of a slight reduction of the "
 "quality of the encryption."
 msgstr ""
+"Installationsprogrammet skriver nu över ${DEVICE} med slumpmässig data för "
+"att förhindra att metainformation läcker från den krypterade volymen. Detta "
+"steg kan hoppas över genom att avbryta denna åtgärd, men detta kommer med "
+"nackdelen att krypteringens kvalitet reduceras något."
 
 #. Type: error
 #. Description
@@ -334,6 +340,9 @@ msgid ""
 "Recovery of the device's previous contents is possible and meta-information "
 "of its new contents may be leaked."
 msgstr ""
+"Ett fel uppstod vid försök att skriva över ${DEVICE} med slumpmässig data. "
+"Återhämtning av enhetens tidigare innehåll är möjlig och metainformation om "
+"dess nya innehåll kan läckas ut."
 
 #. Type: text
 #. Description
@@ -378,7 +387,7 @@ msgid ""
 "This build of debian-installer does not include one or more programs that "
 "are required for partman-crypto to function correctly."
 msgstr ""
-"Det här bygget av Debian-Installer inkluderar inte ett eller flera program "
+"Det här bygget av Debian-installer inkluderar inte ett eller flera program "
 "som är nödvändiga för att partman-crypto ska fungera korrekt."
 
 #. Type: error
@@ -463,7 +472,7 @@ msgid ""
 "Before encrypted volumes can be configured, the current partitioning scheme "
 "has to be written to disk.  These changes cannot be undone."
 msgstr ""
-"Innan den krypterade volymen kan konfigureras måste den nuvarande "
+"Innan krypterade volymer kan konfigureras måste den nuvarande "
 "partitioneringsplanen skrivas till disk. De här ändringarna kan man inte "
 "ångra."
 
