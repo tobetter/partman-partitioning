@@ -332,7 +332,7 @@ msgstr "སྐད་རིགས་ཁུལ་སྒྲིག་འགོད་
 #: ../partman-crypto.templates:32001
 #, fuzzy
 msgid "No partitions to encrypt"
-msgstr "འགོ་འཛུགས་ཀྱི་གསོག་སྡེར་ཁག་གང་ཡང་ཚོར་རྟོགས་མ་ཐུབ་པ"
+msgstr "གསོག་སྡེར་ཁག་བཟོ་རུང་འཇུག་མཛོད་མེད་པ"
 
 #. Type: note
 #. Description
@@ -398,7 +398,7 @@ msgstr "གསང་གྲངས་ཀྱིས་སྲུང་ཡོད་པ
 #: ../partman-crypto.templates:37001
 #, fuzzy
 msgid "Encryption package installation failure"
-msgstr "ELILO སྒྲིག་འཇུག་མ་ཐུབ་པ"
+msgstr "GRUB སྒྲིག་འཇུག་མ་ཐུབ་པ"
 
 #. Type: error
 #. Description
