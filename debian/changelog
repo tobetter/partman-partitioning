@@ -1,3 +1,12 @@
+partman-partitioning (119) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Esperanto (eo.po) by Felipe Castro
+  * Lithuanian (lt.po) by Rimas Kudelis
+  * Swedish (sv.po) by Anders Jonsson
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 03 Dec 2017 18:40:53 +0100
+
 partman-partitioning (118) unstable; urgency=medium
 
   [ Updated translations ]
