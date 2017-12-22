@@ -31,14 +31,15 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
 "POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2017-06-06 20:39+0800\n"
-"Last-Translator: Yao Wei (魏銘廷) <mwei@lxde.org>\n"
+"PO-Revision-Date: 2017-12-22 19:54+0000\n"
+"Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Type: text
 #. Description
@@ -237,7 +238,7 @@ msgstr "是"
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr "消除這個分割區上的資料："
+msgstr "消除這個分割區上的資料"
 
 #. Type: boolean
 #. Description
@@ -396,7 +397,7 @@ msgstr "找不到必要的加密選項"
 msgid ""
 "The encryption options for ${DEVICE} are incomplete. Please return to the "
 "partition menu and select all required options."
-msgstr "${DEVICE} 的加密選項不完全。請返回磁碟分割功能表並選取所有的必要選項"
+msgstr "${DEVICE} 的加密選項不完全。請返回磁碟分割功能表並選取所有的必要選項。"
 
 #. Type: text
 #. Description
@@ -616,8 +617,8 @@ msgid ""
 "should not be a word or sentence found in dictionaries, or a phrase that "
 "could be easily associated with you."
 msgstr ""
-"這個密語攸關整體加密的強度，因此您應該小心地選擇一個不容易被猜到的密語。它不"
-"應該是個能在字典中找到的單字或片語，或是個容易和您聯想在一起的字詞"
+"這個密語攸關整體加密的強度，因此您應該小心地選擇一個不容易被猜到的密語。您不"
+"應該使用能在字典中找到的單字或片語，或是個容易和您聯想在一起的字詞。"
 
 #. Type: password
 #. Description
@@ -703,7 +704,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:51001
 msgid "The encryption key for ${DEVICE} is now being created."
-msgstr "${DEVICE} 的加密密鑰已經產生了"
+msgstr "${DEVICE} 的加密密鑰已經產生。"
 
 #. Type: text
 #. Description
