@@ -1,3 +1,12 @@
+partman-crypto (95) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Icelandic (is.po) by Sveinn í Felli
+  * Panjabi (pa.po) by Aman ALam
+  * Serbian (sr.po) by Filipovic Dragan
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 14 Jan 2018 08:31:25 +0100
+
 partman-crypto (94) unstable; urgency=medium
 
   [ Updated translations ]
