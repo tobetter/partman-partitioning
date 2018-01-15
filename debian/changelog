@@ -1,3 +1,12 @@
+partman-partitioning (120) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Icelandic (is.po) by Sveinn í Felli
+  * Panjabi (pa.po) by Aman ALam
+  * Serbian (sr.po) by Filipovic Dragan
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 15 Jan 2018 06:55:03 +0100
+
 partman-partitioning (119) unstable; urgency=medium
 
   [ Updated translations ]
