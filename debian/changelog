@@ -1,3 +1,10 @@
+partman-partitioning (121) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 24 Jan 2018 19:58:05 +0100
+
 partman-partitioning (120) unstable; urgency=medium
 
   [ Updated translations ]
