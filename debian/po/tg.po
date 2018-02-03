@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
 "POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: 2018-01-21 20:21+0500\n"
+"PO-Revision-Date: 2018-02-03 14:48+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: tg\n"
@@ -85,7 +85,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:4001
 msgid "You cannot undo this operation."
-msgstr "Ин амал ботил сохта намешавад"
+msgstr "Ин амал ботил сохта намешавад."
 
 #. Type: boolean
 #. Description
@@ -195,7 +195,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:9001
 msgid "Resize operation failure"
-msgstr "Амали тағйири андоза қатъ карда шуд."
+msgstr "Амали тағйири андоза қатъ карда шуд"
 
 #. Type: error
 #. Description
@@ -363,7 +363,7 @@ msgstr "Навъи ҷадвали қисмбандӣ:"
 #. :sl2:
 #: ../partman-partitioning.templates:19001
 msgid "Select the type of partition table to use."
-msgstr "Интихоб кардани навъи ҷадвали қисмбандӣ барои истифода:"
+msgstr "Интихоб кардани навъи ҷадвали қисмбандӣ барои истифода."
 
 #. Type: boolean
 #. Description
