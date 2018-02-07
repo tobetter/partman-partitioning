@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-crypto@packages.debian.org\n"
 "POT-Creation-Date: 2013-10-30 22:04+0000\n"
-"PO-Revision-Date: 2018-01-21 20:21+0500\n"
+"PO-Revision-Date: 2018-02-07 12:45+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: tg\n"
@@ -196,7 +196,7 @@ msgid ""
 msgstr ""
 "Калиди рамзгузорӣ аз гузарвожа тавассути таъин кардани функсияи яксамтаи ҳэш "
 "гирифта мешавад. Одатан ягон сабаби тағйир додани ин аз пешварзи тавсияшуда "
-"вуҷуд надорад, ва иҷрокунии нодурусти ин амал метавонад қавии рамзгузориро "
+"вуҷуд надорад ва иҷрокунии нодурусти ин амал метавонад қавии рамзгузориро "
 "пасттар кунад."
 
 #. Type: text
@@ -227,7 +227,7 @@ msgstr "ҳа"
 #. :sl3:
 #: ../partman-crypto.templates:21001
 msgid "Erase data on this partition"
-msgstr "Маълумотро дар ин қисми диск пок кунед"
+msgstr "Маълумотро дар ин қисми диск пок намоед"
 
 #. Type: boolean
 #. Description
@@ -399,7 +399,7 @@ msgid ""
 "partition menu and select all required options."
 msgstr ""
 "Имконоти рамзгузорӣ барои ${DEVICE} нопурра мебошанд. Лутфан, ба менюи "
-"қисмбандӣ баргардед, ва ҳамаи имконоти лозимиро интихоб кунед."
+"қисмбандӣ баргардед ва ҳамаи имконоти лозимиро интихоб намоед."
 
 #. Type: text
 #. Description
@@ -448,7 +448,7 @@ msgid ""
 msgstr ""
 "Эҳтимол аст, ки баъд аз бозоғозидани низом ҳангоми танзим кардани қисмҳои "
 "диски рамздор мушкилиҳо ба вуҷуд меоянд. Шумо метавонед инро бо насбкардани "
-"баста(ҳо)и лозимӣ баъдтар ислоҳ кунед."
+"баста(ҳо)и лозимӣ баъдтар ислоҳ намоед."
 
 #. Type: boolean
 #. Description
@@ -597,9 +597,9 @@ msgid ""
 "encrypted swap space and then run setup of encrypted volumes again. This "
 "program will now abort."
 msgstr ""
-"Лутфан, фазои мубодилакуниро нест кунед (масалан, бо иҷрои фармони swapoff), "
-"ё ки фазои рамздори мубодилакуниро танзим карда, танзимкунии ҳаҷмҳои "
-"рамздорро аз нав иҷро кунед. Ин барнома ҳозир қатъ карда мешавад."
+"Лутфан, фазои мубодилакуниро нест намоед (масалан, бо иҷрои фармони "
+"swapoff), ё ки фазои рамздори мубодилакуниро танзим карда, танзимкунии "
+"ҳаҷмҳои рамздорро аз нав иҷро намоед. Ин барнома ҳозир қатъ карда мешавад."
 
 #. Type: password
 #. Description
@@ -613,7 +613,7 @@ msgstr "Гузарвожаи рамзгузорӣ:"
 #. :sl3:
 #: ../partman-crypto.templates:46001
 msgid "You need to choose a passphrase to encrypt ${DEVICE}."
-msgstr "Шумо бояд калидвожаро барои рамзгузории ${DEVICE} интихоб кунед."
+msgstr "Шумо бояд калидвожаро барои рамзгузории ${DEVICE} интихоб намоед."
 
 #. Type: password
 #. Description
@@ -626,7 +626,7 @@ msgid ""
 "could be easily associated with you."
 msgstr ""
 "Қуввати умумии рамзгузорӣ аз ин гузарвожа вобаста аст, барои ҳамин шумо бояд "
-"гузарвожаеро эҷод кунед, ки ёфтани он осон нест. Он бояд калима ё ҷумлае "
+"гузарвожаеро эҷод намоед, ки ёфтани он осон нест. Он бояд калима ё ҷумлае "
 "набошад, ки дар луғатҳо ёфта мешавад, ё ба осонӣ бо шумо алоқаманд мешавад."
 
 #. Type: password
@@ -646,7 +646,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:47001
 msgid "Re-enter passphrase to verify:"
-msgstr "Гузарвожаро барои тафтиш дубора ворид кунед:"
+msgstr "Гузарвожаро барои тафтиш дубора ворид намоед:"
 
 #. Type: password
 #. Description
@@ -656,15 +656,15 @@ msgid ""
 "Please enter the same passphrase again to verify that you have typed it "
 "correctly."
 msgstr ""
-"Лутфан, он калидвожаро як маротибаи дигар ворид кунед, то ин ки тасдиқ "
-"кунед, ки шумо онро ба таври дуруст чоп кардед."
+"Лутфан, он калидвожаро як маротибаи дигар ворид намоед, то ин ки тасдиқ "
+"намоед, ки шумо онро ба таври дуруст чоп кардед."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:48001
 msgid "Passphrase input error"
-msgstr "Хатогии вуруди гузарвожа"
+msgstr "Хатои вуруди гузарвожа"
 
 #. Type: error
 #. Description
@@ -673,7 +673,7 @@ msgstr "Хатогии вуруди гузарвожа"
 msgid "The two passphrases you entered were not the same. Please try again."
 msgstr ""
 "Ду гузарвожае, ки шумо ворид кардед, якхела набуданд. Лутфан, амалро такрор "
-"кунед."
+"намоед."
 
 #. Type: error
 #. Description
@@ -691,7 +691,7 @@ msgid ""
 "empty passphrase."
 msgstr ""
 "Шумо гузарвожаи холиро ворид кардед, ки иҷозат дода намешавад. Лутфан, "
-"гузарвожаи ғайрихолиро интихоб кунед."
+"гузарвожаи ғайрихолиро интихоб намоед."
 
 #. Type: boolean
 #. Description
@@ -711,9 +711,9 @@ msgid ""
 "You entered a passphrase that consists of less than ${MINIMUM} characters, "
 "which is considered too weak. You should choose a stronger passphrase."
 msgstr ""
-"Шумо гузарвожаеро ворид кардед, ки дорои камтар аз ${MINIMUM} аломат "
-"мебошад, ва қавӣ нест. Шумо бояд гузарвожаи қавитарро You should choose a "
-"stronger passphrase."
+"Шумо гузарвожаеро ворид кардед, ки дорои камтар аз ${MINIMUM} аломат мебошад "
+"ва қавӣ нест. Шумо бояд гузарвожаи қавитарро You should choose a stronger "
+"passphrase."
 
 #. Type: entropy
 #. Description
@@ -771,7 +771,7 @@ msgstr ""
 #. :sl3:
 #: ../partman-crypto.templates:54001
 msgid "You should go back and setup a /boot partition."
-msgstr "Шумо бояд ба қафо равед ва қисми диски \"/boot\"-ро танзим кунед."
+msgstr "Шумо бояд ба қафо гузаред ва қисми диски \"/boot\"-ро танзим намоед."
 
 #. Type: error
 #. Description
@@ -797,7 +797,7 @@ msgid ""
 "system."
 msgstr ""
 "Шумо бояд ба қафо гузашта, қисми диски рамзнадоштаро барои низоми файлии /"
-"boot интихоб кунед."
+"boot интихоб намоед."
 
 #. Type: boolean
 #. Description
@@ -863,7 +863,7 @@ msgid ""
 "installation process could fail."
 msgstr ""
 "Барои насб кардани унсурҳои иловагии рамзгузорӣ ҳофизаи кофӣ нест. Агар шумо "
-"интихоб кунед, ки ба ҳар ҳол идома диҳед, раванди насбкунӣ метавонад бо "
+"интихоб намоед, ки ба ҳар ҳол идома диҳед, раванди насбкунӣ метавонад бо "
 "нокомб дучор шавад."
 
 #. Type: select
@@ -912,14 +912,14 @@ msgstr "Дастгоҳҳо барои рамгузорӣ:"
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "Please select the devices to be encrypted."
-msgstr "Лутфан, дастгоҳҳоро барои рамзгузорӣ интихоб кунед."
+msgstr "Лутфан, дастгоҳҳоро барои рамзгузорӣ интихоб намоед."
 
 #. Type: multiselect
 #. Description
 #. :sl3:
 #: ../partman-crypto.templates:60001
 msgid "You can select one or more devices."
-msgstr "Шумо метавонед як ё зиёда дастгоҳро интихоб кунед."
+msgstr "Шумо метавонед як ё зиёда дастгоҳро интихоб намоед."
 
 #. Type: error
 #. Description
