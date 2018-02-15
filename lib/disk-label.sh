@@ -90,7 +90,14 @@ default_disk_label () {
 	    sh4)
 		echo msdos;;
 	    sparc|sparc64)
-		echo sun;;
+		case "$sub" in
+		    *_gpt)
+			echo gpt;;
+		    *_sun)
+			echo sun;;
+		    *)
+			echo UNKNOWN;;
+		esac;;
 	    *)
 		echo UNKNOWN;;
 	esac

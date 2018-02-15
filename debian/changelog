@@ -1,3 +1,10 @@
+partman-partitioning (122) UNRELEASED; urgency=medium
+
+  [ John Paul Adrian Glaubitz ]
+  * Add support for GPT partition tables on sparc/sparc64.
+
+ -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Thu, 15 Feb 2018 14:53:12 +0100
+
 partman-partitioning (121) unstable; urgency=medium
 
   [ Updated translations ]
