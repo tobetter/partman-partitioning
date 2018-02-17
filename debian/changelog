@@ -1,9 +1,14 @@
-partman-partitioning (122) UNRELEASED; urgency=medium
+partman-partitioning (122) unstable; urgency=medium
 
   [ John Paul Adrian Glaubitz ]
   * Add support for GPT partition tables on sparc/sparc64.
 
- -- John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>  Thu, 15 Feb 2018 14:53:12 +0100
+  [ Updated translations ]
+  * Arabic (ar.po) by ButterflyOfFire
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 17 Feb 2018 08:09:05 +0100
 
 partman-partitioning (121) unstable; urgency=medium
 
