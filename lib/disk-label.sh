@@ -28,7 +28,7 @@ default_disk_label () {
 	    arm|armeb|armel|armhf)
 		echo msdos;;
 	    arm64)
-		echo gpt;;
+		echo msdos;;
 	    hppa)
 		echo msdos;;
 	    ia64)
