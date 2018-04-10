@@ -1,3 +1,11 @@
+partman-partitioning (123) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Esperanto (eo.po) by Felipe Castro
+  * Indonesian (id.po) by Andika Triwidada
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 09 Apr 2018 14:05:55 +0200
+
 partman-partitioning (122) unstable; urgency=medium
 
   [ John Paul Adrian Glaubitz ]
