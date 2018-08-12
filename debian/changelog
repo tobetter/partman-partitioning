@@ -1,8 +1,14 @@
-partman-partitioning (124) UNRELEASED; urgency=medium
+partman-partitioning (124) unstable; urgency=medium
 
+  * Team upload
+
+  [ Cyril Brulebois ]
   * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
 
- -- Cyril Brulebois <kibi@debian.org>  Fri, 27 Apr 2018 03:43:05 +0200
+  [ Updated translations ]
+  * Simplified Chinese (zh_CN.po) by Boyuan Yang
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 12 Aug 2018 21:57:36 +0200
 
 partman-partitioning (123) unstable; urgency=medium
 
