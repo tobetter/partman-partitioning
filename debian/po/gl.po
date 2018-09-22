@@ -16,14 +16,15 @@
 # Marce Villarino <mvillarino@users.sourceforge.net>, 2009.
 # marce villarino <mvillarino@users.sourceforge.net>, 2009.
 # Marce Villarino <mvillarino@gmail.com>, 2009.
-# Jorge Barreiro <yortx.barry@gmail.com>, 2010, 2011, 2012, 2013.
+# Jorge Barreiro <xurxo@findomundo.es>, 2010, 2011, 2012, 2013, 2014, 2015, 2017.
+# mantinan <github@manty.net>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: partman-partitioning@packages.debian.org\n"
 "POT-Creation-Date: 2014-07-06 22:00+0000\n"
-"PO-Revision-Date: 2014-03-13 23:26+0100\n"
-"Last-Translator: Jorge Barreiro <yortx.barry@gmail.com>\n"
+"PO-Revision-Date: 2018-09-18 21:24+0000\n"
+"Last-Translator: mantinan <github@manty.net>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -144,7 +145,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-partitioning.templates:6001
 msgid "The size entered is invalid"
-msgstr "O tamaño que introduciu non é válido."
+msgstr "O tamaño que introduciu non é válido"
 
 #. Type: error
 #. Description
