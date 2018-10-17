@@ -79,6 +79,8 @@ default_disk_label () {
 		esac;;
 	    ppc64el)
 		echo gpt;;
+	    riscv*)
+		echo gpt;;
 	    s390|s390x)
 		if [ -e ./label ]; then
 		    disklabel=$(cat label)
