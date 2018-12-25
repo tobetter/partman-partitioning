@@ -1,5 +1,4 @@
-partman-partitioning (126) UNRELEASED; urgency=medium
-
+partman-partitioning (126) unstable; urgency=medium
   * Team upload.
 
   [ Karsten Merker ]
@@ -8,7 +7,11 @@ partman-partitioning (126) UNRELEASED; urgency=medium
   [ Holger Wansing ]
   * Remove trailing whitespaces from changelog file, to fix lintian tag.
 
- -- Karsten Merker <merker@debian.org>  Wed, 17 Oct 2018 20:31:37 +0200
+  [ Updated translations ]
+  * Finnish (fi.po) by Juhani Numminen
+  * Marathi (mr.po) by Nayan Nakhare
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 25 Dec 2018 23:52:52 +0100
 
 partman-partitioning (125) unstable; urgency=medium
 
